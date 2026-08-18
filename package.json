@@ -9,10 +9,7 @@
     "build": "node scripts/build.mjs",
     "images": "node scripts/fetch-images.mjs",
     "images:force": "node scripts/fetch-images.mjs --force",
-    "vendor": "node scripts/vendor-leaflet.mjs",
+    "vendor": "node scripts/vendor-fonts.mjs && node scripts/vendor-leaflet.mjs",
     "export": "node scripts/export-places.mjs"
-  },
-  "devDependencies": {
-    "leaflet": "^1.9.4"
   }
 }
