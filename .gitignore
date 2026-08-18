@@ -4,3 +4,4 @@ Thumbs.db
 .vercel/
 *.log
 scripts/.cache/
+dist/
