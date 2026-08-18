@@ -1,0 +1,1297 @@
+[
+  {
+    "id": "senso-ji",
+    "name": "Senso-ji",
+    "theme": "photography",
+    "type": "see",
+    "area": "Asakusa",
+    "what": "Tokyo's oldest temple + Nakamise street",
+    "why": "The \"downbeat\" temple — 7am, empty, first roll",
+    "link": "https://www.senso-ji.jp/",
+    "mapQuery": "Senso-ji Asakusa Tokyo Japan",
+    "coords": [
+      35.7148,
+      139.7967
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Sensō-ji",
+      "Kaminarimon"
+    ]
+  },
+  {
+    "id": "meiji-jingu",
+    "name": "Meiji Jingu",
+    "theme": "core",
+    "type": "see",
+    "area": "Harajuku",
+    "what": "Forest shrine inside the city",
+    "why": "The deliberate \"rest\" between loud days",
+    "link": "https://www.meijijingu.or.jp/",
+    "mapQuery": "Meiji Jingu Harajuku Tokyo Japan",
+    "coords": [
+      35.6764,
+      139.6993
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Meiji Shrine"
+    ]
+  },
+  {
+    "id": "nezu-shrine",
+    "name": "Nezu Shrine",
+    "theme": "photography",
+    "type": "see",
+    "area": "Nezu/Yanaka",
+    "what": "Quiet shrine with a red torii tunnel",
+    "why": "Fushimi-Inari-style gates without crowds; folds into Yanaka",
+    "link": null,
+    "mapQuery": "Nezu Shrine Nezu Tokyo Japan",
+    "coords": [
+      35.7202,
+      139.7605
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Nezu Shrine"
+    ]
+  },
+  {
+    "id": "kanda-myojin",
+    "name": "Kanda Myojin",
+    "theme": "core",
+    "type": "see",
+    "area": "Sotokanda",
+    "what": "Ornate shrine near Akihabara",
+    "why": "Tech-and-tradition combo; pairs with Akihabara",
+    "link": null,
+    "mapQuery": "Kanda Myojin Sotokanda Tokyo Japan",
+    "coords": [
+      35.7019,
+      139.7679
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Kanda Shrine"
+    ]
+  },
+  {
+    "id": "atago-shrine",
+    "name": "Atago Shrine",
+    "theme": "core",
+    "type": "see",
+    "area": "Atago",
+    "what": "Hilltop shrine up the \"success stairs\"",
+    "why": "Quick, quirky, photogenic climb",
+    "link": null,
+    "mapQuery": "Atago Shrine Atago Tokyo Japan",
+    "coords": [
+      35.6656,
+      139.7495
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Atago Shrine (Tokyo)",
+      "Atago Shrine"
+    ]
+  },
+  {
+    "id": "shibuya-sky",
+    "name": "Shibuya Sky",
+    "theme": "core",
+    "type": "see",
+    "area": "Shibuya",
+    "what": "Open-air rooftop observation deck",
+    "why": "The \"wow\" view — book sunset ~1 month out",
+    "link": "https://www.shibuya-scramble-square.com/sky/",
+    "mapQuery": "Shibuya Sky Shibuya Tokyo Japan",
+    "coords": [
+      35.658,
+      139.7016
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Shibuya Scramble Square",
+      "Shibuya"
+    ]
+  },
+  {
+    "id": "asakusa-free-deck",
+    "name": "Asakusa free deck",
+    "theme": "core",
+    "type": "see",
+    "area": "Asakusa",
+    "what": "8F terrace at the Culture Center",
+    "why": "Free Skytree-and-temple view on your doorstep",
+    "link": null,
+    "mapQuery": "Asakusa Culture Tourist Information Center Asakusa Tokyo Japan",
+    "coords": [
+      35.711,
+      139.7966
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Asakusa Culture Tourist Information Center",
+      "Tokyo Skytree"
+    ]
+  },
+  {
+    "id": "miyashita-park",
+    "name": "Miyashita Park",
+    "theme": "core",
+    "type": "see",
+    "area": "Shibuya",
+    "what": "Rooftop park over the shopping deck",
+    "why": "Free green escape; pairs with Shibuya evening",
+    "link": null,
+    "mapQuery": "Miyashita Park Shibuya Tokyo Japan",
+    "coords": [
+      35.6614,
+      139.7014
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Miyashita Park",
+      "Shibuya"
+    ]
+  },
+  {
+    "id": "hotel-chinzanso-garden",
+    "name": "Hotel Chinzanso Garden",
+    "theme": "photography",
+    "type": "see",
+    "area": "Bunkyo",
+    "what": "Hillside garden with evening mist show",
+    "why": "Fog-and-lantern dreamscape; dusk only",
+    "link": null,
+    "mapQuery": "Hotel Chinzanso Tokyo Bunkyo Tokyo Japan",
+    "coords": [
+      35.7113,
+      139.7253
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Hotel Chinzanso Tokyo",
+      "Chinzan-sō"
+    ]
+  },
+  {
+    "id": "map-camera",
+    "name": "Map Camera",
+    "theme": "photography",
+    "type": "shop",
+    "area": "Shinjuku",
+    "what": "6 floors of graded used cameras",
+    "why": "Buy-a-film-camera day; tax-free; film at Yodobashi next door",
+    "link": "https://www.mapcamera.com/",
+    "mapQuery": "Map Camera Shinjuku Tokyo Japan",
+    "coords": [
+      35.6905,
+      139.6985
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Leica M3",
+      "Rangefinder camera"
+    ]
+  },
+  {
+    "id": "fujiya-camera",
+    "name": "Fujiya Camera",
+    "theme": "photography",
+    "type": "shop",
+    "area": "Nakano",
+    "what": "80-year dealer at Nakano Broadway",
+    "why": "Half the 2nd floor is Mamiya + Hasselblad",
+    "link": "https://www.fujiya-camera.co.jp/shop/default.aspx",
+    "mapQuery": "Fujiya Camera Nakano Tokyo Japan",
+    "coords": [
+      35.708,
+      139.665
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Hasselblad",
+      "Twin-lens reflex camera"
+    ]
+  },
+  {
+    "id": "yodobashi-camera",
+    "name": "Yodobashi Camera",
+    "theme": "photography",
+    "type": "shop",
+    "area": "Shinjuku",
+    "what": "Mega electronics + film stock",
+    "why": "Cheap film, batteries; steps from Map Camera",
+    "link": null,
+    "mapQuery": "Yodobashi Camera Shinjuku Tokyo Japan",
+    "coords": [
+      35.6899,
+      139.6976
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Yodobashi Camera",
+      "135 film"
+    ]
+  },
+  {
+    "id": "sekaido",
+    "name": "Sekaido",
+    "theme": "drawing",
+    "type": "shop",
+    "area": "Shinjuku",
+    "what": "5-floor discount art-supply store",
+    "why": "Load up on sketchbooks and pens",
+    "link": null,
+    "mapQuery": "Sekaido Shinjuku Tokyo Japan",
+    "coords": [
+      35.6925,
+      139.7051
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Marker pen",
+      "Colored pencil"
+    ]
+  },
+  {
+    "id": "pigment-tokyo",
+    "name": "Pigment Tokyo",
+    "theme": "drawing",
+    "type": "shop",
+    "area": "Tennozu",
+    "what": "Gallery-store of ~4,500 pigments",
+    "why": "A cathedral of materials; workshops bookable",
+    "link": "https://pigment.tokyo/",
+    "mapQuery": "Pigment Tokyo Tennozu Isle Tokyo Japan",
+    "coords": [
+      35.618,
+      139.7495
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Pigment",
+      "Ultramarine"
+    ]
+  },
+  {
+    "id": "jimbocho",
+    "name": "Jimbocho",
+    "theme": "drawing",
+    "type": "shop",
+    "area": "Jimbocho",
+    "what": "Secondhand + art-book town",
+    "why": "\"Coolest neighborhood\" per Time Out; vintage prints",
+    "link": null,
+    "mapQuery": "Jimbocho book town Chiyoda Tokyo Japan",
+    "coords": [
+      35.6957,
+      139.7578
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Jinbōchō, Tokyo",
+      "Used bookstore"
+    ]
+  },
+  {
+    "id": "five-g",
+    "name": "Five G Music Technology",
+    "theme": "soundgear",
+    "type": "shop",
+    "area": "Harajuku",
+    "what": "Legendary vintage synth + eurorack shop",
+    "why": "The pilgrimage stop; around the corner from Fender flagship",
+    "link": null,
+    "mapQuery": "Five G Music Technology Harajuku Tokyo Japan",
+    "coords": [
+      35.6706,
+      139.7069
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Roland Jupiter-8",
+      "Analog synthesizer"
+    ]
+  },
+  {
+    "id": "echigoya-music",
+    "name": "Echigoya Music",
+    "theme": "soundgear",
+    "type": "shop",
+    "area": "Shibuya",
+    "what": "Vintage synths + eurorack, near Tower Records",
+    "why": "Smaller Five G; 10 min from Shibuya, pairs with Shibuya Sky",
+    "link": null,
+    "mapQuery": "Echigoya Music Shibuya Tokyo Japan",
+    "coords": [
+      35.662,
+      139.699
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Eurorack",
+      "Modular synthesizer"
+    ]
+  },
+  {
+    "id": "wurlys-miyaji",
+    "name": "Wurly's by Miyaji Music",
+    "theme": "soundgear",
+    "type": "shop",
+    "area": "Akihabara",
+    "what": "Newer modular/electronic shop",
+    "why": "Fits the Akihabara sampling + arcade stop",
+    "link": null,
+    "mapQuery": "Wurly's by Miyaji Music Akihabara Tokyo Japan",
+    "coords": [
+      35.699,
+      139.771
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Wurlitzer electronic piano",
+      "Electric piano"
+    ]
+  },
+  {
+    "id": "subtokyoshop",
+    "name": "SUBTOKYOSHOP Music Gears",
+    "theme": "soundgear",
+    "type": "shop",
+    "area": "Tokyo",
+    "what": "Vintage synth + pro-audio specialist since 2012",
+    "why": "Serviced vintage gear, 1-month warranty; very your world",
+    "link": "https://subtokyoshop.com/",
+    "mapQuery": "SUBTOKYOSHOP Music Gears Tokyo Japan",
+    "coords": [
+      35.6812,
+      139.7671
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Roland TR-808",
+      "Drum machine"
+    ]
+  },
+  {
+    "id": "clockface-modular",
+    "name": "ClockFace Modular",
+    "theme": "soundgear",
+    "type": "shop",
+    "area": "Tokyo (showroom)",
+    "what": "Modular showroom you can try, owner Rintaro",
+    "why": "Email ahead; brings new euro modules to Japan",
+    "link": null,
+    "mapQuery": "ClockFace Modular Tokyo Japan",
+    "coords": [
+      35.6812,
+      139.7671
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Modular synthesizer",
+      "Patch cable"
+    ]
+  },
+  {
+    "id": "tokyo-tape-music-center",
+    "name": "Tokyo Tape Music Center",
+    "theme": "soundgear",
+    "type": "shop",
+    "area": "Tokyo",
+    "what": "Buchla + eurorack specialist",
+    "why": "West-Coast-synthesis corner; confirm hours",
+    "link": "https://tokyo-tape-music-center.com/",
+    "mapQuery": "Tokyo Tape Music Center Tokyo Japan",
+    "coords": [
+      35.6812,
+      139.7671
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Buchla Electronic Musical Instruments",
+      "Don Buchla"
+    ]
+  },
+  {
+    "id": "ochanomizu-music-street",
+    "name": "Ochanomizu music street",
+    "theme": "drums",
+    "type": "shop",
+    "area": "Ochanomizu",
+    "what": "Blocks of instrument shops",
+    "why": "Walls of gear incl. traditional; gear-nerd heaven",
+    "link": null,
+    "mapQuery": "Ochanomizu musical instrument street Tokyo Japan",
+    "coords": [
+      35.6995,
+      139.765
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Ochanomizu",
+      "Ochanomizu Station"
+    ]
+  },
+  {
+    "id": "fullcount-tokyo",
+    "name": "Fullcount Tokyo",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Harajuku",
+    "what": "Osaka Five heritage raw-denim brand",
+    "why": "Called one of the best raw-denim spots in Tokyo",
+    "link": null,
+    "mapQuery": "Fullcount Tokyo Harajuku Tokyo Japan",
+    "coords": [
+      35.669,
+      139.707
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Denim",
+      "Selvage denim"
+    ]
+  },
+  {
+    "id": "studio-dartisan",
+    "name": "Studio D'Artisan",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Harajuku",
+    "what": "Original \"Osaka Five\" label",
+    "why": "Revived old techniques; full range at Harajuku store",
+    "link": null,
+    "mapQuery": "Studio D'Artisan Harajuku Tokyo Japan",
+    "coords": [
+      35.67,
+      139.706
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Loom",
+      "Weaving"
+    ]
+  },
+  {
+    "id": "samurai-jeans",
+    "name": "Samurai Jeans",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Harajuku",
+    "what": "Heavyweight raw denim, est. 1997",
+    "why": "Wagyu-leather patches, own cotton; cult following",
+    "link": null,
+    "mapQuery": "Samurai Jeans Harajuku Tokyo Japan",
+    "coords": [
+      35.6695,
+      139.7065
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Jeans",
+      "Denim"
+    ]
+  },
+  {
+    "id": "hinoya",
+    "name": "Hinoya",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Ueno/Okachimachi",
+    "what": "Multi-brand denim strip",
+    "why": "Momotaro, Samurai, KAPITAL under one roof — compare makers",
+    "link": null,
+    "mapQuery": "Hinoya Okachimachi Ueno Tokyo Japan",
+    "coords": [
+      35.707,
+      139.774
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Ameya-Yokochō",
+      "Okachimachi Station"
+    ]
+  },
+  {
+    "id": "iron-heart",
+    "name": "Iron Heart",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Ebisu",
+    "what": "Heavyweight workwear denim",
+    "why": "14oz to a stiff 25oz; the \"nappy\" heavyweight pick",
+    "link": null,
+    "mapQuery": "Iron Heart Ebisu Tokyo Japan",
+    "coords": [
+      35.6467,
+      139.71
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Rivet",
+      "Workwear"
+    ]
+  },
+  {
+    "id": "momotaro-jeans",
+    "name": "Momotaro Jeans",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Aoyama",
+    "what": "Premium authentic Japanese denim",
+    "why": "Often called the best denim purchase in Japan",
+    "link": null,
+    "mapQuery": "Momotaro Jeans Aoyama Tokyo Japan",
+    "coords": [
+      35.665,
+      139.712
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Indigo dye",
+      "Indigo"
+    ]
+  },
+  {
+    "id": "evisu",
+    "name": "Evisu",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Daikanyama",
+    "what": "Osaka Five flagship, raw selvedge",
+    "why": "Full collection at the Daikanyama flagship",
+    "link": null,
+    "mapQuery": "Evisu Daikanyama Tokyo Japan",
+    "coords": [
+      35.6485,
+      139.703
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Evisu",
+      "Daikanyama"
+    ]
+  },
+  {
+    "id": "edwin-flagship",
+    "name": "Edwin flagship",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Tokyo",
+    "what": "Multi-level range + free hemming/tapering",
+    "why": "Expert tailors dial in the break — the \"souvenir you wear\"",
+    "link": null,
+    "mapQuery": "Edwin flagship store Tokyo Japan",
+    "coords": [
+      35.6812,
+      139.7671
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Edwin (clothing)",
+      "Sewing machine"
+    ]
+  },
+  {
+    "id": "makers-pride-of-craft",
+    "name": "Makers Pride of Craft",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Daikanyama",
+    "what": "Custom denim workshop",
+    "why": "Build a pair yourself — rhymes with the taiko-lesson thread",
+    "link": null,
+    "mapQuery": "Makers Pride of Craft Daikanyama Tokyo Japan",
+    "coords": [
+      35.649,
+      139.7035
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Sewing machine",
+      "Tailor"
+    ]
+  },
+  {
+    "id": "taiko-lesson",
+    "name": "Taiko lesson (Eva)",
+    "theme": "drums",
+    "type": "do",
+    "area": "Asakusa",
+    "what": "90-min hands-on taiko workshop",
+    "why": "The deep version, English, all-ages; the trip's anchor",
+    "link": "https://www.getyourguide.com/-t920860/",
+    "mapQuery": "Taiko drumming experience Asakusa Tokyo Japan",
+    "coords": [
+      35.712,
+      139.795
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Taiko",
+      "Wadaiko"
+    ]
+  },
+  {
+    "id": "taiko-no-tatsujin",
+    "name": "Taiko no Tatsujin arcade",
+    "theme": "drums",
+    "type": "do",
+    "area": "Akihabara",
+    "what": "Arcade game with a real drum",
+    "why": "The hi/lo rhyme after the real lesson",
+    "link": null,
+    "mapQuery": "Taiko no Tatsujin arcade Akihabara Tokyo Japan",
+    "coords": [
+      35.699,
+      139.7715
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Taiko no Tatsujin",
+      "Rhythm game"
+    ]
+  },
+  {
+    "id": "game-center-mikado",
+    "name": "Game Center Mikado",
+    "theme": "core",
+    "type": "do",
+    "area": "Takadanobaba",
+    "what": "Floors of vintage arcade cabinets",
+    "why": "Retro analog-nostalgia; on the way to Nakano",
+    "link": null,
+    "mapQuery": "Game Center Mikado Takadanobaba Tokyo Japan",
+    "coords": [
+      35.713,
+      139.704
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Amusement arcade",
+      "Arcade cabinet"
+    ]
+  },
+  {
+    "id": "livehouse-gig",
+    "name": "Livehouse gig",
+    "theme": "drums",
+    "type": "do",
+    "area": "Shimokitazawa",
+    "what": "Small-club local band show",
+    "why": "All-ages (1-drink min); check Tokyo Gig Guide in Sept",
+    "link": "https://www.tokyogigguide.com/",
+    "mapQuery": "Live house Shimokitazawa Tokyo Japan",
+    "coords": [
+      35.6613,
+      139.668
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Live house",
+      "Shimokitazawa"
+    ]
+  },
+  {
+    "id": "round1-spocha",
+    "name": "Round1 Spo-Cha",
+    "theme": "core",
+    "type": "do",
+    "area": "Various",
+    "what": "All-you-can-play sports arena",
+    "why": "Real half-court hoops; energy burn for a teen",
+    "link": null,
+    "mapQuery": "Round1 Spo-Cha Tokyo Japan",
+    "coords": [
+      35.7295,
+      139.7115
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Round One Corporation",
+      "Batting cage"
+    ]
+  },
+  {
+    "id": "joypolis",
+    "name": "Joypolis",
+    "theme": "vr",
+    "type": "do",
+    "area": "Odaiba",
+    "what": "Sega indoor VR theme park",
+    "why": "VR rides, motion sims; teen, indoor half-day",
+    "link": "https://tokyo-joypolis.com/",
+    "mapQuery": "Tokyo Joypolis Odaiba Tokyo Japan",
+    "coords": [
+      35.627,
+      139.776
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Tokyo Joypolis",
+      "Odaiba"
+    ]
+  },
+  {
+    "id": "red-tokyo-tower",
+    "name": "Red° Tokyo Tower",
+    "theme": "vr",
+    "type": "do",
+    "area": "Tokyo Tower",
+    "what": "Multi-floor e-sports + VR playground",
+    "why": "VR, racing sims; central and flashy",
+    "link": null,
+    "mapQuery": "RED TOKYO TOWER Minato Tokyo Japan",
+    "coords": [
+      35.6586,
+      139.7454
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Tokyo Tower",
+      "Esports"
+    ]
+  },
+  {
+    "id": "teamlab-planets",
+    "name": "teamLab Planets",
+    "theme": "vr",
+    "type": "do",
+    "area": "Toyosu",
+    "what": "Barefoot immersive digital-art museum",
+    "why": "Book Oct tickets late July; wear shorts",
+    "link": "https://teamlabplanets.dmm.com/en/",
+    "mapQuery": "teamLab Planets TOKYO Toyosu Tokyo Japan",
+    "coords": [
+      35.6497,
+      139.79
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "TeamLab (art collective)",
+      "TeamLab Borderless"
+    ]
+  },
+  {
+    "id": "small-worlds",
+    "name": "Small Worlds",
+    "theme": "vr",
+    "type": "do",
+    "area": "Ariake",
+    "what": "World's biggest indoor miniatures",
+    "why": "Eva hangar; wildly photogenic",
+    "link": "https://smallworlds.jp/",
+    "mapQuery": "SMALL WORLDS TOKYO Ariake Tokyo Japan",
+    "coords": [
+      35.635,
+      139.793
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Small Worlds Tokyo",
+      "Miniature model",
+      "Scale model"
+    ]
+  },
+  {
+    "id": "capybara-cafe-moffu",
+    "name": "Capybara Cafe Moffu",
+    "theme": "capybara",
+    "type": "animals",
+    "area": "Harajuku",
+    "what": "Hang-out cafe with capybaras",
+    "why": "In-city capybara fix on Takeshita St",
+    "link": null,
+    "mapQuery": "Capybara Cafe Moffu Harajuku Tokyo Japan",
+    "coords": [
+      35.6715,
+      139.705
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Capybara"
+    ]
+  },
+  {
+    "id": "otter-cafe-harry",
+    "name": "Otter cafe (Harry)",
+    "theme": "core",
+    "type": "animals",
+    "area": "Harajuku",
+    "what": "Otters, hedgehogs, chinchillas",
+    "why": "You flagged the otters; reserve ~2 weeks out",
+    "link": null,
+    "mapQuery": "Harry otter cafe Harajuku Tokyo Japan",
+    "coords": [
+      35.6705,
+      139.704
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Asian small-clawed otter",
+      "Otter"
+    ]
+  },
+  {
+    "id": "cat-cafe-asakusa-nekoen",
+    "name": "Cat cafe (Asakusa Nekoen)",
+    "theme": "core",
+    "type": "animals",
+    "area": "Asakusa",
+    "what": "Rescue-cat cafe by your base",
+    "why": "Easy low-key hour",
+    "link": null,
+    "mapQuery": "Asakusa Nekoen cat cafe Asakusa Tokyo Japan",
+    "coords": [
+      35.713,
+      139.794
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Cat café",
+      "Cat"
+    ]
+  },
+  {
+    "id": "mipig-cafe",
+    "name": "Mipig Cafe",
+    "theme": "core",
+    "type": "animals",
+    "area": "Meguro",
+    "what": "Micro-pig petting cafe",
+    "why": "Best-run novelty cafe; charming with a teen",
+    "link": null,
+    "mapQuery": "Mipig Cafe Meguro Tokyo Japan",
+    "coords": [
+      35.633,
+      139.716
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Miniature pig",
+      "Göttingen minipig"
+    ]
+  },
+  {
+    "id": "sumida-aquarium",
+    "name": "Sumida Aquarium",
+    "theme": "core",
+    "type": "animals",
+    "area": "Skytree",
+    "what": "Otters, penguins, giant salamanders",
+    "why": "Otters in a real habitat; 10 min from Asakusa",
+    "link": null,
+    "mapQuery": "Sumida Aquarium Tokyo Skytree Town Tokyo Japan",
+    "coords": [
+      35.71,
+      139.8107
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Sumida Aquarium",
+      "Japanese giant salamander"
+    ]
+  },
+  {
+    "id": "ueno-zoo",
+    "name": "Ueno Zoo",
+    "theme": "core",
+    "type": "animals",
+    "area": "Ueno",
+    "what": "Big classic zoo in the park",
+    "why": "5 min from Asakusa; well-regarded",
+    "link": null,
+    "mapQuery": "Ueno Zoo Ueno Tokyo Japan",
+    "coords": [
+      35.7166,
+      139.7714
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Ueno Zoo",
+      "Giant panda"
+    ]
+  },
+  {
+    "id": "omoide-yokocho",
+    "name": "Omoide Yokocho",
+    "theme": "ramen",
+    "type": "eat",
+    "area": "Shinjuku",
+    "what": "Smoky lantern alley of tiny counters",
+    "why": "Ramen + yakitori + night photo + sampling in one lane",
+    "link": "https://shinjuku-omoide.com/",
+    "mapQuery": "Omoide Yokocho Shinjuku Tokyo Japan",
+    "coords": [
+      35.6935,
+      139.6995
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Omoide Yokocho",
+      "Yakitori"
+    ]
+  },
+  {
+    "id": "golden-gai",
+    "name": "Golden Gai",
+    "theme": "core",
+    "type": "eat",
+    "area": "Shinjuku",
+    "what": "Six alleys of miniature themed bars",
+    "why": "Richest alley photography in the city",
+    "link": null,
+    "mapQuery": "Golden Gai Shinjuku Tokyo Japan",
+    "coords": [
+      35.6941,
+      139.7045
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Golden Gai"
+    ]
+  },
+  {
+    "id": "hoppy-street",
+    "name": "Hoppy Street",
+    "theme": "ramen",
+    "type": "eat",
+    "area": "Asakusa",
+    "what": "Open-front izakaya row",
+    "why": "Alley dining on your doorstep",
+    "link": null,
+    "mapQuery": "Hoppy Street Asakusa Tokyo Japan",
+    "coords": [
+      35.7145,
+      139.794
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Izakaya",
+      "Motsunabe"
+    ]
+  },
+  {
+    "id": "signature-ramen-shops",
+    "name": "Signature ramen shops",
+    "theme": "ramen",
+    "type": "eat",
+    "area": "Various",
+    "what": "Afuri yuzu shio, tonkotsu, tsukemen",
+    "why": "Pick a famous bowl or two",
+    "link": null,
+    "mapQuery": "ramen Tokyo Japan",
+    "coords": [
+      35.6812,
+      139.7671
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Ramen",
+      "Tsukemen"
+    ]
+  },
+  {
+    "id": "shin-yokohama-ramen-museum",
+    "name": "Shin-Yokohama Ramen Museum",
+    "theme": "ramen",
+    "type": "eat",
+    "area": "Yokohama",
+    "what": "Retro food hall of regional ramen",
+    "why": "Showa-era set; rainy-day proof",
+    "link": null,
+    "mapQuery": "Shin-Yokohama Ramen Museum Yokohama Japan",
+    "coords": [
+      35.5115,
+      139.6165
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Shin-Yokohama Ramen Museum",
+      "Tonkotsu ramen"
+    ]
+  },
+  {
+    "id": "ameyoko-market",
+    "name": "Ameyoko Market",
+    "theme": "ramen",
+    "type": "eat",
+    "area": "Ueno",
+    "what": "Open-air market food strip",
+    "why": "Street food under the tracks; near Asakusa",
+    "link": null,
+    "mapQuery": "Ameyoko Market Ueno Tokyo Japan",
+    "coords": [
+      35.7095,
+      139.7745
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Ameya-Yokochō"
+    ]
+  },
+  {
+    "id": "shibuya-crossing-soundscape",
+    "name": "Shibuya Crossing soundscape",
+    "theme": "sampling",
+    "type": "sample",
+    "area": "Shibuya",
+    "what": "Field-record the scramble",
+    "why": "Footsteps, signals, the roar — MPC fodder",
+    "link": null,
+    "mapQuery": "Shibuya Crossing Shibuya Tokyo Japan",
+    "coords": [
+      35.6595,
+      139.7005
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Shibuya Crossing",
+      "Shibuya Station"
+    ]
+  },
+  {
+    "id": "station-jingle-hunt",
+    "name": "Station jingle hunt",
+    "theme": "sampling",
+    "type": "sample",
+    "area": "Citywide",
+    "what": "Each JR station's departure melody",
+    "why": "Collect a bank of jingles as you ride",
+    "link": null,
+    "mapQuery": "Tokyo Station Tokyo Japan",
+    "coords": [
+      35.6812,
+      139.7671
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Hassha melody",
+      "Yamanote Line",
+      "Tokyo Station"
+    ]
+  },
+  {
+    "id": "akihabara-sound-wall",
+    "name": "Akihabara sound wall",
+    "theme": "sampling",
+    "type": "sample",
+    "area": "Akihabara",
+    "what": "Arcade + electronics chaos",
+    "why": "A whole sample pack in one street",
+    "link": null,
+    "mapQuery": "Akihabara Electric Town Tokyo Japan",
+    "coords": [
+      35.6985,
+      139.773
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Akihabara"
+    ]
+  },
+  {
+    "id": "kiyosumi-garden",
+    "name": "Kiyosumi Garden",
+    "theme": "sampling",
+    "type": "sample",
+    "area": "Kiyosumi",
+    "what": "Strolling garden with ponds",
+    "why": "Koi, bamboo, birds — the quiet end of the set",
+    "link": null,
+    "mapQuery": "Kiyosumi Garden Koto Tokyo Japan",
+    "coords": [
+      35.681,
+      139.7975
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Kiyosumi Garden",
+      "Kiyosumi Gardens"
+    ]
+  },
+  {
+    "id": "dormy-inn-express-asakusa",
+    "name": "Dormy Inn Express Asakusa",
+    "theme": "core",
+    "type": "stay",
+    "area": "Asakusa",
+    "what": "Budget hotel, rooftop onsen + free night ramen",
+    "why": "Value pick, the bath-and-ramen ritual, ~$110/night",
+    "link": "https://dormy-hotels.com/dormyinn/hotels/asakusa/",
+    "mapQuery": "Dormy Inn Express Asakusa Tokyo Japan",
+    "coords": [
+      35.711,
+      139.79
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Onsen",
+      "Sentō"
+    ]
+  },
+  {
+    "id": "mimaru-asakusa-station",
+    "name": "MIMARU Asakusa Station",
+    "theme": "core",
+    "type": "stay",
+    "area": "Asakusa",
+    "what": "Apartment hotel, kitchen + laundry",
+    "why": "Best for a week; 4.9★; steps from Kaminarimon",
+    "link": "https://mimaruhotels.com/en/hotel/asakusa-station/",
+    "mapQuery": "MIMARU TOKYO ASAKUSA STATION Tokyo Japan",
+    "coords": [
+      35.7115,
+      139.7975
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Asakusa",
+      "Sumida River"
+    ]
+  },
+  {
+    "id": "the-gate-kaminarimon",
+    "name": "The Gate Kaminarimon",
+    "theme": "core",
+    "type": "stay",
+    "area": "Asakusa",
+    "what": "Stylish 4-star by Senso-ji",
+    "why": "Upscale; rooftop Skytree bar",
+    "link": "https://www.gate-hotel.jp/asakusa-kaminarimon/",
+    "mapQuery": "The Gate Hotel Kaminarimon Asakusa Tokyo Japan",
+    "coords": [
+      35.7105,
+      139.796
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Kaminarimon",
+      "Tokyo Skytree"
+    ]
+  },
+  {
+    "id": "izu-resort-villa",
+    "name": "Izu Resort Villa",
+    "theme": "capybara",
+    "type": "trip",
+    "area": "Izu",
+    "what": "Villa inside a capybara petting zone",
+    "why": "Free-roaming capybaras from your room; overnight",
+    "link": "https://izu-resort-villa.com/en/",
+    "mapQuery": "Izu Resort Villa Izu Shizuoka Japan",
+    "coords": [
+      34.83,
+      139.07
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Izu Peninsula",
+      "Capybara"
+    ]
+  },
+  {
+    "id": "izu-day-trip",
+    "name": "Izu day trip",
+    "theme": "capybara",
+    "type": "trip",
+    "area": "Izu",
+    "what": "Shaboten Zoo + coast + craft + onsen",
+    "why": "Capybaras without the overnight — one long day",
+    "link": null,
+    "mapQuery": "Izu Shaboten Zoo Ito Shizuoka Japan",
+    "coords": [
+      34.894,
+      139.09
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Izu Shaboten Zoo",
+      "Jōgasaki Coast"
+    ]
+  },
+  {
+    "id": "nikko",
+    "name": "Nikko",
+    "theme": "core",
+    "type": "trip",
+    "area": "Nikko",
+    "what": "Cedar forests, falls, lavish shrines",
+    "why": "Best autumn color on our dates; Tobu from Asakusa",
+    "link": null,
+    "mapQuery": "Nikko Tochigi Japan",
+    "coords": [
+      36.758,
+      139.599
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Nikkō Tōshō-gū",
+      "Nikkō, Tochigi"
+    ]
+  },
+  {
+    "id": "hakone-open-air-museum",
+    "name": "Hakone Open-Air Museum",
+    "theme": "core",
+    "type": "trip",
+    "area": "Hakone",
+    "what": "Sculpture park w/ Picasso pavilion",
+    "why": "Art + onsen + Fuji odds; most on-theme trip",
+    "link": "https://www.hakone-oam.or.jp/",
+    "mapQuery": "Hakone Open-Air Museum Hakone Kanagawa Japan",
+    "coords": [
+      35.244,
+      139.049
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Hakone Open-Air Museum",
+      "Hakone"
+    ]
+  },
+  {
+    "id": "kawagoe",
+    "name": "Kawagoe (Little Edo)",
+    "theme": "photography",
+    "type": "trip",
+    "area": "Kawagoe",
+    "what": "Preserved Edo warehouse streets",
+    "why": "45 min out; film goldmine",
+    "link": null,
+    "mapQuery": "Kawagoe Kurazukuri Street Saitama Japan",
+    "coords": [
+      35.925,
+      139.485
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Kawagoe, Saitama",
+      "Toki no Kane"
+    ]
+  },
+  {
+    "id": "kawaguchiko",
+    "name": "Kawaguchiko",
+    "theme": "photography",
+    "type": "trip",
+    "area": "Fuji Five Lakes",
+    "what": "Postcard Fuji reflected in the lake",
+    "why": "October = clearest Fuji odds",
+    "link": null,
+    "mapQuery": "Lake Kawaguchi Fujikawaguchiko Yamanashi Japan",
+    "coords": [
+      35.517,
+      138.753
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Lake Kawaguchi",
+      "Mount Fuji"
+    ]
+  }
+]
