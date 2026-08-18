@@ -512,8 +512,8 @@
     ],
     "coordPrecision": "exact",
     "imageQueries": [
-      "Ameya-Yokochō",
-      "Okachimachi Station"
+      "Denim jacket",
+      "Jean jacket"
     ]
   },
   {
@@ -1091,7 +1091,8 @@
     ],
     "coordPrecision": "exact",
     "imageQueries": [
-      "Akihabara"
+      "Akihabara Station",
+      "Akihabara Electric Town"
     ]
   },
   {
@@ -1150,8 +1151,8 @@
     ],
     "coordPrecision": "area",
     "imageQueries": [
-      "Asakusa",
-      "Sumida River"
+      "Sumida River",
+      "Azumabashi"
     ]
   },
   {
