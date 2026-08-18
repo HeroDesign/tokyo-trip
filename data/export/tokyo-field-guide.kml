@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Tokyo Field Guide</name>
+    <description>65 places, 16-24 October 2026.</description>
+    <Style id="theme-photography">
+      <IconStyle>
+        <color>ff907c1f</color>
+        <scale>1.1</scale>
+        <Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="theme-core">
+      <IconStyle>
+        <color>ff606b72</color>
+        <scale>1.1</scale>
+        <Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="theme-drawing">
+      <IconStyle>
+        <color>ffb0496a</color>
+        <scale>1.1</scale>
+        <Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="theme-soundgear">
+      <IconStyle>
+        <color>ffa56e3b</color>
+        <scale>1.1</scale>
+        <Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="theme-drums">
+      <IconStyle>
+        <color>ff283bc2</color>
+        <scale>1.1</scale>
+        <Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="theme-menswear">
+      <IconStyle>
+        <color>ff3c5a8a</color>
+        <scale>1.1</scale>
+        <Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="theme-vr">
+      <IconStyle>
+        <color>ff8632b2</color>
+        <scale>1.1</scale>
+        <Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="theme-capybara">
+      <IconStyle>
+        <color>ff1f70a9</color>
+        <scale>1.1</scale>
+        <Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="theme-ramen">
+      <IconStyle>
+        <color>ff128abf</color>
+        <scale>1.1</scale>
+        <Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="theme-sampling">
+      <IconStyle>
+        <color>ff4d8f2f</color>
+        <scale>1.1</scale>
+        <Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Senso-ji</name>
+      <description>Tokyo's oldest temple + Nakamise street
+
+Why: The &quot;downbeat&quot; temple — 7am, empty, first roll
+
+Photography / See / Asakusa
+https://www.senso-ji.jp/</description>
+      <styleUrl>#theme-photography</styleUrl>
+      <Point><coordinates>139.7967,35.7148,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Meiji Jingu</name>
+      <description>Forest shrine inside the city
+
+Why: The deliberate &quot;rest&quot; between loud days
+
+Core/other / See / Harajuku
+https://www.meijijingu.or.jp/</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.6993,35.6764,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Nezu Shrine</name>
+      <description>Quiet shrine with a red torii tunnel
+
+Why: Fushimi-Inari-style gates without crowds; folds into Yanaka
+
+Photography / See / Nezu/Yanaka</description>
+      <styleUrl>#theme-photography</styleUrl>
+      <Point><coordinates>139.7605,35.7202,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Kanda Myojin</name>
+      <description>Ornate shrine near Akihabara
+
+Why: Tech-and-tradition combo; pairs with Akihabara
+
+Core/other / See / Sotokanda</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.7679,35.7019,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Atago Shrine</name>
+      <description>Hilltop shrine up the &quot;success stairs&quot;
+
+Why: Quick, quirky, photogenic climb
+
+Core/other / See / Atago</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.7495,35.6656,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Shibuya Sky</name>
+      <description>Open-air rooftop observation deck
+
+Why: The &quot;wow&quot; view — book sunset ~1 month out
+
+Core/other / See / Shibuya
+https://www.shibuya-scramble-square.com/sky/</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.7016,35.658,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Asakusa free deck</name>
+      <description>8F terrace at the Culture Center
+
+Why: Free Skytree-and-temple view on your doorstep
+
+Core/other / See / Asakusa</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.7966,35.711,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Miyashita Park</name>
+      <description>Rooftop park over the shopping deck
+
+Why: Free green escape; pairs with Shibuya evening
+
+Core/other / See / Shibuya</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.7014,35.6614,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Hotel Chinzanso Garden</name>
+      <description>Hillside garden with evening mist show
+
+Why: Fog-and-lantern dreamscape; dusk only
+
+Photography / See / Bunkyo</description>
+      <styleUrl>#theme-photography</styleUrl>
+      <Point><coordinates>139.7253,35.7113,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Map Camera</name>
+      <description>6 floors of graded used cameras
+
+Why: Buy-a-film-camera day; tax-free; film at Yodobashi next door
+
+Photography / Shop / Shinjuku
+https://www.mapcamera.com/</description>
+      <styleUrl>#theme-photography</styleUrl>
+      <Point><coordinates>139.6985,35.6905,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Fujiya Camera</name>
+      <description>80-year dealer at Nakano Broadway
+
+Why: Half the 2nd floor is Mamiya + Hasselblad
+
+Photography / Shop / Nakano
+https://www.fujiya-camera.co.jp/shop/default.aspx</description>
+      <styleUrl>#theme-photography</styleUrl>
+      <Point><coordinates>139.665,35.708,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Yodobashi Camera</name>
+      <description>Mega electronics + film stock
+
+Why: Cheap film, batteries; steps from Map Camera
+
+Photography / Shop / Shinjuku</description>
+      <styleUrl>#theme-photography</styleUrl>
+      <Point><coordinates>139.6976,35.6899,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sekaido</name>
+      <description>5-floor discount art-supply store
+
+Why: Load up on sketchbooks and pens
+
+Drawing / Shop / Shinjuku</description>
+      <styleUrl>#theme-drawing</styleUrl>
+      <Point><coordinates>139.7051,35.6925,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Pigment Tokyo</name>
+      <description>Gallery-store of ~4,500 pigments
+
+Why: A cathedral of materials; workshops bookable
+
+Drawing / Shop / Tennozu
+https://pigment.tokyo/</description>
+      <styleUrl>#theme-drawing</styleUrl>
+      <Point><coordinates>139.7495,35.618,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Jimbocho</name>
+      <description>Secondhand + art-book town
+
+Why: &quot;Coolest neighborhood&quot; per Time Out; vintage prints
+
+Drawing / Shop / Jimbocho</description>
+      <styleUrl>#theme-drawing</styleUrl>
+      <Point><coordinates>139.7578,35.6957,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Five G Music Technology</name>
+      <description>Legendary vintage synth + eurorack shop
+
+Why: The pilgrimage stop; around the corner from Fender flagship
+
+Sound/gear / Shop / Harajuku</description>
+      <styleUrl>#theme-soundgear</styleUrl>
+      <Point><coordinates>139.7069,35.6706,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Echigoya Music</name>
+      <description>Vintage synths + eurorack, near Tower Records
+
+Why: Smaller Five G; 10 min from Shibuya, pairs with Shibuya Sky
+
+Sound/gear / Shop / Shibuya
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-soundgear</styleUrl>
+      <Point><coordinates>139.699,35.662,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Wurly's by Miyaji Music</name>
+      <description>Newer modular/electronic shop
+
+Why: Fits the Akihabara sampling + arcade stop
+
+Sound/gear / Shop / Akihabara
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-soundgear</styleUrl>
+      <Point><coordinates>139.771,35.699,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>SUBTOKYOSHOP Music Gears</name>
+      <description>Vintage synth + pro-audio specialist since 2012
+
+Why: Serviced vintage gear, 1-month warranty; very your world
+
+Sound/gear / Shop / Tokyo
+(pin is area-level, not the exact address)
+https://subtokyoshop.com/</description>
+      <styleUrl>#theme-soundgear</styleUrl>
+      <Point><coordinates>139.7671,35.6812,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>ClockFace Modular</name>
+      <description>Modular showroom you can try, owner Rintaro
+
+Why: Email ahead; brings new euro modules to Japan
+
+Sound/gear / Shop / Tokyo (showroom)
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-soundgear</styleUrl>
+      <Point><coordinates>139.7671,35.6812,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tokyo Tape Music Center</name>
+      <description>Buchla + eurorack specialist
+
+Why: West-Coast-synthesis corner; confirm hours
+
+Sound/gear / Shop / Tokyo
+(pin is area-level, not the exact address)
+https://tokyo-tape-music-center.com/</description>
+      <styleUrl>#theme-soundgear</styleUrl>
+      <Point><coordinates>139.7671,35.6812,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ochanomizu music street</name>
+      <description>Blocks of instrument shops
+
+Why: Walls of gear incl. traditional; gear-nerd heaven
+
+Drums / Shop / Ochanomizu</description>
+      <styleUrl>#theme-drums</styleUrl>
+      <Point><coordinates>139.765,35.6995,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Fullcount Tokyo</name>
+      <description>Osaka Five heritage raw-denim brand
+
+Why: Called one of the best raw-denim spots in Tokyo
+
+Menswear / Shop / Harajuku
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-menswear</styleUrl>
+      <Point><coordinates>139.707,35.669,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Studio D'Artisan</name>
+      <description>Original &quot;Osaka Five&quot; label
+
+Why: Revived old techniques; full range at Harajuku store
+
+Menswear / Shop / Harajuku
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-menswear</styleUrl>
+      <Point><coordinates>139.706,35.67,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Samurai Jeans</name>
+      <description>Heavyweight raw denim, est. 1997
+
+Why: Wagyu-leather patches, own cotton; cult following
+
+Menswear / Shop / Harajuku
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-menswear</styleUrl>
+      <Point><coordinates>139.7065,35.6695,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Hinoya</name>
+      <description>Multi-brand denim strip
+
+Why: Momotaro, Samurai, KAPITAL under one roof — compare makers
+
+Menswear / Shop / Ueno/Okachimachi</description>
+      <styleUrl>#theme-menswear</styleUrl>
+      <Point><coordinates>139.774,35.707,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Iron Heart</name>
+      <description>Heavyweight workwear denim
+
+Why: 14oz to a stiff 25oz; the &quot;nappy&quot; heavyweight pick
+
+Menswear / Shop / Ebisu
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-menswear</styleUrl>
+      <Point><coordinates>139.71,35.6467,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Momotaro Jeans</name>
+      <description>Premium authentic Japanese denim
+
+Why: Often called the best denim purchase in Japan
+
+Menswear / Shop / Aoyama
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-menswear</styleUrl>
+      <Point><coordinates>139.712,35.665,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Evisu</name>
+      <description>Osaka Five flagship, raw selvedge
+
+Why: Full collection at the Daikanyama flagship
+
+Menswear / Shop / Daikanyama
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-menswear</styleUrl>
+      <Point><coordinates>139.703,35.6485,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Edwin flagship</name>
+      <description>Multi-level range + free hemming/tapering
+
+Why: Expert tailors dial in the break — the &quot;souvenir you wear&quot;
+
+Menswear / Shop / Tokyo
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-menswear</styleUrl>
+      <Point><coordinates>139.7671,35.6812,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Makers Pride of Craft</name>
+      <description>Custom denim workshop
+
+Why: Build a pair yourself — rhymes with the taiko-lesson thread
+
+Menswear / Shop / Daikanyama
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-menswear</styleUrl>
+      <Point><coordinates>139.7035,35.649,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Taiko lesson (Eva)</name>
+      <description>90-min hands-on taiko workshop
+
+Why: The deep version, English, all-ages; the trip's anchor
+
+Drums / Do / Asakusa
+(pin is area-level, not the exact address)
+https://www.getyourguide.com/-t920860/</description>
+      <styleUrl>#theme-drums</styleUrl>
+      <Point><coordinates>139.795,35.712,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Taiko no Tatsujin arcade</name>
+      <description>Arcade game with a real drum
+
+Why: The hi/lo rhyme after the real lesson
+
+Drums / Do / Akihabara
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-drums</styleUrl>
+      <Point><coordinates>139.7715,35.699,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Game Center Mikado</name>
+      <description>Floors of vintage arcade cabinets
+
+Why: Retro analog-nostalgia; on the way to Nakano
+
+Core/other / Do / Takadanobaba</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.704,35.713,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Livehouse gig</name>
+      <description>Small-club local band show
+
+Why: All-ages (1-drink min); check Tokyo Gig Guide in Sept
+
+Drums / Do / Shimokitazawa
+(pin is area-level, not the exact address)
+https://www.tokyogigguide.com/</description>
+      <styleUrl>#theme-drums</styleUrl>
+      <Point><coordinates>139.668,35.6613,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Round1 Spo-Cha</name>
+      <description>All-you-can-play sports arena
+
+Why: Real half-court hoops; energy burn for a teen
+
+Core/other / Do / Various
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.7115,35.7295,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Joypolis</name>
+      <description>Sega indoor VR theme park
+
+Why: VR rides, motion sims; teen, indoor half-day
+
+VR/tech / Do / Odaiba
+https://tokyo-joypolis.com/</description>
+      <styleUrl>#theme-vr</styleUrl>
+      <Point><coordinates>139.776,35.627,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Red° Tokyo Tower</name>
+      <description>Multi-floor e-sports + VR playground
+
+Why: VR, racing sims; central and flashy
+
+VR/tech / Do / Tokyo Tower</description>
+      <styleUrl>#theme-vr</styleUrl>
+      <Point><coordinates>139.7454,35.6586,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>teamLab Planets</name>
+      <description>Barefoot immersive digital-art museum
+
+Why: Book Oct tickets late July; wear shorts
+
+VR/tech / Do / Toyosu
+https://teamlabplanets.dmm.com/en/</description>
+      <styleUrl>#theme-vr</styleUrl>
+      <Point><coordinates>139.79,35.6497,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Small Worlds</name>
+      <description>World's biggest indoor miniatures
+
+Why: Eva hangar; wildly photogenic
+
+VR/tech / Do / Ariake
+https://smallworlds.jp/</description>
+      <styleUrl>#theme-vr</styleUrl>
+      <Point><coordinates>139.793,35.635,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Capybara Cafe Moffu</name>
+      <description>Hang-out cafe with capybaras
+
+Why: In-city capybara fix on Takeshita St
+
+Capybara / Animals / Harajuku
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-capybara</styleUrl>
+      <Point><coordinates>139.705,35.6715,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Otter cafe (Harry)</name>
+      <description>Otters, hedgehogs, chinchillas
+
+Why: You flagged the otters; reserve ~2 weeks out
+
+Core/other / Animals / Harajuku
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.704,35.6705,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Cat cafe (Asakusa Nekoen)</name>
+      <description>Rescue-cat cafe by your base
+
+Why: Easy low-key hour
+
+Core/other / Animals / Asakusa
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.794,35.713,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mipig Cafe</name>
+      <description>Micro-pig petting cafe
+
+Why: Best-run novelty cafe; charming with a teen
+
+Core/other / Animals / Meguro
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.716,35.633,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sumida Aquarium</name>
+      <description>Otters, penguins, giant salamanders
+
+Why: Otters in a real habitat; 10 min from Asakusa
+
+Core/other / Animals / Skytree</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.8107,35.71,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ueno Zoo</name>
+      <description>Big classic zoo in the park
+
+Why: 5 min from Asakusa; well-regarded
+
+Core/other / Animals / Ueno</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.7714,35.7166,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Omoide Yokocho</name>
+      <description>Smoky lantern alley of tiny counters
+
+Why: Ramen + yakitori + night photo + sampling in one lane
+
+Ramen/food / Eat / Shinjuku
+https://shinjuku-omoide.com/</description>
+      <styleUrl>#theme-ramen</styleUrl>
+      <Point><coordinates>139.6995,35.6935,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Golden Gai</name>
+      <description>Six alleys of miniature themed bars
+
+Why: Richest alley photography in the city
+
+Core/other / Eat / Shinjuku</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.7045,35.6941,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Hoppy Street</name>
+      <description>Open-front izakaya row
+
+Why: Alley dining on your doorstep
+
+Ramen/food / Eat / Asakusa</description>
+      <styleUrl>#theme-ramen</styleUrl>
+      <Point><coordinates>139.794,35.7145,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Signature ramen shops</name>
+      <description>Afuri yuzu shio, tonkotsu, tsukemen
+
+Why: Pick a famous bowl or two
+
+Ramen/food / Eat / Various
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-ramen</styleUrl>
+      <Point><coordinates>139.7671,35.6812,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Shin-Yokohama Ramen Museum</name>
+      <description>Retro food hall of regional ramen
+
+Why: Showa-era set; rainy-day proof
+
+Ramen/food / Eat / Yokohama</description>
+      <styleUrl>#theme-ramen</styleUrl>
+      <Point><coordinates>139.6165,35.5115,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ameyoko Market</name>
+      <description>Open-air market food strip
+
+Why: Street food under the tracks; near Asakusa
+
+Ramen/food / Eat / Ueno</description>
+      <styleUrl>#theme-ramen</styleUrl>
+      <Point><coordinates>139.7745,35.7095,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Shibuya Crossing soundscape</name>
+      <description>Field-record the scramble
+
+Why: Footsteps, signals, the roar — MPC fodder
+
+Sampling / Sample / Shibuya</description>
+      <styleUrl>#theme-sampling</styleUrl>
+      <Point><coordinates>139.7005,35.6595,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Station jingle hunt</name>
+      <description>Each JR station's departure melody
+
+Why: Collect a bank of jingles as you ride
+
+Sampling / Sample / Citywide
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-sampling</styleUrl>
+      <Point><coordinates>139.7671,35.6812,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Akihabara sound wall</name>
+      <description>Arcade + electronics chaos
+
+Why: A whole sample pack in one street
+
+Sampling / Sample / Akihabara</description>
+      <styleUrl>#theme-sampling</styleUrl>
+      <Point><coordinates>139.773,35.6985,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Kiyosumi Garden</name>
+      <description>Strolling garden with ponds
+
+Why: Koi, bamboo, birds — the quiet end of the set
+
+Sampling / Sample / Kiyosumi</description>
+      <styleUrl>#theme-sampling</styleUrl>
+      <Point><coordinates>139.7975,35.681,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Dormy Inn Express Asakusa</name>
+      <description>Budget hotel, rooftop onsen + free night ramen
+
+Why: Value pick, the bath-and-ramen ritual, ~$110/night
+
+Core/other / Stay / Asakusa
+(pin is area-level, not the exact address)
+https://dormy-hotels.com/dormyinn/hotels/asakusa/</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.79,35.711,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>MIMARU Asakusa Station</name>
+      <description>Apartment hotel, kitchen + laundry
+
+Why: Best for a week; 4.9★; steps from Kaminarimon
+
+Core/other / Stay / Asakusa
+(pin is area-level, not the exact address)
+https://mimaruhotels.com/en/hotel/asakusa-station/</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.7975,35.7115,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>The Gate Kaminarimon</name>
+      <description>Stylish 4-star by Senso-ji
+
+Why: Upscale; rooftop Skytree bar
+
+Core/other / Stay / Asakusa
+https://www.gate-hotel.jp/asakusa-kaminarimon/</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.796,35.7105,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Izu Resort Villa</name>
+      <description>Villa inside a capybara petting zone
+
+Why: Free-roaming capybaras from your room; overnight
+
+Capybara / Day trip / Izu
+(pin is area-level, not the exact address)
+https://izu-resort-villa.com/en/</description>
+      <styleUrl>#theme-capybara</styleUrl>
+      <Point><coordinates>139.07,34.83,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Izu day trip</name>
+      <description>Shaboten Zoo + coast + craft + onsen
+
+Why: Capybaras without the overnight — one long day
+
+Capybara / Day trip / Izu</description>
+      <styleUrl>#theme-capybara</styleUrl>
+      <Point><coordinates>139.09,34.894,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Nikko</name>
+      <description>Cedar forests, falls, lavish shrines
+
+Why: Best autumn color on our dates; Tobu from Asakusa
+
+Core/other / Day trip / Nikko</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.599,36.758,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Hakone Open-Air Museum</name>
+      <description>Sculpture park w/ Picasso pavilion
+
+Why: Art + onsen + Fuji odds; most on-theme trip
+
+Core/other / Day trip / Hakone
+https://www.hakone-oam.or.jp/</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.049,35.244,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Kawagoe (Little Edo)</name>
+      <description>Preserved Edo warehouse streets
+
+Why: 45 min out; film goldmine
+
+Photography / Day trip / Kawagoe</description>
+      <styleUrl>#theme-photography</styleUrl>
+      <Point><coordinates>139.485,35.925,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Kawaguchiko</name>
+      <description>Postcard Fuji reflected in the lake
+
+Why: October = clearest Fuji odds
+
+Photography / Day trip / Fuji Five Lakes</description>
+      <styleUrl>#theme-photography</styleUrl>
+      <Point><coordinates>138.753,35.517,0</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>
