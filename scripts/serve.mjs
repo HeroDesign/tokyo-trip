@@ -21,6 +21,7 @@ const TYPES = {
   '.png': 'image/png',
   '.webp': 'image/webp',
   '.svg': 'image/svg+xml',
+  '.woff2': 'font/woff2',
   '.ico': 'image/x-icon',
   '.kml': 'application/vnd.google-earth.kml+xml',
   '.csv': 'text/csv; charset=utf-8',
