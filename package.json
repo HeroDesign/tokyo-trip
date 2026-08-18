@@ -1,0 +1,18 @@
+{
+  "name": "tokyo-field-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mobile-first, filterable visual travel guide for Tokyo, Oct 16-24 2026.",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "images": "node scripts/fetch-images.mjs",
+    "images:force": "node scripts/fetch-images.mjs --force",
+    "vendor": "node scripts/vendor-leaflet.mjs",
+    "export": "node scripts/export-places.mjs"
+  },
+  "devDependencies": {
+    "leaflet": "^1.9.4"
+  }
+}
