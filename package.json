@@ -10,6 +10,7 @@
     "images": "node scripts/fetch-images.mjs",
     "images:force": "node scripts/fetch-images.mjs --force",
     "vendor": "node scripts/vendor-fonts.mjs && node scripts/vendor-leaflet.mjs",
-    "export": "node scripts/export-places.mjs"
+    "export": "node scripts/export-places.mjs",
+    "test": "node --test \"test/**/*.test.js\""
   }
 }
