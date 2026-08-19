@@ -11,13 +11,18 @@ const root = path.dirname(fileURLToPath(new URL('../package.json', import.meta.u
 const port = Number(process.env.PORT || 5173);
 const host = process.env.HOST || '0.0.0.0';
 
-/** GitHub Pages serves this repo at /tokyo-trip/; cloud port previews use the same prefix. */
-const BASE_PATH = (process.env.BASE_PATH || '/tokyo-trip').replace(/\/$/, '') || '';
+const ROOT_SEGMENTS = ['/assets/', '/data/', '/images/', '/vendor/', '/index.html'];
 
+/** Cloud port previews may prefix paths; find the real file path inside the URL. */
 function pathnameForRequest(pathname) {
-  if (!BASE_PATH) return pathname;
-  if (pathname === BASE_PATH) return '/';
-  if (pathname.startsWith(`${BASE_PATH}/`)) return pathname.slice(BASE_PATH.length) || '/';
+  if (pathname === '/tokyo-trip') return '/';
+  if (pathname.startsWith('/tokyo-trip/')) return pathname.slice('/tokyo-trip'.length) || '/';
+
+  for (const segment of ROOT_SEGMENTS) {
+    const idx = pathname.indexOf(segment);
+    if (idx >= 0) return pathname.slice(idx);
+  }
+
   return pathname;
 }
 
@@ -38,25 +43,42 @@ const TYPES = {
   '.csv': 'text/csv; charset=utf-8',
 };
 
+async function resolveFile(filePath) {
+  if (!filePath.startsWith(root)) return null;
+
+  let info = await stat(filePath).catch(() => null);
+  if (!info) return null;
+
+  if (info.isDirectory()) filePath = path.join(filePath, 'index.html');
+  info = await stat(filePath).catch(() => null);
+  if (!info || info.isDirectory()) return null;
+
+  return filePath;
+}
+
 createServer(async (req, res) => {
-  try {
-    const url = new URL(req.url, `http://localhost:${port}`);
-    let filePath = path.join(root, decodeURIComponent(pathnameForRequest(url.pathname)));
-    if (!filePath.startsWith(root)) throw Object.assign(new Error('bad path'), { code: 'ENOENT' });
+  const url = new URL(req.url, `http://localhost:${port}`);
+  const normalized = pathnameForRequest(decodeURIComponent(url.pathname));
+  let filePath = await resolveFile(path.join(root, normalized));
 
-    const info = await stat(filePath).catch(() => null);
-    if (!info || info.isDirectory()) filePath = path.join(filePath, 'index.html');
+  // Hash-routed app: unknown document paths still get index.html.
+  if (!filePath && req.method === 'GET' && !path.extname(normalized)) {
+    filePath = await resolveFile(path.join(root, 'index.html'));
+  }
 
-    const body = await readFile(filePath);
-    res.writeHead(200, {
-      'Content-Type': TYPES[path.extname(filePath).toLowerCase()] || 'application/octet-stream',
-      'Cache-Control': 'no-cache',
-    });
-    res.end(body);
-  } catch {
+  if (!filePath) {
+    console.error(`404 ${req.method} ${url.pathname}`);
     res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
     res.end('404');
+    return;
   }
+
+  const body = await readFile(filePath);
+  res.writeHead(200, {
+    'Content-Type': TYPES[path.extname(filePath).toLowerCase()] || 'application/octet-stream',
+    'Cache-Control': 'no-cache',
+  });
+  res.end(body);
 }).listen(port, host, () => {
   console.log(`Tokyo Field Guide -> http://localhost:${port} (bound to ${host})`);
 });
