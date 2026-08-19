@@ -58,9 +58,12 @@ The site is plain static files. `npm run build` just assembles `dist/`.
 
 ### GitHub Pages (already wired)
 
-`.github/workflows/deploy-pages.yml` builds and deploys on every push to `main`. One-time setup:
+`.github/workflows/deploy-pages.yml` builds and deploys on every push to `main` to the
+`gh-pages` branch. One-time setup:
 
-**Settings → Pages → Build and deployment → Source: GitHub Actions.**
+1. **The repo must be public** (or your account needs GitHub Pro/Team — GitHub Free cannot
+   publish Pages from a private repo, and the site will 404).
+2. **Settings → Pages → Build and deployment → Source: Deploy from a branch → `gh-pages` / (root).**
 
 The site lands at `https://herodesign.github.io/tokyo-trip/`. Every asset path is relative, so the
 `/tokyo-trip/` subpath works with no configuration.
