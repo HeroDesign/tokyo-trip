@@ -30,7 +30,7 @@ Days in the Plan view run 16–24 Oct, with the two travel days marked.
 
 ---
 
-## Run it
+## Run it locally
 
 No install step, no bundler, no dependencies.
 
@@ -40,9 +40,19 @@ npm run dev
 
 Then open <http://localhost:5173>. Edit any file and refresh — that's the whole loop.
 
+**On your phone (same Wi‑Fi):**
+
+```bash
+npm run dev:lan
+```
+
+The terminal prints your machine's LAN address (e.g. `http://192.168.1.42:5173`). Open that in
+Safari on your phone. Add to Home Screen if you want it to feel like an app.
+
 | Script | What it does |
 |---|---|
-| `npm run dev` | Static file server on :5173 |
+| `npm run dev` | Static file server on :5173 (localhost only) |
+| `npm run dev:lan` | Same server, reachable from your phone on the same network |
 | `npm test` | Dataset, filter and export tests (`node:test`, no deps) |
 | `npm run build` | Copies the publishable files into `dist/` |
 | `npm run images` | Fetches any missing place photos into `images/` |
