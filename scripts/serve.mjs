@@ -9,6 +9,7 @@ import path from 'node:path';
 
 const root = path.dirname(fileURLToPath(new URL('../package.json', import.meta.url)));
 const port = Number(process.env.PORT || 5173);
+const host = process.env.HOST || '0.0.0.0';
 
 const TYPES = {
   '.html': 'text/html; charset=utf-8',
@@ -46,6 +47,6 @@ createServer(async (req, res) => {
     res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
     res.end('404');
   }
-}).listen(port, () => {
-  console.log(`Tokyo Field Guide -> http://localhost:${port}`);
+}).listen(port, host, () => {
+  console.log(`Tokyo Field Guide -> http://localhost:${port} (bound to ${host})`);
 });
