@@ -1,12 +1,5 @@
 {
   "name": "tokyo-field-guide",
-  "install": "npm test",
-  "terminals": [
-    {
-      "name": "dev",
-      "command": "npm run dev",
-      "description": "Tokyo Field Guide static dev server on port 5173"
-    }
-  ],
+  "start": "npm run dev",
   "ports": [{ "name": "web", "port": 5173 }]
 }
