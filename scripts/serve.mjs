@@ -11,6 +11,16 @@ const root = path.dirname(fileURLToPath(new URL('../package.json', import.meta.u
 const port = Number(process.env.PORT || 5173);
 const host = process.env.HOST || '0.0.0.0';
 
+/** GitHub Pages serves this repo at /tokyo-trip/; cloud port previews use the same prefix. */
+const BASE_PATH = (process.env.BASE_PATH || '/tokyo-trip').replace(/\/$/, '') || '';
+
+function pathnameForRequest(pathname) {
+  if (!BASE_PATH) return pathname;
+  if (pathname === BASE_PATH) return '/';
+  if (pathname.startsWith(`${BASE_PATH}/`)) return pathname.slice(BASE_PATH.length) || '/';
+  return pathname;
+}
+
 const TYPES = {
   '.html': 'text/html; charset=utf-8',
   '.css': 'text/css; charset=utf-8',
@@ -31,7 +41,7 @@ const TYPES = {
 createServer(async (req, res) => {
   try {
     const url = new URL(req.url, `http://localhost:${port}`);
-    let filePath = path.join(root, decodeURIComponent(url.pathname));
+    let filePath = path.join(root, decodeURIComponent(pathnameForRequest(url.pathname)));
     if (!filePath.startsWith(root)) throw Object.assign(new Error('bad path'), { code: 'ENOENT' });
 
     const info = await stat(filePath).catch(() => null);
