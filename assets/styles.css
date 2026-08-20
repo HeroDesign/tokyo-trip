@@ -335,6 +335,10 @@ main {
   box-shadow: var(--shadow);
 }
 
+.card[hidden] {
+  display: none;
+}
+
 .card__photo {
   position: relative;
   aspect-ratio: 3 / 2;
