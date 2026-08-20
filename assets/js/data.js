@@ -43,7 +43,7 @@ export const THEME_COLORS = {
 
 /**
  * The trip itself: out on JL001 Fri 16 Oct, landing Sat 17 Oct 15:05, home on
- * JL002 Sat 24 Oct 18:05. Seven nights on the ground in Asakusa.
+ * JL002 Sun 25 Oct 17:55. Eight nights on the ground in Asakusa.
  */
 export const TRIP_DAYS = [
   { id: '2026-10-16', note: 'Fly SFO 11:55 (JL001)' },
@@ -54,7 +54,8 @@ export const TRIP_DAYS = [
   { id: '2026-10-21', note: '' },
   { id: '2026-10-22', note: '' },
   { id: '2026-10-23', note: '' },
-  { id: '2026-10-24', note: 'Fly home 18:05 (JL002)' },
+  { id: '2026-10-24', note: '' },
+  { id: '2026-10-25', note: 'Fly home 17:55 (JL002)' },
 ].map((day) => {
   const date = new Date(`${day.id}T00:00:00Z`);
   return {

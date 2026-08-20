@@ -145,10 +145,10 @@ test('export: day assignments reach both formats', () => {
   assert.ok(toCsv(one, { days }).includes('Sun 18 Oct'));
 });
 
-test('trip days: nine dates from Fri 16 to Sat 24 October 2026', () => {
-  assert.equal(TRIP_DAYS.length, 9);
+test('trip days: ten dates from Fri 16 to Sun 25 October 2026', () => {
+  assert.equal(TRIP_DAYS.length, 10);
   assert.equal(TRIP_DAYS[0].label, 'Fri 16 Oct');
-  assert.equal(TRIP_DAYS.at(-1).label, 'Sat 24 Oct');
+  assert.equal(TRIP_DAYS.at(-1).label, 'Sun 25 Oct');
   assert.match(TRIP_DAYS[0].note, /JL001/);
   assert.match(TRIP_DAYS.at(-1).note, /JL002/);
 });

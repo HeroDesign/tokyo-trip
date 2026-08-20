@@ -13,9 +13,10 @@ slotted into trip days, plus Google My Maps export).
 
 | | |
 |---|---|
-| **Dates** | 7 nights, Fri 16 Oct → Sat 24 Oct 2026 |
-| **Out** | JL001 SFO → HND, 11:55 → 15:05 (+1), nonstop |
-| **Back** | JL002 HND → SFO, 18:05 → 11:15, A350-1000 |
+| **Dates** | 8 nights, Fri 16 Oct → Sun 25 Oct 2026 |
+| **Out** | JL001 SFO → HND, 11:55 → 15:05 (+1), nonstop, seats 49D/E |
+| **Back** | JL002 HND → SFO, 17:55 → 11:25, nonstop, seats 24D/E |
+| **Ground** | Drive to SFO + park |
 | **Base** | Asakusa |
 | **Travellers** | Alan + Ever (13) — everything in here is age-appropriate |
 
@@ -26,7 +27,7 @@ shopping tracks for synths/electronic gear and menswear/raw denim.
 livehouse. The taiko lesson is the anchor; `Taiko no Tatsujin` in Akihabara is the hi/lo rhyme;
 a Shimokitazawa livehouse gig closes the loop.
 
-Days in the Plan view run 16–24 Oct, with the two travel days marked.
+Days in the Plan view run 16–25 Oct, with the two travel days marked.
 
 ---
 
