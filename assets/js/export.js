@@ -59,7 +59,7 @@ export function toKml(places, { name = 'Tokyo Field Guide', days = {} } = {}) {
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>${xml(name)}</name>
-    <description>${xml(`${places.length} places, 16-24 October 2026.`)}</description>
+    <description>${xml(`${places.length} places, 16-25 October 2026.`)}</description>
 ${styles}
 ${placemarks}
   </Document>
