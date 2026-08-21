@@ -52,15 +52,20 @@
             />
           </div>
 
-          <fieldset class="filters__group">
-            <legend class="filters__legend">Theme</legend>
-            <div class="chips" data-filter="theme"></div>
-          </fieldset>
+          <details class="filters__accordion">
+            <summary class="filters__accordion-toggle">Filters</summary>
+            <div class="filters__accordion-content">
+              <fieldset class="filters__group">
+                <legend class="filters__legend">Theme</legend>
+                <div class="chips" data-filter="theme"></div>
+              </fieldset>
 
-          <fieldset class="filters__group">
-            <legend class="filters__legend">Type</legend>
-            <div class="chips" data-filter="type"></div>
-          </fieldset>
+              <fieldset class="filters__group">
+                <legend class="filters__legend">Type</legend>
+                <div class="chips" data-filter="type"></div>
+              </fieldset>
+            </div>
+          </details>
 
           <div class="filters__status">
             <p class="count" aria-live="polite" data-count>&nbsp;</p>
