@@ -2058,5 +2058,19 @@
     "coords": [35.6465, 139.7139],
     "coordPrecision": "exact",
     "imageQueries": ["Kapital Japan", "Kapital denim", "Japanese boro fashion"]
+  },
+  {
+    "id": "azabudai-hills-sky-lobby",
+    "name": "Azabudai Hills Sky Lobby",
+    "theme": "photography",
+    "type": "see",
+    "area": "Azabudai",
+    "what": "Free 34th-floor Sky Lobby in Tokyo's newest skyscraper (2023), with floor-to-ceiling windows and Tokyo Tower views.",
+    "why": "Brand new, free, and uncrowded compared to the big-name observation decks. The Tokyo Tower framing is particularly good — it's right there at eye level. Pairs with the teamLab Borderless that moved here.",
+    "link": "https://www.azabudai-hills.com/",
+    "mapQuery": "Azabudai Hills Mori JP Tower Tokyo",
+    "coords": [35.6594, 139.7387],
+    "coordPrecision": "exact",
+    "imageQueries": ["Azabudai Hills Tokyo", "Azabudai Hills Mori JP Tower", "Tokyo Tower view Azabudai"]
   }
 ]
