@@ -791,6 +791,138 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:Matsuya_Asakusa_1931.jpg",
     "bytes": 148872
   },
+  "ryokan-kamogawa-asakusa": {
+    "file": "ryokan-kamogawa-asakusa.jpg",
+    "subject": "Asakusa traditional ryokan",
+    "via": "commons search: Asakusa traditional ryokan",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/A004_Japan_Tokyo_Asakusa_Ar%C3%A9a_Little_box_as_Ryokans_room_%284764435682%29.jpg/960px-A004_Japan_Tokyo_Asakusa_Ar%C3%A9a_Little_box_as_Ryokans_room_%284764435682%29.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "author": "DANIEL JULIE from Paris, France",
+    "filePage": "https://commons.wikimedia.org/wiki/File:A004_Japan_Tokyo_Asakusa_Ar%C3%A9a_Little_box_as_Ryokans_room_(4764435682).jpg",
+    "bytes": 84600
+  },
+  "ryokan-asakusa-shigetsu": {
+    "file": "ryokan-asakusa-shigetsu.jpg",
+    "subject": "Ryokan Asakusa Shigetsu",
+    "via": "commons search: Ryokan Asakusa Shigetsu",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Communal_bath_of_Ryokan_Shigetsu%2C_Asakusa_%286156193368%29.jpg/960px-Communal_bath_of_Ryokan_Shigetsu%2C_Asakusa_%286156193368%29.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "author": "Maarten Heerlien from Voorschoten, The Netherlands",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Communal_bath_of_Ryokan_Shigetsu,_Asakusa_(6156193368).jpg",
+    "bytes": 128436
+  },
+  "tokyo-ryokan": {
+    "file": "tokyo-ryokan.jpg",
+    "subject": "Nishi Asakusa Tokyo street",
+    "via": "commons search: Nishi Asakusa Tokyo street",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Tokyo%2C_Asakusa._%D0%9F%D0%B0%D1%80%D0%BA_%D1%85%D1%80%D0%B0%D0%BC%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D0%B0_%281%29_-_panoramio.jpg/960px-Tokyo%2C_Asakusa._%D0%9F%D0%B0%D1%80%D0%BA_%D1%85%D1%80%D0%B0%D0%BC%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D0%B0_%281%29_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Eugenio,77",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Tokyo,_Asakusa._%D0%9F%D0%B0%D1%80%D0%BA_%D1%85%D1%80%D0%B0%D0%BC%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D0%B0_(1)_-_panoramio.jpg",
+    "bytes": 604221
+  },
+  "cyashitsu-ryokan-asakusa": {
+    "file": "cyashitsu-ryokan-asakusa.jpg",
+    "subject": "Japanese tea room architecture Asakusa",
+    "via": "commons search: Japanese tea room architecture Asakusa",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/150_Jahre_Wiener_Weltausstellung_00.jpg/960px-150_Jahre_Wiener_Weltausstellung_00.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Gryffindor",
+    "filePage": "https://commons.wikimedia.org/wiki/File:150_Jahre_Wiener_Weltausstellung_00.jpg",
+    "bytes": 50628
+  },
+  "banrai-hotel-asakusa": {
+    "file": "banrai-hotel-asakusa.jpg",
+    "subject": "Kaminarimon Asakusa hotel",
+    "via": "commons search: Kaminarimon Asakusa hotel",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/The_Gate_Hotel_Kaminarimon_breakfast_20140929-001.jpg/960px-The_Gate_Hotel_Kaminarimon_breakfast_20140929-001.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "J o",
+    "filePage": "https://commons.wikimedia.org/wiki/File:The_Gate_Hotel_Kaminarimon_breakfast_20140929-001.jpg",
+    "bytes": 177197
+  },
+  "hotel-little-bird-oku-asakusa": {
+    "file": "hotel-little-bird-oku-asakusa.jpg",
+    "subject": "Oku Asakusa Tokyo",
+    "via": "commons search: Oku Asakusa Tokyo",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/T%C5%8Dky%C5%8D_sainan_gashin%2C_1923-09-15_by_Yumeji.jpg/960px-T%C5%8Dky%C5%8D_sainan_gashin%2C_1923-09-15_by_Yumeji.jpg",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "author": "Yumeji Takehisa",
+    "filePage": "https://commons.wikimedia.org/wiki/File:T%C5%8Dky%C5%8D_sainan_gashin,_1923-09-15_by_Yumeji.jpg",
+    "bytes": 371774
+  },
+  "koko-hotel-residence-asakusa-kappabashi": {
+    "file": "koko-hotel-residence-asakusa-kappabashi.jpg",
+    "subject": "Kappabashi Tokyo street",
+    "via": "commons search: Kappabashi Tokyo street",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Cream_and_red_coffee_cup-shaped_balconies%2C_Niimi_Tableware%2C_Kappabashi_Dougu_Street%2C_Tokyo%2C_Japan.jpg/960px-Cream_and_red_coffee_cup-shaped_balconies%2C_Niimi_Tableware%2C_Kappabashi_Dougu_Street%2C_Tokyo%2C_Japan.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Basile Morin",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Cream_and_red_coffee_cup-shaped_balconies,_Niimi_Tableware,_Kappabashi_Dougu_Street,_Tokyo,_Japan.jpg",
+    "bytes": 189269
+  },
+  "nakamise-dori": {
+    "file": "nakamise-dori.jpg",
+    "subject": "Nakamise dori Asakusa",
+    "via": "commons search: Nakamise dori Asakusa",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/06_Nakamise-dori%2C_Asakusa_%28T%C3%B2quio%29%2C_aparador_de_nines.jpg/960px-06_Nakamise-dori%2C_Asakusa_%28T%C3%B2quio%29%2C_aparador_de_nines.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "GuillemMedina",
+    "filePage": "https://commons.wikimedia.org/wiki/File:06_Nakamise-dori,_Asakusa_(T%C3%B2quio),_aparador_de_nines.jpg",
+    "bytes": 130698
+  },
+  "kaminarimon": {
+    "file": "kaminarimon.jpg",
+    "subject": "Kaminarimon lantern",
+    "via": "commons search: Kaminarimon lantern",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Kaminarimon_lantern_bottom_2006.JPG/960px-Kaminarimon_lantern_bottom_2006.JPG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Torsodog",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Kaminarimon_lantern_bottom_2006.JPG",
+    "bytes": 236638
+  },
+  "asakusa-traditional-ryokan-stay": {
+    "file": "asakusa-traditional-ryokan-stay.jpg",
+    "subject": "Japanese ryokan tatami futon",
+    "via": "commons search: Japanese ryokan tatami futon",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Ryokan_Tokyo.JPG/960px-Ryokan_Tokyo.JPG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Ellywa at Dutch Wikipedia",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Ryokan_Tokyo.JPG",
+    "bytes": 138764
+  },
+  "hakone-overnight-trip": {
+    "file": "hakone-overnight-trip.jpg",
+    "subject": "Hakone Japan",
+    "via": "commons search: Hakone Japan",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/View_of_Mount_HakoneKomagatake_from_Onshi-Hakone-Koen_Park.jpg/960px-View_of_Mount_HakoneKomagatake_from_Onshi-Hakone-Koen_Park.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Quercus acuta",
+    "filePage": "https://commons.wikimedia.org/wiki/File:View_of_Mount_HakoneKomagatake_from_Onshi-Hakone-Koen_Park.jpg",
+    "bytes": 209386
+  },
+  "private-family-onsen": {
+    "file": "private-family-onsen.jpg",
+    "subject": "private onsen Hakone",
+    "via": "commons search: private onsen Hakone",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Gorakadan_Onsen_Rotenburo_1.jpg/960px-Gorakadan_Onsen_Rotenburo_1.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Unknown",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Gorakadan_Onsen_Rotenburo_1.jpg",
+    "bytes": 488007
+  },
   "sokichi-kiriko-workshop": {
     "file": "sokichi-kiriko-workshop.jpg",
     "subject": "Edo Kiriko",
