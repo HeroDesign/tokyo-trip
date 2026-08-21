@@ -1,0 +1,2258 @@
+[
+  {
+    "id": "senso-ji",
+    "name": "Senso-ji",
+    "theme": "photography",
+    "type": "see",
+    "area": "Asakusa",
+    "what": "Tokyo's oldest temple + Nakamise street",
+    "why": "The \"downbeat\" temple — 7am, empty, first roll",
+    "link": "https://www.senso-ji.jp/",
+    "mapQuery": "Senso-ji Asakusa Tokyo Japan",
+    "coords": [
+      35.7148,
+      139.7967
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Sensō-ji",
+      "Kaminarimon"
+    ]
+  },
+  {
+    "id": "meiji-jingu",
+    "name": "Meiji Jingu",
+    "theme": "core",
+    "type": "see",
+    "area": "Harajuku",
+    "what": "Forest shrine inside the city",
+    "why": "The deliberate \"rest\" between loud days",
+    "link": "https://www.meijijingu.or.jp/",
+    "mapQuery": "Meiji Jingu Harajuku Tokyo Japan",
+    "coords": [
+      35.6764,
+      139.6993
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Meiji Shrine"
+    ]
+  },
+  {
+    "id": "nezu-shrine",
+    "name": "Nezu Shrine",
+    "theme": "photography",
+    "type": "see",
+    "area": "Nezu/Yanaka",
+    "what": "Quiet shrine with a red torii tunnel",
+    "why": "Fushimi-Inari-style gates without crowds; folds into Yanaka",
+    "link": null,
+    "mapQuery": "Nezu Shrine Nezu Tokyo Japan",
+    "coords": [
+      35.7202,
+      139.7605
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Nezu Shrine"
+    ]
+  },
+  {
+    "id": "kanda-myojin",
+    "name": "Kanda Myojin",
+    "theme": "core",
+    "type": "see",
+    "area": "Sotokanda",
+    "what": "Ornate shrine near Akihabara",
+    "why": "Tech-and-tradition combo; pairs with Akihabara",
+    "link": null,
+    "mapQuery": "Kanda Myojin Sotokanda Tokyo Japan",
+    "coords": [
+      35.7019,
+      139.7679
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Kanda Shrine"
+    ]
+  },
+  {
+    "id": "atago-shrine",
+    "name": "Atago Shrine",
+    "theme": "core",
+    "type": "see",
+    "area": "Atago",
+    "what": "Hilltop shrine up the \"success stairs\"",
+    "why": "Quick, quirky, photogenic climb",
+    "link": null,
+    "mapQuery": "Atago Shrine Atago Tokyo Japan",
+    "coords": [
+      35.6656,
+      139.7495
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Atago Shrine (Tokyo)",
+      "Atago Shrine"
+    ]
+  },
+  {
+    "id": "shibuya-sky",
+    "name": "Shibuya Sky",
+    "theme": "view",
+    "type": "see",
+    "area": "Shibuya",
+    "what": "Open-air rooftop observation deck",
+    "why": "The \"wow\" view — book sunset ~1 month out",
+    "link": "https://www.shibuya-scramble-square.com/sky/",
+    "mapQuery": "Shibuya Sky Shibuya Tokyo Japan",
+    "coords": [
+      35.658,
+      139.7016
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Shibuya Scramble Square",
+      "Shibuya"
+    ]
+  },
+  {
+    "id": "asakusa-free-deck",
+    "name": "Asakusa free deck",
+    "theme": "view",
+    "type": "see",
+    "area": "Asakusa",
+    "what": "8F terrace at the Culture Center",
+    "why": "Free Skytree-and-temple view on your doorstep",
+    "link": null,
+    "mapQuery": "Asakusa Culture Tourist Information Center Asakusa Tokyo Japan",
+    "coords": [
+      35.711,
+      139.7966
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Asakusa Culture Tourist Information Center",
+      "Tokyo Skytree"
+    ]
+  },
+  {
+    "id": "miyashita-park",
+    "name": "Miyashita Park",
+    "theme": "core",
+    "type": "see",
+    "area": "Shibuya",
+    "what": "Rooftop park over the shopping deck",
+    "why": "Free green escape; pairs with Shibuya evening",
+    "link": null,
+    "mapQuery": "Miyashita Park Shibuya Tokyo Japan",
+    "coords": [
+      35.6614,
+      139.7014
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Miyashita Park",
+      "Shibuya"
+    ]
+  },
+  {
+    "id": "hotel-chinzanso-garden",
+    "name": "Hotel Chinzanso Garden",
+    "theme": "photography",
+    "type": "see",
+    "area": "Bunkyo",
+    "what": "Hillside garden with evening mist show",
+    "why": "Fog-and-lantern dreamscape; dusk only",
+    "link": null,
+    "mapQuery": "Hotel Chinzanso Tokyo Bunkyo Tokyo Japan",
+    "coords": [
+      35.7113,
+      139.7253
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Hotel Chinzanso Tokyo",
+      "Chinzan-sō"
+    ]
+  },
+  {
+    "id": "map-camera",
+    "name": "Map Camera",
+    "theme": "photography",
+    "type": "shop",
+    "area": "Shinjuku",
+    "what": "6 floors of graded used cameras",
+    "why": "Buy-a-film-camera day; tax-free; film at Yodobashi next door",
+    "link": "https://www.mapcamera.com/",
+    "mapQuery": "Map Camera Shinjuku Tokyo Japan",
+    "coords": [
+      35.6905,
+      139.6985
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Leica M3",
+      "Rangefinder camera"
+    ]
+  },
+  {
+    "id": "fujiya-camera",
+    "name": "Fujiya Camera",
+    "theme": "photography",
+    "type": "shop",
+    "area": "Nakano",
+    "what": "80-year dealer at Nakano Broadway",
+    "why": "Half the 2nd floor is Mamiya + Hasselblad",
+    "link": "https://www.fujiya-camera.co.jp/shop/default.aspx",
+    "mapQuery": "Fujiya Camera Nakano Tokyo Japan",
+    "coords": [
+      35.708,
+      139.665
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Hasselblad",
+      "Twin-lens reflex camera"
+    ]
+  },
+  {
+    "id": "yodobashi-camera",
+    "name": "Yodobashi Camera",
+    "theme": "photography",
+    "type": "shop",
+    "area": "Shinjuku",
+    "what": "Mega electronics + film stock",
+    "why": "Cheap film, batteries; steps from Map Camera",
+    "link": null,
+    "mapQuery": "Yodobashi Camera Shinjuku Tokyo Japan",
+    "coords": [
+      35.6899,
+      139.6976
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Yodobashi Camera",
+      "135 film"
+    ]
+  },
+  {
+    "id": "sekaido",
+    "name": "Sekaido",
+    "theme": "drawing",
+    "type": "shop",
+    "area": "Shinjuku",
+    "what": "5-floor discount art-supply store",
+    "why": "Load up on sketchbooks and pens",
+    "link": null,
+    "mapQuery": "Sekaido Shinjuku Tokyo Japan",
+    "coords": [
+      35.6925,
+      139.7051
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Marker pen",
+      "Colored pencil"
+    ]
+  },
+  {
+    "id": "pigment-tokyo",
+    "name": "Pigment Tokyo",
+    "theme": "drawing",
+    "type": "shop",
+    "area": "Tennozu",
+    "what": "Gallery-store of ~4,500 pigments",
+    "why": "A cathedral of materials; workshops bookable",
+    "link": "https://pigment.tokyo/",
+    "mapQuery": "Pigment Tokyo Tennozu Isle Tokyo Japan",
+    "coords": [
+      35.618,
+      139.7495
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Pigment",
+      "Ultramarine"
+    ]
+  },
+  {
+    "id": "jimbocho",
+    "name": "Jimbocho",
+    "theme": "drawing",
+    "type": "shop",
+    "area": "Jimbocho",
+    "what": "Secondhand + art-book town",
+    "why": "\"Coolest neighborhood\" per Time Out; vintage prints",
+    "link": null,
+    "mapQuery": "Jimbocho book town Chiyoda Tokyo Japan",
+    "coords": [
+      35.6957,
+      139.7578
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Jinbōchō, Tokyo",
+      "Used bookstore"
+    ]
+  },
+  {
+    "id": "five-g",
+    "name": "Five G Music Technology",
+    "theme": "soundgear",
+    "type": "shop",
+    "area": "Harajuku",
+    "what": "Legendary vintage synth + eurorack shop",
+    "why": "The pilgrimage stop; around the corner from Fender flagship",
+    "link": null,
+    "mapQuery": "Five G Music Technology Harajuku Tokyo Japan",
+    "coords": [
+      35.6706,
+      139.7069
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Roland Jupiter-8",
+      "Analog synthesizer"
+    ]
+  },
+  {
+    "id": "echigoya-music",
+    "name": "Echigoya Music",
+    "theme": "soundgear",
+    "type": "shop",
+    "area": "Shibuya",
+    "what": "Vintage synths + eurorack, near Tower Records",
+    "why": "Smaller Five G; 10 min from Shibuya, pairs with Shibuya Sky",
+    "link": null,
+    "mapQuery": "Echigoya Music Shibuya Tokyo Japan",
+    "coords": [
+      35.662,
+      139.699
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Eurorack",
+      "Modular synthesizer"
+    ]
+  },
+  {
+    "id": "wurlys-miyaji",
+    "name": "Wurly's by Miyaji Music",
+    "theme": "soundgear",
+    "type": "shop",
+    "area": "Akihabara",
+    "what": "Newer modular/electronic shop",
+    "why": "Fits the Akihabara sampling + arcade stop",
+    "link": null,
+    "mapQuery": "Wurly's by Miyaji Music Akihabara Tokyo Japan",
+    "coords": [
+      35.699,
+      139.771
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Wurlitzer electronic piano",
+      "Electric piano"
+    ]
+  },
+  {
+    "id": "subtokyoshop",
+    "name": "SUBTOKYOSHOP Music Gears",
+    "theme": "soundgear",
+    "type": "shop",
+    "area": "Tokyo",
+    "what": "Vintage synth + pro-audio specialist since 2012",
+    "why": "Serviced vintage gear, 1-month warranty; very your world",
+    "link": "https://subtokyoshop.com/",
+    "mapQuery": "SUBTOKYOSHOP Music Gears Tokyo Japan",
+    "coords": [
+      35.6812,
+      139.7671
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Roland TR-808",
+      "Drum machine"
+    ]
+  },
+  {
+    "id": "clockface-modular",
+    "name": "ClockFace Modular",
+    "theme": "soundgear",
+    "type": "shop",
+    "area": "Tokyo (showroom)",
+    "what": "Modular showroom you can try, owner Rintaro",
+    "why": "Email ahead; brings new euro modules to Japan",
+    "link": null,
+    "mapQuery": "ClockFace Modular Tokyo Japan",
+    "coords": [
+      35.6812,
+      139.7671
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Modular synthesizer",
+      "Patch cable"
+    ]
+  },
+  {
+    "id": "tokyo-tape-music-center",
+    "name": "Tokyo Tape Music Center",
+    "theme": "soundgear",
+    "type": "shop",
+    "area": "Tokyo",
+    "what": "Buchla + eurorack specialist",
+    "why": "West-Coast-synthesis corner; confirm hours",
+    "link": "https://tokyo-tape-music-center.com/",
+    "mapQuery": "Tokyo Tape Music Center Tokyo Japan",
+    "coords": [
+      35.6812,
+      139.7671
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Buchla Electronic Musical Instruments",
+      "Don Buchla"
+    ]
+  },
+  {
+    "id": "ochanomizu-music-street",
+    "name": "Ochanomizu music street",
+    "theme": "drums",
+    "type": "shop",
+    "area": "Ochanomizu",
+    "what": "Blocks of instrument shops",
+    "why": "Walls of gear incl. traditional; gear-nerd heaven",
+    "link": null,
+    "mapQuery": "Ochanomizu musical instrument street Tokyo Japan",
+    "coords": [
+      35.6995,
+      139.765
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Ochanomizu",
+      "Ochanomizu Station"
+    ]
+  },
+  {
+    "id": "fullcount-tokyo",
+    "name": "Fullcount Tokyo",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Harajuku",
+    "what": "Osaka Five heritage raw-denim brand",
+    "why": "Called one of the best raw-denim spots in Tokyo",
+    "link": null,
+    "mapQuery": "Fullcount Tokyo Harajuku Tokyo Japan",
+    "coords": [
+      35.669,
+      139.707
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Denim",
+      "Selvage denim"
+    ]
+  },
+  {
+    "id": "studio-dartisan",
+    "name": "Studio D'Artisan",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Harajuku",
+    "what": "Original \"Osaka Five\" label",
+    "why": "Revived old techniques; full range at Harajuku store",
+    "link": null,
+    "mapQuery": "Studio D'Artisan Harajuku Tokyo Japan",
+    "coords": [
+      35.67,
+      139.706
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Loom",
+      "Weaving"
+    ]
+  },
+  {
+    "id": "samurai-jeans",
+    "name": "Samurai Jeans",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Harajuku",
+    "what": "Heavyweight raw denim, est. 1997",
+    "why": "Wagyu-leather patches, own cotton; cult following",
+    "link": null,
+    "mapQuery": "Samurai Jeans Harajuku Tokyo Japan",
+    "coords": [
+      35.6695,
+      139.7065
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Jeans",
+      "Denim"
+    ]
+  },
+  {
+    "id": "hinoya",
+    "name": "Hinoya",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Ueno/Okachimachi",
+    "what": "Multi-brand denim strip",
+    "why": "Momotaro, Samurai, KAPITAL under one roof — compare makers",
+    "link": null,
+    "mapQuery": "Hinoya Okachimachi Ueno Tokyo Japan",
+    "coords": [
+      35.707,
+      139.774
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Denim jacket",
+      "Jean jacket"
+    ]
+  },
+  {
+    "id": "iron-heart",
+    "name": "Iron Heart",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Ebisu",
+    "what": "Heavyweight workwear denim",
+    "why": "14oz to a stiff 25oz; the \"nappy\" heavyweight pick",
+    "link": null,
+    "mapQuery": "Iron Heart Ebisu Tokyo Japan",
+    "coords": [
+      35.6467,
+      139.71
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Rivet",
+      "Workwear"
+    ]
+  },
+  {
+    "id": "momotaro-jeans",
+    "name": "Momotaro Jeans",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Aoyama",
+    "what": "Premium authentic Japanese denim",
+    "why": "Often called the best denim purchase in Japan",
+    "link": null,
+    "mapQuery": "Momotaro Jeans Aoyama Tokyo Japan",
+    "coords": [
+      35.665,
+      139.712
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Indigo dye",
+      "Indigo"
+    ]
+  },
+  {
+    "id": "evisu",
+    "name": "Evisu",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Daikanyama",
+    "what": "Osaka Five flagship, raw selvedge",
+    "why": "Full collection at the Daikanyama flagship",
+    "link": null,
+    "mapQuery": "Evisu Daikanyama Tokyo Japan",
+    "coords": [
+      35.6485,
+      139.703
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Evisu",
+      "Daikanyama"
+    ]
+  },
+  {
+    "id": "edwin-flagship",
+    "name": "Edwin flagship",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Tokyo",
+    "what": "Multi-level range + free hemming/tapering",
+    "why": "Expert tailors dial in the break — the \"souvenir you wear\"",
+    "link": null,
+    "mapQuery": "Edwin flagship store Tokyo Japan",
+    "coords": [
+      35.6812,
+      139.7671
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Edwin (clothing)",
+      "Sewing machine"
+    ]
+  },
+  {
+    "id": "makers-pride-of-craft",
+    "name": "Makers Pride of Craft",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Daikanyama",
+    "what": "Custom denim workshop",
+    "why": "Build a pair yourself — rhymes with the taiko-lesson thread",
+    "link": null,
+    "mapQuery": "Makers Pride of Craft Daikanyama Tokyo Japan",
+    "coords": [
+      35.649,
+      139.7035
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Sewing machine",
+      "Tailor"
+    ]
+  },
+  {
+    "id": "eva-kestner-international-taiko-drum-academy",
+    "name": "Eva Kestner International Taiko Drum Academy",
+    "theme": "drums",
+    "type": "do",
+    "area": "Daikanyama",
+    "what": "90-minute hands-on taiko workshop or private lesson with professional bilingual taiko drummer Eva Kestner.",
+    "why": "Probably the strongest lesson option for a musically interested parent and teen: Eva teaches in English, works with beginners and experienced players, and teaches children as young as four. The emphasis is on actual technique, rhythm and playing rather than simply a tourist demonstration.",
+    "link": "https://www.eva-kestner.com/lessons",
+    "mapQuery": "Eva Kestner International Taiko Drum Academy Mirai Taiko Studio Daikanyama Tokyo",
+    "coords": [35.651, 139.703],
+    "coordPrecision": "area",
+    "imageQueries": ["Eva Kestner taiko", "Eva Kestner International Taiko Drum Academy", "Japanese taiko lesson Tokyo"]
+  },
+  {
+    "id": "taiko-no-tatsujin",
+    "name": "Taiko no Tatsujin arcade",
+    "theme": "drums",
+    "type": "do",
+    "area": "Akihabara",
+    "what": "Arcade game with a real drum",
+    "why": "The hi/lo rhyme after the real lesson",
+    "link": null,
+    "mapQuery": "Taiko no Tatsujin arcade Akihabara Tokyo Japan",
+    "coords": [
+      35.699,
+      139.7715
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Taiko no Tatsujin",
+      "Rhythm game"
+    ]
+  },
+  {
+    "id": "game-center-mikado",
+    "name": "Game Center Mikado",
+    "theme": "core",
+    "type": "do",
+    "area": "Takadanobaba",
+    "what": "Floors of vintage arcade cabinets",
+    "why": "Retro analog-nostalgia; on the way to Nakano",
+    "link": null,
+    "mapQuery": "Game Center Mikado Takadanobaba Tokyo Japan",
+    "coords": [
+      35.713,
+      139.704
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Amusement arcade",
+      "Arcade cabinet"
+    ]
+  },
+  {
+    "id": "livehouse-gig",
+    "name": "Livehouse gig",
+    "theme": "drums",
+    "type": "do",
+    "area": "Shimokitazawa",
+    "what": "Small-club local band show",
+    "why": "All-ages (1-drink min); check Tokyo Gig Guide in Sept",
+    "link": "https://www.tokyogigguide.com/",
+    "mapQuery": "Live house Shimokitazawa Tokyo Japan",
+    "coords": [
+      35.6613,
+      139.668
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Live house",
+      "Shimokitazawa"
+    ]
+  },
+  {
+    "id": "taiko-lab-aoyama",
+    "name": "TAIKO-LAB Aoyama",
+    "theme": "drums",
+    "type": "do",
+    "area": "Aoyama",
+    "what": "Dedicated taiko school offering a 60-minute English-language hands-on Japanese drumming experience.",
+    "why": "Very easy to integrate into a Tokyo trip: professional instruction, drums and sticks are provided, beginners are welcome regardless of age, and the session builds toward playing a complete piece before an instructor performs a taiko solo.",
+    "link": "https://www.taikolab.com/world/",
+    "mapQuery": "TAIKO-LAB Aoyama 3-1-30 Jingumae Tokyo",
+    "coords": [35.670, 139.714],
+    "coordPrecision": "area",
+    "imageQueries": ["TAIKO-LAB Aoyama", "Japanese taiko lesson", "wadaiko Tokyo"]
+  },
+  {
+    "id": "oedo-sukeroku-taiko-dojo",
+    "name": "Oedo Sukeroku Taiko Dojo",
+    "theme": "drums",
+    "type": "do",
+    "area": "Sotokanda",
+    "what": "Private and small-group taiko lessons taught in English or Japanese by professional Oedo Sukeroku Taiko players.",
+    "why": "A more traditional and serious alternative to a packaged visitor experience. The dojo explicitly offers 1- and 1.5-hour lessons for travelers and families, including complete beginners, and lets you learn directly from professional performers in the influential Oedo Sukeroku taiko tradition.",
+    "link": "https://oedosukerokutaiko.com/htm/school_foreigner_english.html",
+    "mapQuery": "Oedo Sukeroku Taiko 2-1-13 Sotokanda Tokyo",
+    "coords": [35.700, 139.769],
+    "coordPrecision": "area",
+    "imageQueries": ["Oedo Sukeroku Taiko", "Sukeroku taiko Tokyo", "Japanese taiko dojo"]
+  },
+  {
+    "id": "hibikus-asakusa-basement",
+    "name": "HIBIKUS Asakusa Basement",
+    "theme": "drums",
+    "type": "do",
+    "area": "Asakusa",
+    "what": "Taiko school and workshop studio beneath the headquarters of historic Japanese drum maker Miyamoto Unosuke Shoten.",
+    "why": "Especially appealing if staying in Asakusa: this is a real taiko school rather than a tourist attraction, professional players teach there, and the school accepts students from age three upward. The unusual basement studio occupies a historic space once used to store mikoshi and later as an air-raid shelter.",
+    "link": "https://www.hibikus.com/taiko-school/asakusa",
+    "mapQuery": "HIBIKUS Asakusa Basement 6-1-15 Asakusa Tokyo",
+    "coords": [35.717, 139.800],
+    "coordPrecision": "area",
+    "imageQueries": ["HIBIKUS Asakusa Basement", "Miyamoto Unosuke taiko", "Asakusa taiko school"]
+  },
+  {
+    "id": "taikokan-drum-museum",
+    "name": "Taikokan Drum Museum",
+    "theme": "drums",
+    "type": "see",
+    "area": "Nishi-Asakusa",
+    "what": "Small specialist museum created by Miyamoto Unosuke Shoten with hundreds of Japanese and international drums, including instruments visitors can actually play.",
+    "why": "A particularly good companion to a taiko lesson for a drummer: the collection contains roughly 800 drums, selected exhibits marked with a musical-note symbol can be played, and the Miyamoto Unosuke shop downstairs sells taiko, bachi and other traditional percussion equipment.",
+    "link": "https://www.miyamoto-unosuke.co.jp/pages/museum",
+    "mapQuery": "Taikokan Drum Museum Miyamoto Unosuke 2-1-1 Nishiasakusa Tokyo",
+    "coords": [35.711, 139.790],
+    "coordPrecision": "area",
+    "imageQueries": ["Taikokan Drum Museum Tokyo", "Miyamoto Unosuke Drum Museum", "Japanese taiko museum Asakusa"]
+  },
+  {
+    "id": "zakuro-show-2026-10-23",
+    "name": "ZAKURO SHOW — October 23, 2026",
+    "theme": "drums",
+    "type": "see",
+    "area": "Harajuku",
+    "what": "October 23, 2026 bilingual one-hour live concert featuring taiko alongside koto, shamisen, shakuhachi and other traditional Japanese instruments.",
+    "why": "Confirmed for October 23 during the Tokyo trip. It is an intimate performance with top-level traditional musicians only a few feet from the audience, with English explanations of the instruments and music. This is broader than a pure taiko concert but provides a strong live-performance counterpart to a hands-on taiko lesson.",
+    "link": "https://www.zakuroshow.com/en",
+    "mapQuery": "Hall 60 6-34-14 Jingumae Harajuku Tokyo",
+    "coords": [35.669, 139.703],
+    "coordPrecision": "area",
+    "imageQueries": ["ZAKURO SHOW Tokyo", "ZAKURO SHOW taiko", "Japanese traditional music taiko koto shamisen"]
+  },
+  {
+    "id": "round1-spocha",
+    "name": "Round1 Spo-Cha",
+    "theme": "core",
+    "type": "do",
+    "area": "Various",
+    "what": "All-you-can-play sports arena",
+    "why": "Real half-court hoops; energy burn for a teen",
+    "link": null,
+    "mapQuery": "Round1 Spo-Cha Tokyo Japan",
+    "coords": [
+      35.7295,
+      139.7115
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Round One Corporation",
+      "Batting cage"
+    ]
+  },
+  {
+    "id": "joypolis",
+    "name": "Joypolis",
+    "theme": "vr",
+    "type": "do",
+    "area": "Odaiba",
+    "what": "Sega indoor VR theme park",
+    "why": "VR rides, motion sims; teen, indoor half-day",
+    "link": "https://tokyo-joypolis.com/",
+    "mapQuery": "Tokyo Joypolis Odaiba Tokyo Japan",
+    "coords": [
+      35.627,
+      139.776
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Tokyo Joypolis",
+      "Odaiba"
+    ]
+  },
+  {
+    "id": "red-tokyo-tower",
+    "name": "Red° Tokyo Tower",
+    "theme": "vr",
+    "type": "do",
+    "area": "Tokyo Tower",
+    "what": "Multi-floor e-sports + VR playground",
+    "why": "VR, racing sims; central and flashy",
+    "link": null,
+    "mapQuery": "RED TOKYO TOWER Minato Tokyo Japan",
+    "coords": [
+      35.6586,
+      139.7454
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Tokyo Tower",
+      "Esports"
+    ]
+  },
+  {
+    "id": "teamlab-planets",
+    "name": "teamLab Planets",
+    "theme": "vr",
+    "type": "do",
+    "area": "Toyosu",
+    "what": "Barefoot immersive digital-art museum",
+    "why": "Book Oct tickets late July; wear shorts",
+    "link": "https://teamlabplanets.dmm.com/en/",
+    "mapQuery": "teamLab Planets TOKYO Toyosu Tokyo Japan",
+    "coords": [
+      35.6497,
+      139.79
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "TeamLab (art collective)",
+      "TeamLab Borderless"
+    ]
+  },
+  {
+    "id": "small-worlds",
+    "name": "Small Worlds",
+    "theme": "vr",
+    "type": "do",
+    "area": "Ariake",
+    "what": "World's biggest indoor miniatures",
+    "why": "Eva hangar; wildly photogenic",
+    "link": "https://smallworlds.jp/",
+    "mapQuery": "SMALL WORLDS TOKYO Ariake Tokyo Japan",
+    "coords": [
+      35.635,
+      139.793
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Small Worlds Tokyo",
+      "Miniature model",
+      "Scale model"
+    ]
+  },
+  {
+    "id": "capybara-cafe-moffu",
+    "name": "Capybara Cafe Moffu",
+    "theme": "capybara",
+    "type": "animals",
+    "area": "Harajuku",
+    "what": "Hang-out cafe with capybaras",
+    "why": "In-city capybara fix on Takeshita St",
+    "link": null,
+    "mapQuery": "Capybara Cafe Moffu Harajuku Tokyo Japan",
+    "coords": [
+      35.6715,
+      139.705
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Capybara"
+    ]
+  },
+  {
+    "id": "otter-cafe-harry",
+    "name": "Otter cafe (Harry)",
+    "theme": "core",
+    "type": "animals",
+    "area": "Harajuku",
+    "what": "Otters, hedgehogs, chinchillas",
+    "why": "You flagged the otters; reserve ~2 weeks out",
+    "link": null,
+    "mapQuery": "Harry otter cafe Harajuku Tokyo Japan",
+    "coords": [
+      35.6705,
+      139.704
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Asian small-clawed otter",
+      "Otter"
+    ]
+  },
+  {
+    "id": "cat-cafe-asakusa-nekoen",
+    "name": "Cat cafe (Asakusa Nekoen)",
+    "theme": "core",
+    "type": "animals",
+    "area": "Asakusa",
+    "what": "Rescue-cat cafe by your base",
+    "why": "Easy low-key hour",
+    "link": null,
+    "mapQuery": "Asakusa Nekoen cat cafe Asakusa Tokyo Japan",
+    "coords": [
+      35.713,
+      139.794
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Cat café",
+      "Cat"
+    ]
+  },
+  {
+    "id": "mipig-cafe",
+    "name": "Mipig Cafe",
+    "theme": "core",
+    "type": "animals",
+    "area": "Meguro",
+    "what": "Micro-pig petting cafe",
+    "why": "Best-run novelty cafe; charming with a teen",
+    "link": null,
+    "mapQuery": "Mipig Cafe Meguro Tokyo Japan",
+    "coords": [
+      35.633,
+      139.716
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Miniature pig",
+      "Göttingen minipig"
+    ]
+  },
+  {
+    "id": "sumida-aquarium",
+    "name": "Sumida Aquarium",
+    "theme": "core",
+    "type": "animals",
+    "area": "Skytree",
+    "what": "Otters, penguins, giant salamanders",
+    "why": "Otters in a real habitat; 10 min from Asakusa",
+    "link": null,
+    "mapQuery": "Sumida Aquarium Tokyo Skytree Town Tokyo Japan",
+    "coords": [
+      35.71,
+      139.8107
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Sumida Aquarium",
+      "Japanese giant salamander"
+    ]
+  },
+  {
+    "id": "ueno-zoo",
+    "name": "Ueno Zoo",
+    "theme": "core",
+    "type": "animals",
+    "area": "Ueno",
+    "what": "Big classic zoo in the park",
+    "why": "5 min from Asakusa; well-regarded",
+    "link": null,
+    "mapQuery": "Ueno Zoo Ueno Tokyo Japan",
+    "coords": [
+      35.7166,
+      139.7714
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Ueno Zoo",
+      "Giant panda"
+    ]
+  },
+  {
+    "id": "omoide-yokocho",
+    "name": "Omoide Yokocho",
+    "theme": "ramen",
+    "type": "eat",
+    "area": "Shinjuku",
+    "what": "Smoky lantern alley of tiny counters",
+    "why": "Ramen + yakitori + night photo + sampling in one lane",
+    "link": "https://shinjuku-omoide.com/",
+    "mapQuery": "Omoide Yokocho Shinjuku Tokyo Japan",
+    "coords": [
+      35.6935,
+      139.6995
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Omoide Yokocho",
+      "Yakitori"
+    ]
+  },
+  {
+    "id": "golden-gai",
+    "name": "Golden Gai",
+    "theme": "core",
+    "type": "eat",
+    "area": "Shinjuku",
+    "what": "Six alleys of miniature themed bars",
+    "why": "Richest alley photography in the city",
+    "link": null,
+    "mapQuery": "Golden Gai Shinjuku Tokyo Japan",
+    "coords": [
+      35.6941,
+      139.7045
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Golden Gai"
+    ]
+  },
+  {
+    "id": "hoppy-street",
+    "name": "Hoppy Street",
+    "theme": "ramen",
+    "type": "eat",
+    "area": "Asakusa",
+    "what": "Open-front izakaya row",
+    "why": "Alley dining on your doorstep",
+    "link": null,
+    "mapQuery": "Hoppy Street Asakusa Tokyo Japan",
+    "coords": [
+      35.7145,
+      139.794
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Izakaya",
+      "Motsunabe"
+    ]
+  },
+  {
+    "id": "signature-ramen-shops",
+    "name": "Signature ramen shops",
+    "theme": "ramen",
+    "type": "eat",
+    "area": "Various",
+    "what": "Afuri yuzu shio, tonkotsu, tsukemen",
+    "why": "Pick a famous bowl or two",
+    "link": null,
+    "mapQuery": "ramen Tokyo Japan",
+    "coords": [
+      35.6812,
+      139.7671
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Ramen",
+      "Tsukemen"
+    ]
+  },
+  {
+    "id": "shin-yokohama-ramen-museum",
+    "name": "Shin-Yokohama Ramen Museum",
+    "theme": "ramen",
+    "type": "eat",
+    "area": "Yokohama",
+    "what": "Retro food hall of regional ramen",
+    "why": "Showa-era set; rainy-day proof",
+    "link": null,
+    "mapQuery": "Shin-Yokohama Ramen Museum Yokohama Japan",
+    "coords": [
+      35.5115,
+      139.6165
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Shin-Yokohama Ramen Museum",
+      "Tonkotsu ramen"
+    ]
+  },
+  {
+    "id": "ameyoko-market",
+    "name": "Ameyoko Market",
+    "theme": "ramen",
+    "type": "eat",
+    "area": "Ueno",
+    "what": "Open-air market food strip",
+    "why": "Street food under the tracks; near Asakusa",
+    "link": null,
+    "mapQuery": "Ameyoko Market Ueno Tokyo Japan",
+    "coords": [
+      35.7095,
+      139.7745
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Ameya-Yokochō"
+    ]
+  },
+  {
+    "id": "shibuya-crossing-soundscape",
+    "name": "Shibuya Crossing soundscape",
+    "theme": "sampling",
+    "type": "sample",
+    "area": "Shibuya",
+    "what": "Field-record the scramble",
+    "why": "Footsteps, signals, the roar — MPC fodder",
+    "link": null,
+    "mapQuery": "Shibuya Crossing Shibuya Tokyo Japan",
+    "coords": [
+      35.6595,
+      139.7005
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Shibuya Crossing",
+      "Shibuya Station"
+    ]
+  },
+  {
+    "id": "station-jingle-hunt",
+    "name": "Station jingle hunt",
+    "theme": "sampling",
+    "type": "sample",
+    "area": "Citywide",
+    "what": "Each JR station's departure melody",
+    "why": "Collect a bank of jingles as you ride",
+    "link": null,
+    "mapQuery": "Tokyo Station Tokyo Japan",
+    "coords": [
+      35.6812,
+      139.7671
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Hassha melody",
+      "Yamanote Line",
+      "Tokyo Station"
+    ]
+  },
+  {
+    "id": "akihabara-sound-wall",
+    "name": "Akihabara sound wall",
+    "theme": "sampling",
+    "type": "sample",
+    "area": "Akihabara",
+    "what": "Arcade + electronics chaos",
+    "why": "A whole sample pack in one street",
+    "link": null,
+    "mapQuery": "Akihabara Electric Town Tokyo Japan",
+    "coords": [
+      35.6985,
+      139.773
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Akihabara Station",
+      "Akihabara Electric Town"
+    ]
+  },
+  {
+    "id": "kiyosumi-garden",
+    "name": "Kiyosumi Garden",
+    "theme": "sampling",
+    "type": "sample",
+    "area": "Kiyosumi",
+    "what": "Strolling garden with ponds",
+    "why": "Koi, bamboo, birds — the quiet end of the set",
+    "link": null,
+    "mapQuery": "Kiyosumi Garden Koto Tokyo Japan",
+    "coords": [
+      35.681,
+      139.7975
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Kiyosumi Garden",
+      "Kiyosumi Gardens"
+    ]
+  },
+  {
+    "id": "dormy-inn-express-asakusa",
+    "name": "Dormy Inn Express Asakusa",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Asakusa",
+    "what": "Budget hotel, rooftop onsen + free night ramen",
+    "why": "Value pick, the bath-and-ramen ritual, ~$110/night",
+    "link": "https://dormy-hotels.com/dormyinn/hotels/asakusa/",
+    "mapQuery": "Dormy Inn Express Asakusa Tokyo Japan",
+    "coords": [
+      35.711,
+      139.79
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Onsen",
+      "Sentō"
+    ]
+  },
+  {
+    "id": "mimaru-asakusa-station",
+    "name": "MIMARU Asakusa Station",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Asakusa",
+    "what": "Apartment hotel, kitchen + laundry",
+    "why": "Best for a week; 4.9★; steps from Kaminarimon",
+    "link": "https://mimaruhotels.com/en/hotel/asakusa-station/",
+    "mapQuery": "MIMARU TOKYO ASAKUSA STATION Tokyo Japan",
+    "coords": [
+      35.7115,
+      139.7975
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Sumida River",
+      "Azumabashi"
+    ]
+  },
+  {
+    "id": "the-gate-kaminarimon",
+    "name": "The Gate Kaminarimon",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Asakusa",
+    "what": "Stylish 4-star by Senso-ji",
+    "why": "Upscale; rooftop Skytree bar",
+    "link": "https://www.gate-hotel.jp/asakusa-kaminarimon/",
+    "mapQuery": "The Gate Hotel Kaminarimon Asakusa Tokyo Japan",
+    "coords": [
+      35.7105,
+      139.796
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Kaminarimon",
+      "Tokyo Skytree"
+    ]
+  },
+  {
+    "id": "izu-resort-villa",
+    "name": "Izu Resort Villa",
+    "theme": "capybara",
+    "type": "trip",
+    "area": "Izu",
+    "what": "Villa inside a capybara petting zone",
+    "why": "Free-roaming capybaras from your room; overnight",
+    "link": "https://izu-resort-villa.com/en/",
+    "mapQuery": "Izu Resort Villa Izu Shizuoka Japan",
+    "coords": [
+      34.83,
+      139.07
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Izu Peninsula",
+      "Capybara"
+    ]
+  },
+  {
+    "id": "izu-day-trip",
+    "name": "Izu day trip",
+    "theme": "capybara",
+    "type": "trip",
+    "area": "Izu",
+    "what": "Shaboten Zoo + coast + craft + onsen",
+    "why": "Capybaras without the overnight — one long day",
+    "link": null,
+    "mapQuery": "Izu Shaboten Zoo Ito Shizuoka Japan",
+    "coords": [
+      34.894,
+      139.09
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Izu Shaboten Zoo",
+      "Jōgasaki Coast"
+    ]
+  },
+  {
+    "id": "nikko",
+    "name": "Nikko",
+    "theme": "core",
+    "type": "trip",
+    "area": "Nikko",
+    "what": "Cedar forests, falls, lavish shrines",
+    "why": "Best autumn color on our dates; Tobu from Asakusa",
+    "link": null,
+    "mapQuery": "Nikko Tochigi Japan",
+    "coords": [
+      36.758,
+      139.599
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Nikkō Tōshō-gū",
+      "Nikkō, Tochigi"
+    ]
+  },
+  {
+    "id": "hakone-open-air-museum",
+    "name": "Hakone Open-Air Museum",
+    "theme": "core",
+    "type": "trip",
+    "area": "Hakone",
+    "what": "Sculpture park w/ Picasso pavilion",
+    "why": "Art + onsen + Fuji odds; most on-theme trip",
+    "link": "https://www.hakone-oam.or.jp/",
+    "mapQuery": "Hakone Open-Air Museum Hakone Kanagawa Japan",
+    "coords": [
+      35.244,
+      139.049
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Hakone Open-Air Museum",
+      "Hakone"
+    ]
+  },
+  {
+    "id": "kawagoe",
+    "name": "Kawagoe (Little Edo)",
+    "theme": "photography",
+    "type": "trip",
+    "area": "Kawagoe",
+    "what": "Preserved Edo warehouse streets",
+    "why": "45 min out; film goldmine",
+    "link": null,
+    "mapQuery": "Kawagoe Kurazukuri Street Saitama Japan",
+    "coords": [
+      35.925,
+      139.485
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Kawagoe, Saitama",
+      "Toki no Kane"
+    ]
+  },
+  {
+    "id": "kawaguchiko",
+    "name": "Kawaguchiko",
+    "theme": "photography",
+    "type": "trip",
+    "area": "Fuji Five Lakes",
+    "what": "Postcard Fuji reflected in the lake",
+    "why": "October = clearest Fuji odds",
+    "link": null,
+    "mapQuery": "Lake Kawaguchi Fujikawaguchiko Yamanashi Japan",
+    "coords": [
+      35.517,
+      138.753
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Lake Kawaguchi",
+      "Mount Fuji"
+    ]
+  },
+  {
+    "id": "the-kanzashi-tokyo-asakusa",
+    "name": "THE KANZASHI TOKYO ASAKUSA",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Asakusa",
+    "what": "Design-forward mid-range hotel about a 4-minute walk from Asakusa Station, with twin-bed rooms and an on-site cafe/breakfast venue.",
+    "why": "Cheapest of the shortlist at roughly $105/night for a two-person room, so it frees up budget for the denim and synth shopping tracks. Twin-bed layout suits a father-daughter pairing, and there's a guest laundromat for an 8-night stay.",
+    "link": "https://kanzashi-tokyoasakusa.com/en/",
+    "mapQuery": "THE KANZASHI TOKYO ASAKUSA, Asakusa, Tokyo",
+    "coords": [35.7164206, 139.7952283],
+    "coordPrecision": "exact",
+    "imageQueries": ["Asakusa Taito Tokyo hotel", "Asakusa district Tokyo"]
+  },
+  {
+    "id": "hotel-gracery-asakusa",
+    "name": "Hotel Gracery Asakusa",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Kaminarimon / Asakusa",
+    "what": "Modern business-class hotel at 2-10-2 Kaminarimon, roughly 3 minutes' walk from Asakusa Station.",
+    "why": "Around $127/night for two. Rooms are compact but include a tub, and some categories face Tokyo Skytree — a good night-shot subject from the window. Free amenity bar and coin laundry on the ground floor, plus a luggage-forwarding pickup service.",
+    "link": "https://asakusa.gracery.com/",
+    "mapQuery": "HOTEL GRACERY ASAKUSA, Kaminarimon, Tokyo",
+    "coords": [35.7096226, 139.795442],
+    "coordPrecision": "exact",
+    "imageQueries": ["Kaminarimon Taito Tokyo street", "Tokyo Skytree from Asakusa night"]
+  },
+  {
+    "id": "richmond-hotel-premier-asakusa",
+    "name": "Richmond Hotel Premier Asakusa",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Asakusa",
+    "what": "Larger-than-average business hotel at 2-6-7 Asakusa with per-floor laundry, about 3 minutes from Asakusa Station.",
+    "why": "About $127/night for two. Rooms run bigger than the Tokyo norm, which matters over 8 nights with two people and camera and audio gear spread out. Uniqlo is downstairs and Don Quijote is directly across the street.",
+    "link": "https://richmondhotel.jp/asakusa-international/",
+    "mapQuery": "Richmond Hotel Premier Asakusa, Tokyo",
+    "coords": [35.7141245, 139.7936921],
+    "coordPrecision": "exact",
+    "imageQueries": ["Asakusa Taito Tokyo urban", "Don Quijote store Tokyo"]
+  },
+  {
+    "id": "asakusa-tobu-hotel",
+    "name": "Asakusa Tobu Hotel",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Asakusa",
+    "what": "Hotel directly beside Asakusa Station at 1-1-15 Asakusa, roughly a 1-minute walk to the platforms.",
+    "why": "About $133/night for two and the single most convenient location on the list — reviewers with families call it the most convenient choice in the area. Corner rooms sleep three and are notably spacious, and some face the Sumida River.",
+    "link": "https://www.tobuhotel.co.jp/asakusa/en/",
+    "mapQuery": "Asakusa Tobu Hotel, Asakusa, Tokyo",
+    "coords": [35.7113848, 139.7974249],
+    "coordPrecision": "exact",
+    "imageQueries": ["Asakusa Station Tokyo", "Sumida River Asakusa bridge"]
+  },
+  {
+    "id": "onyado-nono-asakusa",
+    "name": "Onyado Nono Asakusa Natural Hot Springs Hotel",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Asakusa",
+    "what": "Shoe-free tatami-style hotel with natural hot spring baths and sauna, at 2-7-20 Asakusa, about 4 minutes from Asakusa Station Exit A1.",
+    "why": "About $155/night for two. Part of the Dormy Inn family. Rooms are tatami and shoe-free throughout, higher floors see both Sensō-ji and Skytree, and there's free evening soba/ramen and post-bath ice cream. Note: onsen and sauna are gender-segregated.",
+    "link": "https://dormy-hotels.com/dormyinn/hotels/nono_asakusa/",
+    "mapQuery": "Onyado Nono Asakusa, Taito, Tokyo",
+    "coords": [35.715214, 139.7942107],
+    "coordPrecision": "exact",
+    "imageQueries": ["Japanese onsen bath", "Asakusa Taito Tokyo district"]
+  },
+  {
+    "id": "onyado-nono-asakusa-bettei",
+    "name": "Onyado Nono Asakusa Bettei",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Asakusa",
+    "what": "Separate annex property of Onyado Nono at 2-7-26 Asakusa, also shoe-free with basement natural hot spring baths.",
+    "why": "A distinct hotel from the main Onyado Nono, roughly 100m away — easy to book the wrong one. Larger rooms (triples available, 25+ sq m categories), free midnight ramen, free ice cream, massage chairs. Onsen is gender-segregated.",
+    "link": "https://dormy-hotels.com/dormyinn/hotels/nono_asakusabettei/",
+    "mapQuery": "Onyado Nono Asakusa Bettei, Taito, Tokyo",
+    "coords": [35.7149164, 139.7947242],
+    "coordPrecision": "exact",
+    "imageQueries": ["Japanese ryokan tatami room modern", "Tokyo hotel room interior"]
+  },
+  {
+    "id": "kaminarimon-ryokan",
+    "name": "Kaminarimon Ryokan",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Asakusa",
+    "what": "Small traditional-modern ryokan at 1-18-2 Asakusa overlooking the Kaminarimon gate, 1 minute from Asakusa Station.",
+    "why": "The priciest at about $246/night for two, and the highest-rated of the group. Rooms directly overlook Kaminarimon — the night view of the illuminated gate from the room is the kind of shot that's hard to get any other way.",
+    "link": "https://www.kaminarimon.co.jp/en/",
+    "mapQuery": "Kaminarimon Ryokan, Asakusa, Tokyo",
+    "coords": [35.7113272, 139.7961382],
+    "coordPrecision": "exact",
+    "imageQueries": ["Kaminarimon gate night illuminated", "Japanese ryokan futon room traditional"]
+  },
+  {
+    "id": "omo3-asakusa",
+    "name": "OMO3 Asakusa by Hoshino Resorts",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Hanakawado / Asakusa",
+    "what": "Hoshino Resorts city hotel at 1-15-5 Hanakawado with a 13th-floor lounge and rooftop terrace facing Sensō-ji and Tokyo Skytree.",
+    "why": "Two separate reviewers singled out the views — one called it among the best hotel views in Tokyo for the Sensō-ji five-story pagoda at dusk, and the rooftop terrace frames Skytree directly. That's a photography-track asset built into the room rate.",
+    "link": "https://hoshinoresorts.com/en/hotels/omo3asakusa/",
+    "mapQuery": "OMO3 Asakusa by Hoshino Resorts, Hanakawado, Tokyo",
+    "coords": [35.7138264, 139.7983176],
+    "coordPrecision": "exact",
+    "imageQueries": ["Senso-ji five-story pagoda dusk", "Tokyo Skytree rooftop view"]
+  },
+  {
+    "id": "ryokan-kamogawa-asakusa",
+    "name": "Ryokan Kamogawa Asakusa",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Asakusa",
+    "what": "Small traditional Japanese ryokan near Kaminarimon and Senso-ji with tatami rooms, futon bedding, and private bathrooms.",
+    "why": "One of the strongest traditional options for an adult traveling with a 13-year-old: genuinely Japanese without giving up a private bathroom. The standard 16.5-square-meter tatami room is intended for pairs or small families.",
+    "link": "https://www.f-kamogawa.jp/english/",
+    "mapQuery": "Ryokan Kamogawa Asakusa 1-30-10 Asakusa Taito Tokyo",
+    "coords": [35.7125, 139.7960],
+    "coordPrecision": "area",
+    "imageQueries": ["Ryokan Kamogawa Asakusa", "Asakusa traditional ryokan"]
+  },
+  {
+    "id": "ryokan-asakusa-shigetsu",
+    "name": "Ryokan Asakusa Shigetsu",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Asakusa",
+    "what": "Traditional Japanese inn just off Nakamise with tatami rooms, futons, private bathrooms, and a sixth-floor cypress bath.",
+    "why": "A more polished ryokan option while retaining traditional Japanese rooms. Its location makes early-morning and evening walks around Senso-ji particularly easy.",
+    "link": "https://www.shigetsu.com/en/",
+    "mapQuery": "Ryokan Asakusa Shigetsu 1-31-11 Asakusa Taito Tokyo",
+    "coords": [35.71244, 139.79604],
+    "coordPrecision": "exact",
+    "imageQueries": ["Ryokan Asakusa Shigetsu", "Asakusa Shigetsu ryokan"]
+  },
+  {
+    "id": "ryokan-asakusa-mikawaya-honten",
+    "name": "Ryokan Asakusa Mikawaya Honten",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Asakusa",
+    "what": "Basic old-school Asakusa ryokan with Japanese-style tatami rooms alongside a few Western rooms.",
+    "why": "Interesting specifically because it is simpler and less boutique-like than many modern ryokan; a good candidate if the goal is an inexpensive, straightforward traditional stay near Nakamise rather than luxury.",
+    "link": "https://asakusamikawaya.com",
+    "mapQuery": "Ryokan Asakusa Mikawaya Honten 1-30-12 Asakusa Taito Tokyo",
+    "coords": [35.7125, 139.7961],
+    "coordPrecision": "area",
+    "imageQueries": ["Ryokan Mikawaya Honten Asakusa", "Asakusa Mikawaya Honten"]
+  },
+  {
+    "id": "tokyo-ryokan",
+    "name": "Tokyo Ryokan",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Nishi-Asakusa",
+    "what": "Extremely small three-room Japanese inn designed by a Japanese architect in Nishi-Asakusa.",
+    "why": "One of the most intimate options discussed: only three rooms and a much more personal scale than a conventional hotel, while remaining close to Asakusa and Tawaramachi stations.",
+    "link": "https://www.tokyoryokan.com/",
+    "mapQuery": "Tokyo Ryokan 2-4-8 Nishi-Asakusa Taito Tokyo",
+    "coords": [35.7127, 139.7905],
+    "coordPrecision": "area",
+    "imageQueries": ["Nishi Asakusa Tokyo street", "Tawaramachi station Tokyo"]
+  },
+  {
+    "id": "asakusa-ryokan-toukaisou",
+    "name": "Asakusa Ryokan Toukaisou",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Nishi-Asakusa",
+    "what": "Simple budget ryokan with tatami rooms, private bath, shower and Western-style toilet.",
+    "why": "A practical low-cost way to get the tatami-and-futon experience without sacrificing a private bathroom; it also has rooftop laundry facilities that could be useful during an eight-night trip.",
+    "link": "https://toukaisou.com/en/",
+    "mapQuery": "Asakusa Ryokan Toukaisou 2-16-12 Nishiasakusa Taito Tokyo",
+    "coords": [35.7132, 139.7908],
+    "coordPrecision": "area",
+    "imageQueries": ["Asakusa Ryokan Toukaisou", "Toukaisou Nishiasakusa"]
+  },
+  {
+    "id": "cyashitsu-ryokan-asakusa",
+    "name": "cyashitsu ryokan asakusa",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Asakusa",
+    "what": "Compact contemporary ryokan whose rooms reinterpret the architecture and aesthetics of a traditional Japanese tea room.",
+    "why": "More design-conscious than old-fashioned, making it particularly interesting for someone interested in Japanese craft and architecture. The property also has a reservable rooftop cypress bath.",
+    "link": "https://www.cyashitsu.com/",
+    "mapQuery": "cyashitsu ryokan asakusa 3-32-12 Asakusa Taito Tokyo",
+    "coords": [35.7178, 139.7962],
+    "coordPrecision": "area",
+    "imageQueries": ["cyashitsu ryokan asakusa", "Japanese tea room architecture Asakusa"]
+  },
+  {
+    "id": "asakusa-kaede",
+    "name": "Asakusa Kaede",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Asakusa",
+    "what": "Nine-room boutique hotel built around Japanese traditional arts and crafts, with tatami and contemporary Japanese interiors.",
+    "why": "Perhaps the best crossover between the small-hotel idea and an interest in Japanese craft: each of its nine rooms showcases Japanese arts and craftsmanship, and the hotel partners with local artisans for cultural programs.",
+    "link": "https://asakusa-kaede.com/",
+    "mapQuery": "Asakusa Kaede 1-31-5 Asakusa Taito Tokyo",
+    "coords": [35.7124, 139.7959],
+    "coordPrecision": "area",
+    "imageQueries": ["Asakusa Kaede hotel", "Asakusa Kaede Japanese crafts"]
+  },
+  {
+    "id": "hotel-tomos-asakusa",
+    "name": "HOTEL TOMOS ASAKUSA",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Asakusa",
+    "what": "Small contemporary Japanese hotel in the quieter northern part of Asakusa with private bathrooms and a shared rooftop.",
+    "why": "A good alternative to sleeping on futons every night: contemporary, quiet and independent-feeling while remaining walkable to Senso-ji. Useful as a comfortable main base for a longer stay.",
+    "link": "https://www.hotel-tomos.com/",
+    "mapQuery": "HOTEL TOMOS ASAKUSA 7-2-4 Asakusa Taito Tokyo",
+    "coords": [35.7198, 139.8012],
+    "coordPrecision": "area",
+    "imageQueries": ["HOTEL TOMOS ASAKUSA", "Tomos Asakusa hotel"]
+  },
+  {
+    "id": "asakusa-kokono-club-hotel",
+    "name": "ASAKUSA KOKONO CLUB HOTEL",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Asakusa",
+    "what": "Japanese-design hotel integrated with a theater, restaurant and performing-arts venue near Senso-ji.",
+    "why": "More culturally active and youthful than a conventional hotel. The building incorporates murals, traditional craftsmanship and the Asakusa Kokono Theater.",
+    "link": "https://asakusakokonoclub.com/en",
+    "mapQuery": "ASAKUSA KOKONO CLUB HOTEL 2-16-2 Asakusa Taito Tokyo",
+    "coords": [35.7154, 139.7934],
+    "coordPrecision": "area",
+    "imageQueries": ["Asakusa Kokono Club Hotel", "Asakusa Kokono Theater"]
+  },
+  {
+    "id": "toe-library",
+    "name": "TOE LIBRARY",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Asakusa",
+    "what": "Tiny three-room design hotel where each floor is privately occupied and furnished with books, vintage furniture, art and objects.",
+    "why": "One of the most unusual small-hotel choices discussed. Rooms are substantially larger than typical Tokyo rooms and the emphasis on books, furniture, music and design gives it a distinct personality.",
+    "link": "https://toelibrary.jp/",
+    "mapQuery": "TOE LIBRARY 7-6-4 Asakusa Taito Tokyo",
+    "coords": [35.7202, 139.8021],
+    "coordPrecision": "area",
+    "imageQueries": ["TOE LIBRARY Asakusa", "TOE LIBRARY hotel Tokyo"]
+  },
+  {
+    "id": "banrai-hotel-asakusa",
+    "name": "BANRAI HOTEL Asakusa",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Kaminarimon",
+    "what": "Simple small hotel near Kaminarimon with Japanese touches and larger rooms than many basic Tokyo hotels.",
+    "why": "A basic, centrally located alternative to the more design-oriented properties. The hotel explicitly promotes Japanese cultural elements and also offers an optional kimono-and-rickshaw Asakusa experience.",
+    "link": "https://banraihotel.airhost.co/",
+    "mapQuery": "BANRAI HOTEL Asakusa 2-3-7 Kaminarimon Taito Tokyo",
+    "coords": [35.7099, 139.7960],
+    "coordPrecision": "area",
+    "imageQueries": ["BANRAI HOTEL Asakusa", "Kaminarimon Asakusa hotel"]
+  },
+  {
+    "id": "hotel-little-bird-oku-asakusa",
+    "name": "HOTEL LITTLE BIRD OKU-ASAKUSA",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Oku-Asakusa",
+    "what": "Tiny owner-run vintage-style hotel in residential Oku-Asakusa with one room per floor and in-room mini kitchens.",
+    "why": "Less convenient than central Asakusa but potentially more interesting for experiencing an actual residential neighborhood. The independent kitchen, shower and toilet make it practical for a longer stay.",
+    "link": "https://hotellittlebird.com/",
+    "mapQuery": "HOTEL LITTLE BIRD OKU-ASAKUSA 5-14-4 Asakusa Taito Tokyo",
+    "coords": [35.7211, 139.7947],
+    "coordPrecision": "area",
+    "imageQueries": ["Hotel Little Bird Oku Asakusa", "Oku Asakusa Tokyo"]
+  },
+  {
+    "id": "koko-hotel-residence-asakusa-kappabashi",
+    "name": "KOKO HOTEL Residence Asakusa Kappabashi",
+    "theme": "lodging",
+    "type": "stay",
+    "area": "Nishi-Asakusa / Kappabashi",
+    "what": "Apartment-style hotel near Kappabashi with larger rooms and facilities aimed at longer stays.",
+    "why": "Less traditional but practical for an eight-night base because the residence format provides substantially more living space and household conveniences than a tiny ryokan room.",
+    "link": "https://koko-hotels.com/",
+    "mapQuery": "KOKO HOTEL Residence Asakusa Kappabashi 3-24-2 Nishiasakusa Taito Tokyo",
+    "coords": [35.7167, 139.7898],
+    "coordPrecision": "area",
+    "imageQueries": ["Kappabashi Tokyo street", "KOKO HOTEL Residence Asakusa"]
+  },
+  {
+    "id": "nakamise-dori",
+    "name": "Nakamise-dori",
+    "theme": "core",
+    "type": "shop",
+    "area": "Asakusa",
+    "what": "Historic shopping street running from Kaminarimon toward Senso-ji, lined with traditional snacks, souvenirs and small shops.",
+    "why": "Several of the recommended ryokan sit immediately beside it, making the historic commercial streetscape part of the everyday experience rather than a separate sightseeing excursion.",
+    "link": "https://www.asakusa-nakamise.jp/e-index.html",
+    "mapQuery": "Nakamise Shopping Street Asakusa Tokyo",
+    "coords": [35.7126, 139.7965],
+    "coordPrecision": "area",
+    "imageQueries": ["Nakamise dori Asakusa", "Nakamise shopping street"]
+  },
+  {
+    "id": "kaminarimon",
+    "name": "Kaminarimon",
+    "theme": "core",
+    "type": "see",
+    "area": "Asakusa",
+    "what": "The iconic Thunder Gate marking the entrance to Senso-ji and Nakamise-dori.",
+    "why": "One of the defining landmarks of the neighborhood and immediately accessible from several of the small hotels and ryokan considered for the trip.",
+    "link": "https://www.senso-ji.jp/english/",
+    "mapQuery": "Kaminarimon Asakusa Tokyo",
+    "coords": [35.7111, 139.7964],
+    "coordPrecision": "area",
+    "imageQueries": ["Kaminarimon lantern", "Thunder Gate Tokyo night"]
+  },
+  {
+    "id": "asakusa-traditional-ryokan-stay",
+    "name": "Traditional Asakusa Ryokan & Futon Stay",
+    "theme": "core",
+    "type": "do",
+    "area": "Asakusa",
+    "what": "Spend one or more Tokyo nights in a tatami room sleeping on traditional Japanese futon bedding.",
+    "why": "The useful compromise is choosing a traditional room with a private Western-style toilet and bathroom rather than sacrificing basic convenience purely for authenticity.",
+    "link": null,
+    "mapQuery": "Asakusa ryokan Tokyo",
+    "coords": [35.7148, 139.7967],
+    "coordPrecision": "area",
+    "imageQueries": ["Japanese ryokan tatami futon", "Asakusa ryokan room"]
+  },
+  {
+    "id": "hakone-overnight-trip",
+    "name": "Hakone Overnight Trip",
+    "theme": "nature",
+    "type": "trip",
+    "area": "Hakone",
+    "what": "Potential one-night excursion from Tokyo to Hakone for mountain scenery and a traditional ryokan experience.",
+    "why": "Discussed as a better place than central Tokyo to spend money on one special traditional ryokan night. It would create a clear contrast with a simple Asakusa base.",
+    "link": "https://www.hakonenavi.jp/international/en/",
+    "mapQuery": "Hakone Kanagawa Japan",
+    "coords": [35.2324, 139.1069],
+    "coordPrecision": "area",
+    "imageQueries": ["Hakone Japan", "Hakone ryokan", "Hakone Mount Fuji"]
+  },
+  {
+    "id": "private-family-onsen",
+    "name": "Private Family Onsen / Kashikiri-buro",
+    "theme": "onsen",
+    "type": "do",
+    "area": "Hakone",
+    "what": "A reservable private hot-spring bath used only by your party for a scheduled period.",
+    "why": "Discussed as an alternative to gender-separated public bathing for a father traveling with a 13-year-old daughter. It removes the need for either traveler to enter a public bath alone.",
+    "link": null,
+    "mapQuery": "private kashikiri onsen Hakone Japan",
+    "coords": [35.2324, 139.1069],
+    "coordPrecision": "area",
+    "imageQueries": ["kashikiri buro Japan", "private onsen Hakone"]
+  },
+  {
+    "id": "in-room-private-onsen",
+    "name": "Ryokan with Private In-Room Onsen",
+    "theme": "onsen",
+    "type": "stay",
+    "area": "Hakone",
+    "what": "Traditional ryokan room with its own private hot-spring bath, sometimes outdoors on a terrace.",
+    "why": "Discussed as the easiest onsen arrangement for an adult father and 13-year-old daughter because each person can use the bath privately at different times while still getting the full ryokan experience.",
+    "link": null,
+    "mapQuery": "ryokan private in-room onsen Hakone Japan",
+    "coords": [35.2324, 139.1069],
+    "coordPrecision": "area",
+    "imageQueries": ["Hakone ryokan private onsen", "Japanese ryokan private open air bath"]
+  },
+  {
+    "id": "sokichi-kiriko-workshop",
+    "name": "Sokichi Kiriko Experience Workshop",
+    "theme": "crafts",
+    "type": "do",
+    "area": "Asakusa",
+    "what": "Hands-on Edo Kiriko workshop where you use a grinding wheel to cut traditional geometric patterns into your own glass.",
+    "why": "One of the strongest craft choices for the trip because you actually work with the cutting equipment rather than simply decorate a souvenir. Sokichi's official workshop allows participants age 9+, so a 13-year-old is explicitly eligible, and beginner patterns and English-language information are available.",
+    "link": "https://en.sokichi-workshop.com/",
+    "mapQuery": "Sokichi Kiriko Experience Workshop Asakusa",
+    "coords": [35.7107, 139.7975],
+    "coordPrecision": "area",
+    "imageQueries": ["Edo Kiriko", "Edo Kiriko glass cutting", "Asakusa Edo Kiriko"]
+  },
+  {
+    "id": "sumida-edo-kiriko-kan",
+    "name": "Sumida Edo Kiriko-kan",
+    "theme": "crafts",
+    "type": "do",
+    "area": "Kinshicho",
+    "what": "Working Edo Kiriko studio, shop and small exhibition where visitors can reserve a traditional glass-cutting experience.",
+    "why": "A more workshop-oriented alternative to Sokichi where you can see professional Edo Kiriko work and then cut a glass yourself. The official site accepts workshop participants from elementary-school fourth grade, so a 13-year-old is suitable.",
+    "link": "https://www.edokiriko.net/",
+    "mapQuery": "Sumida Edo Kiriko-kan 2-10-9 Taihei Sumida Tokyo",
+    "coords": [35.7007, 139.8119],
+    "coordPrecision": "area",
+    "imageQueries": ["Kinshicho Tokyo", "Japanese cut glass workshop", "Sumida glass craft"]
+  },
+  {
+    "id": "watashino-washi-papermaking",
+    "name": "watashino Washi Papermaking Experience",
+    "theme": "crafts",
+    "type": "do",
+    "area": "Asakusa",
+    "what": "Hands-on workshop where you form traditional Japanese washi paper and make four postcard-sized sheets to take home.",
+    "why": "Unlike a paper-decorating activity, you actually perform the sheet-forming part of papermaking. It is compact enough to combine with an Asakusa day and is particularly good if you both enjoy materials, paper, drawing or printing.",
+    "link": "https://watashino.style/en-us",
+    "mapQuery": "watashino 1-32-11 Asakusa Tokyo",
+    "coords": [35.7123, 139.7971],
+    "coordPrecision": "area",
+    "imageQueries": ["Japanese washi papermaking", "Tosa Washi", "traditional Japanese paper making"]
+  },
+  {
+    "id": "ozu-washi",
+    "name": "Ozu Washi",
+    "theme": "crafts",
+    "type": "do",
+    "area": "Nihonbashi",
+    "what": "Historic washi specialist founded in 1653 with a shop, museum, gallery and hands-on studio for making a sheet of Japanese paper.",
+    "why": "The deeper and more historically focused washi option: you can make an A4 sheet with traditional tools, then examine regional papers and the history of the material. Particularly interesting for someone interested in art materials and fabrication rather than just souvenirs.",
+    "link": "https://www.ozuwashi.net/en/index.html",
+    "mapQuery": "Ozu Washi 3-6-2 Nihonbashihoncho Tokyo",
+    "coords": [35.6903, 139.7758],
+    "coordPrecision": "area",
+    "imageQueries": ["Nihonbashi Tokyo traditional", "Japanese paper craft shop", "washi museum"]
+  },
+  {
+    "id": "kumihimo-experience-by-domyo",
+    "name": "Kumihimo Experience by DOMYO",
+    "theme": "crafts",
+    "type": "do",
+    "area": "Kagurazaka",
+    "what": "Traditional silk-cord braiding workshop using authentic kumihimo equipment at a braiding house founded in 1652.",
+    "why": "One of the least touristy and most technically interesting choices discussed. You learn the history of kumihimo and braid a strap or bracelet from silk thread using the same basic tools and processes associated with traditional Japanese cord making. English-language workshop plans are offered.",
+    "link": "https://kdomyo.com/en/pages/kagurazaka-experience",
+    "mapQuery": "Kumihimo Experience by DOMYO 6-75 Kagurazaka Tokyo",
+    "coords": [35.7041, 139.7355],
+    "coordPrecision": "area",
+    "imageQueries": ["Japanese kumihimo", "kumihimo braiding", "traditional Japanese silk cord"]
+  },
+  {
+    "id": "aizome-museum",
+    "name": "Aizome Museum",
+    "theme": "crafts",
+    "type": "do",
+    "area": "Kyojima",
+    "what": "Small working indigo-dyeing museum and studio where a traditional craftsman offers reservation-only tenugui indigo-dyeing experiences.",
+    "why": "A particularly authentic option: this is a working Sumida craft studio rather than a generic tourist class. You can see traditional indigo-dyed yukata, hanten, carved stencils and tools and arrange a hands-on tenugui dyeing experience. The workshop actively teaches indigo dyeing to school groups, making it a strong candidate for a 13-year-old, though no specific minimum age was found.",
+    "link": "https://www.city.sumida.lg.jp/sangyo_jigyosya/sangyo/pr_brand_hyousyo/sumida3m/tiiki/hokubu/aizome.html",
+    "mapQuery": "Aizome Museum 1-29-1 Kyojima Sumida Tokyo",
+    "coords": [35.7176, 139.8204],
+    "coordPrecision": "area",
+    "imageQueries": ["Japanese aizome indigo", "traditional Japanese indigo dyeing", "aizome yukata"]
+  },
+  {
+    "id": "somenova",
+    "name": "somenova",
+    "theme": "crafts",
+    "type": "do",
+    "area": "Nihonbashi",
+    "what": "Dyeing workshop operated by Miyakozome's dye manufacturer, whose business dates to 1890, offering hands-on Japanese textile-dyeing experiences.",
+    "why": "A more structured and accessible alternative to the tiny Aizome Museum, with multiple dyeing techniques and projects. A current furoshiki shibori-style dyeing workshop is scheduled through January 2027; a third-party booking source lists it as unsuitable only for children under 5, so age 13 is appropriate for that specific program.",
+    "link": "https://www.katsuraya-fg.com/somenova/",
+    "mapQuery": "somenova 14-7 Nihonbashi Kobunacho Tokyo",
+    "coords": [35.6868, 139.7796],
+    "coordPrecision": "area",
+    "imageQueries": ["Japanese shibori dyeing", "Japanese textile dyeing", "traditional Japanese dyeing"]
+  },
+  {
+    "id": "tsukada-kobo",
+    "name": "Tsukada Kobo",
+    "theme": "crafts",
+    "type": "do",
+    "area": "Mukojima",
+    "what": "Seventh-generation Edo kimekomi doll workshop where visitors can learn the traditional technique of pressing patterned fabric into precisely cut grooves.",
+    "why": "Founded in 1841 and still a working doll atelier. We discussed its newer sumo-wrestler experience as especially fun because it combines a serious traditional technique with an amusing object to take home; the studio also offers traditional owl kimekomi workshops. No specific minimum age was confirmed.",
+    "link": null,
+    "mapQuery": "Tsukada Kobo 2-11-7 Mukojima Sumida Tokyo",
+    "coords": [35.7154, 139.8068],
+    "coordPrecision": "area",
+    "imageQueries": ["Edo kimekomi doll", "Japanese kimekomi dolls", "traditional Japanese doll making"]
+  },
+  {
+    "id": "tanaka-sudare",
+    "name": "Tanaka Sudare",
+    "theme": "crafts",
+    "type": "do",
+    "area": "Senzoku",
+    "what": "Meiji-era Edo sudare workshop where visitors can watch traditional bamboo-blind production and weave a coaster, mat or other small sudare piece.",
+    "why": "One of the most appealing options if you want an actual working craftsman's shop rather than a polished tourist workshop. You manipulate the bamboo and weighted weaving tools yourself and leave with the object you made. The studio explicitly accepts educational visits by children and a current booking listing allows participants from age 6, so age 13 is suitable.",
+    "link": "https://www.handicrafts.co.jp/original23.html",
+    "mapQuery": "Tanaka Sudare 1-18-6 Senzoku Taito Tokyo",
+    "coords": [35.7213, 139.7908],
+    "coordPrecision": "area",
+    "imageQueries": ["Edo sudare", "Japanese bamboo blinds", "traditional sudare weaving"]
+  },
+  {
+    "id": "tsumami-zaiku-kanzashi-workshop",
+    "name": "Tsumami-zaiku / Kanzashi Workshop",
+    "theme": "crafts",
+    "type": "do",
+    "area": "Asakusabashi",
+    "what": "Traditional craft experience folding and pinching tiny squares of fabric into flowers used for Japanese kanzashi hair ornaments.",
+    "why": "Fine, precise handwork that seemed particularly appropriate for a capable 13-year-old: the technique uses tweezers to transform small fabric pieces into surprisingly elaborate floral forms. We discussed the craft and Asakusabashi as the place to look for it, but did not identify a specific verified workshop operator, so the location remains area-level.",
+    "link": null,
+    "mapQuery": "Tsumami Zaiku workshop Asakusabashi Tokyo",
+    "coords": [35.6974, 139.7855],
+    "coordPrecision": "area",
+    "imageQueries": ["tsumami zaiku", "Japanese kanzashi flowers", "traditional tsumami zaiku"]
+  },
+  {
+    "id": "kintsugi-tsugu-tsugu-ebisu",
+    "name": "Kintsugi Tsugu Tsugu Ebisu Studio",
+    "theme": "crafts",
+    "type": "do",
+    "area": "Ebisu",
+    "what": "Dedicated kintsugi studio teaching Japanese techniques for visibly repairing broken ceramics with lacquer and metallic finishes.",
+    "why": "Conceptually one of the most interesting crafts discussed because the repair becomes part of the object's design. Tsugu Tsugu teaches both traditional urushi-based kintsugi and shorter kintsugi-style experiences. We noted that tourist kintsugi classes vary substantially in authenticity, so the specific course should be checked before booking. No minimum age for the relevant October workshop was confirmed.",
+    "link": "https://kintsugi-kit.com/",
+    "mapQuery": "Kintsugi Tsugu Tsugu 2-21-2 Ebisu Tokyo",
+    "coords": [35.6445, 139.7168],
+    "coordPrecision": "area",
+    "imageQueries": ["Japanese kintsugi", "traditional kintsugi pottery", "urushi kintsugi"]
+  },
+  {
+    "id": "edo-taito-traditional-crafts-center",
+    "name": "Edo Taito Traditional Crafts Center",
+    "theme": "crafts",
+    "type": "see",
+    "area": "Asakusa",
+    "what": "Free traditional-crafts center displaying hundreds of examples of Tokyo handicrafts, with regular artisan demonstrations and occasional hands-on programs.",
+    "why": "Useful as the overview stop for the entire craft theme, especially if staying in Asakusa. It lets you see dozens of craft traditions before or after doing one yourself, and weekend demonstrations provide a chance to watch working craftspeople rather than only finished objects.",
+    "link": "https://craft.city.taito.lg.jp/en/kogeikan/",
+    "mapQuery": "Edo Taito Traditional Crafts Center 2-22-13 Asakusa Tokyo",
+    "coords": [35.7172, 139.7945],
+    "coordPrecision": "area",
+    "imageQueries": ["Edo Taito Traditional Crafts Center", "Tokyo traditional crafts", "Edo traditional crafts"]
+  },
+  {
+    "id": "texas-3000-club-quattro",
+    "name": "Texas 3000 at Shibuya CLUB QUATTRO — Oct 17",
+    "theme": "rock",
+    "type": "see",
+    "area": "Shibuya",
+    "what": "Texas 3000 with Kaneko Ayano and Qiezi Mabo, live Oct. 17, 2026.",
+    "why": "Contemporary Japanese alternative rock with three acts; 13-year-old admission is explicitly permitted with a ticket.",
+    "link": "https://www.club-quattro.com/shibuya/",
+    "mapQuery": "Shibuya CLUB QUATTRO Tokyo",
+    "coords": [35.6609, 139.6978],
+    "coordPrecision": "exact",
+    "imageQueries": ["Shibuya Club Quattro", "Texas 3000 Japanese band"]
+  },
+  {
+    "id": "hero-complex-zepp-divercity",
+    "name": "HERO COMPLEX at Zepp DiverCity — Oct 18",
+    "theme": "rock",
+    "type": "see",
+    "area": "Odaiba",
+    "what": "High-energy Japanese melodic punk/rock show on Oct. 18, 2026.",
+    "why": "One of the strongest choices for a young rock drummer: fast, energetic punk with prominent live drums.",
+    "link": "https://www.zepp.co.jp/hall/divercity/",
+    "mapQuery": "Zepp DiverCity Tokyo",
+    "coords": [35.6246, 139.7756],
+    "coordPrecision": "exact",
+    "imageQueries": ["Zepp DiverCity Tokyo", "HERO COMPLEX Japanese band"]
+  },
+  {
+    "id": "harukamirai-shelter",
+    "name": "Harukamirai at Shimokitazawa SHELTER — Oct 20",
+    "theme": "rock",
+    "type": "see",
+    "area": "Shimokitazawa",
+    "what": "Harukamirai playing a small live-house rock show on Oct. 20, 2026.",
+    "why": "Probably the most authentic small Tokyo rock-club experience of the options: energetic Japanese punk/rock in the legendary tiny SHELTER.",
+    "link": "https://www.loft-prj.co.jp/SHELTER/",
+    "mapQuery": "Shimokitazawa SHELTER Tokyo",
+    "coords": [35.6602, 139.6682],
+    "coordPrecision": "exact",
+    "imageQueries": ["Shimokitazawa Shelter Tokyo", "Harukamirai band"]
+  },
+  {
+    "id": "tamtam-moon-romantic",
+    "name": "TAMTAM at Moon Romantic — Oct 21",
+    "theme": "rock",
+    "type": "see",
+    "area": "Aoyama",
+    "what": "TAMTAM with Takoashi Earphones and Tokyo Shiokoji on Oct. 21, 2026.",
+    "why": "A more experimental and groove-oriented alternative to straight rock, with particularly interesting percussion and rhythm.",
+    "link": "https://www.moonromantic.com/",
+    "mapQuery": "Moon Romantic Aoyama Tokyo",
+    "coords": [35.6655, 139.7126],
+    "coordPrecision": "exact",
+    "imageQueries": ["Moon Romantic Tokyo live house", "TAMTAM Japanese band"]
+  },
+  {
+    "id": "doona-eggman",
+    "name": "Doona + SATOH at Shibuya eggman — Oct 23",
+    "theme": "rock",
+    "type": "see",
+    "area": "Shibuya",
+    "what": "Young Tokyo rock band Doona with SATOH, live Oct. 23, 2026.",
+    "why": "A contemporary small-club Tokyo rock experience rather than an established legacy act.",
+    "link": "https://eggman.jp/",
+    "mapQuery": "Shibuya eggman Tokyo",
+    "coords": [35.6624, 139.6972],
+    "coordPrecision": "exact",
+    "imageQueries": ["Shibuya eggman Tokyo", "Doona Japanese band"]
+  },
+  {
+    "id": "the-sixth-lie-harajuku-ruido",
+    "name": "THE SIXTH LIE at Harajuku RUIDO — Oct 23",
+    "theme": "rock",
+    "type": "see",
+    "area": "Harajuku",
+    "what": "THE SIXTH LIE live at Harajuku RUIDO on Oct. 23, 2026.",
+    "why": "Electronic/cinematic Japanese rock in a small venue; the event explicitly permits school-age children, so a 13-year-old can attend.",
+    "link": "https://ruido.org/harajuku/",
+    "mapQuery": "Harajuku RUIDO Tokyo",
+    "coords": [35.6696, 139.7058],
+    "coordPrecision": "exact",
+    "imageQueries": ["Harajuku RUIDO Tokyo", "THE SIXTH LIE band"]
+  },
+  {
+    "id": "yanaka-ginza",
+    "name": "Yanaka Ginza",
+    "theme": "capybara",
+    "type": "see",
+    "area": "Yanaka",
+    "what": "Traditional shopping street famous for its resident cats, cat-themed shops, and old-Tokyo atmosphere.",
+    "why": "The cat neighborhood — stray cats lounging on rooftops, cat sculptures, cat-shaped snacks. Pairs perfectly with nearby Nezu Shrine for a quiet Yanaka half-day.",
+    "link": null,
+    "mapQuery": "Yanaka Ginza Tokyo",
+    "coords": [35.7267, 139.7628],
+    "coordPrecision": "exact",
+    "imageQueries": ["Yanaka Ginza Tokyo", "Yanaka Ginza cats", "Yanaka shopping street"]
+  },
+  {
+    "id": "tokyo-metropolitan-government-building",
+    "name": "Tokyo Metropolitan Government Building",
+    "theme": "view",
+    "type": "see",
+    "area": "Shinjuku",
+    "what": "Free observation decks at 202m in Tange's iconic twin towers, with panoramic views of Tokyo and Mt. Fuji on clear days.",
+    "why": "The free alternative to paid observation decks — same height as Shibuya Sky, zero cost. Best at sunset or after dark. October has good Fuji visibility odds.",
+    "link": "https://www.yokoso.metro.tokyo.lg.jp/",
+    "mapQuery": "Tokyo Metropolitan Government Building Shinjuku",
+    "coords": [35.6896, 139.6917],
+    "coordPrecision": "exact",
+    "imageQueries": ["Tokyo Metropolitan Government Building", "Tokyo Tocho observation deck", "Shinjuku skyline"]
+  },
+  {
+    "id": "momotaro-jeans-aoyama",
+    "name": "Momotaro Jeans Aoyama",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Aoyama",
+    "what": "Flagship store for Momotaro's premium Japanese selvedge denim, known for the peach logo and Zimbabwe cotton.",
+    "why": "The flagship experience for one of Japan's top denim brands — proper fitting, full range of cuts, and staff who know raw denim. The pink inseam stitching is iconic.",
+    "link": "https://momotarojeans.net/",
+    "mapQuery": "Momotaro Jeans Aoyama Tokyo",
+    "coords": [35.6647, 139.7128],
+    "coordPrecision": "exact",
+    "imageQueries": ["Momotaro Jeans", "Japanese selvedge denim", "raw denim jeans"]
+  },
+  {
+    "id": "pure-blue-japan-harajuku",
+    "name": "Pure Blue Japan Harajuku",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Harajuku",
+    "what": "Cult Japanese denim brand specializing in slubby, textured selvedge with dramatic fading potential.",
+    "why": "PBJ's signature XX fabric is some of the most interesting denim made anywhere — heavy slub, electric blue weft, and fades that look hand-painted after a year of wear.",
+    "link": "https://purebluejapan.jp/",
+    "mapQuery": "Pure Blue Japan Harajuku Tokyo",
+    "coords": [35.6702, 139.7054],
+    "coordPrecision": "area",
+    "imageQueries": ["Pure Blue Japan denim", "Japanese raw denim", "selvedge jeans Tokyo"]
+  },
+  {
+    "id": "kapital-ebisu",
+    "name": "Kapital Ebisu",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Ebisu",
+    "what": "Multi-floor flagship for Kapital's patchwork denim, boro-inspired pieces, and Americana-meets-Japan aesthetic.",
+    "why": "Not just jeans — Kapital is a whole world of sashiko stitching, century denim, and pieces that look like they survived a hundred years of wear. The Ebisu store is the full experience.",
+    "link": "https://www.kapital.jp/",
+    "mapQuery": "Kapital Ebisu Tokyo",
+    "coords": [35.6465, 139.7139],
+    "coordPrecision": "exact",
+    "imageQueries": ["Kapital Japan", "Kapital denim", "Japanese boro fashion"]
+  },
+  {
+    "id": "azabudai-hills-sky-lobby",
+    "name": "Azabudai Hills Sky Lobby",
+    "theme": "view",
+    "type": "see",
+    "area": "Azabudai",
+    "what": "Free 34th-floor Sky Lobby in Tokyo's newest skyscraper (2023), with floor-to-ceiling windows and Tokyo Tower views.",
+    "why": "Brand new, free, and uncrowded compared to the big-name observation decks. The Tokyo Tower framing is particularly good — it's right there at eye level. Pairs with the teamLab Borderless that moved here.",
+    "link": "https://www.azabudai-hills.com/",
+    "mapQuery": "Azabudai Hills Mori JP Tower Tokyo",
+    "coords": [35.6594, 139.7387],
+    "coordPrecision": "exact",
+    "imageQueries": ["Azabudai Hills Tokyo", "Azabudai Hills Mori JP Tower", "Tokyo Tower view Azabudai"]
+  },
+  {
+    "id": "cafe-capyba-asakusa",
+    "name": "cafe capyba ASAKUSA",
+    "theme": "capybara",
+    "type": "animals",
+    "area": "Asakusa",
+    "what": "Dedicated capybara cafe where you can sit with, pet, photograph, and feed capybaras.",
+    "why": "One of the easiest dedicated capybara experiences to combine with an Asakusa day, with unusually close interaction.",
+    "link": "https://cspace.co.jp/",
+    "mapQuery": "cafe capyba ASAKUSA Taito Tokyo",
+    "coords": [35.7187, 139.7918],
+    "coordPrecision": "area",
+    "imageQueries": ["cafe capyba Asakusa", "capybara cafe Tokyo"]
+  },
+  {
+    "id": "capyneko-cafe-harajuku",
+    "name": "Capyneko Cafe Harajuku",
+    "theme": "capybara",
+    "type": "animals",
+    "area": "Harajuku",
+    "what": "Animal cafe where capybaras and cats live and interact together.",
+    "why": "The unusual combination of capybaras and cats makes this substantially different from either a normal cat cafe or capybara cafe.",
+    "link": "https://capyneko.cafe/",
+    "mapQuery": "Capyneko Cafe Harajuku Jingumae Tokyo",
+    "coords": [35.6712, 139.7046],
+    "coordPrecision": "area",
+    "imageQueries": ["Capyneko Cafe Harajuku", "capybara cat cafe Tokyo"]
+  },
+  {
+    "id": "capyneko-cafe-kichijoji",
+    "name": "Capyneko Cafe Kichijoji",
+    "theme": "capybara",
+    "type": "animals",
+    "area": "Kichijoji",
+    "what": "The original Capyneko location, combining free-roaming cats with a capybara in the same space.",
+    "why": "A particularly unusual animal interaction and an easy addition to a Kichijoji and Inokashira Park day.",
+    "link": "https://capyneko.cafe/",
+    "mapQuery": "Capyneko Cafe Kichijoji Tokyo",
+    "coords": [35.7029, 139.5796],
+    "coordPrecision": "area",
+    "imageQueries": ["Capyneko Cafe Kichijoji", "capybara cats Kichijoji"]
+  },
+  {
+    "id": "cappiness-oshiage",
+    "name": "CAPPINESS Oshiage",
+    "theme": "capybara",
+    "type": "animals",
+    "area": "Oshiage",
+    "what": "Reservation-only capybara interaction space with three capybaras, feeding, photos, and an indoor capybara bath.",
+    "why": "Close to Tokyo Skytree and Asakusa and designed specifically around extended, small-group capybara interaction.",
+    "link": "https://cappiness.jp/capybara_cafe/cappiness_oshiage",
+    "mapQuery": "CAPPINESS Oshiage Tokyo",
+    "coords": [35.7138, 139.8123],
+    "coordPrecision": "area",
+    "imageQueries": ["CAPPINESS Oshiage capybara", "capybara Tokyo Skytree"]
+  },
+  {
+    "id": "capybara-onsen-moffu-tokyo",
+    "name": "capybaraonsen moffu tokyo",
+    "theme": "capybara",
+    "type": "animals",
+    "area": "Harajuku",
+    "what": "Compact Harajuku capybara cafe where visitors can pet, feed, and photograph capybaras at very close range.",
+    "why": "Extremely convenient if already exploring Takeshita Street and centered almost entirely on direct capybara interaction.",
+    "link": null,
+    "mapQuery": "capybaraonsen moffu tokyo Harajuku",
+    "coords": [35.6711, 139.7047],
+    "coordPrecision": "area",
+    "imageQueries": ["capybaraonsen moffu Tokyo", "Moffu capybara Harajuku"]
+  },
+  {
+    "id": "fennec-house-harajuku",
+    "name": "Fennec House Harajuku",
+    "theme": "animals",
+    "type": "animals",
+    "area": "Harajuku",
+    "what": "Small interaction space devoted specifically to fennec foxes.",
+    "why": "Fennecs are far less commonly encountered than the cats, dogs, pigs, and hedgehogs found at most Tokyo animal cafes.",
+    "link": "https://fennechouse.com/",
+    "mapQuery": "Fennec House Harajuku Tokyo",
+    "coords": [35.6715, 139.7058],
+    "coordPrecision": "area",
+    "imageQueries": ["Fennec House Harajuku", "fennec fox cafe Tokyo"]
+  },
+  {
+    "id": "mipig-cafe-harajuku",
+    "name": "mipig cafe Harajuku",
+    "theme": "animals",
+    "type": "animals",
+    "area": "Harajuku",
+    "what": "Indoor cafe built around spending time with free-roaming micro pigs.",
+    "why": "The pigs actively interact with visitors and the experience is more hands-on than simply viewing animals.",
+    "link": "https://mipig.cafe/",
+    "mapQuery": "mipig cafe Harajuku Tokyo",
+    "coords": [35.6708, 139.7044],
+    "coordPrecision": "area",
+    "imageQueries": ["mipig cafe Harajuku", "micro pig cafe Tokyo"]
+  },
+  {
+    "id": "chiku-chiku-cafe",
+    "name": "Chiku Chiku Cafe",
+    "theme": "animals",
+    "type": "animals",
+    "area": "Shibuya",
+    "what": "Hedgehog cafe where individual hedgehogs occupy miniature dollhouse-like environments and can be handled.",
+    "why": "The miniature-room setup makes it considerably more visually distinctive than a standard small-animal cafe.",
+    "link": "https://hedgehoghome.cafe/",
+    "mapQuery": "Chiku Chiku Cafe Shibuya Tokyo",
+    "coords": [35.6606, 139.7057],
+    "coordPrecision": "area",
+    "imageQueries": ["Chiku Chiku Cafe Shibuya", "hedgehog dollhouse cafe Tokyo"]
+  },
+  {
+    "id": "yadorigi-cafe",
+    "name": "Yadorigi Cafe & Restaurant",
+    "theme": "cats",
+    "type": "animals",
+    "area": "Yanaka",
+    "what": "Cat cafe and restaurant centered around rescue cats rather than the usual purpose-bred cat-cafe format.",
+    "why": "Combines an actual cafe and meal experience with cats and fits naturally into a walk through Yanaka.",
+    "link": "https://www.yadorigicafe.com/",
+    "mapQuery": "Yadorigi Cafe Yanaka Tokyo",
+    "coords": [35.7278, 139.7669],
+    "coordPrecision": "area",
+    "imageQueries": ["Yadorigi Cafe Yanaka", "Yadorigi cat cafe Tokyo"]
+  },
+  {
+    "id": "pignic-cafe-kichijoji",
+    "name": "pignic cafe Kichijoji",
+    "theme": "animals",
+    "type": "animals",
+    "area": "Kichijoji",
+    "what": "Private-room micro-pig cafe beside Inokashira Park, with some sessions offering walks with a pig in the park.",
+    "why": "The private rooms and seasonal pig-walking experience make it much more unusual than a standard micro-pig cafe.",
+    "link": "https://cafe.pignic.jp/en/shop/kichijoji",
+    "mapQuery": "pignic cafe Kichijoji Tokyo",
+    "coords": [35.7008, 139.5787],
+    "coordPrecision": "area",
+    "imageQueries": ["pignic cafe Kichijoji", "micro pig Inokashira Park"]
+  },
+  {
+    "id": "samoyed-cafe-moffu-harajuku",
+    "name": "Samoyed Cafe moffu Harajuku",
+    "theme": "animals",
+    "type": "animals",
+    "area": "Harajuku",
+    "what": "Dog cafe devoted specifically to large, fluffy Samoyeds.",
+    "why": "A room full of Samoyeds is a much more specific and memorable experience than a conventional dog cafe.",
+    "link": null,
+    "mapQuery": "Samoyed Cafe moffu Harajuku Tokyo",
+    "coords": [35.6711, 139.7047],
+    "coordPrecision": "area",
+    "imageQueries": ["Samoyed Cafe moffu Harajuku", "Samoyed cafe Tokyo"]
+  },
+  {
+    "id": "torinoirukafe-yanaka",
+    "name": "Torinoirukafe Yanaka Honten",
+    "theme": "animals",
+    "type": "animals",
+    "area": "Yanaka",
+    "what": "Bird cafe specializing in owls and other birds, with close-up viewing and interaction.",
+    "why": "A useful contrast to mammal cafes and particularly convenient when exploring Yanaka and the Ueno side of Tokyo.",
+    "link": null,
+    "mapQuery": "Torinoirukafe Yanaka Honten Tokyo",
+    "coords": [35.7278, 139.7669],
+    "coordPrecision": "area",
+    "imageQueries": ["Torinoirukafe Yanaka", "owl cafe Yanaka Tokyo"]
+  },
+  {
+    "id": "harajuku-kawaii-zoo-land",
+    "name": "Harajuku Kawaii Zoo Land",
+    "theme": "animals",
+    "type": "animals",
+    "area": "Harajuku",
+    "what": "Mixed-animal interaction venue featuring a changing collection that can include capybaras, meerkats, fennecs, ferrets, hedgehogs, and other small animals.",
+    "why": "One stop provides access to several unusual species instead of specializing in only one animal.",
+    "link": null,
+    "mapQuery": "Harajuku Kawaii Zoo Land Tokyo",
+    "coords": [35.6714, 139.7048],
+    "coordPrecision": "area",
+    "imageQueries": ["Harajuku Kawaii Zoo Land", "Harajuku animal cafe meerkat fennec capybara"]
+  }
+]

@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Tokyo Field Guide</title>
+    <meta
+      name="description"
+      content="A filterable field guide to Tokyo for Alan and Ever, 16-25 October 2026."
+    />
+    <meta name="theme-color" content="#f7f4ed" />
+
+    <link rel="preload" as="font" type="font/woff2" href="assets/fonts/bricolage-grotesque-latin.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="assets/fonts/inter-latin.woff2" crossorigin />
+    <link rel="stylesheet" href="assets/fonts/fonts.css" />
+    <link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to results</a>
+
+    <header class="masthead">
+      <div class="masthead__inner">
+        <div class="masthead__titles">
+          <h1 class="masthead__title">Tokyo Field Guide</h1>
+          <p class="masthead__meta">
+            Alan &amp; Ever &middot; 16&ndash;25 Oct 2026 &middot; based in Asakusa
+          </p>
+        </div>
+        <nav class="tabs" aria-label="Views">
+          <button class="tab" type="button" data-view="browse" aria-current="page">Browse</button>
+          <button class="tab" type="button" data-view="map">Map</button>
+          <button class="tab" type="button" data-view="plan">Plan</button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ============================ BROWSE ============================ -->
+      <section class="view view--browse" data-view="browse">
+        <form class="filters" role="search" autocomplete="off">
+          <div class="filters__search">
+            <label class="visually-hidden" for="search">Search places</label>
+            <input
+              id="search"
+              type="search"
+              name="search"
+              placeholder="Search name, area or description&hellip;"
+              spellcheck="false"
+            />
+          </div>
+
+          <details class="filters__accordion">
+            <summary class="filters__accordion-toggle">Filters</summary>
+            <div class="filters__accordion-content">
+              <fieldset class="filters__group">
+                <legend class="filters__legend">Theme</legend>
+                <div class="chips" data-filter="theme"></div>
+              </fieldset>
+
+              <fieldset class="filters__group">
+                <legend class="filters__legend">Type</legend>
+                <div class="chips" data-filter="type"></div>
+              </fieldset>
+            </div>
+          </details>
+
+          <div class="filters__status">
+            <p class="count" aria-live="polite" data-count>&nbsp;</p>
+            <label class="show-hidden">
+              <input type="checkbox" id="show-hidden" />
+              Show hidden <span data-hidden-count></span>
+            </label>
+            <button class="reset" type="button" data-reset hidden>Reset filters</button>
+          </div>
+        </form>
+
+        <div class="grid" data-grid></div>
+        <p class="empty" data-empty hidden>
+          Nothing matches those filters. <button type="button" class="linkish" data-reset>Reset</button>
+        </p>
+      </section>
+
+      <!-- ============================= MAP ============================== -->
+      <section class="view view--map" data-view="map" hidden>
+        <div class="map__frame">
+          <div id="map" role="application" aria-label="Map of all places"></div>
+        </div>
+        <p class="map__note">
+          Pins follow the Browse filters. Hollow pins are area-level positions, not exact
+          addresses &mdash; use the Map button for turn-by-turn.
+        </p>
+      </section>
+
+      <!-- ============================= PLAN ============================= -->
+      <section class="view view--plan" data-view="plan" hidden>
+        <div class="flight-banner">
+          <h2 class="flight-banner__title">✈ Flight Details</h2>
+          <div class="flight-banner__flights">
+            <div class="flight-banner__leg">
+              <span class="flight-banner__date">Fri 16 Oct</span>
+              <span class="flight-banner__route">SFO → HND</span>
+              <span class="flight-banner__flight">JL1</span>
+              <span class="flight-banner__time">11:55 → 15:05 +1</span>
+              <span class="flight-banner__seats">Seats 49D/E</span>
+              <span class="flight-banner__duration">11h 10m</span>
+            </div>
+            <div class="flight-banner__leg">
+              <span class="flight-banner__date">Sun 25 Oct</span>
+              <span class="flight-banner__route">HND → SFO</span>
+              <span class="flight-banner__flight">JL2</span>
+              <span class="flight-banner__time">17:55 → 11:25</span>
+              <span class="flight-banner__seats">Seats 24D/E</span>
+              <span class="flight-banner__duration">9h 30m</span>
+            </div>
+          </div>
+          <p class="flight-banner__note">Alan (49D/24D) · Ever (49E/24E) · Economy Special Saver · Drive to SFO + park</p>
+        </div>
+
+        <div class="plan__intro">
+          <h2 class="section-title">Trip Planner</h2>
+          <p class="section-note">
+            Your 8-night itinerary. Star places in Browse, then assign them to days here.
+          </p>
+          <div class="plan__stats" data-stats></div>
+        </div>
+
+        <div class="plan__days" data-days></div>
+
+        <div class="plan__export">
+          <h2 class="section-title">Take it with you</h2>
+          <p class="section-note">
+            KML imports as pins into Google My Maps (My Maps &rarr; Create new map &rarr; Import).
+            CSV is the same data as a spreadsheet.
+          </p>
+          <div class="plan__buttons">
+            <button class="button" type="button" data-export="kml-all">All places &middot; KML</button>
+            <button class="button" type="button" data-export="csv-all">All places &middot; CSV</button>
+            <button class="button" type="button" data-export="kml-favorites">Favorites &middot; KML</button>
+            <button class="button" type="button" data-export="csv-favorites">Favorites &middot; CSV</button>
+          </div>
+        </div>
+
+        <div class="plan__sync">
+          <h2 class="section-title">Sync between devices</h2>
+          <p class="section-note">
+            Copy your current settings and paste into <code>data/my-settings.json</code> in the repo.
+            On first load, the app reads from that file, so all devices stay in sync.
+          </p>
+          <div class="plan__buttons">
+            <button class="button" type="button" data-settings="export">Copy settings to clipboard</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="colophon">
+      <p>
+        Photos cached from Wikimedia Commons and Wikipedia; each is credited in
+        <code>data/image-credits.json</code>. Commercial spots use a representative subject photo,
+        not the venue itself.
+      </p>
+    </footer>
+
+    <script src="vendor/leaflet/leaflet.js"></script>
+    <script type="module" src="assets/js/app.js"></script>
+  </body>
+</html>
