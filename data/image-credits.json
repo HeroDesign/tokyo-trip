@@ -1175,5 +1175,38 @@
     "author": "User:Kentin",
     "filePage": "https://commons.wikimedia.org/wiki/File:Yanaka_ginza_street.jpg",
     "bytes": 205991
+  },
+  "tokyo-metropolitan-government-building": {
+    "file": "tokyo-metropolitan-government-building.jpg",
+    "subject": "Tokyo Metropolitan Government Building",
+    "via": "en.wikipedia: Tokyo Metropolitan Government Building",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Tokyo_Metropolitan_Government_Building_2024.jpg/960px-Tokyo_Metropolitan_Government_Building_2024.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Kakidai",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Tokyo_Metropolitan_Government_Building_2024.jpg",
+    "bytes": 259406
+  },
+  "momotaro-jeans-aoyama": {
+    "file": "momotaro-jeans-aoyama.png",
+    "subject": "Momotaro Jeans",
+    "via": "en.wikipedia: Momotaro Jeans",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Japanese_Fairy_Book_-_Ozaki_-_247.png/960px-Japanese_Fairy_Book_-_Ozaki_-_247.png",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "author": "Kakuzō Fujiyama",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Japanese_Fairy_Book_-_Ozaki_-_247.png",
+    "bytes": 405046
+  },
+  "kapital-ebisu": {
+    "file": "kapital-ebisu.jpg",
+    "subject": "Kapital Japan",
+    "via": "commons search: Kapital Japan",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Matsuyama_%2814074874872%29.jpg/960px-Matsuyama_%2814074874872%29.jpg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "redlegsfan21",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Matsuyama_(14074874872).jpg",
+    "bytes": 173157
   }
 }
