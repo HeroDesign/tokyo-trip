@@ -617,24 +617,18 @@
     ]
   },
   {
-    "id": "taiko-lesson",
-    "name": "Taiko lesson (Eva)",
+    "id": "eva-kestner-international-taiko-drum-academy",
+    "name": "Eva Kestner International Taiko Drum Academy",
     "theme": "drums",
     "type": "do",
-    "area": "Asakusa",
-    "what": "90-min hands-on taiko workshop",
-    "why": "The deep version, English, all-ages; the trip's anchor",
-    "link": "https://www.getyourguide.com/-t920860/",
-    "mapQuery": "Taiko drumming experience Asakusa Tokyo Japan",
-    "coords": [
-      35.712,
-      139.795
-    ],
+    "area": "Daikanyama",
+    "what": "90-minute hands-on taiko workshop or private lesson with professional bilingual taiko drummer Eva Kestner.",
+    "why": "Probably the strongest lesson option for a musically interested parent and teen: Eva teaches in English, works with beginners and experienced players, and teaches children as young as four. The emphasis is on actual technique, rhythm and playing rather than simply a tourist demonstration.",
+    "link": "https://www.eva-kestner.com/lessons",
+    "mapQuery": "Eva Kestner International Taiko Drum Academy Mirai Taiko Studio Daikanyama Tokyo",
+    "coords": [35.651, 139.703],
     "coordPrecision": "area",
-    "imageQueries": [
-      "Taiko",
-      "Wadaiko"
-    ]
+    "imageQueries": ["Eva Kestner taiko", "Eva Kestner International Taiko Drum Academy", "Japanese taiko lesson Tokyo"]
   },
   {
     "id": "taiko-no-tatsujin",
@@ -695,6 +689,76 @@
       "Live house",
       "Shimokitazawa"
     ]
+  },
+  {
+    "id": "taiko-lab-aoyama",
+    "name": "TAIKO-LAB Aoyama",
+    "theme": "drums",
+    "type": "do",
+    "area": "Aoyama",
+    "what": "Dedicated taiko school offering a 60-minute English-language hands-on Japanese drumming experience.",
+    "why": "Very easy to integrate into a Tokyo trip: professional instruction, drums and sticks are provided, beginners are welcome regardless of age, and the session builds toward playing a complete piece before an instructor performs a taiko solo.",
+    "link": "https://www.taikolab.com/world/",
+    "mapQuery": "TAIKO-LAB Aoyama 3-1-30 Jingumae Tokyo",
+    "coords": [35.670, 139.714],
+    "coordPrecision": "area",
+    "imageQueries": ["TAIKO-LAB Aoyama", "Japanese taiko lesson", "wadaiko Tokyo"]
+  },
+  {
+    "id": "oedo-sukeroku-taiko-dojo",
+    "name": "Oedo Sukeroku Taiko Dojo",
+    "theme": "drums",
+    "type": "do",
+    "area": "Sotokanda",
+    "what": "Private and small-group taiko lessons taught in English or Japanese by professional Oedo Sukeroku Taiko players.",
+    "why": "A more traditional and serious alternative to a packaged visitor experience. The dojo explicitly offers 1- and 1.5-hour lessons for travelers and families, including complete beginners, and lets you learn directly from professional performers in the influential Oedo Sukeroku taiko tradition.",
+    "link": "https://oedosukerokutaiko.com/htm/school_foreigner_english.html",
+    "mapQuery": "Oedo Sukeroku Taiko 2-1-13 Sotokanda Tokyo",
+    "coords": [35.700, 139.769],
+    "coordPrecision": "area",
+    "imageQueries": ["Oedo Sukeroku Taiko", "Sukeroku taiko Tokyo", "Japanese taiko dojo"]
+  },
+  {
+    "id": "hibikus-asakusa-basement",
+    "name": "HIBIKUS Asakusa Basement",
+    "theme": "drums",
+    "type": "do",
+    "area": "Asakusa",
+    "what": "Taiko school and workshop studio beneath the headquarters of historic Japanese drum maker Miyamoto Unosuke Shoten.",
+    "why": "Especially appealing if staying in Asakusa: this is a real taiko school rather than a tourist attraction, professional players teach there, and the school accepts students from age three upward. The unusual basement studio occupies a historic space once used to store mikoshi and later as an air-raid shelter.",
+    "link": "https://www.hibikus.com/taiko-school/asakusa",
+    "mapQuery": "HIBIKUS Asakusa Basement 6-1-15 Asakusa Tokyo",
+    "coords": [35.717, 139.800],
+    "coordPrecision": "area",
+    "imageQueries": ["HIBIKUS Asakusa Basement", "Miyamoto Unosuke taiko", "Asakusa taiko school"]
+  },
+  {
+    "id": "taikokan-drum-museum",
+    "name": "Taikokan Drum Museum",
+    "theme": "drums",
+    "type": "see",
+    "area": "Nishi-Asakusa",
+    "what": "Small specialist museum created by Miyamoto Unosuke Shoten with hundreds of Japanese and international drums, including instruments visitors can actually play.",
+    "why": "A particularly good companion to a taiko lesson for a drummer: the collection contains roughly 800 drums, selected exhibits marked with a musical-note symbol can be played, and the Miyamoto Unosuke shop downstairs sells taiko, bachi and other traditional percussion equipment.",
+    "link": "https://www.miyamoto-unosuke.co.jp/pages/museum",
+    "mapQuery": "Taikokan Drum Museum Miyamoto Unosuke 2-1-1 Nishiasakusa Tokyo",
+    "coords": [35.711, 139.790],
+    "coordPrecision": "area",
+    "imageQueries": ["Taikokan Drum Museum Tokyo", "Miyamoto Unosuke Drum Museum", "Japanese taiko museum Asakusa"]
+  },
+  {
+    "id": "zakuro-show-2026-10-23",
+    "name": "ZAKURO SHOW — October 23, 2026",
+    "theme": "drums",
+    "type": "see",
+    "area": "Harajuku",
+    "what": "October 23, 2026 bilingual one-hour live concert featuring taiko alongside koto, shamisen, shakuhachi and other traditional Japanese instruments.",
+    "why": "Confirmed for October 23 during the Tokyo trip. It is an intimate performance with top-level traditional musicians only a few feet from the audience, with English explanations of the instruments and music. This is broader than a pure taiko concert but provides a strong live-performance counterpart to a hands-on taiko lesson.",
+    "link": "https://www.zakuroshow.com/en",
+    "mapQuery": "Hall 60 6-34-14 Jingumae Harajuku Tokyo",
+    "coords": [35.669, 139.703],
+    "coordPrecision": "area",
+    "imageQueries": ["ZAKURO SHOW Tokyo", "ZAKURO SHOW taiko", "Japanese traditional music taiko koto shamisen"]
   },
   {
     "id": "round1-spocha",

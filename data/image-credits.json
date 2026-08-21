@@ -428,17 +428,6 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:EDWIN_COMPANY_Head_Office.JPG",
     "bytes": 253645
   },
-  "taiko-lesson": {
-    "file": "taiko-lesson.jpg",
-    "subject": "Taiko",
-    "via": "en.wikipedia: Taiko",
-    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Miya_Daiko_drum_-_Taiko_drums.jpg",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "author": "Taiko-Kaiser-Drums",
-    "filePage": "https://commons.wikimedia.org/wiki/File:Miya_Daiko_drum_-_Taiko_drums.jpg",
-    "bytes": 154144
-  },
   "taiko-no-tatsujin": {
     "file": "taiko-no-tatsujin.jpg",
     "subject": "Taiko no Tatsujin",
@@ -779,5 +768,49 @@
     "author": "Asanagi",
     "filePage": "https://commons.wikimedia.org/wiki/File:Harajuku_RUIDO_2026-01-15.jpg",
     "bytes": 232989
+  },
+  "taiko-lab-aoyama": {
+    "file": "taiko-lab-aoyama.jpg",
+    "subject": "Japanese taiko lesson",
+    "via": "commons search: Japanese taiko lesson",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Japanese-musicians._Before_1902.jpg/960px-Japanese-musicians._Before_1902.jpg",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "author": "Unknown authorUnknown author",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Japanese-musicians._Before_1902.jpg",
+    "bytes": 385064
+  },
+  "oedo-sukeroku-taiko-dojo": {
+    "file": "oedo-sukeroku-taiko-dojo.jpg",
+    "subject": "Japanese taiko dojo",
+    "via": "commons search: Japanese taiko dojo",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Kyoga_no_Komusume_Dojoji_played_by_Japanese_writers.JPG/960px-Kyoga_no_Komusume_Dojoji_played_by_Japanese_writers.JPG",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "author": "文藝春秋新社",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Kyoga_no_Komusume_Dojoji_played_by_Japanese_writers.JPG",
+    "bytes": 122180
+  },
+  "hibikus-asakusa-basement": {
+    "file": "hibikus-asakusa-basement.jpg",
+    "subject": "Miyamoto Unosuke taiko",
+    "via": "commons search: Miyamoto Unosuke taiko",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/World%27s_Largest_Drum_of_Great_Drum_Museum.jpg/960px-World%27s_Largest_Drum_of_Great_Drum_Museum.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Mukasora (talk)",
+    "filePage": "https://commons.wikimedia.org/wiki/File:World%27s_Largest_Drum_of_Great_Drum_Museum.jpg",
+    "bytes": 189869
+  },
+  "taikokan-drum-museum": {
+    "file": "taikokan-drum-museum.jpg",
+    "subject": "Miyamoto Unosuke Drum Museum",
+    "via": "commons search: Miyamoto Unosuke Drum Museum",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Miyamoto_Unosuke-3.jpg/960px-Miyamoto_Unosuke-3.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "江戸村のとくぞう",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Miyamoto_Unosuke-3.jpg",
+    "bytes": 129909
   }
 }
