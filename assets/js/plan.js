@@ -3,7 +3,7 @@
  * exports. Assignments live in localStorage via store.js.
  */
 import { TRIP_DAYS, themeLabel, typeLabel } from './data.js';
-import { favorites, dayFor, assignDay, toggleFavorite, subscribe } from './store.js';
+import { favorites, dayFor, assignDay, toggleFavorite, subscribe, exportSettings } from './store.js';
 import { toKml, toCsv } from './export.js';
 
 const el = (tag, className, text) => {
@@ -101,7 +101,7 @@ export function initPlan(places) {
     );
   }
 
-  root.querySelector('.plan__buttons').addEventListener('click', (event) => {
+  root.querySelector('.plan__export .plan__buttons').addEventListener('click', (event) => {
     const kind = event.target.closest('[data-export]')?.dataset.export;
     if (!kind) return;
 
@@ -121,6 +121,17 @@ export function initPlan(places) {
       download(`${stem}.kml`, toKml(selection, { name: 'Tokyo Field Guide', days }), 'application/vnd.google-earth.kml+xml');
     } else {
       download(`${stem}.csv`, toCsv(selection, { days }), 'text/csv;charset=utf-8');
+    }
+  });
+
+  root.querySelector('.plan__sync .plan__buttons').addEventListener('click', async (event) => {
+    if (!event.target.closest('[data-settings="export"]')) return;
+    try {
+      await navigator.clipboard.writeText(exportSettings());
+      event.target.textContent = 'Copied!';
+      setTimeout(() => { event.target.textContent = 'Copy settings to clipboard'; }, 2000);
+    } catch {
+      window.prompt('Copy this JSON to data/my-settings.json:', exportSettings());
     }
   });
 

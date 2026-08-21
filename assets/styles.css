@@ -285,6 +285,26 @@ main {
   gap: 0.75rem;
   margin-top: 0.7rem;
   min-height: 1.6rem;
+  flex-wrap: wrap;
+}
+
+.show-hidden {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+  cursor: pointer;
+  user-select: none;
+}
+
+.show-hidden input {
+  margin: 0;
+  cursor: pointer;
+}
+
+.show-hidden [data-hidden-count] {
+  color: var(--ink-faint);
 }
 
 .count {
@@ -401,6 +421,51 @@ main {
 .card__star[aria-pressed='true'] {
   background: #fff;
   color: #e0a900;
+}
+
+.card__hide {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 2;
+  appearance: none;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 0;
+  background: rgba(26, 24, 21, 0.45);
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  padding: 0;
+  backdrop-filter: blur(3px);
+}
+
+.card__hide:hover {
+  background: rgba(180, 50, 50, 0.8);
+}
+
+.card__hide[aria-pressed='true'] {
+  background: rgba(180, 50, 50, 0.9);
+}
+
+.card--hidden-place {
+  opacity: 0.5;
+}
+
+.card--hidden-place .card__photo::after {
+  content: 'HIDDEN';
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
 }
 
 .card__body {
@@ -583,8 +648,94 @@ main {
 
 /* ------------------------------------------------------------------- plan */
 
+.flight-banner {
+  background: linear-gradient(135deg, #1a365d 0%, #2c5282 100%);
+  color: #fff;
+  border-radius: var(--radius);
+  padding: 1rem 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.flight-banner__title {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.flight-banner__flights {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.flight-banner__leg {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 0.3rem 0.75rem;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.85rem;
+}
+
+.flight-banner__date {
+  font-weight: 600;
+  grid-column: 1;
+}
+
+.flight-banner__route {
+  font-weight: 700;
+  font-size: 1rem;
+  grid-column: 2;
+}
+
+.flight-banner__flight {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  grid-column: 3;
+}
+
+.flight-banner__time {
+  grid-column: 1 / 3;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.flight-banner__seats {
+  grid-column: 3;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.flight-banner__duration {
+  grid-column: 1 / -1;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.flight-banner__note {
+  margin: 0.75rem 0 0;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media (min-width: 600px) {
+  .flight-banner__flights {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .flight-banner__leg {
+    flex: 1;
+  }
+}
+
 .plan__intro,
-.plan__export {
+.plan__export,
+.plan__sync {
   margin-top: 1.5rem;
 }
 

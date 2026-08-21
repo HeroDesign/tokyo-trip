@@ -6,7 +6,7 @@
     <title>Tokyo Field Guide</title>
     <meta
       name="description"
-      content="A filterable field guide to Tokyo for Alan and Ever, 16-24 October 2026."
+      content="A filterable field guide to Tokyo for Alan and Ever, 16-25 October 2026."
     />
     <meta name="theme-color" content="#f7f4ed" />
 
@@ -26,7 +26,7 @@
         <div class="masthead__titles">
           <h1 class="masthead__title">Tokyo Field Guide</h1>
           <p class="masthead__meta">
-            Alan &amp; Ever &middot; 16&ndash;24 Oct 2026 &middot; based in Asakusa
+            Alan &amp; Ever &middot; 16&ndash;25 Oct 2026 &middot; based in Asakusa
           </p>
         </div>
         <nav class="tabs" aria-label="Views">
@@ -64,6 +64,10 @@
 
           <div class="filters__status">
             <p class="count" aria-live="polite" data-count>&nbsp;</p>
+            <label class="show-hidden">
+              <input type="checkbox" id="show-hidden" />
+              Show hidden <span data-hidden-count></span>
+            </label>
             <button class="reset" type="button" data-reset hidden>Reset filters</button>
           </div>
         </form>
@@ -87,6 +91,29 @@
 
       <!-- ============================= PLAN ============================= -->
       <section class="view view--plan" data-view="plan" hidden>
+        <div class="flight-banner">
+          <h2 class="flight-banner__title">✈ Flight Details</h2>
+          <div class="flight-banner__flights">
+            <div class="flight-banner__leg">
+              <span class="flight-banner__date">Fri 16 Oct</span>
+              <span class="flight-banner__route">SFO → HND</span>
+              <span class="flight-banner__flight">JL1</span>
+              <span class="flight-banner__time">11:55 → 15:05 +1</span>
+              <span class="flight-banner__seats">Seats 49D/E</span>
+              <span class="flight-banner__duration">11h 10m</span>
+            </div>
+            <div class="flight-banner__leg">
+              <span class="flight-banner__date">Sun 25 Oct</span>
+              <span class="flight-banner__route">HND → SFO</span>
+              <span class="flight-banner__flight">JL2</span>
+              <span class="flight-banner__time">17:55 → 11:25</span>
+              <span class="flight-banner__seats">Seats 24D/E</span>
+              <span class="flight-banner__duration">9h 30m</span>
+            </div>
+          </div>
+          <p class="flight-banner__note">Alan (49D/24D) · Ever (49E/24E) · Economy Special Saver · Drive to SFO + park</p>
+        </div>
+
         <div class="plan__intro">
           <h2 class="section-title">Favorites &amp; days</h2>
           <p class="section-note">
@@ -107,6 +134,17 @@
             <button class="button" type="button" data-export="csv-all">All places &middot; CSV</button>
             <button class="button" type="button" data-export="kml-favorites">Favorites &middot; KML</button>
             <button class="button" type="button" data-export="csv-favorites">Favorites &middot; CSV</button>
+          </div>
+        </div>
+
+        <div class="plan__sync">
+          <h2 class="section-title">Sync between devices</h2>
+          <p class="section-note">
+            Copy your current settings and paste into <code>data/my-settings.json</code> in the repo.
+            On first load, the app reads from that file, so all devices stay in sync.
+          </p>
+          <div class="plan__buttons">
+            <button class="button" type="button" data-settings="export">Copy settings to clipboard</button>
           </div>
         </div>
       </section>

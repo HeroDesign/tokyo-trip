@@ -1,29 +1,58 @@
 /**
- * Favorites and day assignments, persisted to localStorage.
+ * Favorites, day assignments, and hidden places — persisted to localStorage.
  *
- * Deliberately device-local: no accounts, no sync, nothing to fail on hotel
- * wifi. Subscribers re-render when anything changes.
+ * On first load, seeds from data/my-settings.json (committed to the repo) so
+ * you can sync between devices by updating that file. After that, localStorage
+ * takes over. Use "Export settings" to get the current state to paste back.
  */
 
 const KEY = 'tokyo-field-guide/v1';
+const SETTINGS_URL = 'data/my-settings.json';
 
 const listeners = new Set();
 
-function read() {
+function readLocal() {
   try {
     const raw = localStorage.getItem(KEY);
-    if (!raw) return { favorites: [], days: {} };
+    if (!raw) return null;
     const parsed = JSON.parse(raw);
     return {
       favorites: Array.isArray(parsed.favorites) ? parsed.favorites : [],
       days: parsed.days && typeof parsed.days === 'object' ? parsed.days : {},
+      hidden: Array.isArray(parsed.hidden) ? parsed.hidden : [],
     };
   } catch {
-    return { favorites: [], days: {} };
+    return null;
   }
 }
 
-let state = read();
+async function loadRepoSettings() {
+  try {
+    const res = await fetch(SETTINGS_URL);
+    if (!res.ok) return null;
+    const parsed = await res.json();
+    return {
+      favorites: Array.isArray(parsed.favorites) ? parsed.favorites : [],
+      days: parsed.days && typeof parsed.days === 'object' ? parsed.days : {},
+      hidden: Array.isArray(parsed.hidden) ? parsed.hidden : [],
+    };
+  } catch {
+    return null;
+  }
+}
+
+let state = readLocal() || { favorites: [], days: {}, hidden: [] };
+
+export async function initStore() {
+  const local = readLocal();
+  if (!local) {
+    const repo = await loadRepoSettings();
+    if (repo) {
+      state = repo;
+      commit();
+    }
+  }
+}
 
 function commit() {
   try {
@@ -56,6 +85,22 @@ export const dayFor = (id) => state.days[id] ?? '';
 export function assignDay(id, dayId) {
   state = { ...state, days: dayId ? { ...state.days, [id]: dayId } : omit(state.days, id) };
   commit();
+}
+
+export const isHidden = (id) => state.hidden.includes(id);
+
+export const hiddenPlaces = () => [...state.hidden];
+
+export function toggleHidden(id) {
+  state = state.hidden.includes(id)
+    ? { ...state, hidden: state.hidden.filter((h) => h !== id) }
+    : { ...state, hidden: [...state.hidden, id] };
+  commit();
+  return isHidden(id);
+}
+
+export function exportSettings() {
+  return JSON.stringify(state, null, 2);
 }
 
 function omit(obj, key) {

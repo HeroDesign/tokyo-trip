@@ -6,8 +6,10 @@
 import { THEMES, TYPES } from './data.js';
 import { createCard } from './card.js';
 import { emptyFilters, filterPlaces, isFiltered } from './filter.js';
+import { isHidden, hiddenPlaces, subscribe as subscribeStore } from './store.js';
 
 const state = emptyFilters();
+let showHidden = false;
 const listeners = new Set();
 
 export const subscribeToFilters = (fn) => {
@@ -39,20 +41,27 @@ export function initBrowse(places) {
   const themeChips = root.querySelector('[data-filter="theme"]');
   const typeChips = root.querySelector('[data-filter="type"]');
   const resetButtons = document.querySelectorAll('[data-reset]');
+  const showHiddenToggle = root.querySelector('#show-hidden');
+  const hiddenCount = root.querySelector('[data-hidden-count]');
 
   buildChips(themeChips, THEMES, 'theme');
   buildChips(typeChips, TYPES, 'type');
 
-  // Cards are built once and shown or hidden, which keeps filtering instant and
-  // avoids re-downloading images or losing star state on every keystroke.
-  const cards = new Map(places.map((place) => [place.id, createCard(place)]));
-  grid.replaceChildren(...cards.values());
-
   function render() {
-    const visible = filterPlaces(places, state);
+    const hidden = new Set(hiddenPlaces());
+    const filtered = filterPlaces(places, state);
+    const visible = showHidden ? filtered : filtered.filter((p) => !hidden.has(p.id));
     const shown = new Set(visible.map((p) => p.id));
 
-    for (const [id, card] of cards) card.hidden = !shown.has(id);
+    for (const [id, card] of cards) {
+      card.hidden = !shown.has(id);
+      card.classList.toggle('card--hidden-place', hidden.has(id));
+    }
+
+    const hiddenInView = filtered.filter((p) => hidden.has(p.id)).length;
+    if (hiddenCount) {
+      hiddenCount.textContent = hidden.size > 0 ? `(${hidden.size} hidden)` : '';
+    }
 
     count.innerHTML = `<strong>${visible.length}</strong> of ${places.length} places`;
     empty.hidden = visible.length > 0;
@@ -62,6 +71,21 @@ export function initBrowse(places) {
 
     listeners.forEach((fn) => fn(visible));
   }
+
+  // Cards are built once and shown or hidden, which keeps filtering instant and
+  // avoids re-downloading images or losing star state on every keystroke.
+  const cards = new Map(places.map((place) => [place.id, createCard(place, { onHide: () => render() })]));
+  grid.replaceChildren(...cards.values());
+
+  if (showHiddenToggle) {
+    showHiddenToggle.addEventListener('change', () => {
+      showHidden = showHiddenToggle.checked;
+      render();
+    });
+  }
+
+  // Re-render when store changes (e.g., hidden state changes)
+  subscribeStore(render);
 
   function toggleChip(container, chip) {
     const set = container === themeChips ? state.themes : state.types;
