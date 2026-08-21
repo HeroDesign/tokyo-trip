@@ -1164,5 +1164,16 @@
     "author": "江戸村のとくぞう",
     "filePage": "https://commons.wikimedia.org/wiki/File:Miyamoto_Unosuke-3.jpg",
     "bytes": 129909
+  },
+  "yanaka-ginza": {
+    "file": "yanaka-ginza.jpg",
+    "subject": "Yanaka Ginza Tokyo",
+    "via": "commons search: Yanaka Ginza Tokyo",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Yanaka_ginza_street.jpg/960px-Yanaka_ginza_street.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "User:Kentin",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Yanaka_ginza_street.jpg",
+    "bytes": 205991
   }
 }
