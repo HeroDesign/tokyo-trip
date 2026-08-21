@@ -21,6 +21,7 @@ export const THEMES = [
   { id: 'rock', label: 'Rock/live' },
   { id: 'crafts', label: 'Crafts' },
   { id: 'lodging', label: 'Lodging' },
+  { id: 'view', label: 'View' },
   { id: 'core', label: 'Core/other' },
 ];
 
@@ -54,6 +55,7 @@ export const THEME_COLORS = {
   rock: '#e91e63',
   crafts: '#d4a574',
   lodging: '#6b7b8a',
+  view: '#4a90d9',
   core: '#726b60',
 };
 
