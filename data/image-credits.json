@@ -428,17 +428,6 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:EDWIN_COMPANY_Head_Office.JPG",
     "bytes": 253645
   },
-  "taiko-lesson": {
-    "file": "taiko-lesson.jpg",
-    "subject": "Taiko",
-    "via": "en.wikipedia: Taiko",
-    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Miya_Daiko_drum_-_Taiko_drums.jpg",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-    "author": "Taiko-Kaiser-Drums",
-    "filePage": "https://commons.wikimedia.org/wiki/File:Miya_Daiko_drum_-_Taiko_drums.jpg",
-    "bytes": 154144
-  },
   "taiko-no-tatsujin": {
     "file": "taiko-no-tatsujin.jpg",
     "subject": "Taiko no Tatsujin",
@@ -845,5 +834,115 @@
     "author": "Elmo rainy day",
     "filePage": "https://commons.wikimedia.org/wiki/File:Edo_Shitamachi_Traditional_Craft_Museum.JPG",
     "bytes": 204745
+  },
+  "texas-3000-club-quattro": {
+    "file": "texas-3000-club-quattro.jpg",
+    "subject": "Shibuya Club Quattro",
+    "via": "commons search: Shibuya Club Quattro",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Shibuya_CLUB_QUATTRO.jpg/960px-Shibuya_CLUB_QUATTRO.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "author": "Unknown",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Shibuya_CLUB_QUATTRO.jpg",
+    "bytes": 134885
+  },
+  "hero-complex-zepp-divercity": {
+    "file": "hero-complex-zepp-divercity.jpg",
+    "subject": "Zepp DiverCity Tokyo",
+    "via": "commons search: Zepp DiverCity Tokyo",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Zepp_DiverCity.JPG/960px-Zepp_DiverCity.JPG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Own work",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Zepp_DiverCity.JPG",
+    "bytes": 182037
+  },
+  "harukamirai-shelter": {
+    "file": "harukamirai-shelter.jpg",
+    "subject": "Shimokitazawa Shelter Tokyo",
+    "via": "commons search: Shimokitazawa Shelter Tokyo",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Guitar_Wolf_%40SHELTER_%281995-12-31%29.jpg/960px-Guitar_Wolf_%40SHELTER_%281995-12-31%29.jpg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "Masao Nakagami",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Guitar_Wolf_@SHELTER_(1995-12-31).jpg",
+    "bytes": 151862
+  },
+  "tamtam-moon-romantic": {
+    "file": "tamtam-moon-romantic.jpg",
+    "subject": "TAMTAM Japanese band",
+    "via": "commons search: TAMTAM Japanese band",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Tamtam_%28Imagicity_58%29.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Graham Crumb",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Tamtam_(Imagicity_58).jpg",
+    "bytes": 212625
+  },
+  "doona-eggman": {
+    "file": "doona-eggman.jpg",
+    "subject": "Shibuya eggman Tokyo",
+    "via": "commons search: Shibuya eggman Tokyo",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Allister_at_Shibuya_Eggman_livehouse.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Balancingact211",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Allister_at_Shibuya_Eggman_livehouse.jpg",
+    "bytes": 49514
+  },
+  "the-sixth-lie-harajuku-ruido": {
+    "file": "the-sixth-lie-harajuku-ruido.jpg",
+    "subject": "Harajuku RUIDO Tokyo",
+    "via": "commons search: Harajuku RUIDO Tokyo",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Harajuku_RUIDO_2026-01-15.jpg/960px-Harajuku_RUIDO_2026-01-15.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Asanagi",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Harajuku_RUIDO_2026-01-15.jpg",
+    "bytes": 232989
+  },
+  "taiko-lab-aoyama": {
+    "file": "taiko-lab-aoyama.jpg",
+    "subject": "Japanese taiko lesson",
+    "via": "commons search: Japanese taiko lesson",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Japanese-musicians._Before_1902.jpg/960px-Japanese-musicians._Before_1902.jpg",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "author": "Unknown authorUnknown author",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Japanese-musicians._Before_1902.jpg",
+    "bytes": 385064
+  },
+  "oedo-sukeroku-taiko-dojo": {
+    "file": "oedo-sukeroku-taiko-dojo.jpg",
+    "subject": "Japanese taiko dojo",
+    "via": "commons search: Japanese taiko dojo",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Kyoga_no_Komusume_Dojoji_played_by_Japanese_writers.JPG/960px-Kyoga_no_Komusume_Dojoji_played_by_Japanese_writers.JPG",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "author": "文藝春秋新社",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Kyoga_no_Komusume_Dojoji_played_by_Japanese_writers.JPG",
+    "bytes": 122180
+  },
+  "hibikus-asakusa-basement": {
+    "file": "hibikus-asakusa-basement.jpg",
+    "subject": "Miyamoto Unosuke taiko",
+    "via": "commons search: Miyamoto Unosuke taiko",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/World%27s_Largest_Drum_of_Great_Drum_Museum.jpg/960px-World%27s_Largest_Drum_of_Great_Drum_Museum.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Mukasora (talk)",
+    "filePage": "https://commons.wikimedia.org/wiki/File:World%27s_Largest_Drum_of_Great_Drum_Museum.jpg",
+    "bytes": 189869
+  },
+  "taikokan-drum-museum": {
+    "file": "taikokan-drum-museum.jpg",
+    "subject": "Miyamoto Unosuke Drum Museum",
+    "via": "commons search: Miyamoto Unosuke Drum Museum",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Miyamoto_Unosuke-3.jpg/960px-Miyamoto_Unosuke-3.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "江戸村のとくぞう",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Miyamoto_Unosuke-3.jpg",
+    "bytes": 129909
   }
 }
