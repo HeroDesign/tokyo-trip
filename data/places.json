@@ -2002,5 +2002,61 @@
     "coords": [35.7267, 139.7628],
     "coordPrecision": "exact",
     "imageQueries": ["Yanaka Ginza Tokyo", "Yanaka Ginza cats", "Yanaka shopping street"]
+  },
+  {
+    "id": "tokyo-metropolitan-government-building",
+    "name": "Tokyo Metropolitan Government Building",
+    "theme": "photography",
+    "type": "see",
+    "area": "Shinjuku",
+    "what": "Free observation decks at 202m in Tange's iconic twin towers, with panoramic views of Tokyo and Mt. Fuji on clear days.",
+    "why": "The free alternative to paid observation decks — same height as Shibuya Sky, zero cost. Best at sunset or after dark. October has good Fuji visibility odds.",
+    "link": "https://www.yokoso.metro.tokyo.lg.jp/",
+    "mapQuery": "Tokyo Metropolitan Government Building Shinjuku",
+    "coords": [35.6896, 139.6917],
+    "coordPrecision": "exact",
+    "imageQueries": ["Tokyo Metropolitan Government Building", "Tokyo Tocho observation deck", "Shinjuku skyline"]
+  },
+  {
+    "id": "momotaro-jeans-aoyama",
+    "name": "Momotaro Jeans Aoyama",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Aoyama",
+    "what": "Flagship store for Momotaro's premium Japanese selvedge denim, known for the peach logo and Zimbabwe cotton.",
+    "why": "The flagship experience for one of Japan's top denim brands — proper fitting, full range of cuts, and staff who know raw denim. The pink inseam stitching is iconic.",
+    "link": "https://momotarojeans.net/",
+    "mapQuery": "Momotaro Jeans Aoyama Tokyo",
+    "coords": [35.6647, 139.7128],
+    "coordPrecision": "exact",
+    "imageQueries": ["Momotaro Jeans", "Japanese selvedge denim", "raw denim jeans"]
+  },
+  {
+    "id": "pure-blue-japan-harajuku",
+    "name": "Pure Blue Japan Harajuku",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Harajuku",
+    "what": "Cult Japanese denim brand specializing in slubby, textured selvedge with dramatic fading potential.",
+    "why": "PBJ's signature XX fabric is some of the most interesting denim made anywhere — heavy slub, electric blue weft, and fades that look hand-painted after a year of wear.",
+    "link": "https://purebluejapan.jp/",
+    "mapQuery": "Pure Blue Japan Harajuku Tokyo",
+    "coords": [35.6702, 139.7054],
+    "coordPrecision": "area",
+    "imageQueries": ["Pure Blue Japan denim", "Japanese raw denim", "selvedge jeans Tokyo"]
+  },
+  {
+    "id": "kapital-ebisu",
+    "name": "Kapital Ebisu",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Ebisu",
+    "what": "Multi-floor flagship for Kapital's patchwork denim, boro-inspired pieces, and Americana-meets-Japan aesthetic.",
+    "why": "Not just jeans — Kapital is a whole world of sashiko stitching, century denim, and pieces that look like they survived a hundred years of wear. The Ebisu store is the full experience.",
+    "link": "https://www.kapital.jp/",
+    "mapQuery": "Kapital Ebisu Tokyo",
+    "coords": [35.6465, 139.7139],
+    "coordPrecision": "exact",
+    "imageQueries": ["Kapital Japan", "Kapital denim", "Japanese boro fashion"]
   }
 ]
