@@ -703,6 +703,94 @@
     "filePage": "https://commons.wikimedia.org/wiki/File:KawaguchiKo.jpg",
     "bytes": 281961
   },
+  "the-kanzashi-tokyo-asakusa": {
+    "file": "the-kanzashi-tokyo-asakusa.jpg",
+    "subject": "Asakusa Taito Tokyo hotel",
+    "via": "commons search: Asakusa Taito Tokyo hotel",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Toyoko_Inn_Tokyo_Asakusa_Senzoku_Tsukuba_Express.JPG/960px-Toyoko_Inn_Tokyo_Asakusa_Senzoku_Tsukuba_Express.JPG",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "author": "Abasaa",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Toyoko_Inn_Tokyo_Asakusa_Senzoku_Tsukuba_Express.JPG",
+    "bytes": 352909
+  },
+  "hotel-gracery-asakusa": {
+    "file": "hotel-gracery-asakusa.jpg",
+    "subject": "Kaminarimon Taito Tokyo street",
+    "via": "commons search: Kaminarimon Taito Tokyo street",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Kaminarimon-2.JPG/960px-Kaminarimon-2.JPG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "江戸村のとくぞう (Edomura no Tokuzo)",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Kaminarimon-2.JPG",
+    "bytes": 172078
+  },
+  "richmond-hotel-premier-asakusa": {
+    "file": "richmond-hotel-premier-asakusa.jpg",
+    "subject": "Asakusa Taito Tokyo urban",
+    "via": "commons search: Asakusa Taito Tokyo urban",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Streets_of_Tokyo_-_Flickr_-_Sergiy_Galyonkin_%281%29.jpg/960px-Streets_of_Tokyo_-_Flickr_-_Sergiy_Galyonkin_%281%29.jpg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "author": "Sergiy Galyonkin from Raleigh, USA",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Streets_of_Tokyo_-_Flickr_-_Sergiy_Galyonkin_(1).jpg",
+    "bytes": 211323
+  },
+  "asakusa-tobu-hotel": {
+    "file": "asakusa-tobu-hotel.jpg",
+    "subject": "Asakusa Station Tokyo",
+    "via": "commons search: Asakusa Station Tokyo",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Tobu-Asakusa-station-2018.jpg/960px-Tobu-Asakusa-station-2018.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Kansai-good",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Tobu-Asakusa-station-2018.jpg",
+    "bytes": 211614
+  },
+  "onyado-nono-asakusa": {
+    "file": "onyado-nono-asakusa.jpg",
+    "subject": "Japanese onsen bath",
+    "via": "commons search: Japanese onsen bath",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Dead_trees_at_Mammoth_Hot_Springs.jpg/960px-Dead_trees_at_Mammoth_Hot_Springs.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Brocken Inaglory",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Dead_trees_at_Mammoth_Hot_Springs.jpg",
+    "bytes": 218886
+  },
+  "onyado-nono-asakusa-bettei": {
+    "file": "onyado-nono-asakusa-bettei.jpg",
+    "subject": "Tokyo hotel room interior",
+    "via": "commons search: Tokyo hotel room interior",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Room_interior_in_the_Park_Hotel_Tokyo_in_Tokyo%2C_2019_-_328.jpg/960px-Room_interior_in_the_Park_Hotel_Tokyo_in_Tokyo%2C_2019_-_328.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Another Believer",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Room_interior_in_the_Park_Hotel_Tokyo_in_Tokyo,_2019_-_328.jpg",
+    "bytes": 103756
+  },
+  "kaminarimon-ryokan": {
+    "file": "kaminarimon-ryokan.jpg",
+    "subject": "Kaminarimon gate night illuminated",
+    "via": "commons search: Kaminarimon gate night illuminated",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Illuminated_Senso-ji_Temple_%284097294737%29.jpg/960px-Illuminated_Senso-ji_Temple_%284097294737%29.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "author": "Yoshikazu TAKADA from Tokyo, Japan",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Illuminated_Senso-ji_Temple_(4097294737).jpg",
+    "bytes": 183361
+  },
+  "omo3-asakusa": {
+    "file": "omo3-asakusa.jpg",
+    "subject": "Tokyo Skytree rooftop view",
+    "via": "commons search: Tokyo Skytree rooftop view",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Matsuya_Asakusa_1931.jpg",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "author": "Up loaded by Namazu-tron",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Matsuya_Asakusa_1931.jpg",
+    "bytes": 148872
+  },
   "ryokan-kamogawa-asakusa": {
     "file": "ryokan-kamogawa-asakusa.jpg",
     "subject": "Asakusa traditional ryokan",
