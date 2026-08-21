@@ -1182,7 +1182,7 @@
   {
     "id": "dormy-inn-express-asakusa",
     "name": "Dormy Inn Express Asakusa",
-    "theme": "core",
+    "theme": "lodging",
     "type": "stay",
     "area": "Asakusa",
     "what": "Budget hotel, rooftop onsen + free night ramen",
@@ -1202,7 +1202,7 @@
   {
     "id": "mimaru-asakusa-station",
     "name": "MIMARU Asakusa Station",
-    "theme": "core",
+    "theme": "lodging",
     "type": "stay",
     "area": "Asakusa",
     "what": "Apartment hotel, kitchen + laundry",
@@ -1222,7 +1222,7 @@
   {
     "id": "the-gate-kaminarimon",
     "name": "The Gate Kaminarimon",
-    "theme": "core",
+    "theme": "lodging",
     "type": "stay",
     "area": "Asakusa",
     "what": "Stylish 4-star by Senso-ji",
@@ -1474,7 +1474,7 @@
   {
     "id": "ryokan-kamogawa-asakusa",
     "name": "Ryokan Kamogawa Asakusa",
-    "theme": "stay",
+    "theme": "lodging",
     "type": "stay",
     "area": "Asakusa",
     "what": "Small traditional Japanese ryokan near Kaminarimon and Senso-ji with tatami rooms, futon bedding, and private bathrooms.",
@@ -1488,7 +1488,7 @@
   {
     "id": "ryokan-asakusa-shigetsu",
     "name": "Ryokan Asakusa Shigetsu",
-    "theme": "stay",
+    "theme": "lodging",
     "type": "stay",
     "area": "Asakusa",
     "what": "Traditional Japanese inn just off Nakamise with tatami rooms, futons, private bathrooms, and a sixth-floor cypress bath.",
@@ -1502,7 +1502,7 @@
   {
     "id": "ryokan-asakusa-mikawaya-honten",
     "name": "Ryokan Asakusa Mikawaya Honten",
-    "theme": "stay",
+    "theme": "lodging",
     "type": "stay",
     "area": "Asakusa",
     "what": "Basic old-school Asakusa ryokan with Japanese-style tatami rooms alongside a few Western rooms.",
@@ -1516,7 +1516,7 @@
   {
     "id": "tokyo-ryokan",
     "name": "Tokyo Ryokan",
-    "theme": "stay",
+    "theme": "lodging",
     "type": "stay",
     "area": "Nishi-Asakusa",
     "what": "Extremely small three-room Japanese inn designed by a Japanese architect in Nishi-Asakusa.",
@@ -1530,7 +1530,7 @@
   {
     "id": "asakusa-ryokan-toukaisou",
     "name": "Asakusa Ryokan Toukaisou",
-    "theme": "stay",
+    "theme": "lodging",
     "type": "stay",
     "area": "Nishi-Asakusa",
     "what": "Simple budget ryokan with tatami rooms, private bath, shower and Western-style toilet.",
@@ -1544,7 +1544,7 @@
   {
     "id": "cyashitsu-ryokan-asakusa",
     "name": "cyashitsu ryokan asakusa",
-    "theme": "design",
+    "theme": "lodging",
     "type": "stay",
     "area": "Asakusa",
     "what": "Compact contemporary ryokan whose rooms reinterpret the architecture and aesthetics of a traditional Japanese tea room.",
@@ -1558,7 +1558,7 @@
   {
     "id": "asakusa-kaede",
     "name": "Asakusa Kaede",
-    "theme": "design",
+    "theme": "lodging",
     "type": "stay",
     "area": "Asakusa",
     "what": "Nine-room boutique hotel built around Japanese traditional arts and crafts, with tatami and contemporary Japanese interiors.",
@@ -1572,7 +1572,7 @@
   {
     "id": "hotel-tomos-asakusa",
     "name": "HOTEL TOMOS ASAKUSA",
-    "theme": "stay",
+    "theme": "lodging",
     "type": "stay",
     "area": "Asakusa",
     "what": "Small contemporary Japanese hotel in the quieter northern part of Asakusa with private bathrooms and a shared rooftop.",
@@ -1586,7 +1586,7 @@
   {
     "id": "asakusa-kokono-club-hotel",
     "name": "ASAKUSA KOKONO CLUB HOTEL",
-    "theme": "arts",
+    "theme": "lodging",
     "type": "stay",
     "area": "Asakusa",
     "what": "Japanese-design hotel integrated with a theater, restaurant and performing-arts venue near Senso-ji.",
@@ -1600,7 +1600,7 @@
   {
     "id": "toe-library",
     "name": "TOE LIBRARY",
-    "theme": "design",
+    "theme": "lodging",
     "type": "stay",
     "area": "Asakusa",
     "what": "Tiny three-room design hotel where each floor is privately occupied and furnished with books, vintage furniture, art and objects.",
@@ -1614,7 +1614,7 @@
   {
     "id": "banrai-hotel-asakusa",
     "name": "BANRAI HOTEL Asakusa",
-    "theme": "stay",
+    "theme": "lodging",
     "type": "stay",
     "area": "Kaminarimon",
     "what": "Simple small hotel near Kaminarimon with Japanese touches and larger rooms than many basic Tokyo hotels.",
@@ -1628,7 +1628,7 @@
   {
     "id": "hotel-little-bird-oku-asakusa",
     "name": "HOTEL LITTLE BIRD OKU-ASAKUSA",
-    "theme": "stay",
+    "theme": "lodging",
     "type": "stay",
     "area": "Oku-Asakusa",
     "what": "Tiny owner-run vintage-style hotel in residential Oku-Asakusa with one room per floor and in-room mini kitchens.",
@@ -1642,7 +1642,7 @@
   {
     "id": "koko-hotel-residence-asakusa-kappabashi",
     "name": "KOKO HOTEL Residence Asakusa Kappabashi",
-    "theme": "stay",
+    "theme": "lodging",
     "type": "stay",
     "area": "Nishi-Asakusa / Kappabashi",
     "what": "Apartment-style hotel near Kappabashi with larger rooms and facilities aimed at longer stays.",
