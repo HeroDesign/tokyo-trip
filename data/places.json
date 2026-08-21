@@ -99,7 +99,7 @@
   {
     "id": "shibuya-sky",
     "name": "Shibuya Sky",
-    "theme": "core",
+    "theme": "view",
     "type": "see",
     "area": "Shibuya",
     "what": "Open-air rooftop observation deck",
@@ -119,7 +119,7 @@
   {
     "id": "asakusa-free-deck",
     "name": "Asakusa free deck",
-    "theme": "core",
+    "theme": "view",
     "type": "see",
     "area": "Asakusa",
     "what": "8F terrace at the Culture Center",
@@ -2006,7 +2006,7 @@
   {
     "id": "tokyo-metropolitan-government-building",
     "name": "Tokyo Metropolitan Government Building",
-    "theme": "photography",
+    "theme": "view",
     "type": "see",
     "area": "Shinjuku",
     "what": "Free observation decks at 202m in Tange's iconic twin towers, with panoramic views of Tokyo and Mt. Fuji on clear days.",
@@ -2062,7 +2062,7 @@
   {
     "id": "azabudai-hills-sky-lobby",
     "name": "Azabudai Hills Sky Lobby",
-    "theme": "photography",
+    "theme": "view",
     "type": "see",
     "area": "Azabudai",
     "what": "Free 34th-floor Sky Lobby in Tokyo's newest skyscraper (2023), with floor-to-ceiling windows and Tokyo Tower views.",
