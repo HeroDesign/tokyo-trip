@@ -1988,5 +1988,19 @@
     "coords": [35.6696, 139.7058],
     "coordPrecision": "exact",
     "imageQueries": ["Harajuku RUIDO Tokyo", "THE SIXTH LIE band"]
+  },
+  {
+    "id": "yanaka-ginza",
+    "name": "Yanaka Ginza",
+    "theme": "capybara",
+    "type": "see",
+    "area": "Yanaka",
+    "what": "Traditional shopping street famous for its resident cats, cat-themed shops, and old-Tokyo atmosphere.",
+    "why": "The cat neighborhood — stray cats lounging on rooftops, cat sculptures, cat-shaped snacks. Pairs perfectly with nearby Nezu Shrine for a quiet Yanaka half-day.",
+    "link": null,
+    "mapQuery": "Yanaka Ginza Tokyo",
+    "coords": [35.7267, 139.7628],
+    "coordPrecision": "exact",
+    "imageQueries": ["Yanaka Ginza Tokyo", "Yanaka Ginza cats", "Yanaka shopping street"]
   }
 ]
