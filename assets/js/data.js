@@ -18,6 +18,8 @@ export const THEMES = [
   { id: 'design', label: 'Design' },
   { id: 'nature', label: 'Nature' },
   { id: 'onsen', label: 'Onsen' },
+  { id: 'rock', label: 'Rock/live' },
+  { id: 'crafts', label: 'Crafts' },
   { id: 'core', label: 'Core/other' },
 ];
 
@@ -48,6 +50,8 @@ export const THEME_COLORS = {
   design: '#5a7d9a',
   nature: '#4a9a6e',
   onsen: '#c27a5a',
+  rock: '#e91e63',
+  crafts: '#d4a574',
   core: '#726b60',
 };
 
