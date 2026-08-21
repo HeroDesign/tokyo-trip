@@ -3,7 +3,7 @@
  * it, and the two buttons that matter on the ground: Map and Link.
  */
 import { themeLabel, mapUrl } from './data.js';
-import { isFavorite, toggleFavorite } from './store.js';
+import { isFavorite, toggleFavorite, isHidden, toggleHidden } from './store.js';
 
 const PIN_ICON =
   '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>';
@@ -50,12 +50,27 @@ function starButton(place) {
   return button;
 }
 
-export function createCard(place) {
+function hideButton(place, onHide) {
+  const button = el('button', 'card__hide', '×');
+  button.type = 'button';
+  button.title = 'Hide this place';
+  button.setAttribute('aria-label', `Hide ${place.name}`);
+  button.setAttribute('aria-pressed', String(isHidden(place.id)));
+  button.addEventListener('click', () => {
+    const nowHidden = toggleHidden(place.id);
+    button.setAttribute('aria-pressed', String(nowHidden));
+    if (onHide) onHide(place.id, nowHidden);
+  });
+  return button;
+}
+
+export function createCard(place, { onHide } = {}) {
   const card = el('article', 'card');
   card.style.setProperty('--accent', `var(--theme-${place.theme})`);
   card.dataset.id = place.id;
 
   const frame = photo(place);
+  frame.append(hideButton(place, onHide));
   frame.append(starButton(place));
 
   const tags = el('div', 'card__tags');

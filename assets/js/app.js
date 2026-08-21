@@ -3,12 +3,14 @@
  * a view survives a refresh or a shared link.
  */
 import { loadPlaces } from './data.js';
+import { initStore } from './store.js';
 import { initBrowse, subscribeToFilters } from './browse.js';
 import { initMap } from './mapview.js';
 import { initPlan } from './plan.js';
 
 const VIEWS = ['browse', 'map', 'plan'];
 
+await initStore();
 const places = await loadPlaces();
 
 initBrowse(places);
