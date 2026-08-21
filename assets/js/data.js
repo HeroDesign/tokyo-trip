@@ -13,6 +13,7 @@ export const THEMES = [
   { id: 'sampling', label: 'Sampling' },
   { id: 'soundgear', label: 'Sound/gear' },
   { id: 'menswear', label: 'Menswear' },
+  { id: 'crafts', label: 'Crafts' },
   { id: 'core', label: 'Core/other' },
 ];
 
@@ -38,6 +39,7 @@ export const THEME_COLORS = {
   sampling: '#2f8f4d',
   soundgear: '#3b6ea5',
   menswear: '#8a5a3c',
+  crafts: '#d4a574',
   core: '#726b60',
 };
 
