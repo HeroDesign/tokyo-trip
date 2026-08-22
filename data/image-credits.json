@@ -1219,5 +1219,27 @@
     "author": "Syced",
     "filePage": "https://commons.wikimedia.org/wiki/File:Azabudai_Hills_Mori_JP_Tower,_February_2023.jpg",
     "bytes": 424164
+  },
+  "kitamura-camera-shinjuku": {
+    "file": "kitamura-camera-shinjuku.jpg",
+    "subject": "Camera no Kitamura",
+    "via": "commons search: Camera no Kitamura",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Kochi_Denki_building.JPG/960px-Kochi_Denki_building.JPG",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "アラツク",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Kochi_Denki_building.JPG",
+    "bytes": 261797
+  },
+  "ginza-tsuboyaki-imo": {
+    "file": "ginza-tsuboyaki-imo.jpg",
+    "subject": "yakiimo sweet potato",
+    "via": "commons search: yakiimo sweet potato",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Gungoguma_%28roasted_sweet_potatoes%29_2.jpg/960px-Gungoguma_%28roasted_sweet_potatoes%29_2.jpg",
+    "license": "CC BY-SA 2.0 kr",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/kr/deed.en",
+    "author": "국립국어원",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Gungoguma_(roasted_sweet_potatoes)_2.jpg",
+    "bytes": 92467
   }
 }
