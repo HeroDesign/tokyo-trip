@@ -80,7 +80,10 @@ export function initBrowse(places) {
     if (b.id === HOME_PLACE_ID) return 1;
     return 0;
   });
-  const cards = new Map(ordered.map((place) => [place.id, createCard(place, { onHide: () => render() })]));
+  const byId = new Map(places.map((place) => [place.id, place]));
+  const cards = new Map(
+    ordered.map((place) => [place.id, createCard(place, { onHide: () => render(), byId })]),
+  );
   grid.replaceChildren(...cards.values());
 
   if (showHiddenToggle) {
@@ -116,18 +119,34 @@ export function initBrowse(places) {
 
   root.querySelector('.filters').addEventListener('submit', (event) => event.preventDefault());
 
+  function resetFilters() {
+    state.search = '';
+    state.themes.clear();
+    state.types.clear();
+    search.value = '';
+    root.querySelectorAll('.chip').forEach((chip) => chip.setAttribute('aria-pressed', 'false'));
+    render();
+  }
+
   resetButtons.forEach((button) =>
     button.addEventListener('click', () => {
-      state.search = '';
-      state.themes.clear();
-      state.types.clear();
-      search.value = '';
-      root.querySelectorAll('.chip').forEach((chip) => chip.setAttribute('aria-pressed', 'false'));
-      render();
+      resetFilters();
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }),
   );
 
+  function focusPlace(id) {
+    const card = cards.get(id);
+    if (!card) return;
+    if (card.hidden) resetFilters();
+    requestAnimationFrame(() => {
+      card.classList.add('card--focus');
+      card.focus({ preventScroll: true });
+      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      window.setTimeout(() => card.classList.remove('card--focus'), 2500);
+    });
+  }
+
   render();
-  return { visible: () => filterPlaces(places, state) };
+  return { visible: () => filterPlaces(places, state), focusPlace };
 }

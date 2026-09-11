@@ -417,10 +417,15 @@ main {
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow);
+  scroll-margin-top: 8rem;
 }
 
 .card[hidden] {
   display: none;
+}
+
+.card--focus {
+  box-shadow: 0 0 0 3px var(--paper), 0 0 0 6px var(--accent), var(--shadow);
 }
 
 .card__photo {
@@ -598,6 +603,26 @@ main {
   color: var(--ink-muted);
 }
 
+.card__related {
+  margin: 0.15rem 0 0;
+  font-size: 0.82rem;
+  color: var(--ink-muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 0.35rem;
+  align-items: baseline;
+}
+
+.card__related-link {
+  color: var(--accent);
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.card__related-link:hover {
+  text-decoration: underline;
+}
+
 .card__actions {
   display: flex;
   gap: 0.45rem;
@@ -707,6 +732,22 @@ main {
   margin: 0 0 0.5rem;
   font-size: 0.78rem;
   color: var(--ink-muted);
+}
+
+.popup__related-row {
+  margin: 0 0 0.5rem;
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+}
+
+.popup__related {
+  color: #1f5f8a;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.popup__related:hover {
+  text-decoration: underline;
 }
 
 .popup__actions {
@@ -1020,6 +1061,21 @@ main {
 .slot__meta {
   font-size: 0.76rem;
   color: var(--ink-muted);
+}
+
+.slot__related {
+  font-size: 0.76rem;
+  color: var(--ink-muted);
+}
+
+.slot__related-link {
+  color: var(--accent);
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.slot__related-link:hover {
+  text-decoration: underline;
 }
 
 .slot select {

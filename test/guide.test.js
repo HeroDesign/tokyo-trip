@@ -7,7 +7,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 
-import { THEMES, TYPES, TRIP_DAYS, mapUrl, HOME_PLACE_ID } from '../assets/js/data.js';
+import { THEMES, TYPES, TRIP_DAYS, mapUrl, HOME_PLACE_ID, placeHash, relatedLabel } from '../assets/js/data.js';
 import { emptyFilters, filterPlaces, isFiltered } from '../assets/js/filter.js';
 import { toKml, toCsv } from '../assets/js/export.js';
 import { mergeSeed } from '../assets/js/store.js';
@@ -198,6 +198,26 @@ test('settings: a newer repo seed merges into existing local favorites', () => {
 
   const unchanged = mergeSeed(repo, { ...local, seedVersion: 2, favorites: ['senso-ji'] });
   assert.deepEqual(unchanged.favorites, ['senso-ji']);
+});
+
+test('related: ids exist in the dataset and Planets pairs with Ibaraki', () => {
+  const byId = new Map(places.map((place) => [place.id, place]));
+  for (const place of places) {
+    if (!place.related) continue;
+    assert.ok(Array.isArray(place.related), `${place.id}: related must be an array`);
+    for (const id of place.related) {
+      assert.ok(byId.has(id), `${place.id} related to missing ${id}`);
+      assert.notEqual(id, place.id, `${place.id} related to itself`);
+    }
+  }
+
+  const planets = byId.get('teamlab-planets');
+  const robots = byId.get('alvark-vs-ibaraki-2026-10-22');
+  assert.ok(planets.related.includes('alvark-vs-ibaraki-2026-10-22'));
+  assert.ok(robots.related.includes('teamlab-planets'));
+  assert.equal(placeHash(planets.id), '#browse/teamlab-planets');
+  assert.equal(relatedLabel(robots), 'Ibaraki Robots · Thu 22 Oct');
+  assert.equal(relatedLabel(planets), 'teamLab Planets');
 });
 
 test('instagram places from PR 16 are in the dataset', () => {

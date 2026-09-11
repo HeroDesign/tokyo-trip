@@ -98,6 +98,10 @@ export const typeLabel = (id) => typeLabels[id] ?? id;
 export const mapUrl = (place) =>
   `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.mapQuery)}`;
 
+export const placeHash = (id) => `#browse/${id}`;
+
+export const relatedLabel = (place) => place.shortName || place.name;
+
 /**
  * Loads places and merges in the locally cached photo filename. Places without
  * a cached photo simply get no image and fall back to a coloured tile.

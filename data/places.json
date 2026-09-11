@@ -880,7 +880,8 @@
     "imageQueries": [
       "TeamLab (art collective)",
       "TeamLab Borderless"
-    ]
+    ],
+    "related": ["alvark-vs-ibaraki-2026-10-22"]
   },
   {
     "id": "small-worlds",
@@ -2299,7 +2300,9 @@
     "imageQueries": [
       "B.League basketball Japan",
       "Japanese professional basketball game"
-    ]
+    ],
+    "related": ["teamlab-planets"],
+    "shortName": "Ibaraki Robots · Thu 22 Oct"
   },
   {
     "id": "alvark-vs-mikawa-2026-10-24",

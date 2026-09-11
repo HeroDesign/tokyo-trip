@@ -2,7 +2,7 @@
  * Plan view: a proper trip planner showing all days with favorites slotted in.
  * Always displays the full itinerary structure so you can see the whole trip.
  */
-import { TRIP_DAYS, themeLabel, typeLabel, HOME_PLACE_ID } from './data.js';
+import { TRIP_DAYS, themeLabel, typeLabel, HOME_PLACE_ID, placeHash, relatedLabel } from './data.js';
 import { favorites, dayFor, assignDay, toggleFavorite, subscribe, exportSettings } from './store.js';
 import { toKml, toCsv } from './export.js';
 
@@ -35,6 +35,18 @@ function slot(place, byId, rerender) {
     el('div', 'slot__name', place.name),
     el('div', 'slot__meta', `${themeLabel(place.theme)} · ${typeLabel(place.type)} · ${place.area}`),
   );
+  const relatedPlaces = (place.related ?? []).map((id) => byId.get(id)).filter(Boolean);
+  if (relatedPlaces.length) {
+    const related = el('div', 'slot__related');
+    related.append(document.createTextNode('In the guide: '));
+    relatedPlaces.forEach((target, index) => {
+      if (index > 0) related.append(document.createTextNode(' · '));
+      const a = el('a', 'slot__related-link', relatedLabel(target));
+      a.href = placeHash(target.id);
+      related.append(a);
+    });
+    text.append(related);
+  }
   row.append(text);
 
   const select = document.createElement('select');

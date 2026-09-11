@@ -1,6 +1,7 @@
 /**
  * Entry point: load the data once, wire the three views, route on the hash so
- * a view survives a refresh or a shared link.
+ * a view survives a refresh or a shared link. Related places use
+ * #browse/<place-id> to jump to that card.
  */
 import { loadPlaces } from './data.js';
 import { initStore } from './store.js';
@@ -13,7 +14,7 @@ const VIEWS = ['browse', 'map', 'plan'];
 await initStore();
 const places = await loadPlaces();
 
-initBrowse(places);
+const browse = initBrowse(places);
 const showMap = initMap(places, subscribeToFilters);
 initPlan(places);
 
@@ -22,16 +23,23 @@ const sections = new Map(
 );
 const tabs = [...document.querySelectorAll('.tab')];
 
-function activate(view) {
-  const target = VIEWS.includes(view) ? view : 'browse';
+function parseRoute() {
+  const raw = window.location.hash.slice(1);
+  const [view = 'browse', placeId = ''] = raw.split('/');
+  return { view: VIEWS.includes(view) ? view : 'browse', placeId };
+}
 
-  for (const [name, section] of sections) section.hidden = name !== target;
+function activate() {
+  const { view, placeId } = parseRoute();
+
+  for (const [name, section] of sections) section.hidden = name !== view;
   tabs.forEach((tab) => {
-    if (tab.dataset.view === target) tab.setAttribute('aria-current', 'page');
+    if (tab.dataset.view === view) tab.setAttribute('aria-current', 'page');
     else tab.removeAttribute('aria-current');
   });
 
-  if (target === 'map') showMap();
+  if (view === 'map') showMap();
+  if (view === 'browse' && placeId) browse.focusPlace(placeId);
 }
 
 tabs.forEach((tab) =>
@@ -40,5 +48,5 @@ tabs.forEach((tab) =>
   }),
 );
 
-window.addEventListener('hashchange', () => activate(window.location.hash.slice(1)));
-activate(window.location.hash.slice(1));
+window.addEventListener('hashchange', activate);
+activate();

@@ -17,6 +17,7 @@ const TOKYO = [35.6812, 139.7671];
 export function initMap(places, subscribeToFilters) {
   const container = document.getElementById('map');
   const home = places.find((place) => place.id === HOME_PLACE_ID);
+  const byId = new Map(places.map((place) => [place.id, place]));
   let map = null;
   let layer = null;
 
@@ -45,7 +46,7 @@ export function initMap(places, subscribeToFilters) {
     layer = L.layerGroup(
       withHome(visible).map((place) =>
         L.marker(place.coords, { icon: pinFor(place), title: place.name, zIndexOffset: place.id === HOME_PLACE_ID ? 1000 : 0 }).bindPopup(
-          popupHtml(place),
+          popupHtml(place, { byId }),
         ),
       ),
     ).addTo(map);

@@ -2,7 +2,7 @@
  * The place card. Photo, theme tag, neighborhood, what it is, why we flagged
  * it, and the two buttons that matter on the ground: Map and Link.
  */
-import { themeLabel, mapUrl, HOME_PLACE_ID } from './data.js';
+import { themeLabel, mapUrl, HOME_PLACE_ID, placeHash, relatedLabel } from './data.js';
 import { isFavorite, toggleFavorite, isHidden, toggleHidden } from './store.js';
 
 const PIN_ICON =
@@ -64,11 +64,12 @@ function hideButton(place, onHide) {
   return button;
 }
 
-export function createCard(place, { onHide } = {}) {
+export function createCard(place, { onHide, byId } = {}) {
   const card = el('article', 'card');
   const isHome = place.id === HOME_PLACE_ID;
   card.style.setProperty('--accent', `var(--theme-${place.theme})`);
   card.dataset.id = place.id;
+  card.tabIndex = -1;
   if (isHome) card.classList.add('card--home');
 
   const frame = photo(place);
@@ -86,6 +87,19 @@ export function createCard(place, { onHide } = {}) {
   const body = el('div', 'card__body');
   body.append(tags, el('h2', 'card__name', place.name), el('p', 'card__what', place.what));
   body.append(el('p', 'card__why', place.why));
+
+  const relatedPlaces = (place.related ?? []).map((id) => byId?.get(id)).filter(Boolean);
+  if (relatedPlaces.length) {
+    const related = el('p', 'card__related');
+    related.append(document.createTextNode('In the guide: '));
+    relatedPlaces.forEach((target, index) => {
+      if (index > 0) related.append(document.createTextNode(' · '));
+      const a = el('a', 'card__related-link', relatedLabel(target));
+      a.href = placeHash(target.id);
+      related.append(a);
+    });
+    body.append(related);
+  }
 
   const actions = el('div', 'card__actions');
   const map = el('a', 'button button--primary', 'Map');
@@ -108,18 +122,27 @@ export function createCard(place, { onHide } = {}) {
 }
 
 /** Compact version of the same information, for map pin popups. */
-export function popupHtml(place) {
+export function popupHtml(place, { byId } = {}) {
   const link = place.link
     ? `<a class="button" href="${place.link}" target="_blank" rel="noopener">Link</a>`
     : '';
   const homeTag =
     place.id === HOME_PLACE_ID ? `<span class="tag tag--home">Your hotel</span>` : '';
+  const related = (place.related ?? [])
+    .map((id) => byId?.get(id))
+    .filter(Boolean)
+    .map(
+      (target) =>
+        `<a class="popup__related" href="${placeHash(target.id)}">${relatedLabel(target)}</a>`,
+    )
+    .join(' · ');
   return `
     ${homeTag}
     <span class="tag" style="background: var(--theme-${place.theme})">${themeLabel(place.theme)}</span>
     <h3 class="popup__name">${place.name}</h3>
     <p class="popup__what">${place.what}</p>
     <p class="popup__why">${place.why}</p>
+    ${related ? `<p class="popup__related-row">In the guide: ${related}</p>` : ''}
     <div class="popup__actions">
       <a class="button button--primary" href="${mapUrl(place)}" target="_blank" rel="noopener">Map</a>
       ${link}
