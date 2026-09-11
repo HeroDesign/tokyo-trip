@@ -173,6 +173,17 @@ test('hotel: OMO3 Asakusa is the only lodging entry and the booked home base', a
   assert.equal(settings.seedVersion, 2);
 });
 
+test('basketball: B.League games during the trip are in the dataset', () => {
+  const sports = places.filter((p) => p.theme === 'sports');
+  assert.ok(sports.some((p) => p.id === 'sunrockers-vs-nagasaki-2026-10-17'));
+  assert.ok(sports.some((p) => p.id === 'alvark-vs-akita-2026-10-19'));
+  assert.ok(sports.some((p) => p.id === 'alvark-vs-ibaraki-2026-10-22'));
+  assert.ok(sports.some((p) => p.id === 'alvark-vs-mikawa-2026-10-24'));
+  assert.ok(sports.some((p) => p.id === 'kawasaki-brave-thunders-todoroki'));
+  const arena = places.find((p) => p.id === 'alvark-vs-akita-2026-10-19');
+  assert.match(arena.what, /19:05/);
+});
+
 test('settings: a newer repo seed merges into existing local favorites', () => {
   const local = { favorites: ['senso-ji'], days: { 'senso-ji': '2026-10-18' }, hidden: [], seedVersion: 0 };
   const repo = { favorites: ['omo3-asakusa'], days: {}, hidden: [], seedVersion: 2 };

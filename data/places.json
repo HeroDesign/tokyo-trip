@@ -2239,5 +2239,75 @@
       "Harajuku Kawaii Zoo Land",
       "Harajuku animal cafe meerkat fennec capybara"
     ]
+  },
+  {
+    "id": "sunrockers-vs-nagasaki-2026-10-17",
+    "name": "Sun Rockers Shibuya vs Nagasaki — Sat 17 Oct",
+    "theme": "sports",
+    "type": "see",
+    "area": "Aomi / Odaiba",
+    "what": "B.League Premier home game at Toyota Arena Tokyo, tip-off 17:05.",
+    "why": "First basketball option after landing (HND 15:05). Doable only if immigration and the hotel drop are fast — otherwise skip and take an Alvark night instead. Sun Rockers share the new 10,000-seat waterfront arena with Alvark Tokyo; Yurikamome Aomi or Rinkai Tokyo Teleport, ~5 min walk.",
+    "link": "https://www.sunrockers.jp/",
+    "mapQuery": "TOYOTA ARENA TOKYO 1-3-1 Aomi Koto Tokyo",
+    "coords": [35.6263, 139.7831],
+    "coordPrecision": "exact",
+    "imageQueries": ["Yurikamome Aomi Station", "Odaiba Tokyo", "Rainbow Bridge Tokyo night"]
+  },
+  {
+    "id": "alvark-vs-akita-2026-10-19",
+    "name": "Alvark Tokyo vs Akita — Mon 19 Oct",
+    "theme": "sports",
+    "type": "see",
+    "area": "Aomi / Odaiba",
+    "what": "B.League Premier home game at Toyota Arena Tokyo, tip-off 19:05. First night of Alvark Entertainment Special 3DAYS.",
+    "why": "Best weeknight option from Asakusa: evening tip, new arena, and a halftime set from singer VK Blanka. Adult tickets were listing around ¥3,500–¥5,000 when sales opened.",
+    "link": "https://www.alvark-tokyo.jp/news/detail/game/event/id=24301",
+    "mapQuery": "TOYOTA ARENA TOKYO 1-3-1 Aomi Koto Tokyo",
+    "coords": [35.6263, 139.7831],
+    "coordPrecision": "exact",
+    "imageQueries": ["Alvark Tokyo", "Toyota Alvark Tokyo"]
+  },
+  {
+    "id": "alvark-vs-ibaraki-2026-10-22",
+    "name": "Alvark Tokyo vs Ibaraki — Thu 22 Oct",
+    "theme": "sports",
+    "type": "see",
+    "area": "Aomi / Odaiba",
+    "what": "B.League Premier home game at Toyota Arena Tokyo, tip-off 19:05. Second night of Alvark Entertainment Special 3DAYS.",
+    "why": "Same easy evening slot as the Akita game. Halftime is MOS, a brass-and-dance quartet — closer to the live-music throughline than a standard basketball intermission.",
+    "link": "https://www.alvark-tokyo.jp/news/detail/game/event/id=24301",
+    "mapQuery": "TOYOTA ARENA TOKYO 1-3-1 Aomi Koto Tokyo",
+    "coords": [35.6263, 139.7831],
+    "coordPrecision": "exact",
+    "imageQueries": ["B.League basketball Japan", "Japanese professional basketball game"]
+  },
+  {
+    "id": "alvark-vs-mikawa-2026-10-24",
+    "name": "Alvark Tokyo vs Mikawa — Sat 24 Oct",
+    "theme": "sports",
+    "type": "see",
+    "area": "Aomi / Odaiba",
+    "what": "B.League Premier home game at Toyota Arena Tokyo, tip-off 17:05. Closing night of Alvark Entertainment Special 3DAYS, with a Godzilla −0.0 collab.",
+    "why": "Saturday afternoon tip is the least rushed Alvark game of the week. Arena sound/visuals are themed around the Godzilla film opening 3 Nov. Conflicts with Kawasaki's 15:05 home game the same day — pick one arena.",
+    "link": "https://www.alvark-tokyo.jp/news/detail/game/event/id=24301",
+    "mapQuery": "TOYOTA ARENA TOKYO 1-3-1 Aomi Koto Tokyo",
+    "coords": [35.6263, 139.7831],
+    "coordPrecision": "exact",
+    "imageQueries": ["Toyota Arena Tokyo 2025", "TOYOTA ARENA TOKYO facade"]
+  },
+  {
+    "id": "kawasaki-brave-thunders-todoroki",
+    "name": "Kawasaki Brave Thunders at Todoroki",
+    "theme": "sports",
+    "type": "see",
+    "area": "Kawasaki",
+    "what": "Nearby B.League Premier home games at Tokyu Dressé Todoroki Arena: Wed 21 Oct 19:05 vs Osaka, Sat 24 Oct 15:05 vs Sendai.",
+    "why": "Backup if Toyota Arena is sold out. Todoroki is in Kawasaki, not Tokyo — about 45–60 minutes from Asakusa. The Saturday 15:05 Sendai game overlaps Alvark vs Mikawa at 17:05, so it is one arena or the other.",
+    "link": "https://kawasaki-bravethunders.com/schedule/?scheduleMonth=10&scheduleYear=2026",
+    "mapQuery": "Tokyu Dresse Todoroki Arena Kawasaki",
+    "coords": [35.5872, 139.6468],
+    "coordPrecision": "exact",
+    "imageQueries": ["Todoroki Arena Kawasaki", "Kawasaki Brave Thunders"]
   }
 ]

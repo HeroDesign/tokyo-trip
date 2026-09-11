@@ -1032,5 +1032,60 @@
     "author": "Syced",
     "filePage": "https://commons.wikimedia.org/wiki/File:Azabudai_Hills_Mori_JP_Tower,_February_2023.jpg",
     "bytes": 424164
+  },
+  "alvark-vs-ibaraki-2026-10-22": {
+    "file": "alvark-vs-ibaraki-2026-10-22.jpg",
+    "subject": "B.League basketball Japan",
+    "via": "commons search: B.League basketball Japan",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Hajime_Imabayashi2024.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Hatszerv",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Hajime_Imabayashi2024.jpg",
+    "bytes": 106120
+  },
+  "alvark-vs-mikawa-2026-10-24": {
+    "file": "alvark-vs-mikawa-2026-10-24.jpg",
+    "subject": "Toyota Arena Tokyo 2025",
+    "via": "commons search: Toyota Arena Tokyo 2025",
+    "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Toyota_Arena_Tokyo_%2831973%29.jpg/960px-Toyota_Arena_Tokyo_%2831973%29.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Syced",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Toyota_Arena_Tokyo_(31973).jpg",
+    "bytes": 175740
+  },
+  "kawasaki-brave-thunders-todoroki": {
+    "file": "kawasaki-brave-thunders-todoroki.jpg",
+    "subject": "Todoroki Arena Kawasaki",
+    "via": "commons search: Todoroki Arena Kawasaki",
+    "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/So_enkin.jpg/960px-So_enkin.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "User:STB-1",
+    "filePage": "https://commons.wikimedia.org/wiki/File:So_enkin.jpg",
+    "bytes": 298736
+  },
+  "alvark-vs-akita-2026-10-19": {
+    "file": "alvark-vs-akita-2026-10-19.png",
+    "subject": "Alvark Tokyo",
+    "via": "en.wikipedia: Alvark Tokyo",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Alvark_Tokyo_logo.png",
+    "license": "Public domain",
+    "licenseUrl": null,
+    "author": "Alvark Tokyo",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Alvark_Tokyo_logo.png",
+    "bytes": 113839
+  },
+  "sunrockers-vs-nagasaki-2026-10-17": {
+    "file": "sunrockers-vs-nagasaki-2026-10-17.jpg",
+    "subject": "Yurikamome Aomi Station",
+    "via": "commons search: Yurikamome Aomi Station",
+    "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Yurikamome-U10-Aomi-Station-platform.jpg/960px-Yurikamome-U10-Aomi-Station-platform.jpg",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "author": "LERK (talk · contribs)",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Yurikamome-U10-Aomi-Station-platform.jpg",
+    "bytes": 204765
   }
 }
