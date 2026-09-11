@@ -24,9 +24,10 @@ const sections = new Map(
 const tabs = [...document.querySelectorAll('.tab')];
 
 function parseRoute() {
-  const raw = window.location.hash.slice(1);
-  const [view = 'browse', placeId = ''] = raw.split('/');
-  return { view: VIEWS.includes(view) ? view : 'browse', placeId };
+  const parts = window.location.hash.slice(1).split('/').filter(Boolean);
+  const view = VIEWS.includes(parts[0]) ? parts[0] : 'browse';
+  const placeId = parts[1] || '';
+  return { view, placeId };
 }
 
 function activate() {
