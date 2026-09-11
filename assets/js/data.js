@@ -94,9 +94,13 @@ const typeLabels = Object.fromEntries(TYPES.map((t) => [t.id, t.label]));
 export const themeLabel = (id) => themeLabels[id] ?? id;
 export const typeLabel = (id) => typeLabels[id] ?? id;
 
-/** Deep link that opens in Google Maps, or Apple Maps on iOS. */
+/** Deep link that opens Google Maps in English, or Apple Maps on iOS. */
 export const mapUrl = (place) =>
-  `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.mapQuery)}`;
+  `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.mapQuery)}&hl=en`;
+
+/** English Google Map centered on a lat,lng (hotel / neighborhood overview). */
+export const englishAreaMapUrl = ([lat, lng], zoom = 14) =>
+  `https://www.google.com/maps/@${lat},${lng},${zoom}z?hl=en`;
 
 export const placeHash = (id) => `#browse/${id}`;
 

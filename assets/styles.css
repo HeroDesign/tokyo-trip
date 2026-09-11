@@ -687,6 +687,18 @@ main {
   margin: 0.6rem 0 0;
 }
 
+.map__english {
+  display: inline-block;
+  margin-left: 0.35rem;
+  color: var(--ink);
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.map__english:hover {
+  text-decoration: underline;
+}
+
 .pin {
   width: 0.85rem;
   height: 0.85rem;

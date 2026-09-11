@@ -8,8 +8,11 @@
  *
  * The booked hotel is always on the map as a larger home pin, even when the
  * current filters would otherwise hide lodging.
+ *
+ * Basemap is CARTO Voyager so street and place names render in English/Latin
+ * script instead of OSM's local Japanese labels.
  */
-import { THEME_COLORS, HOME_PLACE_ID } from './data.js';
+import { THEME_COLORS, HOME_PLACE_ID, englishAreaMapUrl } from './data.js';
 import { popupHtml } from './card.js';
 
 const TOKYO = [35.6812, 139.7671];
@@ -66,10 +69,13 @@ export function initMap(places, subscribeToFilters) {
     if (!map) {
       const origin = home?.coords ?? TOKYO;
       map = L.map(container, { scrollWheelZoom: false }).setView(origin, home ? 13 : 11);
-      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution: '&copy; OpenStreetMap contributors',
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+        maxZoom: 20,
+        subdomains: 'abcd',
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
       }).addTo(map);
+      const englishMap = document.querySelector('[data-english-map]');
+      if (englishMap) englishMap.href = englishAreaMapUrl(origin, 14);
       draw(latest);
     }
     map.invalidateSize();

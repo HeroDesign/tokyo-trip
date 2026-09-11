@@ -7,7 +7,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 
-import { THEMES, TYPES, TRIP_DAYS, mapUrl, HOME_PLACE_ID, placeHash, relatedLabel } from '../assets/js/data.js';
+import { THEMES, TYPES, TRIP_DAYS, mapUrl, englishAreaMapUrl, HOME_PLACE_ID, placeHash, relatedLabel } from '../assets/js/data.js';
 import { emptyFilters, filterPlaces, isFiltered } from '../assets/js/filter.js';
 import { toKml, toCsv } from '../assets/js/export.js';
 import { mergeSeed } from '../assets/js/store.js';
@@ -118,15 +118,21 @@ test('filter: search is case-insensitive and terms are ANDed', () => {
   assert.ok(a.every((p) => /ramen/i.test(JSON.stringify(p)) && /museum/i.test(JSON.stringify(p))));
 });
 
-test('map links point at Google Maps with the place query', () => {
+test('map links point at English Google Maps with the place query', () => {
   const senso = places.find((p) => p.id === 'senso-ji');
   assert.equal(
     mapUrl(senso),
-    'https://www.google.com/maps/search/?api=1&query=Senso-ji%20Asakusa%20Tokyo%20Japan',
+    'https://www.google.com/maps/search/?api=1&query=Senso-ji%20Asakusa%20Tokyo%20Japan&hl=en',
   );
   for (const place of places) {
     assert.match(mapUrl(place), /^https:\/\/www\.google\.com\/maps\/search\/\?api=1&query=/);
+    assert.match(mapUrl(place), /[?&]hl=en/);
   }
+  const home = places.find((p) => p.id === HOME_PLACE_ID);
+  assert.equal(
+    englishAreaMapUrl(home.coords, 14),
+    'https://www.google.com/maps/@35.7138264,139.7983176,14z?hl=en',
+  );
 });
 
 test('export: KML has one placemark per place, lng,lat ordered', () => {
