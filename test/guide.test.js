@@ -180,6 +180,10 @@ test('basketball: B.League games during the trip are in the dataset', () => {
   assert.ok(sports.some((p) => p.id === 'alvark-vs-ibaraki-2026-10-22'));
   assert.ok(sports.some((p) => p.id === 'alvark-vs-mikawa-2026-10-24'));
   assert.ok(sports.some((p) => p.id === 'kawasaki-brave-thunders-todoroki'));
+  const robots = places.find((p) => p.id === 'alvark-vs-ibaraki-2026-10-22');
+  assert.match(robots.why, /teamLab Planets/);
+  const planets = places.find((p) => p.id === 'teamlab-planets');
+  assert.match(planets.why, /Ibaraki/);
   const arena = places.find((p) => p.id === 'alvark-vs-akita-2026-10-19');
   assert.match(arena.what, /19:05/);
 });
@@ -194,4 +198,19 @@ test('settings: a newer repo seed merges into existing local favorites', () => {
 
   const unchanged = mergeSeed(repo, { ...local, seedVersion: 2, favorites: ['senso-ji'] });
   assert.deepEqual(unchanged.favorites, ['senso-ji']);
+});
+
+test('instagram places from PR 16 are in the dataset', () => {
+  for (const id of [
+    'shibuya-hikarie-sky-lobby',
+    'shibuya-hachiko-stamp',
+    'kitamura-camera-shinjuku',
+    'lemonsha-ginza',
+    'ginza-tsuboyaki-imo',
+    'onigiri-asakusa-yadoroku',
+    'yayoi-kusama-museum',
+    'kamakura-day-trip',
+  ]) {
+    assert.ok(places.some((p) => p.id === id), `missing ${id}`);
+  }
 });

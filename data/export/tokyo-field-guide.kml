@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Tokyo Field Guide</name>
-    <description>116 places, 16-25 October 2026.</description>
+    <description>124 places, 16-25 October 2026.</description>
     <Style id="theme-photography">
       <IconStyle>
         <color>ff907c1f</color>
@@ -601,7 +601,7 @@ VR/tech / Do / Tokyo Tower</description>
       <name>teamLab Planets</name>
       <description>Barefoot immersive digital-art museum
 
-Why: Book Oct tickets late July; wear shorts
+Why: Book Oct tickets late July; wear shorts. On Thu 22 Oct it pairs with Alvark vs Ibaraki Robots at Toyota Arena (19:05) — two Yurikamome stops from Shin-Toyosu to Aomi.
 
 VR/tech / Do / Toyosu
 https://teamlabplanets.dmm.com/en/</description>
@@ -1381,7 +1381,7 @@ https://www.alvark-tokyo.jp/news/detail/game/event/id=24301</description>
       <name>Alvark Tokyo vs Ibaraki — Thu 22 Oct</name>
       <description>B.League Premier home game at Toyota Arena Tokyo, tip-off 19:05. Second night of Alvark Entertainment Special 3DAYS.
 
-Why: Same easy evening slot as the Akita game. Halftime is MOS, a brass-and-dance quartet — closer to the live-music throughline than a standard basketball intermission.
+Why: The waterfront pairing with teamLab Planets: Planets is at Shin-Toyosu, Toyota Arena is two Yurikamome stops at Aomi (~5 min). Do Planets in the afternoon, then Alvark vs Ibaraki Robots at 19:05. Halftime is MOS, a brass-and-dance quartet.
 
 Sports / See / Aomi / Odaiba
 https://www.alvark-tokyo.jp/news/detail/game/event/id=24301</description>
@@ -1409,6 +1409,93 @@ Sports / See / Kawasaki
 https://kawasaki-bravethunders.com/schedule/?scheduleMonth=10&amp;scheduleYear=2026</description>
       <styleUrl>#theme-sports</styleUrl>
       <Point><coordinates>139.6468,35.5872,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Shibuya Hikarie Sky Lobby</name>
+      <description>Free 11F observation lobby with panoramic Shibuya views
+
+Why: Free consolation view now that Shibuya Sky is off the list; overlooks Shibuya but not the scramble crossing itself
+
+View / See / Shibuya
+https://www.hikarie.jp/</description>
+      <styleUrl>#theme-view</styleUrl>
+      <Point><coordinates>139.7036,35.659,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Hachiko Commemorative Stamp</name>
+      <description>Eki-stamp at SHIBU HACHI BOX tourist info center near Hachiko statue
+
+Why: 2-minute detour on any Shibuya visit; start an eki-stamp collection across the 9 days — bring a small ink pad
+
+Core/other / See / Shibuya
+https://play-shibuya.com</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.7005,35.6595,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Camera no Kitamura - Shinjuku</name>
+      <description>Multi-floor camera shop with junk section and dedicated Leica floor
+
+Why: Go for the junk section — that's the actual fun; pairs same-afternoon with Map Camera
+
+Photography / Shop / Shinjuku
+https://www.kitamuracamera.jp/en/</description>
+      <styleUrl>#theme-photography</styleUrl>
+      <Point><coordinates>139.7024,35.6918,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Lemon-sha Ginza</name>
+      <description>40-year Ginza camera institution with film cameras, fountain pens, and watches
+
+Why: Strong used counter for medium format; pairs naturally with Ginza Tsuboyaki-imo on a Ginza afternoon
+
+Photography / Shop / Ginza
+https://lemonsha.com/</description>
+      <styleUrl>#theme-photography</styleUrl>
+      <Point><coordinates>139.7665,35.6712,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ginza Tsuboyaki-imo</name>
+      <description>Pot-roasted sweet potato specialist using traditional clay-jar method
+
+Why: October is the front edge of yakiimo season; closed Mon + 1st/3rd Sundays — Sun Oct 18 closed, open Sun Oct 25
+
+Core/other / Eat / Ginza
+https://www.imo-tsubo.com/</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.7607,35.6697,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Onigiri Asakusa Yadoroku</name>
+      <description>Tokyo's oldest onigiri shop, est. 1954, small counter behind Senso-ji
+
+Why: Short walk from base; go early or expect a wait — sells out
+
+Ramen/food / Eat / Asakusa
+https://onigiriyadoroku.com/english.html</description>
+      <styleUrl>#theme-ramen</styleUrl>
+      <Point><coordinates>139.7948,35.7169,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Yayoi Kusama Museum</name>
+      <description>Small dedicated museum for Kusama's polka-dot infinity installations
+
+Why: REQUIRES advance booking — Oct tickets sold Aug 1; Thu/Fri Oct 22-23 most likely to have stock; 90-min timed slots
+
+Drawing / See / Shinjuku (Waseda)
+https://yayoikusamamuseum.jp/en/</description>
+      <styleUrl>#theme-drawing</styleUrl>
+      <Point><coordinates>139.7265,35.7032,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Kamakura</name>
+      <description>Coastal temple town with Daibutsu, Hase-dera, and the Enoden line
+
+Why: ~1.5 hrs each way from Asakusa; Enoden running between houses and along the coast is excellent on 120 film — back in Tokyo for dinner
+
+Photography / Day trip / Kanagawa</description>
+      <styleUrl>#theme-photography</styleUrl>
+      <Point><coordinates>139.5357,35.3168,0</coordinates></Point>
     </Placemark>
   </Document>
 </kml>

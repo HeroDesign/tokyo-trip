@@ -869,7 +869,7 @@
     "type": "do",
     "area": "Toyosu",
     "what": "Barefoot immersive digital-art museum",
-    "why": "Book Oct tickets late July; wear shorts",
+    "why": "Book Oct tickets late July; wear shorts. On Thu 22 Oct it pairs with Alvark vs Ibaraki Robots at Toyota Arena (19:05) — two Yurikamome stops from Shin-Toyosu to Aomi.",
     "link": "https://teamlabplanets.dmm.com/en/",
     "mapQuery": "teamLab Planets TOKYO Toyosu Tokyo Japan",
     "coords": [
@@ -2250,9 +2250,16 @@
     "why": "First basketball option after landing (HND 15:05). Doable only if immigration and the hotel drop are fast — otherwise skip and take an Alvark night instead. Sun Rockers share the new 10,000-seat waterfront arena with Alvark Tokyo; Yurikamome Aomi or Rinkai Tokyo Teleport, ~5 min walk.",
     "link": "https://www.sunrockers.jp/",
     "mapQuery": "TOYOTA ARENA TOKYO 1-3-1 Aomi Koto Tokyo",
-    "coords": [35.6263, 139.7831],
+    "coords": [
+      35.6263,
+      139.7831
+    ],
     "coordPrecision": "exact",
-    "imageQueries": ["Yurikamome Aomi Station", "Odaiba Tokyo", "Rainbow Bridge Tokyo night"]
+    "imageQueries": [
+      "Yurikamome Aomi Station",
+      "Odaiba Tokyo",
+      "Rainbow Bridge Tokyo night"
+    ]
   },
   {
     "id": "alvark-vs-akita-2026-10-19",
@@ -2264,9 +2271,15 @@
     "why": "Best weeknight option from Asakusa: evening tip, new arena, and a halftime set from singer VK Blanka. Adult tickets were listing around ¥3,500–¥5,000 when sales opened.",
     "link": "https://www.alvark-tokyo.jp/news/detail/game/event/id=24301",
     "mapQuery": "TOYOTA ARENA TOKYO 1-3-1 Aomi Koto Tokyo",
-    "coords": [35.6263, 139.7831],
+    "coords": [
+      35.6263,
+      139.7831
+    ],
     "coordPrecision": "exact",
-    "imageQueries": ["Alvark Tokyo", "Toyota Alvark Tokyo"]
+    "imageQueries": [
+      "Alvark Tokyo",
+      "Toyota Alvark Tokyo"
+    ]
   },
   {
     "id": "alvark-vs-ibaraki-2026-10-22",
@@ -2275,12 +2288,18 @@
     "type": "see",
     "area": "Aomi / Odaiba",
     "what": "B.League Premier home game at Toyota Arena Tokyo, tip-off 19:05. Second night of Alvark Entertainment Special 3DAYS.",
-    "why": "Same easy evening slot as the Akita game. Halftime is MOS, a brass-and-dance quartet — closer to the live-music throughline than a standard basketball intermission.",
+    "why": "The waterfront pairing with teamLab Planets: Planets is at Shin-Toyosu, Toyota Arena is two Yurikamome stops at Aomi (~5 min). Do Planets in the afternoon, then Alvark vs Ibaraki Robots at 19:05. Halftime is MOS, a brass-and-dance quartet.",
     "link": "https://www.alvark-tokyo.jp/news/detail/game/event/id=24301",
     "mapQuery": "TOYOTA ARENA TOKYO 1-3-1 Aomi Koto Tokyo",
-    "coords": [35.6263, 139.7831],
+    "coords": [
+      35.6263,
+      139.7831
+    ],
     "coordPrecision": "exact",
-    "imageQueries": ["B.League basketball Japan", "Japanese professional basketball game"]
+    "imageQueries": [
+      "B.League basketball Japan",
+      "Japanese professional basketball game"
+    ]
   },
   {
     "id": "alvark-vs-mikawa-2026-10-24",
@@ -2292,9 +2311,15 @@
     "why": "Saturday afternoon tip is the least rushed Alvark game of the week. Arena sound/visuals are themed around the Godzilla film opening 3 Nov. Conflicts with Kawasaki's 15:05 home game the same day — pick one arena.",
     "link": "https://www.alvark-tokyo.jp/news/detail/game/event/id=24301",
     "mapQuery": "TOYOTA ARENA TOKYO 1-3-1 Aomi Koto Tokyo",
-    "coords": [35.6263, 139.7831],
+    "coords": [
+      35.6263,
+      139.7831
+    ],
     "coordPrecision": "exact",
-    "imageQueries": ["Toyota Arena Tokyo 2025", "TOYOTA ARENA TOKYO facade"]
+    "imageQueries": [
+      "Toyota Arena Tokyo 2025",
+      "TOYOTA ARENA TOKYO facade"
+    ]
   },
   {
     "id": "kawasaki-brave-thunders-todoroki",
@@ -2306,8 +2331,175 @@
     "why": "Backup if Toyota Arena is sold out. Todoroki is in Kawasaki, not Tokyo — about 45–60 minutes from Asakusa. The Saturday 15:05 Sendai game overlaps Alvark vs Mikawa at 17:05, so it is one arena or the other.",
     "link": "https://kawasaki-bravethunders.com/schedule/?scheduleMonth=10&scheduleYear=2026",
     "mapQuery": "Tokyu Dresse Todoroki Arena Kawasaki",
-    "coords": [35.5872, 139.6468],
+    "coords": [
+      35.5872,
+      139.6468
+    ],
     "coordPrecision": "exact",
-    "imageQueries": ["Todoroki Arena Kawasaki", "Kawasaki Brave Thunders"]
+    "imageQueries": [
+      "Todoroki Arena Kawasaki",
+      "Kawasaki Brave Thunders"
+    ]
+  },
+  {
+    "id": "shibuya-hikarie-sky-lobby",
+    "name": "Shibuya Hikarie Sky Lobby",
+    "theme": "view",
+    "type": "see",
+    "area": "Shibuya",
+    "what": "Free 11F observation lobby with panoramic Shibuya views",
+    "why": "Free consolation view now that Shibuya Sky is off the list; overlooks Shibuya but not the scramble crossing itself",
+    "link": "https://www.hikarie.jp/",
+    "mapQuery": "Shibuya Hikarie Sky Lobby Tokyo Japan",
+    "coords": [
+      35.659,
+      139.7036
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Shibuya Hikarie",
+      "Shibuya skyline"
+    ]
+  },
+  {
+    "id": "shibuya-hachiko-stamp",
+    "name": "Hachiko Commemorative Stamp",
+    "theme": "core",
+    "type": "see",
+    "area": "Shibuya",
+    "what": "Eki-stamp at SHIBU HACHI BOX tourist info center near Hachiko statue",
+    "why": "2-minute detour on any Shibuya visit; start an eki-stamp collection across the 9 days — bring a small ink pad",
+    "link": "https://play-shibuya.com",
+    "mapQuery": "SHIBU HACHI BOX Shibuya Station Tokyo Japan",
+    "coords": [
+      35.6595,
+      139.7005
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Hachiko statue Shibuya",
+      "Shibuya Station"
+    ]
+  },
+  {
+    "id": "kitamura-camera-shinjuku",
+    "name": "Camera no Kitamura - Shinjuku",
+    "theme": "photography",
+    "type": "shop",
+    "area": "Shinjuku",
+    "what": "Multi-floor camera shop with junk section and dedicated Leica floor",
+    "why": "Go for the junk section — that's the actual fun; pairs same-afternoon with Map Camera",
+    "link": "https://www.kitamuracamera.jp/en/",
+    "mapQuery": "Kitamura Camera Shinjuku 3-26-14 Tokyo Japan",
+    "coords": [
+      35.6918,
+      139.7024
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Camera no Kitamura",
+      "Shinjuku camera shop"
+    ]
+  },
+  {
+    "id": "lemonsha-ginza",
+    "name": "Lemon-sha Ginza",
+    "theme": "photography",
+    "type": "shop",
+    "area": "Ginza",
+    "what": "40-year Ginza camera institution with film cameras, fountain pens, and watches",
+    "why": "Strong used counter for medium format; pairs naturally with Ginza Tsuboyaki-imo on a Ginza afternoon",
+    "link": "https://lemonsha.com/",
+    "mapQuery": "Lemon-sha Ginza Church Building Tokyo Japan",
+    "coords": [
+      35.6712,
+      139.7665
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Lemon-sha camera",
+      "Ginza camera shop"
+    ]
+  },
+  {
+    "id": "ginza-tsuboyaki-imo",
+    "name": "Ginza Tsuboyaki-imo",
+    "theme": "core",
+    "type": "eat",
+    "area": "Ginza",
+    "what": "Pot-roasted sweet potato specialist using traditional clay-jar method",
+    "why": "October is the front edge of yakiimo season; closed Mon + 1st/3rd Sundays — Sun Oct 18 closed, open Sun Oct 25",
+    "link": "https://www.imo-tsubo.com/",
+    "mapQuery": "Ginza Tsuboyaki-imo 7-6-4 Ginza Tokyo Japan",
+    "coords": [
+      35.6697,
+      139.7607
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "yakiimo sweet potato",
+      "Ginza food"
+    ]
+  },
+  {
+    "id": "onigiri-asakusa-yadoroku",
+    "name": "Onigiri Asakusa Yadoroku",
+    "theme": "ramen",
+    "type": "eat",
+    "area": "Asakusa",
+    "what": "Tokyo's oldest onigiri shop, est. 1954, small counter behind Senso-ji",
+    "why": "Short walk from base; go early or expect a wait — sells out",
+    "link": "https://onigiriyadoroku.com/english.html",
+    "mapQuery": "Onigiri Asakusa Yadoroku 3-9-10 Asakusa Tokyo Japan",
+    "coords": [
+      35.7169,
+      139.7948
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "onigiri rice ball",
+      "Japanese onigiri"
+    ]
+  },
+  {
+    "id": "yayoi-kusama-museum",
+    "name": "Yayoi Kusama Museum",
+    "theme": "drawing",
+    "type": "see",
+    "area": "Shinjuku (Waseda)",
+    "what": "Small dedicated museum for Kusama's polka-dot infinity installations",
+    "why": "REQUIRES advance booking — Oct tickets sold Aug 1; Thu/Fri Oct 22-23 most likely to have stock; 90-min timed slots",
+    "link": "https://yayoikusamamuseum.jp/en/",
+    "mapQuery": "Yayoi Kusama Museum 107 Bentencho Shinjuku Tokyo Japan",
+    "coords": [
+      35.7032,
+      139.7265
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Yayoi Kusama Museum",
+      "Yayoi Kusama infinity room"
+    ]
+  },
+  {
+    "id": "kamakura-day-trip",
+    "name": "Kamakura",
+    "theme": "photography",
+    "type": "trip",
+    "area": "Kanagawa",
+    "what": "Coastal temple town with Daibutsu, Hase-dera, and the Enoden line",
+    "why": "~1.5 hrs each way from Asakusa; Enoden running between houses and along the coast is excellent on 120 film — back in Tokyo for dinner",
+    "link": null,
+    "mapQuery": "Kamakura Daibutsu Great Buddha Kanagawa Japan",
+    "coords": [
+      35.3168,
+      139.5357
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Kamakura Daibutsu",
+      "Enoshima Electric Railway",
+      "Kamakura"
+    ]
   }
 ]

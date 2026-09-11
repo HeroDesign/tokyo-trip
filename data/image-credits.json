@@ -1087,5 +1087,93 @@
     "author": "LERK (talk · contribs)",
     "filePage": "https://commons.wikimedia.org/wiki/File:Yurikamome-U10-Aomi-Station-platform.jpg",
     "bytes": 204765
+  },
+  "kitamura-camera-shinjuku": {
+    "file": "kitamura-camera-shinjuku.jpg",
+    "subject": "Camera no Kitamura",
+    "via": "commons search: Camera no Kitamura",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Kochi_Denki_building.JPG/960px-Kochi_Denki_building.JPG",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "アラツク",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Kochi_Denki_building.JPG",
+    "bytes": 261797
+  },
+  "ginza-tsuboyaki-imo": {
+    "file": "ginza-tsuboyaki-imo.jpg",
+    "subject": "yakiimo sweet potato",
+    "via": "commons search: yakiimo sweet potato",
+    "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Gungoguma_%28roasted_sweet_potatoes%29_2.jpg/960px-Gungoguma_%28roasted_sweet_potatoes%29_2.jpg",
+    "license": "CC BY-SA 2.0 kr",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/kr/deed.en",
+    "author": "국립국어원",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Gungoguma_(roasted_sweet_potatoes)_2.jpg",
+    "bytes": 92467
+  },
+  "shibuya-hikarie-sky-lobby": {
+    "file": "shibuya-hikarie-sky-lobby.jpg",
+    "subject": "Shibuya Hikarie",
+    "via": "en.wikipedia: Shibuya Hikarie",
+    "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Shibuya_Hikarie_%E2%85%A1.JPG/960px-Shibuya_Hikarie_%E2%85%A1.JPG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "Kakidai",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Shibuya_Hikarie_%E2%85%A1.JPG",
+    "bytes": 404263
+  },
+  "shibuya-hachiko-stamp": {
+    "file": "shibuya-hachiko-stamp.jpg",
+    "subject": "Hachiko statue Shibuya",
+    "via": "commons search: Hachiko statue Shibuya",
+    "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Hachiko_square_2020-04-19.jpg/960px-Hachiko_square_2020-04-19.jpg",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "author": "Asanagi",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Hachiko_square_2020-04-19.jpg",
+    "bytes": 322801
+  },
+  "lemonsha-ginza": {
+    "file": "lemonsha-ginza.jpg",
+    "subject": "Lemon-sha camera",
+    "via": "commons search: Lemon-sha camera",
+    "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Lemon-edit1.jpg/960px-Lemon-edit1.jpg",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "author": "André Karwath aka Aka",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Lemon-edit1.jpg",
+    "bytes": 128185
+  },
+  "onigiri-asakusa-yadoroku": {
+    "file": "onigiri-asakusa-yadoroku.jpg",
+    "subject": "onigiri rice ball",
+    "via": "commons search: onigiri rice ball",
+    "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Japanese_rice_balls_%28onigiri%29.jpg/960px-Japanese_rice_balls_%28onigiri%29.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "author": "tednmiki",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Japanese_rice_balls_(onigiri).jpg",
+    "bytes": 162277
+  },
+  "yayoi-kusama-museum": {
+    "file": "yayoi-kusama-museum.jpg",
+    "subject": "Yayoi Kusama Museum",
+    "via": "en.wikipedia: Yayoi Kusama Museum",
+    "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/YAYOI_KUSAMA_MUSEUM_%E8%8D%89%E9%96%93%E5%BD%8C%E7%94%9F%E7%BE%8E%E8%A1%93%E9%A4%A82018sideCIMG3596.jpg/960px-YAYOI_KUSAMA_MUSEUM_%E8%8D%89%E9%96%93%E5%BD%8C%E7%94%9F%E7%BE%8E%E8%A1%93%E9%A4%A82018sideCIMG3596.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "Bject",
+    "filePage": "https://commons.wikimedia.org/wiki/File:YAYOI_KUSAMA_MUSEUM_%E8%8D%89%E9%96%93%E5%BD%8C%E7%94%9F%E7%BE%8E%E8%A1%93%E9%A4%A82018sideCIMG3596.jpg",
+    "bytes": 287092
+  },
+  "kamakura-day-trip": {
+    "file": "kamakura-day-trip.jpg",
+    "subject": "Kōtoku-in",
+    "via": "en.wikipedia: Kōtoku-in",
+    "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/230128_Kamakura_Daibutsu_Japan04s3.jpg/960px-230128_Kamakura_Daibutsu_Japan04s3.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "author": "663highland",
+    "filePage": "https://commons.wikimedia.org/wiki/File:230128_Kamakura_Daibutsu_Japan04s3.jpg",
+    "bytes": 288777
   }
 }
