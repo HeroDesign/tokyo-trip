@@ -112,10 +112,15 @@ export function initBrowse(places) {
     });
   }
 
-  search.addEventListener('input', () => {
+  function applySearch() {
     state.search = search.value.trim();
     render();
-  });
+  }
+
+  // `search` covers Safari's native clear (×) which does not always fire `input`.
+  search.addEventListener('input', applySearch);
+  search.addEventListener('search', applySearch);
+  search.addEventListener('change', applySearch);
 
   root.querySelector('.filters').addEventListener('submit', (event) => event.preventDefault());
 
@@ -129,7 +134,8 @@ export function initBrowse(places) {
   }
 
   resetButtons.forEach((button) =>
-    button.addEventListener('click', () => {
+    button.addEventListener('click', (event) => {
+      event.preventDefault();
       resetFilters();
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }),
@@ -138,7 +144,7 @@ export function initBrowse(places) {
   function focusPlace(id) {
     const card = cards.get(id);
     if (!card) return;
-    if (card.hidden) resetFilters();
+    if (isFiltered(state) || card.hidden) resetFilters();
     requestAnimationFrame(() => {
       card.classList.add('card--focus');
       card.focus({ preventScroll: true });
