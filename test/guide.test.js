@@ -7,9 +7,10 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 
-import { THEMES, TYPES, TRIP_DAYS, mapUrl } from '../assets/js/data.js';
+import { THEMES, TYPES, TRIP_DAYS, mapUrl, HOME_PLACE_ID } from '../assets/js/data.js';
 import { emptyFilters, filterPlaces, isFiltered } from '../assets/js/filter.js';
 import { toKml, toCsv } from '../assets/js/export.js';
+import { mergeSeed } from '../assets/js/store.js';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const read = async (p) => JSON.parse(await readFile(path.join(ROOT, p), 'utf8'));
@@ -158,4 +159,28 @@ test('trip days: ten dates from Fri 16 to Sun 25 October 2026', () => {
   assert.equal(TRIP_DAYS.at(-1).label, 'Sun 25 Oct');
   assert.match(TRIP_DAYS[0].note, /JL001/);
   assert.match(TRIP_DAYS.at(-1).note, /JL002/);
+});
+
+test('hotel: OMO3 Asakusa is the only lodging entry and the booked home base', async () => {
+  const lodging = places.filter((p) => p.theme === 'lodging');
+  assert.equal(lodging.length, 1);
+  assert.equal(lodging[0].id, 'omo3-asakusa');
+  assert.equal(HOME_PLACE_ID, 'omo3-asakusa');
+  assert.match(lodging[0].why, /Booked for 16–25 Oct/);
+
+  const settings = await read('data/my-settings.json');
+  assert.ok(settings.favorites.includes('omo3-asakusa'));
+  assert.equal(settings.seedVersion, 2);
+});
+
+test('settings: a newer repo seed merges into existing local favorites', () => {
+  const local = { favorites: ['senso-ji'], days: { 'senso-ji': '2026-10-18' }, hidden: [], seedVersion: 0 };
+  const repo = { favorites: ['omo3-asakusa'], days: {}, hidden: [], seedVersion: 2 };
+  const merged = mergeSeed(repo, local);
+  assert.deepEqual(merged.favorites.sort(), ['omo3-asakusa', 'senso-ji']);
+  assert.equal(merged.days['senso-ji'], '2026-10-18');
+  assert.equal(merged.seedVersion, 2);
+
+  const unchanged = mergeSeed(repo, { ...local, seedVersion: 2, favorites: ['senso-ji'] });
+  assert.deepEqual(unchanged.favorites, ['senso-ji']);
 });

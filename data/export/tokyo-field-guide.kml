@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Tokyo Field Guide</name>
-    <description>65 places, 16-24 October 2026.</description>
+    <description>111 places, 16-25 October 2026.</description>
     <Style id="theme-photography">
       <IconStyle>
         <color>ff907c1f</color>
@@ -13,6 +13,13 @@
     <Style id="theme-core">
       <IconStyle>
         <color>ff606b72</color>
+        <scale>1.1</scale>
+        <Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="theme-view">
+      <IconStyle>
+        <color>ffd9904a</color>
         <scale>1.1</scale>
         <Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
       </IconStyle>
@@ -69,6 +76,48 @@
     <Style id="theme-sampling">
       <IconStyle>
         <color>ff4d8f2f</color>
+        <scale>1.1</scale>
+        <Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="theme-lodging">
+      <IconStyle>
+        <color>ff8a7b6b</color>
+        <scale>1.1</scale>
+        <Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="theme-nature">
+      <IconStyle>
+        <color>ff6e9a4a</color>
+        <scale>1.1</scale>
+        <Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="theme-onsen">
+      <IconStyle>
+        <color>ff5a7ac2</color>
+        <scale>1.1</scale>
+        <Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="theme-crafts">
+      <IconStyle>
+        <color>ff74a5d4</color>
+        <scale>1.1</scale>
+        <Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="theme-rock">
+      <IconStyle>
+        <color>ff631ee9</color>
+        <scale>1.1</scale>
+        <Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="theme-animals">
+      <IconStyle>
+        <color>ff385cb8</color>
         <scale>1.1</scale>
         <Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon>
       </IconStyle>
@@ -131,9 +180,9 @@ Core/other / See / Atago</description>
 
 Why: The &quot;wow&quot; view — book sunset ~1 month out
 
-Core/other / See / Shibuya
+View / See / Shibuya
 https://www.shibuya-scramble-square.com/sky/</description>
-      <styleUrl>#theme-core</styleUrl>
+      <styleUrl>#theme-view</styleUrl>
       <Point><coordinates>139.7016,35.658,0</coordinates></Point>
     </Placemark>
     <Placemark>
@@ -142,8 +191,8 @@ https://www.shibuya-scramble-square.com/sky/</description>
 
 Why: Free Skytree-and-temple view on your doorstep
 
-Core/other / See / Asakusa</description>
-      <styleUrl>#theme-core</styleUrl>
+View / See / Asakusa</description>
+      <styleUrl>#theme-view</styleUrl>
       <Point><coordinates>139.7966,35.711,0</coordinates></Point>
     </Placemark>
     <Placemark>
@@ -405,16 +454,16 @@ Menswear / Shop / Daikanyama
       <Point><coordinates>139.7035,35.649,0</coordinates></Point>
     </Placemark>
     <Placemark>
-      <name>Taiko lesson (Eva)</name>
-      <description>90-min hands-on taiko workshop
+      <name>Eva Kestner International Taiko Drum Academy</name>
+      <description>90-minute hands-on taiko workshop or private lesson with professional bilingual taiko drummer Eva Kestner.
 
-Why: The deep version, English, all-ages; the trip's anchor
+Why: Probably the strongest lesson option for a musically interested parent and teen: Eva teaches in English, works with beginners and experienced players, and teaches children as young as four. The emphasis is on actual technique, rhythm and playing rather than simply a tourist demonstration.
 
-Drums / Do / Asakusa
+Drums / Do / Daikanyama
 (pin is area-level, not the exact address)
-https://www.getyourguide.com/-t920860/</description>
+https://www.eva-kestner.com/lessons</description>
       <styleUrl>#theme-drums</styleUrl>
-      <Point><coordinates>139.795,35.712,0</coordinates></Point>
+      <Point><coordinates>139.703,35.651,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>Taiko no Tatsujin arcade</name>
@@ -448,6 +497,66 @@ Drums / Do / Shimokitazawa
 https://www.tokyogigguide.com/</description>
       <styleUrl>#theme-drums</styleUrl>
       <Point><coordinates>139.668,35.6613,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>TAIKO-LAB Aoyama</name>
+      <description>Dedicated taiko school offering a 60-minute English-language hands-on Japanese drumming experience.
+
+Why: Very easy to integrate into a Tokyo trip: professional instruction, drums and sticks are provided, beginners are welcome regardless of age, and the session builds toward playing a complete piece before an instructor performs a taiko solo.
+
+Drums / Do / Aoyama
+(pin is area-level, not the exact address)
+https://www.taikolab.com/world/</description>
+      <styleUrl>#theme-drums</styleUrl>
+      <Point><coordinates>139.714,35.67,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Oedo Sukeroku Taiko Dojo</name>
+      <description>Private and small-group taiko lessons taught in English or Japanese by professional Oedo Sukeroku Taiko players.
+
+Why: A more traditional and serious alternative to a packaged visitor experience. The dojo explicitly offers 1- and 1.5-hour lessons for travelers and families, including complete beginners, and lets you learn directly from professional performers in the influential Oedo Sukeroku taiko tradition.
+
+Drums / Do / Sotokanda
+(pin is area-level, not the exact address)
+https://oedosukerokutaiko.com/htm/school_foreigner_english.html</description>
+      <styleUrl>#theme-drums</styleUrl>
+      <Point><coordinates>139.769,35.7,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>HIBIKUS Asakusa Basement</name>
+      <description>Taiko school and workshop studio beneath the headquarters of historic Japanese drum maker Miyamoto Unosuke Shoten.
+
+Why: Especially appealing if staying in Asakusa: this is a real taiko school rather than a tourist attraction, professional players teach there, and the school accepts students from age three upward. The unusual basement studio occupies a historic space once used to store mikoshi and later as an air-raid shelter.
+
+Drums / Do / Asakusa
+(pin is area-level, not the exact address)
+https://www.hibikus.com/taiko-school/asakusa</description>
+      <styleUrl>#theme-drums</styleUrl>
+      <Point><coordinates>139.8,35.717,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Taikokan Drum Museum</name>
+      <description>Small specialist museum created by Miyamoto Unosuke Shoten with hundreds of Japanese and international drums, including instruments visitors can actually play.
+
+Why: A particularly good companion to a taiko lesson for a drummer: the collection contains roughly 800 drums, selected exhibits marked with a musical-note symbol can be played, and the Miyamoto Unosuke shop downstairs sells taiko, bachi and other traditional percussion equipment.
+
+Drums / See / Nishi-Asakusa
+(pin is area-level, not the exact address)
+https://www.miyamoto-unosuke.co.jp/pages/museum</description>
+      <styleUrl>#theme-drums</styleUrl>
+      <Point><coordinates>139.79,35.711,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>ZAKURO SHOW — October 23, 2026</name>
+      <description>October 23, 2026 bilingual one-hour live concert featuring taiko alongside koto, shamisen, shakuhachi and other traditional Japanese instruments.
+
+Why: Confirmed for October 23 during the Tokyo trip. It is an intimate performance with top-level traditional musicians only a few feet from the audience, with English explanations of the instruments and music. This is broader than a pure taiko concert but provides a strong live-performance counterpart to a hands-on taiko lesson.
+
+Drums / See / Harajuku
+(pin is area-level, not the exact address)
+https://www.zakuroshow.com/en</description>
+      <styleUrl>#theme-drums</styleUrl>
+      <Point><coordinates>139.703,35.669,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>Round1 Spo-Cha</name>
@@ -671,41 +780,6 @@ Sampling / Sample / Kiyosumi</description>
       <Point><coordinates>139.7975,35.681,0</coordinates></Point>
     </Placemark>
     <Placemark>
-      <name>Dormy Inn Express Asakusa</name>
-      <description>Budget hotel, rooftop onsen + free night ramen
-
-Why: Value pick, the bath-and-ramen ritual, ~$110/night
-
-Core/other / Stay / Asakusa
-(pin is area-level, not the exact address)
-https://dormy-hotels.com/dormyinn/hotels/asakusa/</description>
-      <styleUrl>#theme-core</styleUrl>
-      <Point><coordinates>139.79,35.711,0</coordinates></Point>
-    </Placemark>
-    <Placemark>
-      <name>MIMARU Asakusa Station</name>
-      <description>Apartment hotel, kitchen + laundry
-
-Why: Best for a week; 4.9★; steps from Kaminarimon
-
-Core/other / Stay / Asakusa
-(pin is area-level, not the exact address)
-https://mimaruhotels.com/en/hotel/asakusa-station/</description>
-      <styleUrl>#theme-core</styleUrl>
-      <Point><coordinates>139.7975,35.7115,0</coordinates></Point>
-    </Placemark>
-    <Placemark>
-      <name>The Gate Kaminarimon</name>
-      <description>Stylish 4-star by Senso-ji
-
-Why: Upscale; rooftop Skytree bar
-
-Core/other / Stay / Asakusa
-https://www.gate-hotel.jp/asakusa-kaminarimon/</description>
-      <styleUrl>#theme-core</styleUrl>
-      <Point><coordinates>139.796,35.7105,0</coordinates></Point>
-    </Placemark>
-    <Placemark>
       <name>Izu Resort Villa</name>
       <description>Villa inside a capybara petting zone
 
@@ -767,6 +841,512 @@ Why: October = clearest Fuji odds
 Photography / Day trip / Fuji Five Lakes</description>
       <styleUrl>#theme-photography</styleUrl>
       <Point><coordinates>138.753,35.517,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>OMO3 Asakusa by Hoshino Resorts</name>
+      <description>Hoshino Resorts city hotel at 1-15-5 Hanakawado with a 13th-floor lounge and rooftop terrace facing Sensō-ji and Tokyo Skytree.
+
+Why: Booked for 16–25 Oct (8 nights). Two separate reviewers singled out the views — one called it among the best hotel views in Tokyo for the Sensō-ji five-story pagoda at dusk, and the rooftop terrace frames Skytree directly.
+
+Hotel / Stay / Hanakawado / Asakusa
+https://hoshinoresorts.com/en/hotels/omo3asakusa/</description>
+      <styleUrl>#theme-lodging</styleUrl>
+      <Point><coordinates>139.7983176,35.7138264,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Nakamise-dori</name>
+      <description>Historic shopping street running from Kaminarimon toward Senso-ji, lined with traditional snacks, souvenirs and small shops.
+
+Why: Several of the recommended ryokan sit immediately beside it, making the historic commercial streetscape part of the everyday experience rather than a separate sightseeing excursion.
+
+Core/other / Shop / Asakusa
+(pin is area-level, not the exact address)
+https://www.asakusa-nakamise.jp/e-index.html</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.7965,35.7126,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Kaminarimon</name>
+      <description>The iconic Thunder Gate marking the entrance to Senso-ji and Nakamise-dori.
+
+Why: One of the defining landmarks of the neighborhood and immediately accessible from several of the small hotels and ryokan considered for the trip.
+
+Core/other / See / Asakusa
+(pin is area-level, not the exact address)
+https://www.senso-ji.jp/english/</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.7964,35.7111,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Traditional Asakusa Ryokan &amp; Futon Stay</name>
+      <description>Spend one or more Tokyo nights in a tatami room sleeping on traditional Japanese futon bedding.
+
+Why: The useful compromise is choosing a traditional room with a private Western-style toilet and bathroom rather than sacrificing basic convenience purely for authenticity.
+
+Core/other / Do / Asakusa
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-core</styleUrl>
+      <Point><coordinates>139.7967,35.7148,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Hakone Overnight Trip</name>
+      <description>Potential one-night excursion from Tokyo to Hakone for mountain scenery and a traditional ryokan experience.
+
+Why: Discussed as a better place than central Tokyo to spend money on one special traditional ryokan night. It would create a clear contrast with a simple Asakusa base.
+
+Nature / Day trip / Hakone
+(pin is area-level, not the exact address)
+https://www.hakonenavi.jp/international/en/</description>
+      <styleUrl>#theme-nature</styleUrl>
+      <Point><coordinates>139.1069,35.2324,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Private Family Onsen / Kashikiri-buro</name>
+      <description>A reservable private hot-spring bath used only by your party for a scheduled period.
+
+Why: Discussed as an alternative to gender-separated public bathing for a father traveling with a 13-year-old daughter. It removes the need for either traveler to enter a public bath alone.
+
+Onsen / Do / Hakone
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-onsen</styleUrl>
+      <Point><coordinates>139.1069,35.2324,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ryokan with Private In-Room Onsen</name>
+      <description>Traditional ryokan room with its own private hot-spring bath, sometimes outdoors on a terrace.
+
+Why: Discussed as the easiest onsen arrangement for an adult father and 13-year-old daughter because each person can use the bath privately at different times while still getting the full ryokan experience.
+
+Onsen / Stay / Hakone
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-onsen</styleUrl>
+      <Point><coordinates>139.1069,35.2324,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sokichi Kiriko Experience Workshop</name>
+      <description>Hands-on Edo Kiriko workshop where you use a grinding wheel to cut traditional geometric patterns into your own glass.
+
+Why: One of the strongest craft choices for the trip because you actually work with the cutting equipment rather than simply decorate a souvenir. Sokichi's official workshop allows participants age 9+, so a 13-year-old is explicitly eligible, and beginner patterns and English-language information are available.
+
+Crafts / Do / Asakusa
+(pin is area-level, not the exact address)
+https://en.sokichi-workshop.com/</description>
+      <styleUrl>#theme-crafts</styleUrl>
+      <Point><coordinates>139.7975,35.7107,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sumida Edo Kiriko-kan</name>
+      <description>Working Edo Kiriko studio, shop and small exhibition where visitors can reserve a traditional glass-cutting experience.
+
+Why: A more workshop-oriented alternative to Sokichi where you can see professional Edo Kiriko work and then cut a glass yourself. The official site accepts workshop participants from elementary-school fourth grade, so a 13-year-old is suitable.
+
+Crafts / Do / Kinshicho
+(pin is area-level, not the exact address)
+https://www.edokiriko.net/</description>
+      <styleUrl>#theme-crafts</styleUrl>
+      <Point><coordinates>139.8119,35.7007,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>watashino Washi Papermaking Experience</name>
+      <description>Hands-on workshop where you form traditional Japanese washi paper and make four postcard-sized sheets to take home.
+
+Why: Unlike a paper-decorating activity, you actually perform the sheet-forming part of papermaking. It is compact enough to combine with an Asakusa day and is particularly good if you both enjoy materials, paper, drawing or printing.
+
+Crafts / Do / Asakusa
+(pin is area-level, not the exact address)
+https://watashino.style/en-us</description>
+      <styleUrl>#theme-crafts</styleUrl>
+      <Point><coordinates>139.7971,35.7123,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Ozu Washi</name>
+      <description>Historic washi specialist founded in 1653 with a shop, museum, gallery and hands-on studio for making a sheet of Japanese paper.
+
+Why: The deeper and more historically focused washi option: you can make an A4 sheet with traditional tools, then examine regional papers and the history of the material. Particularly interesting for someone interested in art materials and fabrication rather than just souvenirs.
+
+Crafts / Do / Nihonbashi
+(pin is area-level, not the exact address)
+https://www.ozuwashi.net/en/index.html</description>
+      <styleUrl>#theme-crafts</styleUrl>
+      <Point><coordinates>139.7758,35.6903,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Kumihimo Experience by DOMYO</name>
+      <description>Traditional silk-cord braiding workshop using authentic kumihimo equipment at a braiding house founded in 1652.
+
+Why: One of the least touristy and most technically interesting choices discussed. You learn the history of kumihimo and braid a strap or bracelet from silk thread using the same basic tools and processes associated with traditional Japanese cord making. English-language workshop plans are offered.
+
+Crafts / Do / Kagurazaka
+(pin is area-level, not the exact address)
+https://kdomyo.com/en/pages/kagurazaka-experience</description>
+      <styleUrl>#theme-crafts</styleUrl>
+      <Point><coordinates>139.7355,35.7041,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Aizome Museum</name>
+      <description>Small working indigo-dyeing museum and studio where a traditional craftsman offers reservation-only tenugui indigo-dyeing experiences.
+
+Why: A particularly authentic option: this is a working Sumida craft studio rather than a generic tourist class. You can see traditional indigo-dyed yukata, hanten, carved stencils and tools and arrange a hands-on tenugui dyeing experience. The workshop actively teaches indigo dyeing to school groups, making it a strong candidate for a 13-year-old, though no specific minimum age was found.
+
+Crafts / Do / Kyojima
+(pin is area-level, not the exact address)
+https://www.city.sumida.lg.jp/sangyo_jigyosya/sangyo/pr_brand_hyousyo/sumida3m/tiiki/hokubu/aizome.html</description>
+      <styleUrl>#theme-crafts</styleUrl>
+      <Point><coordinates>139.8204,35.7176,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>somenova</name>
+      <description>Dyeing workshop operated by Miyakozome's dye manufacturer, whose business dates to 1890, offering hands-on Japanese textile-dyeing experiences.
+
+Why: A more structured and accessible alternative to the tiny Aizome Museum, with multiple dyeing techniques and projects. A current furoshiki shibori-style dyeing workshop is scheduled through January 2027; a third-party booking source lists it as unsuitable only for children under 5, so age 13 is appropriate for that specific program.
+
+Crafts / Do / Nihonbashi
+(pin is area-level, not the exact address)
+https://www.katsuraya-fg.com/somenova/</description>
+      <styleUrl>#theme-crafts</styleUrl>
+      <Point><coordinates>139.7796,35.6868,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tsukada Kobo</name>
+      <description>Seventh-generation Edo kimekomi doll workshop where visitors can learn the traditional technique of pressing patterned fabric into precisely cut grooves.
+
+Why: Founded in 1841 and still a working doll atelier. We discussed its newer sumo-wrestler experience as especially fun because it combines a serious traditional technique with an amusing object to take home; the studio also offers traditional owl kimekomi workshops. No specific minimum age was confirmed.
+
+Crafts / Do / Mukojima
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-crafts</styleUrl>
+      <Point><coordinates>139.8068,35.7154,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tanaka Sudare</name>
+      <description>Meiji-era Edo sudare workshop where visitors can watch traditional bamboo-blind production and weave a coaster, mat or other small sudare piece.
+
+Why: One of the most appealing options if you want an actual working craftsman's shop rather than a polished tourist workshop. You manipulate the bamboo and weighted weaving tools yourself and leave with the object you made. The studio explicitly accepts educational visits by children and a current booking listing allows participants from age 6, so age 13 is suitable.
+
+Crafts / Do / Senzoku
+(pin is area-level, not the exact address)
+https://www.handicrafts.co.jp/original23.html</description>
+      <styleUrl>#theme-crafts</styleUrl>
+      <Point><coordinates>139.7908,35.7213,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tsumami-zaiku / Kanzashi Workshop</name>
+      <description>Traditional craft experience folding and pinching tiny squares of fabric into flowers used for Japanese kanzashi hair ornaments.
+
+Why: Fine, precise handwork that seemed particularly appropriate for a capable 13-year-old: the technique uses tweezers to transform small fabric pieces into surprisingly elaborate floral forms. We discussed the craft and Asakusabashi as the place to look for it, but did not identify a specific verified workshop operator, so the location remains area-level.
+
+Crafts / Do / Asakusabashi
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-crafts</styleUrl>
+      <Point><coordinates>139.7855,35.6974,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Kintsugi Tsugu Tsugu Ebisu Studio</name>
+      <description>Dedicated kintsugi studio teaching Japanese techniques for visibly repairing broken ceramics with lacquer and metallic finishes.
+
+Why: Conceptually one of the most interesting crafts discussed because the repair becomes part of the object's design. Tsugu Tsugu teaches both traditional urushi-based kintsugi and shorter kintsugi-style experiences. We noted that tourist kintsugi classes vary substantially in authenticity, so the specific course should be checked before booking. No minimum age for the relevant October workshop was confirmed.
+
+Crafts / Do / Ebisu
+(pin is area-level, not the exact address)
+https://kintsugi-kit.com/</description>
+      <styleUrl>#theme-crafts</styleUrl>
+      <Point><coordinates>139.7168,35.6445,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Edo Taito Traditional Crafts Center</name>
+      <description>Free traditional-crafts center displaying hundreds of examples of Tokyo handicrafts, with regular artisan demonstrations and occasional hands-on programs.
+
+Why: Useful as the overview stop for the entire craft theme, especially if staying in Asakusa. It lets you see dozens of craft traditions before or after doing one yourself, and weekend demonstrations provide a chance to watch working craftspeople rather than only finished objects.
+
+Crafts / See / Asakusa
+(pin is area-level, not the exact address)
+https://craft.city.taito.lg.jp/en/kogeikan/</description>
+      <styleUrl>#theme-crafts</styleUrl>
+      <Point><coordinates>139.7945,35.7172,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Texas 3000 at Shibuya CLUB QUATTRO — Oct 17</name>
+      <description>Texas 3000 with Kaneko Ayano and Qiezi Mabo, live Oct. 17, 2026.
+
+Why: Contemporary Japanese alternative rock with three acts; 13-year-old admission is explicitly permitted with a ticket.
+
+Rock/live / See / Shibuya
+https://www.club-quattro.com/shibuya/</description>
+      <styleUrl>#theme-rock</styleUrl>
+      <Point><coordinates>139.6978,35.6609,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>HERO COMPLEX at Zepp DiverCity — Oct 18</name>
+      <description>High-energy Japanese melodic punk/rock show on Oct. 18, 2026.
+
+Why: One of the strongest choices for a young rock drummer: fast, energetic punk with prominent live drums.
+
+Rock/live / See / Odaiba
+https://www.zepp.co.jp/hall/divercity/</description>
+      <styleUrl>#theme-rock</styleUrl>
+      <Point><coordinates>139.7756,35.6246,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Harukamirai at Shimokitazawa SHELTER — Oct 20</name>
+      <description>Harukamirai playing a small live-house rock show on Oct. 20, 2026.
+
+Why: Probably the most authentic small Tokyo rock-club experience of the options: energetic Japanese punk/rock in the legendary tiny SHELTER.
+
+Rock/live / See / Shimokitazawa
+https://www.loft-prj.co.jp/SHELTER/</description>
+      <styleUrl>#theme-rock</styleUrl>
+      <Point><coordinates>139.6682,35.6602,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>TAMTAM at Moon Romantic — Oct 21</name>
+      <description>TAMTAM with Takoashi Earphones and Tokyo Shiokoji on Oct. 21, 2026.
+
+Why: A more experimental and groove-oriented alternative to straight rock, with particularly interesting percussion and rhythm.
+
+Rock/live / See / Aoyama
+https://www.moonromantic.com/</description>
+      <styleUrl>#theme-rock</styleUrl>
+      <Point><coordinates>139.7126,35.6655,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Doona + SATOH at Shibuya eggman — Oct 23</name>
+      <description>Young Tokyo rock band Doona with SATOH, live Oct. 23, 2026.
+
+Why: A contemporary small-club Tokyo rock experience rather than an established legacy act.
+
+Rock/live / See / Shibuya
+https://eggman.jp/</description>
+      <styleUrl>#theme-rock</styleUrl>
+      <Point><coordinates>139.6972,35.6624,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>THE SIXTH LIE at Harajuku RUIDO — Oct 23</name>
+      <description>THE SIXTH LIE live at Harajuku RUIDO on Oct. 23, 2026.
+
+Why: Electronic/cinematic Japanese rock in a small venue; the event explicitly permits school-age children, so a 13-year-old can attend.
+
+Rock/live / See / Harajuku
+https://ruido.org/harajuku/</description>
+      <styleUrl>#theme-rock</styleUrl>
+      <Point><coordinates>139.7058,35.6696,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Yanaka Ginza</name>
+      <description>Traditional shopping street famous for its resident cats, cat-themed shops, and old-Tokyo atmosphere.
+
+Why: The cat neighborhood — stray cats lounging on rooftops, cat sculptures, cat-shaped snacks. Pairs perfectly with nearby Nezu Shrine for a quiet Yanaka half-day.
+
+Capybara / See / Yanaka</description>
+      <styleUrl>#theme-capybara</styleUrl>
+      <Point><coordinates>139.7628,35.7267,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Tokyo Metropolitan Government Building</name>
+      <description>Free observation decks at 202m in Tange's iconic twin towers, with panoramic views of Tokyo and Mt. Fuji on clear days.
+
+Why: The free alternative to paid observation decks — same height as Shibuya Sky, zero cost. Best at sunset or after dark. October has good Fuji visibility odds.
+
+View / See / Shinjuku
+https://www.yokoso.metro.tokyo.lg.jp/</description>
+      <styleUrl>#theme-view</styleUrl>
+      <Point><coordinates>139.6917,35.6896,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Momotaro Jeans Aoyama</name>
+      <description>Flagship store for Momotaro's premium Japanese selvedge denim, known for the peach logo and Zimbabwe cotton.
+
+Why: The flagship experience for one of Japan's top denim brands — proper fitting, full range of cuts, and staff who know raw denim. The pink inseam stitching is iconic.
+
+Menswear / Shop / Aoyama
+https://momotarojeans.net/</description>
+      <styleUrl>#theme-menswear</styleUrl>
+      <Point><coordinates>139.7128,35.6647,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Pure Blue Japan Harajuku</name>
+      <description>Cult Japanese denim brand specializing in slubby, textured selvedge with dramatic fading potential.
+
+Why: PBJ's signature XX fabric is some of the most interesting denim made anywhere — heavy slub, electric blue weft, and fades that look hand-painted after a year of wear.
+
+Menswear / Shop / Harajuku
+(pin is area-level, not the exact address)
+https://purebluejapan.jp/</description>
+      <styleUrl>#theme-menswear</styleUrl>
+      <Point><coordinates>139.7054,35.6702,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Kapital Ebisu</name>
+      <description>Multi-floor flagship for Kapital's patchwork denim, boro-inspired pieces, and Americana-meets-Japan aesthetic.
+
+Why: Not just jeans — Kapital is a whole world of sashiko stitching, century denim, and pieces that look like they survived a hundred years of wear. The Ebisu store is the full experience.
+
+Menswear / Shop / Ebisu
+https://www.kapital.jp/</description>
+      <styleUrl>#theme-menswear</styleUrl>
+      <Point><coordinates>139.7139,35.6465,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Azabudai Hills Sky Lobby</name>
+      <description>Free 34th-floor Sky Lobby in Tokyo's newest skyscraper (2023), with floor-to-ceiling windows and Tokyo Tower views.
+
+Why: Brand new, free, and uncrowded compared to the big-name observation decks. The Tokyo Tower framing is particularly good — it's right there at eye level. Pairs with the teamLab Borderless that moved here.
+
+View / See / Azabudai
+https://www.azabudai-hills.com/</description>
+      <styleUrl>#theme-view</styleUrl>
+      <Point><coordinates>139.7387,35.6594,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>cafe capyba ASAKUSA</name>
+      <description>Dedicated capybara cafe where you can sit with, pet, photograph, and feed capybaras.
+
+Why: One of the easiest dedicated capybara experiences to combine with an Asakusa day, with unusually close interaction.
+
+Capybara / Animals / Asakusa
+(pin is area-level, not the exact address)
+https://cspace.co.jp/</description>
+      <styleUrl>#theme-capybara</styleUrl>
+      <Point><coordinates>139.7918,35.7187,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Capyneko Cafe Harajuku</name>
+      <description>Animal cafe where capybaras and cats live and interact together.
+
+Why: The unusual combination of capybaras and cats makes this substantially different from either a normal cat cafe or capybara cafe.
+
+Capybara / Animals / Harajuku
+(pin is area-level, not the exact address)
+https://capyneko.cafe/</description>
+      <styleUrl>#theme-capybara</styleUrl>
+      <Point><coordinates>139.7046,35.6712,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Capyneko Cafe Kichijoji</name>
+      <description>The original Capyneko location, combining free-roaming cats with a capybara in the same space.
+
+Why: A particularly unusual animal interaction and an easy addition to a Kichijoji and Inokashira Park day.
+
+Capybara / Animals / Kichijoji
+(pin is area-level, not the exact address)
+https://capyneko.cafe/</description>
+      <styleUrl>#theme-capybara</styleUrl>
+      <Point><coordinates>139.5796,35.7029,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>CAPPINESS Oshiage</name>
+      <description>Reservation-only capybara interaction space with three capybaras, feeding, photos, and an indoor capybara bath.
+
+Why: Close to Tokyo Skytree and Asakusa and designed specifically around extended, small-group capybara interaction.
+
+Capybara / Animals / Oshiage
+(pin is area-level, not the exact address)
+https://cappiness.jp/capybara_cafe/cappiness_oshiage</description>
+      <styleUrl>#theme-capybara</styleUrl>
+      <Point><coordinates>139.8123,35.7138,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>capybaraonsen moffu tokyo</name>
+      <description>Compact Harajuku capybara cafe where visitors can pet, feed, and photograph capybaras at very close range.
+
+Why: Extremely convenient if already exploring Takeshita Street and centered almost entirely on direct capybara interaction.
+
+Capybara / Animals / Harajuku
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-capybara</styleUrl>
+      <Point><coordinates>139.7047,35.6711,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Fennec House Harajuku</name>
+      <description>Small interaction space devoted specifically to fennec foxes.
+
+Why: Fennecs are far less commonly encountered than the cats, dogs, pigs, and hedgehogs found at most Tokyo animal cafes.
+
+Animals / Animals / Harajuku
+(pin is area-level, not the exact address)
+https://fennechouse.com/</description>
+      <styleUrl>#theme-animals</styleUrl>
+      <Point><coordinates>139.7058,35.6715,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>mipig cafe Harajuku</name>
+      <description>Indoor cafe built around spending time with free-roaming micro pigs.
+
+Why: The pigs actively interact with visitors and the experience is more hands-on than simply viewing animals.
+
+Animals / Animals / Harajuku
+(pin is area-level, not the exact address)
+https://mipig.cafe/</description>
+      <styleUrl>#theme-animals</styleUrl>
+      <Point><coordinates>139.7044,35.6708,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Chiku Chiku Cafe</name>
+      <description>Hedgehog cafe where individual hedgehogs occupy miniature dollhouse-like environments and can be handled.
+
+Why: The miniature-room setup makes it considerably more visually distinctive than a standard small-animal cafe.
+
+Animals / Animals / Shibuya
+(pin is area-level, not the exact address)
+https://hedgehoghome.cafe/</description>
+      <styleUrl>#theme-animals</styleUrl>
+      <Point><coordinates>139.7057,35.6606,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Yadorigi Cafe &amp; Restaurant</name>
+      <description>Cat cafe and restaurant centered around rescue cats rather than the usual purpose-bred cat-cafe format.
+
+Why: Combines an actual cafe and meal experience with cats and fits naturally into a walk through Yanaka.
+
+Animals / Animals / Yanaka
+(pin is area-level, not the exact address)
+https://www.yadorigicafe.com/</description>
+      <styleUrl>#theme-animals</styleUrl>
+      <Point><coordinates>139.7669,35.7278,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>pignic cafe Kichijoji</name>
+      <description>Private-room micro-pig cafe beside Inokashira Park, with some sessions offering walks with a pig in the park.
+
+Why: The private rooms and seasonal pig-walking experience make it much more unusual than a standard micro-pig cafe.
+
+Animals / Animals / Kichijoji
+(pin is area-level, not the exact address)
+https://cafe.pignic.jp/en/shop/kichijoji</description>
+      <styleUrl>#theme-animals</styleUrl>
+      <Point><coordinates>139.5787,35.7008,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Samoyed Cafe moffu Harajuku</name>
+      <description>Dog cafe devoted specifically to large, fluffy Samoyeds.
+
+Why: A room full of Samoyeds is a much more specific and memorable experience than a conventional dog cafe.
+
+Animals / Animals / Harajuku
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-animals</styleUrl>
+      <Point><coordinates>139.7047,35.6711,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Torinoirukafe Yanaka Honten</name>
+      <description>Bird cafe specializing in owls and other birds, with close-up viewing and interaction.
+
+Why: A useful contrast to mammal cafes and particularly convenient when exploring Yanaka and the Ueno side of Tokyo.
+
+Animals / Animals / Yanaka
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-animals</styleUrl>
+      <Point><coordinates>139.7669,35.7278,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Harajuku Kawaii Zoo Land</name>
+      <description>Mixed-animal interaction venue featuring a changing collection that can include capybaras, meerkats, fennecs, ferrets, hedgehogs, and other small animals.
+
+Why: One stop provides access to several unusual species instead of specializing in only one animal.
+
+Animals / Animals / Harajuku
+(pin is area-level, not the exact address)</description>
+      <styleUrl>#theme-animals</styleUrl>
+      <Point><coordinates>139.7048,35.6714,0</coordinates></Point>
     </Placemark>
   </Document>
 </kml>

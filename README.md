@@ -1,7 +1,7 @@
 # Tokyo Field Guide
 
 A filterable, photo-forward field guide to Tokyo for **Alan and Ever**, built for the phone you'll
-actually be holding on the Ginza line. 65 places, each with a real photo, a theme tag, a
+actually be holding on the Ginza line. 111 places, each with a theme tag, a
 neighborhood, a one-line description, the reason it got flagged, and one tap to Google Maps.
 
 Three views: **Browse** (filterable cards), **Map** (every place as a pin), **Plan** (favorites
@@ -17,7 +17,7 @@ slotted into trip days, plus Google My Maps export).
 | **Out** | JL001 SFO → HND, 11:55 → 15:05 (+1), nonstop, seats 49D/E |
 | **Back** | JL002 HND → SFO, 17:55 → 11:25, nonstop, seats 24D/E |
 | **Ground** | Drive to SFO + park |
-| **Base** | Asakusa |
+| **Base** | OMO3 Asakusa by Hoshino Resorts (booked, 8 nights) |
 | **Travellers** | Alan + Ever (13) — everything in here is age-appropriate |
 
 **Organizing themes:** capybara, drums, photography, drawing, VR, ramen, audio sampling, plus
@@ -109,7 +109,7 @@ Three things that make it reliable, learned by watching it fail:
 
 Every file's subject, author, license and source page is recorded in `data/image-credits.json`.
 All photos are from Wikimedia Commons / Wikipedia under CC0, CC BY, CC BY-SA, GFDL or public
-domain. Current state: **65/65 places have a cached photo, ~14MB total, no two places sharing one.**
+domain. Photos are cached locally; places without a sourced file fall back to a colored tile.
 
 If an image is ever missing, the card falls back to a colored tile carrying the place name — this
 is a real code path, not a theoretical one.
@@ -205,7 +205,7 @@ assets/
     store.js            localStorage state
     export.js           KML/CSV generators (shared with the build script)
 data/
-  places.json           the 65 places
+  places.json           the places
   image-credits.json    per-photo author, license, source
   export/               generated KML + CSV
 images/                 cached photos, one per place

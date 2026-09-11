@@ -3,7 +3,7 @@
  * Owns the filter state; the map view subscribes so both views stay in step.
  * The matching rules themselves live in filter.js.
  */
-import { THEMES, TYPES } from './data.js';
+import { THEMES, TYPES, HOME_PLACE_ID } from './data.js';
 import { createCard } from './card.js';
 import { emptyFilters, filterPlaces, isFiltered } from './filter.js';
 import { isHidden, hiddenPlaces, subscribe as subscribeStore } from './store.js';
@@ -74,7 +74,13 @@ export function initBrowse(places) {
 
   // Cards are built once and shown or hidden, which keeps filtering instant and
   // avoids re-downloading images or losing star state on every keystroke.
-  const cards = new Map(places.map((place) => [place.id, createCard(place, { onHide: () => render() })]));
+  // The booked hotel stays at the top of the grid so it is easy to find.
+  const ordered = [...places].sort((a, b) => {
+    if (a.id === HOME_PLACE_ID) return -1;
+    if (b.id === HOME_PLACE_ID) return 1;
+    return 0;
+  });
+  const cards = new Map(ordered.map((place) => [place.id, createCard(place, { onHide: () => render() })]));
   grid.replaceChildren(...cards.values());
 
   if (showHiddenToggle) {

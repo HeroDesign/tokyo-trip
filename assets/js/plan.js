@@ -2,7 +2,7 @@
  * Plan view: a proper trip planner showing all days with favorites slotted in.
  * Always displays the full itinerary structure so you can see the whole trip.
  */
-import { TRIP_DAYS, themeLabel, typeLabel } from './data.js';
+import { TRIP_DAYS, themeLabel, typeLabel, HOME_PLACE_ID } from './data.js';
 import { favorites, dayFor, assignDay, toggleFavorite, subscribe, exportSettings } from './store.js';
 import { toKml, toCsv } from './export.js';
 
@@ -62,25 +62,54 @@ function slot(place, byId, rerender) {
   return row;
 }
 
+function homeStay(place) {
+  const row = el('div', 'slot slot--home');
+  row.append(el('span', 'slot__swatch'));
+  const text = el('div', 'slot__text');
+  text.append(el('div', 'slot__name', place.name), el('div', 'slot__meta', 'Home base · booked'));
+  row.append(text);
+  return row;
+}
+
+function renderStayBanner(place) {
+  const banner = document.querySelector('[data-stay-banner]');
+  if (!banner || !place) return;
+  banner.hidden = false;
+  banner.replaceChildren();
+  banner.append(el('p', 'stay-banner__kicker', 'Home base · 8 nights'));
+  banner.append(el('h2', 'stay-banner__name', place.name));
+  banner.append(el('p', 'stay-banner__meta', place.area));
+  if (place.link) {
+    const link = el('a', 'stay-banner__link', 'Hotel site');
+    link.href = place.link;
+    link.target = '_blank';
+    link.rel = 'noopener';
+    banner.append(link);
+  }
+}
+
 export function initPlan(places) {
   const root = document.querySelector('section[data-view="plan"]');
   const daysContainer = root.querySelector('[data-days]');
   const statsContainer = root.querySelector('[data-stats]');
   const byId = new Map(places.map((p) => [p.id, p]));
+  const home = byId.get(HOME_PLACE_ID);
+  renderStayBanner(home);
 
   function render() {
     const starred = favorites()
       .map((id) => byId.get(id))
       .filter(Boolean);
+    const activities = starred.filter((p) => p.id !== HOME_PLACE_ID);
 
-    const assigned = starred.filter((p) => dayFor(p.id));
-    const unassigned = starred.filter((p) => !dayFor(p.id));
+    const assigned = activities.filter((p) => dayFor(p.id));
+    const unassigned = activities.filter((p) => !dayFor(p.id));
 
     // Update stats
     if (statsContainer) {
       statsContainer.innerHTML = `
         <span class="stat"><strong>${TRIP_DAYS.length}</strong> days</span>
-        <span class="stat"><strong>${starred.length}</strong> starred</span>
+        <span class="stat"><strong>${activities.length}</strong> starred</span>
         <span class="stat"><strong>${assigned.length}</strong> assigned</span>
         ${unassigned.length ? `<span class="stat stat--alert"><strong>${unassigned.length}</strong> unassigned</span>` : ''}
       `;
@@ -88,8 +117,9 @@ export function initPlan(places) {
 
     // Build the days grid - always show all days
     const daysHtml = TRIP_DAYS.map((day, index) => {
-      const inDay = starred.filter((place) => dayFor(place.id) === day.id);
+      const inDay = activities.filter((place) => dayFor(place.id) === day.id);
       const isTravel = day.note && (day.note.includes('Fly') || day.note.includes('Land'));
+      const overnight = index > 0 && index < TRIP_DAYS.length - 1;
       
       const section = el('section', `day ${isTravel ? 'day--travel' : ''}`);
       section.dataset.dayId = day.id;
@@ -102,11 +132,12 @@ export function initPlan(places) {
       section.append(head);
 
       const content = el('div', 'day__content');
+      if (overnight && home) content.append(homeStay(home));
       if (inDay.length) {
         inDay.forEach((place) => content.append(slot(place, byId, render)));
       } else {
-        const emptyMsg = isTravel 
-          ? 'Travel day — limited time' 
+        const emptyMsg = isTravel && !overnight
+          ? 'Travel day — limited time'
           : 'Drop favorites here';
         content.append(el('p', 'day__empty', emptyMsg));
       }

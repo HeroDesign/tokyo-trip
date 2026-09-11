@@ -3,7 +3,9 @@
  *
  * On first load, seeds from data/my-settings.json (committed to the repo) so
  * you can sync between devices by updating that file. After that, localStorage
- * takes over. Use "Export settings" to get the current state to paste back.
+ * takes over. Bumping seedVersion in that file merges new repo favorites/hides
+ * into existing local state without wiping stars. Use "Export settings" to get
+ * the current state to paste back.
  */
 
 const KEY = 'tokyo-field-guide/v1';
@@ -11,16 +13,38 @@ const SETTINGS_URL = 'data/my-settings.json';
 
 const listeners = new Set();
 
+function emptyState() {
+  return { favorites: [], days: {}, hidden: [], seedVersion: 0 };
+}
+
+export function normalizeSettings(parsed) {
+  if (!parsed || typeof parsed !== 'object') return emptyState();
+  return {
+    favorites: Array.isArray(parsed.favorites) ? parsed.favorites : [],
+    days: parsed.days && typeof parsed.days === 'object' ? parsed.days : {},
+    hidden: Array.isArray(parsed.hidden) ? parsed.hidden : [],
+    seedVersion: Number.isInteger(parsed.seedVersion) ? parsed.seedVersion : 0,
+  };
+}
+
+/** Apply a newer repo seed on top of existing local settings. */
+export function mergeSeed(repo, local) {
+  if (!repo) return local ?? emptyState();
+  if (!local) return repo;
+  if ((local.seedVersion ?? 0) >= (repo.seedVersion ?? 0)) return local;
+  return {
+    favorites: [...new Set([...local.favorites, ...repo.favorites])],
+    days: { ...repo.days, ...local.days },
+    hidden: [...new Set([...local.hidden, ...repo.hidden])],
+    seedVersion: repo.seedVersion ?? 0,
+  };
+}
+
 function readLocal() {
   try {
     const raw = localStorage.getItem(KEY);
     if (!raw) return null;
-    const parsed = JSON.parse(raw);
-    return {
-      favorites: Array.isArray(parsed.favorites) ? parsed.favorites : [],
-      days: parsed.days && typeof parsed.days === 'object' ? parsed.days : {},
-      hidden: Array.isArray(parsed.hidden) ? parsed.hidden : [],
-    };
+    return normalizeSettings(JSON.parse(raw));
   } catch {
     return null;
   }
@@ -30,28 +54,19 @@ async function loadRepoSettings() {
   try {
     const res = await fetch(SETTINGS_URL);
     if (!res.ok) return null;
-    const parsed = await res.json();
-    return {
-      favorites: Array.isArray(parsed.favorites) ? parsed.favorites : [],
-      days: parsed.days && typeof parsed.days === 'object' ? parsed.days : {},
-      hidden: Array.isArray(parsed.hidden) ? parsed.hidden : [],
-    };
+    return normalizeSettings(await res.json());
   } catch {
     return null;
   }
 }
 
-let state = readLocal() || { favorites: [], days: {}, hidden: [] };
+let state = readLocal() || emptyState();
 
 export async function initStore() {
   const local = readLocal();
-  if (!local) {
-    const repo = await loadRepoSettings();
-    if (repo) {
-      state = repo;
-      commit();
-    }
-  }
+  const repo = await loadRepoSettings();
+  state = mergeSeed(repo, local);
+  commit();
 }
 
 function commit() {
@@ -73,9 +88,15 @@ export const isFavorite = (id) => state.favorites.includes(id);
 export const favorites = () => [...state.favorites];
 
 export function toggleFavorite(id) {
-  state = state.favorites.includes(id)
-    ? { favorites: state.favorites.filter((f) => f !== id), days: omit(state.days, id) }
-    : { ...state, favorites: [...state.favorites, id] };
+  if (state.favorites.includes(id)) {
+    state = {
+      ...state,
+      favorites: state.favorites.filter((f) => f !== id),
+      days: omit(state.days, id),
+    };
+  } else {
+    state = { ...state, favorites: [...state.favorites, id] };
+  }
   commit();
   return isFavorite(id);
 }

@@ -2,7 +2,7 @@
  * The place card. Photo, theme tag, neighborhood, what it is, why we flagged
  * it, and the two buttons that matter on the ground: Map and Link.
  */
-import { themeLabel, mapUrl } from './data.js';
+import { themeLabel, mapUrl, HOME_PLACE_ID } from './data.js';
 import { isFavorite, toggleFavorite, isHidden, toggleHidden } from './store.js';
 
 const PIN_ICON =
@@ -66,14 +66,17 @@ function hideButton(place, onHide) {
 
 export function createCard(place, { onHide } = {}) {
   const card = el('article', 'card');
+  const isHome = place.id === HOME_PLACE_ID;
   card.style.setProperty('--accent', `var(--theme-${place.theme})`);
   card.dataset.id = place.id;
+  if (isHome) card.classList.add('card--home');
 
   const frame = photo(place);
-  frame.append(hideButton(place, onHide));
+  if (!isHome) frame.append(hideButton(place, onHide));
   frame.append(starButton(place));
 
   const tags = el('div', 'card__tags');
+  if (isHome) tags.append(el('span', 'tag tag--home', 'Your hotel'));
   tags.append(el('span', 'tag', themeLabel(place.theme)));
   const area = el('span', 'card__area');
   area.innerHTML = PIN_ICON;
@@ -109,7 +112,10 @@ export function popupHtml(place) {
   const link = place.link
     ? `<a class="button" href="${place.link}" target="_blank" rel="noopener">Link</a>`
     : '';
+  const homeTag =
+    place.id === HOME_PLACE_ID ? `<span class="tag tag--home">Your hotel</span>` : '';
   return `
+    ${homeTag}
     <span class="tag" style="background: var(--theme-${place.theme})">${themeLabel(place.theme)}</span>
     <h3 class="popup__name">${place.name}</h3>
     <p class="popup__what">${place.what}</p>
