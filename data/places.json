@@ -2943,5 +2943,81 @@
     "imageQueries": [
       "Zuisen-ji"
     ]
+  },
+  {
+    "id": "meigetsu-in",
+    "name": "Meigetsu-in",
+    "theme": "nature",
+    "type": "see",
+    "area": "Kamakura",
+    "what": "Rinzai Zen temple in Kita-Kamakura with a dry rock garden in front of the main hall and the famous round \"window of enlightenment\" looking onto the inner garden; ¥500, 9:00–16:00.",
+    "why": "Ten minutes on foot between Engaku-ji and Kencho-ji, so it costs nothing to add to the zen morning. The inner garden only opens for the June hydrangeas and the late-November leaves, so in October you see it through the window, which is the shot anyway.",
+    "link": null,
+    "mapQuery": "Meigetsuin Temple Kita-Kamakura Japan",
+    "coords": [
+      35.3349,
+      139.5512
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Meigetsu-in"
+    ]
+  },
+  {
+    "id": "jomyo-ji",
+    "name": "Jomyo-ji",
+    "theme": "nature",
+    "type": "see",
+    "area": "Kamakura",
+    "what": "Fifth of the Kamakura Five Great Zen Temples, with a raked dry-landscape garden viewed from the Kisen-an teahouse over a bowl of matcha; ¥100 plus tea, 9:00–16:30.",
+    "why": "Five minutes from Hokoku-ji, so the bamboo grove and this rock garden are one stop; sitting on the teahouse veranda with the garden in front is the calmest half hour of the day.",
+    "link": null,
+    "mapQuery": "Jomyoji Temple Kamakura Japan",
+    "coords": [
+      35.3216,
+      139.568
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Jōmyō-ji (Kamakura)"
+    ]
+  },
+  {
+    "id": "hase-dera",
+    "name": "Hase-dera",
+    "theme": "nature",
+    "type": "see",
+    "area": "Kamakura",
+    "what": "Hillside temple of the eleven-headed Kannon with a pond garden below and a terrace looking over Yuigahama beach and the bay; ¥400, 8:00–16:30 in October.",
+    "why": "The water half of the Kamakura day: the sea view from the terrace, the garden ponds, and the Enoden along the coast right after. Five minutes from the Daibutsu at Hase station.",
+    "link": "https://www.hasedera.jp/",
+    "mapQuery": "Hasedera Temple Kamakura Japan",
+    "coords": [
+      35.3125,
+      139.5333
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Hase-dera (Kamakura)"
+    ]
+  },
+  {
+    "id": "kotoku-in",
+    "name": "Kotoku-in (Great Buddha)",
+    "theme": "core",
+    "type": "see",
+    "area": "Kamakura",
+    "what": "The 13-metre bronze Great Buddha of 1252, sitting in the open since its hall was washed away in 1498; ¥300, 8:00–17:00 in October, ¥50 more to step inside it.",
+    "why": "The one Kamakura stop everyone knows, three Enoden stops from Kamakura station and five minutes from Hase-dera, so it slots into the afternoon without a detour.",
+    "link": "https://www.kotoku-in.jp/",
+    "mapQuery": "Kotokuin Great Buddha Kamakura Japan",
+    "coords": [
+      35.3167,
+      139.5359
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Kōtoku-in"
+    ]
   }
 ]
