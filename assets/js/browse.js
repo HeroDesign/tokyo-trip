@@ -6,7 +6,7 @@
 import { THEMES, TYPES, HOME_PLACE_ID } from './data.js';
 import { createCard } from './card.js';
 import { emptyFilters, filterPlaces, isFiltered } from './filter.js';
-import { isHidden, hiddenPlaces, subscribe as subscribeStore } from './store.js';
+import { isFavorite, isHidden, hiddenPlaces, subscribe as subscribeStore } from './store.js';
 
 const state = emptyFilters();
 let showHidden = false;
@@ -93,8 +93,13 @@ export function initBrowse(places) {
     });
   }
 
-  // Re-render when store changes (e.g., hidden state changes)
-  subscribeStore(render);
+  // Re-render when store changes (hide/star/import) so cards stay in sync.
+  subscribeStore(() => {
+    for (const [id, card] of cards) {
+      card.querySelector('.card__star')?.setAttribute('aria-pressed', String(isFavorite(id)));
+    }
+    render();
+  });
 
   function toggleChip(container, chip) {
     const set = container === themeChips ? state.themes : state.types;

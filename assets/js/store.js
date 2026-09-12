@@ -124,6 +124,26 @@ export function exportSettings() {
   return JSON.stringify(state, null, 2);
 }
 
+export const currentSettings = () => ({
+  favorites: [...state.favorites],
+  days: { ...state.days },
+  hidden: [...state.hidden],
+  seedVersion: state.seedVersion ?? 0,
+});
+
+/** Replace stars, days and hides. Used by Plan → Import. */
+export function importSettings(incoming) {
+  const next = normalizeSettings(incoming);
+  state = {
+    favorites: next.favorites,
+    days: next.days,
+    hidden: next.hidden,
+    seedVersion: Math.max(state.seedVersion ?? 0, next.seedVersion ?? 0),
+  };
+  commit();
+  return currentSettings();
+}
+
 function omit(obj, key) {
   const { [key]: _dropped, ...rest } = obj;
   return rest;

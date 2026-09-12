@@ -10,7 +10,8 @@ import path from 'node:path';
 import { THEMES, TYPES, TRIP_DAYS, mapUrl, englishAreaMapUrl, HOME_PLACE_ID, placeHash, relatedLabel } from '../assets/js/data.js';
 import { emptyFilters, filterPlaces, isFiltered } from '../assets/js/filter.js';
 import { toKml, toCsv } from '../assets/js/export.js';
-import { mergeSeed } from '../assets/js/store.js';
+import { mergeSeed, importSettings, currentSettings } from '../assets/js/store.js';
+import { toBriefing, parseTransfer, toTransfer, TRANSFER_KIND } from '../assets/js/transfer.js';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const read = async (p) => JSON.parse(await readFile(path.join(ROOT, p), 'utf8'));
@@ -239,4 +240,42 @@ test('instagram places from PR 16 are in the dataset', () => {
   ]) {
     assert.ok(places.some((p) => p.id === id), `missing ${id}`);
   }
+});
+
+test('transfer: briefing and JSON round-trip stars and days', () => {
+  const known = new Set(places.map((p) => p.id));
+  const snapshot = {
+    favorites: ['omo3-asakusa', 'teamlab-planets', 'alvark-vs-ibaraki-2026-10-22'],
+    days: { 'teamlab-planets': '2026-10-22', 'alvark-vs-ibaraki-2026-10-22': '2026-10-22' },
+    hidden: [],
+    seedVersion: 2,
+  };
+
+  const json = toTransfer(places, snapshot);
+  assert.equal(json.kind, TRANSFER_KIND);
+  assert.equal(json.hotel.id, 'omo3-asakusa');
+  assert.equal(json.favorites.length, 3);
+  assert.equal(json.favorites.find((p) => p.id === 'teamlab-planets').day, '2026-10-22');
+
+  const md = toBriefing(places, snapshot);
+  assert.match(md, /teamLab Planets/);
+  assert.match(md, /OMO3 Asakusa/);
+  assert.match(md, /```json/);
+
+  const fromBriefing = parseTransfer(md, known);
+  assert.deepEqual(fromBriefing.settings.favorites, snapshot.favorites);
+  assert.equal(fromBriefing.settings.days['teamlab-planets'], '2026-10-22');
+  assert.equal(fromBriefing.skipped.length, 0);
+
+  const fromLegacy = parseTransfer(
+    JSON.stringify({ favorites: ['senso-ji', 'not-a-place'], days: { 'senso-ji': '2026-10-18' }, hidden: [] }),
+    known,
+  );
+  assert.deepEqual(fromLegacy.settings.favorites, ['senso-ji']);
+  assert.deepEqual(fromLegacy.skipped, ['not-a-place']);
+
+  importSettings(fromBriefing.settings);
+  const applied = currentSettings();
+  assert.ok(applied.favorites.includes('teamlab-planets'));
+  assert.equal(applied.days['alvark-vs-ibaraki-2026-10-22'], '2026-10-22');
 });

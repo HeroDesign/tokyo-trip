@@ -156,14 +156,29 @@
         </div>
 
         <div class="plan__sync">
-          <h2 class="section-title">Sync between devices</h2>
+          <h2 class="section-title">Export / import</h2>
           <p class="section-note">
-            Copy your current settings and paste into <code>data/my-settings.json</code> in the repo.
-            On first load, the app reads from that file, so all devices stay in sync.
+            Stars and day slots live on this phone. Share or copy the plan into
+            Notes, Files, ChatGPT or Claude. Paste it back below to restore.
+            Nothing is uploaded until you share it.
           </p>
           <div class="plan__buttons">
-            <button class="button" type="button" data-settings="export">Copy settings to clipboard</button>
+            <button class="button button--primary" type="button" data-transfer="share">Share plan</button>
+            <button class="button" type="button" data-transfer="copy">Copy plan</button>
+            <button class="button" type="button" data-transfer="file">Save file</button>
           </div>
+          <label class="plan__import-label" for="plan-import">Paste a plan to restore</label>
+          <textarea
+            id="plan-import"
+            class="plan__import"
+            data-import-text
+            rows="8"
+            placeholder="Paste the shared plan, or just the JSON at the bottom of it"
+          ></textarea>
+          <div class="plan__buttons">
+            <button class="button" type="button" data-transfer="import">Import</button>
+          </div>
+          <p class="plan__flash" data-transfer-status hidden></p>
         </div>
       </section>
     </main>

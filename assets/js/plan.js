@@ -3,8 +3,9 @@
  * Always displays the full itinerary structure so you can see the whole trip.
  */
 import { TRIP_DAYS, themeLabel, typeLabel, HOME_PLACE_ID, placeHash, relatedLabel } from './data.js';
-import { favorites, dayFor, assignDay, toggleFavorite, subscribe, exportSettings } from './store.js';
+import { favorites, dayFor, assignDay, toggleFavorite, subscribe, currentSettings, importSettings, hiddenPlaces } from './store.js';
 import { toKml, toCsv } from './export.js';
+import { toBriefing, parseTransfer } from './transfer.js';
 
 const el = (tag, className, text) => {
   const node = document.createElement(tag);
@@ -212,15 +213,75 @@ export function initPlan(places) {
     }
   });
 
-  root.querySelector('.plan__sync .plan__buttons').addEventListener('click', async (event) => {
-    if (!event.target.closest('[data-settings="export"]')) return;
+  const status = root.querySelector('[data-transfer-status]');
+  const importBox = root.querySelector('[data-import-text]');
+  const knownIds = new Set(places.map((place) => place.id));
+
+  const flash = (message, ok = true) => {
+    if (!status) return;
+    status.hidden = false;
+    status.textContent = message;
+    status.classList.toggle('plan__flash--error', !ok);
+  };
+
+  const briefing = () =>
+    toBriefing(places, { ...currentSettings(), hidden: hiddenPlaces() });
+
+  async function copyPlan(button) {
+    const text = briefing();
     try {
-      await navigator.clipboard.writeText(exportSettings());
-      event.target.textContent = 'Copied!';
-      setTimeout(() => { event.target.textContent = 'Copy settings to clipboard'; }, 2000);
+      await navigator.clipboard.writeText(text);
+      const label = button.textContent;
+      button.textContent = 'Copied!';
+      flash('Plan copied. Paste it into Notes, ChatGPT or Claude.');
+      setTimeout(() => {
+        button.textContent = label;
+      }, 2000);
     } catch {
-      window.prompt('Copy this JSON to data/my-settings.json:', exportSettings());
+      window.prompt('Copy this plan:', text);
     }
+  }
+
+  async function sharePlan() {
+    const text = briefing();
+    if (typeof navigator.share === 'function') {
+      try {
+        await navigator.share({ title: 'Tokyo Field Guide plan', text });
+        flash('Plan shared. Save it in Notes or Files for later.');
+        return;
+      } catch (error) {
+        if (error?.name === 'AbortError') return;
+      }
+    }
+    await copyPlan(root.querySelector('[data-transfer="copy"]'));
+  }
+
+  function importPlan() {
+    const raw = importBox?.value ?? '';
+    let result;
+    try {
+      result = parseTransfer(raw, knownIds);
+    } catch (error) {
+      flash(error.message || 'Could not read that plan.', false);
+      return;
+    }
+    if (!window.confirm('Replace the stars and day plan on this phone with the pasted plan?')) return;
+    importSettings(result.settings);
+    const skipped = result.skipped.length
+      ? ` Ignored ${result.skipped.length} unknown id${result.skipped.length === 1 ? '' : 's'}.`
+      : '';
+    flash(`Restored ${result.settings.favorites.length} starred place${result.settings.favorites.length === 1 ? '' : 's'}.${skipped}`);
+    importBox.value = '';
+    render();
+  }
+
+  root.querySelector('.plan__sync').addEventListener('click', (event) => {
+    const action = event.target.closest('[data-transfer]')?.dataset.transfer;
+    if (!action) return;
+    if (action === 'share') sharePlan();
+    else if (action === 'copy') copyPlan(event.target.closest('[data-transfer]'));
+    else if (action === 'file') download('tokyo-field-guide-plan.md', briefing(), 'text/markdown;charset=utf-8');
+    else if (action === 'import') importPlan();
   });
 
   subscribe(render);
