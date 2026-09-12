@@ -177,7 +177,43 @@ test('hotel: OMO3 Asakusa is the only lodging entry and the booked home base', a
 
   const settings = await read('data/my-settings.json');
   assert.ok(settings.favorites.includes('omo3-asakusa'));
-  assert.equal(settings.seedVersion, 2);
+  assert.equal(settings.seedVersion, 3);
+});
+
+test('plan seed: every starred place is real and every day assignment is a trip day', async () => {
+  const settings = await read('data/my-settings.json');
+  const known = new Set(places.map((p) => p.id));
+  const tripDays = new Set(TRIP_DAYS.map((d) => d.id));
+
+  assert.equal(new Set(settings.favorites).size, settings.favorites.length, 'duplicate favorites');
+  for (const id of settings.favorites) assert.ok(known.has(id), `starred unknown place ${id}`);
+
+  for (const [id, day] of Object.entries(settings.days)) {
+    assert.ok(known.has(id), `day assigned to unknown place ${id}`);
+    assert.ok(tripDays.has(day), `${id}: ${day} is not a trip day`);
+    assert.ok(settings.favorites.includes(id), `${id} has a day but is not starred`);
+  }
+
+  // The decided anchors of the plan, each on its day.
+  assert.equal(settings.days['hibikus-asakusa-basement'], '2026-10-19');
+  assert.equal(settings.days['kamakura-day-trip'], '2026-10-21');
+  assert.equal(settings.days['pigment-tokyo'], '2026-10-22');
+  assert.equal(settings.days['teamlab-planets'], '2026-10-22');
+  assert.equal(settings.days['alvark-vs-ibaraki-2026-10-22'], '2026-10-22');
+  assert.equal(settings.days['shibuya-sky'], '2026-10-23');
+  assert.equal(settings.days['zakuro-show-2026-10-23'], '2026-10-23');
+  assert.equal(settings.days['kumihimo-experience-by-domyo'], '2026-10-20');
+
+  // All six Tokyo Kapital doors are starred, and the Kapital day holds them.
+  const kapital = places.filter((p) => p.id.startsWith('kapital-'));
+  assert.equal(kapital.length, 6);
+  for (const shop of kapital) {
+    assert.ok(settings.favorites.includes(shop.id), `${shop.id} not starred`);
+    assert.equal(settings.days[shop.id], '2026-10-24', `${shop.id} not on the Kapital day`);
+  }
+
+  // Travel days carry nothing: arrival evening is Asakusa only, departure is a half morning.
+  assert.equal(Object.values(settings.days).filter((d) => d === '2026-10-16').length, 0);
 });
 
 test('basketball: B.League games during the trip are in the dataset', () => {

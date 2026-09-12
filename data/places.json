@@ -103,7 +103,7 @@
     "type": "see",
     "area": "Shibuya",
     "what": "Open-air rooftop observation deck",
-    "why": "The \"wow\" view — book sunset ~1 month out",
+    "why": "BOOKED — the sunset view for Fri 23 Oct. Open-air roof at Shibuya Scramble Square, right at the station at the end of the Harajuku-to-Shibuya day. Sunset is about 16:55 in late October, so take the 16:00 or 16:20 entry; slots open roughly a month ahead and the sunset ones go first. Hikarie's free 11F lobby is the fallback.",
     "link": "https://www.shibuya-scramble-square.com/sky/",
     "mapQuery": "Shibuya Sky Shibuya Tokyo Japan",
     "coords": [
@@ -746,7 +746,7 @@
     "type": "do",
     "area": "Asakusa",
     "what": "Taiko school and workshop studio beneath the headquarters of historic Japanese drum maker Miyamoto Unosuke Shoten.",
-    "why": "Especially appealing if staying in Asakusa: this is a real taiko school rather than a tourist attraction, professional players teach there, and the school accepts students from age three upward. The unusual basement studio occupies a historic space once used to store mikoshi and later as an air-raid shelter.",
+    "why": "BOOKED — this is the taiko lesson for the trip, chosen for being in the neighborhood: a real taiko school rather than a tourist attraction, professional players teaching, students from age three up, and a five-minute walk from the hotel so the lesson morning starts without a train. The basement studio is a historic space once used to store mikoshi and later as an air-raid shelter. Confirm they will run a single visitor session on Mon 19 Oct.",
     "link": "https://www.hibikus.com/taiko-school/asakusa",
     "mapQuery": "HIBIKUS Asakusa Basement 6-1-15 Asakusa Tokyo",
     "coords": [
@@ -2351,7 +2351,7 @@
     "type": "see",
     "area": "Shibuya",
     "what": "Free 11F observation lobby with panoramic Shibuya views",
-    "why": "Free consolation view now that Shibuya Sky is off the list; overlooks Shibuya but not the scramble crossing itself",
+    "why": "The free fallback if Shibuya Sky's sunset slots are gone for 23 Oct — 11F, overlooks Shibuya but not the scramble crossing itself, and no ticket needed.",
     "link": "https://www.hikarie.jp/",
     "mapQuery": "Shibuya Hikarie Sky Lobby Tokyo Japan",
     "coords": [
@@ -3151,6 +3151,26 @@
     "coordPrecision": "area",
     "imageQueries": [
       "Food model"
+    ]
+  },
+  {
+    "id": "itoya-ginza",
+    "name": "Itoya Ginza",
+    "theme": "drawing",
+    "type": "shop",
+    "area": "Ginza",
+    "what": "Twelve floors of stationery at 2-7-15 Ginza since 1904: paper by the sheet, fountain pens, inks, notebooks, letterpress and a floor you can have cards printed on; 10:00-20:00.",
+    "why": "The stationery institution, and it is four minutes from Kapital Ginza and Lemon-sha, so it is an option any time the Saturday Ginza stretch is running. Different from Sekaido (discount art supplies) and Kakimori (make your own): this is the deep browse.",
+    "link": "https://www.ito-ya.co.jp/",
+    "mapQuery": "Itoya Ginza Tokyo",
+    "coords": [
+      35.6725,
+      139.7673
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Itoya (store)",
+      "Ginza"
     ]
   }
 ]
