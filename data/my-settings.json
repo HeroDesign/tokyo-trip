@@ -54,6 +54,7 @@
     "samurai-jeans",
     "pure-blue-japan-harajuku",
     "five-g",
+    "the-real-mccoys-tokyo",
     "momotaro-jeans-aoyama",
     "nezu-museum-garden",
     "shibuya-hachiko-stamp",
@@ -170,8 +171,9 @@
     "kapital-soho-roppongi": "2026-10-24",
     "kapital-legs-roppongi": "2026-10-24",
     "edo-taito-traditional-crafts-center": "2026-10-25",
-    "cafe-capyba-asakusa": "2026-10-25"
+    "cafe-capyba-asakusa": "2026-10-25",
+    "the-real-mccoys-tokyo": "2026-10-23"
   },
   "hidden": [],
-  "seedVersion": 3
+  "seedVersion": 4
 }

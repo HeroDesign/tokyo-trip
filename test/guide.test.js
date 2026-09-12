@@ -177,7 +177,7 @@ test('hotel: OMO3 Asakusa is the only lodging entry and the booked home base', a
 
   const settings = await read('data/my-settings.json');
   assert.ok(settings.favorites.includes('omo3-asakusa'));
-  assert.equal(settings.seedVersion, 3);
+  assert.equal(settings.seedVersion, 4);
 });
 
 test('plan seed: every starred place is real and every day assignment is a trip day', async () => {
@@ -203,6 +203,7 @@ test('plan seed: every starred place is real and every day assignment is a trip 
   assert.equal(settings.days['shibuya-sky'], '2026-10-23');
   assert.equal(settings.days['zakuro-show-2026-10-23'], '2026-10-23');
   assert.equal(settings.days['kumihimo-experience-by-domyo'], '2026-10-20');
+  assert.equal(settings.days['the-real-mccoys-tokyo'], '2026-10-23');
 
   // All six Tokyo Kapital doors are starred, and the Kapital day holds them.
   const kapital = places.filter((p) => p.id.startsWith('kapital-'));

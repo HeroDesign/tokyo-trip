@@ -3172,5 +3172,25 @@
       "Itoya (store)",
       "Ginza"
     ]
+  },
+  {
+    "id": "the-real-mccoys-tokyo",
+    "name": "The Real McCoy's Tokyo",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Shibuya",
+    "what": "Tokyo flagship at 6-25-8 Jingumae, on the Meiji-dori side of Cat Street between Harajuku and Shibuya; open daily 12:00-20:00. Reproduction A-2 and N-1 flight jackets, Buco motorcycle gear, Joe McCoy workwear and Lot 001 denim, all made in Japan.",
+    "why": "A must on this trip. The most obsessive reproduction house in Japan: they re-spin the yarn and remake the hardware to match originals, which is the same argument as the raw-denim shops but pointed at military and motorcycle clothing. It sits directly on the walk from the Harajuku denim shops down Cat Street to Shibuya, so it costs no detour at all.",
+    "link": "https://therealmccoys.com/pages/tokyo",
+    "mapQuery": "The Real McCoy's Tokyo Jingumae Shibuya",
+    "coords": [
+      35.6668,
+      139.7048
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "A-2 jacket",
+      "Flight jacket"
+    ]
   }
 ]
