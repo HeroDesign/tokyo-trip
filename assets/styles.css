@@ -704,8 +704,8 @@ main {
 }
 
 .pin {
-  width: 0.85rem;
-  height: 0.85rem;
+  width: 1.15rem;
+  height: 1.15rem;
   border-radius: 50%;
   border: 2px solid #fff;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.35);
@@ -718,8 +718,8 @@ main {
 }
 
 .pin--home {
-  width: 1.15rem;
-  height: 1.15rem;
+  width: 1.4rem;
+  height: 1.4rem;
   border-width: 3px;
   border-color: #f4e4b3;
   box-shadow: 0 0 0 2px #1a1815, 0 0 0 6px rgba(26, 24, 21, 0.18);
