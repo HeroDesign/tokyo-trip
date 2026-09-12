@@ -282,8 +282,8 @@
     "theme": "drawing",
     "type": "shop",
     "area": "Jimbocho",
-    "what": "Secondhand + art-book town",
-    "why": "\"Coolest neighborhood\" per Time Out; vintage prints",
+    "what": "Kanda-Jimbocho, the world's largest concentration of secondhand bookshops: more than 130 of them along Yasukuni-dori and the lanes off it, most with their stock spilling onto outdoor racks, plus the old-school curry and coffee houses that grew up to feed the students and editors.",
+    "why": "The best browsing hour in Tokyo for two of your threads at once: antiquarian shops selling original ukiyo-e woodblock prints and Edo maps, and art-and-photobook dealers stacked four floors high. Ten minutes west of the Ochanomizu instrument street, so it closes out the Akihabara walk. Caution: a good number of the shops shut on Sundays, some on Mondays, and most close around 18:00, so get there before 17:00.",
     "link": null,
     "mapQuery": "Jimbocho book town Chiyoda Tokyo Japan",
     "coords": [
@@ -3191,6 +3191,45 @@
     "imageQueries": [
       "A-2 jacket",
       "Flight jacket"
+    ]
+  },
+  {
+    "id": "ohya-shobo",
+    "name": "Ohya Shobo",
+    "theme": "drawing",
+    "type": "shop",
+    "area": "Jimbocho",
+    "what": "Antiquarian dealer on Yasukuni-dori since 1882, selling original Edo-period woodblock books, ukiyo-e prints and old hand-coloured maps; 10:00-18:00, closed Sundays and public holidays.",
+    "why": "The one shop in the book town not to miss: real ukiyo-e you can hold and buy, at prices that start far lower than people expect, right after you have pulled your own print at Mokuhankan. The old maps of Edo are the other reason to go in.",
+    "link": null,
+    "mapQuery": "Ohya Shobo Jimbocho Tokyo",
+    "coords": [
+      35.6957,
+      139.757
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Ukiyo-e",
+      "Edo period maps"
+    ]
+  },
+  {
+    "id": "komiyama-shoten",
+    "name": "Komiyama Shoten",
+    "theme": "photography",
+    "type": "shop",
+    "area": "Jimbocho",
+    "what": "Four floors of art dealing on the Jimbocho main street: photobooks on the second floor, fashion magazines, art and design books, posters and prints above and below.",
+    "why": "The photobook floor is the draw. Japanese photography as objects rather than images, which is the natural companion to buying a film camera at the start of the week.",
+    "link": null,
+    "mapQuery": "Komiyama Shoten Jimbocho Tokyo",
+    "coords": [
+      35.6959,
+      139.7566
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Photo-book"
     ]
   }
 ]

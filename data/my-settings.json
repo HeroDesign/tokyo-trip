@@ -22,6 +22,8 @@
     "ochanomizu-music-street",
     "shinohara-maruyoshi-furin",
     "jimbocho",
+    "ohya-shobo",
+    "komiyama-shoten",
     "ameyoko-market",
     "kumihimo-experience-by-domyo",
     "koishikawa-korakuen",
@@ -172,8 +174,10 @@
     "kapital-legs-roppongi": "2026-10-24",
     "edo-taito-traditional-crafts-center": "2026-10-25",
     "cafe-capyba-asakusa": "2026-10-25",
-    "the-real-mccoys-tokyo": "2026-10-23"
+    "the-real-mccoys-tokyo": "2026-10-23",
+    "ohya-shobo": "2026-10-19",
+    "komiyama-shoten": "2026-10-19"
   },
   "hidden": [],
-  "seedVersion": 4
+  "seedVersion": 5
 }
