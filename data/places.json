@@ -3019,5 +3019,138 @@
     "imageQueries": [
       "Kōtoku-in"
     ]
+  },
+  {
+    "id": "wanariya-indigo",
+    "name": "Wanariya indigo dyeing",
+    "theme": "crafts",
+    "type": "do",
+    "area": "Senzoku",
+    "what": "Casual aizome studio at 1-8-10 Senzoku where you indigo-dye a tenugui (about ¥2,500) or a T-shirt (about ¥3,600) with stencils and wax in roughly 45 minutes; walk-ins taken.",
+    "why": "The craft that rhymes with the raw-denim track: the same indigo, on your own cloth, ten minutes north of Senso-ji and seven from the TX station. Short enough to drop into any Asakusa morning without booking.",
+    "link": "https://wanariya.co.jp/english/",
+    "mapQuery": "Wanariya Asakusa indigo dyeing Tokyo",
+    "coords": [
+      35.72,
+      139.7915
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Indigo dye"
+    ]
+  },
+  {
+    "id": "mokuhankan-print-party",
+    "name": "Mokuhankan Print Party",
+    "theme": "crafts",
+    "type": "do",
+    "area": "Asakusa",
+    "what": "David Bull's ukiyo-e studio at 1-41-8 Asakusa runs hands-on woodblock printing sessions in English where you print a small design from carved blocks and take it home.",
+    "why": "The print counterpart to the film cameras and the sketchbooks: paper, pigment, registration, pressure. Five minutes from the hotel. The sessions are popular, so book well ahead.",
+    "link": "https://mokuhankan.com/",
+    "mapQuery": "Mokuhankan Asakusa Tokyo",
+    "coords": [
+      35.7139,
+      139.7935
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Ukiyo-e"
+    ]
+  },
+  {
+    "id": "kakimori-kuramae",
+    "name": "Kakimori and Inkstand",
+    "theme": "crafts",
+    "type": "do",
+    "area": "Kuramae",
+    "what": "Kuramae stationery maker where you build a custom notebook (cover, paper, binding, closure; appointment recommended) and, at Inkstand next door, blend your own fountain-pen ink from 14 pigments in a 105-minute reserved session, about ¥5,500 for the first 35 ml bottle.",
+    "why": "The stamp-book thread taken seriously: a notebook you specified, and an ink colour nobody else has. Kuramae is a twelve-minute walk south of the hotel and Tokyo's small-maker district, so the walk there is part of it.",
+    "link": "https://kakimori.com/",
+    "mapQuery": "Kakimori Kuramae Tokyo",
+    "coords": [
+      35.7043,
+      139.7897
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Fountain pen ink"
+    ]
+  },
+  {
+    "id": "shinohara-maruyoshi-furin",
+    "name": "Shinohara Maruyoshi Furin",
+    "theme": "crafts",
+    "type": "do",
+    "area": "Okachimachi",
+    "what": "One of the last two Edo furin makers, in the Satake shopping arcade near Shin-Okachimachi, with two workshops: blow your own glass bell and paint it, or paint a pre-blown one.",
+    "why": "The sound craft: a hand-blown glass chime whose tone is set by the glass you blew, painted from the inside. One Tsukuba Express stop from Akihabara and one from Asakusa, so it sits on Monday's line home.",
+    "link": null,
+    "mapQuery": "Shinohara Maruyoshi Furin Taito Tokyo",
+    "coords": [
+      35.7068,
+      139.7797
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Fūrin"
+    ]
+  },
+  {
+    "id": "ito-inbo-hanko",
+    "name": "Ito Inbo hanko carving",
+    "theme": "crafts",
+    "type": "do",
+    "area": "Senzoku",
+    "what": "Hand-carved seal shop founded 1947 where, over 90 to 120 minutes with an interpreter, you carve your own hanko into a twig of cherry or sansho wood and keep it; about ten minutes from the TX station or Iriya.",
+    "why": "You are collecting stamps all week; this is the one you carve yourself, and it doubles as the signature on every eki-stamp page. Books through the usual experience sites.",
+    "link": null,
+    "mapQuery": "Ito Inbo hanko Asakusa Tokyo",
+    "coords": [
+      35.7215,
+      139.789
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Seal (East Asia)"
+    ]
+  },
+  {
+    "id": "ameshin-amezaiku",
+    "name": "Amezaiku Ameshin candy sculpting",
+    "theme": "crafts",
+    "type": "do",
+    "area": "Hanakawado / Asakusa",
+    "what": "Candy-sculpture studio on Hanakawado, the same block as the hotel, where in a small class you shape a rabbit from hot sugar in the three minutes before it sets, after two practice runs.",
+    "why": "The one craft that is pure fun for a thirteen-year-old and needs zero travel: it is on your block. The guided version bundles a Nakamise walk and matcha; booking direct is cheaper.",
+    "link": "https://www.ame-shin.com/",
+    "mapQuery": "Amezaiku Ameshin Asakusa Tokyo",
+    "coords": [
+      35.7135,
+      139.799
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Amezaiku"
+    ]
+  },
+  {
+    "id": "ganso-shokuhin-sample-ya",
+    "name": "Ganso Shokuhin Sample-ya",
+    "theme": "crafts",
+    "type": "do",
+    "area": "Kappabashi",
+    "what": "Kappabashi food-replica shop with a 40-minute wax workshop (about ¥3,300, reservation needed, age 6+) where you shape two pieces of tempura and a curl of lettuce by pouring wax into warm water.",
+    "why": "Kappabashi Kitchen Town is five minutes from the TX station, so this drops in after Monday's lesson. Instruction is in Japanese, which is part of the fun; the wax rippling into lettuce the moment it hits the water is the trick.",
+    "link": null,
+    "mapQuery": "Ganso Shokuhin Sample-ya Kappabashi Tokyo",
+    "coords": [
+      35.7143,
+      139.7885
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Food model"
+    ]
   }
 ]
