@@ -106,8 +106,13 @@ test('filter: search covers name, area, description and labels', () => {
   const byArea = filterPlaces(places, withFilters({ search: 'asakusa' }));
   assert.ok(byArea.length >= 5, 'expected several Asakusa places');
 
+  // "Day trip" is the label for the trip type, so searching it must return every
+  // trip. Other places may also match when their own text happens to contain both
+  // words - that is the filter working, not a rule the dataset has to obey.
   const byLabel = filterPlaces(places, withFilters({ search: 'day trip' }));
-  assert.ok(byLabel.every((p) => p.type === 'trip'));
+  const trips = places.filter((p) => p.type === 'trip');
+  assert.ok(trips.length > 0);
+  assert.ok(trips.every((p) => byLabel.includes(p)), 'the type label is not searchable');
 
   assert.equal(filterPlaces(places, withFilters({ search: 'zzzz' })).length, 0);
 });
@@ -177,7 +182,7 @@ test('hotel: OMO3 Asakusa is the only lodging entry and the booked home base', a
 
   const settings = await read('data/my-settings.json');
   assert.ok(settings.favorites.includes('omo3-asakusa'));
-  assert.equal(settings.seedVersion, 5);
+  assert.equal(settings.seedVersion, 6);
 });
 
 test('plan seed: every starred place is real and every day assignment is a trip day', async () => {

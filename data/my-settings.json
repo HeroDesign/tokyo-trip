@@ -57,6 +57,7 @@
     "pure-blue-japan-harajuku",
     "five-g",
     "the-real-mccoys-tokyo",
+    "united-arrows-harajuku",
     "momotaro-jeans-aoyama",
     "nezu-museum-garden",
     "shibuya-hachiko-stamp",
@@ -77,6 +78,7 @@
     "zojo-ji",
     "kapital-soho-roppongi",
     "kapital-legs-roppongi",
+    "united-arrows-roppongi-hills",
     "edo-taito-traditional-crafts-center",
     "cafe-capyba-asakusa",
     "mokuhankan-print-party",
@@ -176,8 +178,10 @@
     "cafe-capyba-asakusa": "2026-10-25",
     "the-real-mccoys-tokyo": "2026-10-23",
     "ohya-shobo": "2026-10-19",
-    "komiyama-shoten": "2026-10-19"
+    "komiyama-shoten": "2026-10-19",
+    "united-arrows-roppongi-hills": "2026-10-24",
+    "united-arrows-harajuku": "2026-10-23"
   },
   "hidden": [],
-  "seedVersion": 5
+  "seedVersion": 6
 }

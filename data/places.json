@@ -3231,5 +3231,43 @@
     "imageQueries": [
       "Photo-book"
     ]
+  },
+  {
+    "id": "united-arrows-roppongi-hills",
+    "name": "United Arrows Roppongi Hills",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Roppongi",
+    "what": "United Arrows' largest store, West Walk 2-3F at 6-10-3 Roppongi: womenswear on the lower floor, the full men's range on the upper. Open 11:00-20:00, until 21:00 on Fridays and Saturdays.",
+    "why": "Japan's defining select shop: their own label alongside a bought selection of European and American labels, tailoring cut for a Japanese fit, and the house style that shaped how Tokyo dresses. It is in the same building as the two Kapital doors, two floors up, and open latest at the end of the week, so it is the last stop of the Kapital day rather than a trip of its own.",
+    "link": "https://store.united-arrows.co.jp/",
+    "mapQuery": "United Arrows Roppongi Hills Tokyo",
+    "coords": [
+      35.6597,
+      139.7285
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Roppongi Hills"
+    ]
+  },
+  {
+    "id": "united-arrows-harajuku",
+    "name": "United Arrows Harajuku Main Store",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Harajuku",
+    "what": "The original main store in Jingumae, ground floor and basement, the shop the company grew out of after leaving Beams in 1989. Sources disagree on the current address (3-28-1 and 2-31-12 Jingumae both appear) and one listing reports a renovation closure.",
+    "why": "Worth a look because the walk already goes through Jingumae, but check the address and whether it is open before setting out; the Roppongi Hills store is the reliable one. United Arrows & Sons, the men's-directed offshoot, is also in this neighbourhood if it is running.",
+    "link": "https://store.united-arrows.co.jp/",
+    "mapQuery": "United Arrows Harajuku Main Store Jingumae Tokyo",
+    "coords": [
+      35.6702,
+      139.706
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Harajuku"
+    ]
   }
 ]
