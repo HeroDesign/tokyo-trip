@@ -1012,6 +1012,49 @@ main {
   display: none;
 }
 
+/* The unassigned bucket folds away: its own chevron, no native marker. */
+.day__head--toggle {
+  align-items: center;
+  flex-wrap: nowrap;
+  cursor: pointer;
+  list-style: none;
+}
+
+/* Keep the label, the count and the chevron on one line at phone width. */
+.day__head--toggle .day__name {
+  flex: 0 1 auto;
+}
+
+.day__head--toggle::-webkit-details-marker {
+  display: none;
+}
+
+.day__head--toggle::after {
+  content: '';
+  flex: none;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-left: auto;
+  border-right: 2px solid var(--ink-muted);
+  border-bottom: 2px solid var(--ink-muted);
+  transform: rotate(45deg);
+  transition: transform 0.2s ease;
+}
+
+.day--unassigned[open] .day__head--toggle::after {
+  transform: rotate(-135deg);
+}
+
+.day--unassigned:not([open]) .day__head--toggle {
+  margin-bottom: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .day__head--toggle::after {
+    transition: none;
+  }
+}
+
 .day__name {
   font-family: var(--font-display);
   font-weight: 700;

@@ -109,6 +109,10 @@ export function initPlan(places) {
   const home = byId.get(HOME_PLACE_ID);
   renderStayBanner(home);
 
+  // The unassigned bucket is collapsed by default and can hold dozens of places,
+  // so its open state has to survive the re-render that every star or slot triggers.
+  let unassignedOpen = false;
+
   function render() {
     const starred = favorites()
       .map((id) => byId.get(id))
@@ -159,18 +163,25 @@ export function initPlan(places) {
       return section;
     });
 
-    // Unassigned bucket - only show if there are unassigned items
+    // Unassigned bucket - only show if there are unassigned items, and keep it
+    // folded away by default so a long shortlist does not bury the days below it.
     let unassignedSection = null;
     if (unassigned.length) {
-      unassignedSection = el('section', 'day day--unassigned');
-      const head = el('div', 'day__head');
+      const details = el('details', 'day day--unassigned');
+      details.open = unassignedOpen;
+      details.addEventListener('toggle', () => {
+        unassignedOpen = details.open;
+      });
+
+      const head = el('summary', 'day__head day__head--toggle');
       head.append(el('h3', 'day__name', 'Unassigned'));
       head.append(el('span', 'day__note', `${unassigned.length} to slot in`));
-      unassignedSection.append(head);
-      
+      details.append(head);
+
       const content = el('div', 'day__content');
       unassigned.forEach((place) => content.append(slot(place, byId, render)));
-      unassignedSection.append(content);
+      details.append(content);
+      unassignedSection = details;
     }
 
     // Empty state prompt if no favorites at all
