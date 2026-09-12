@@ -3339,5 +3339,111 @@
     "related": [
       "nakano-broadway"
     ]
+  },
+  {
+    "id": "goodwatch78-nakano",
+    "name": "GoodWatch78",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Nakano",
+    "what": "Antique Rolex specialist on the 3F of Nakano Broadway dealing in vintage references, loose parts and consignment sales; short hours, roughly 13:00-18:00. Their site is goodwatch78.com, served over plain http.",
+    "why": "The most likely place in Tokyo to find an Explorer as a bare head. A parts-and-vintage dealer rather than a showroom, which is exactly the shop that sells watches without bracelets, and the owner's whole trade is old Rolex.",
+    "link": null,
+    "mapQuery": "GoodWatch78 Nakano Broadway Tokyo",
+    "coords": [
+      35.7089,
+      139.6656
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Rolex"
+    ],
+    "related": [
+      "nakano-broadway",
+      "jackroad-nakano"
+    ]
+  },
+  {
+    "id": "quark-nakano",
+    "name": "Quark Nakano Broadway",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Nakano",
+    "what": "Branch of the Rolex specialist chain Quark on the 3F of Nakano Broadway; the chain keeps a published antique and vintage Rolex stock list online.",
+    "why": "Rolex only, which means the vintage Explorer references are grouped together instead of buried in a general case. Check their antique stock list before the trip so you walk in knowing what is in the country.",
+    "link": "https://www.909.co.jp/",
+    "mapQuery": "Quark Rolex Nakano Broadway Tokyo",
+    "coords": [
+      35.7089,
+      139.6656
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Rolex Explorer"
+    ],
+    "related": [
+      "nakano-broadway"
+    ]
+  },
+  {
+    "id": "kamekichi-nakano",
+    "name": "Kamekichi",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Nakano",
+    "what": "Long-running multi-brand dealer at Nakano Broadway with a large Rolex and antique section and multilingual staff; also carries Tudor, Patek and Audemars Piguet.",
+    "why": "The price check. Widely called the most competitively priced of the Broadway dealers, and one of the few that reliably carries Tudor alongside the Rolex, so it covers both halves of what you are after.",
+    "link": "https://www.kame-kichi.com/foroverseas/en/shop.html",
+    "mapQuery": "Kamekichi Nakano Broadway Tokyo",
+    "coords": [
+      35.7089,
+      139.6656
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Tudor (watch)"
+    ],
+    "related": [
+      "nakano-broadway"
+    ]
+  },
+  {
+    "id": "mizutani-camera-ueno",
+    "name": "Mizutani Camera",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Ueno",
+    "what": "Secondhand camera and watch dealer under a blue awning across from Ueno station's south exit, trading vintage Seiko and Citizen alongside Rolex and Omega. Reported to be English-speaking and tax-free registered.",
+    "why": "The one shop that serves both halves of this trip at the same counter: used cameras and vintage watches. Described as having the largest secondhand stock in Tokyo and an owner who will talk you through the movement. I could only confirm it through English travel sources, so treat the details as unverified and check it is open before making the walk.",
+    "link": null,
+    "mapQuery": "Mizutani Camera Ueno Tokyo",
+    "coords": [
+      35.7075,
+      139.7745
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Seiko",
+      "Vintage camera"
+    ]
+  },
+  {
+    "id": "quark-ueno",
+    "name": "Quark Ueno",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Ueno",
+    "what": "Quark's main Rolex store in Ueno, stocking new, used and vintage references with buying and selling under one roof.",
+    "why": "The second place to look on the Ueno side, ten minutes from Hinoya's denim floors and Ameyoko, so the watch hunt and the jeans happen on one walk.",
+    "link": "https://www.909.co.jp/rolex_ueno/",
+    "mapQuery": "Quark Rolex Ueno Tokyo",
+    "coords": [
+      35.708,
+      139.7748
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Rolex Submariner"
+    ]
   }
 ]

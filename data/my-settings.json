@@ -31,6 +31,9 @@
     "fujiya-camera",
     "nakano-broadway",
     "jackroad-nakano",
+    "goodwatch78-nakano",
+    "quark-nakano",
+    "kamekichi-nakano",
     "mandarake-nakano",
     "capyneko-cafe-kichijoji",
     "gotoku-ji",
@@ -48,6 +51,8 @@
     "nezu-shrine",
     "yanaka-ginza",
     "hinoya",
+    "mizutani-camera-ueno",
+    "quark-ueno",
     "pigment-tokyo",
     "teamlab-planets",
     "alvark-vs-ibaraki-2026-10-22",
@@ -186,8 +191,13 @@
     "united-arrows-harajuku": "2026-10-23",
     "nakano-broadway": "2026-10-20",
     "jackroad-nakano": "2026-10-20",
-    "mandarake-nakano": "2026-10-20"
+    "mandarake-nakano": "2026-10-20",
+    "goodwatch78-nakano": "2026-10-20",
+    "quark-nakano": "2026-10-20",
+    "kamekichi-nakano": "2026-10-20",
+    "mizutani-camera-ueno": "2026-10-22",
+    "quark-ueno": "2026-10-22"
   },
   "hidden": [],
-  "seedVersion": 7
+  "seedVersion": 8
 }
