@@ -29,6 +29,9 @@
     "koishikawa-korakuen",
     "game-center-mikado",
     "fujiya-camera",
+    "nakano-broadway",
+    "jackroad-nakano",
+    "mandarake-nakano",
     "capyneko-cafe-kichijoji",
     "gotoku-ji",
     "tokyo-metropolitan-government-building",
@@ -180,8 +183,11 @@
     "ohya-shobo": "2026-10-19",
     "komiyama-shoten": "2026-10-19",
     "united-arrows-roppongi-hills": "2026-10-24",
-    "united-arrows-harajuku": "2026-10-23"
+    "united-arrows-harajuku": "2026-10-23",
+    "nakano-broadway": "2026-10-20",
+    "jackroad-nakano": "2026-10-20",
+    "mandarake-nakano": "2026-10-20"
   },
   "hidden": [],
-  "seedVersion": 6
+  "seedVersion": 7
 }

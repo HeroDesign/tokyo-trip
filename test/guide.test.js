@@ -182,7 +182,7 @@ test('hotel: OMO3 Asakusa is the only lodging entry and the booked home base', a
 
   const settings = await read('data/my-settings.json');
   assert.ok(settings.favorites.includes('omo3-asakusa'));
-  assert.equal(settings.seedVersion, 6);
+  assert.equal(settings.seedVersion, 7);
 });
 
 test('plan seed: every starred place is real and every day assignment is a trip day', async () => {

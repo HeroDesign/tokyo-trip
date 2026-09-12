@@ -214,7 +214,8 @@
     "imageQueries": [
       "Hasselblad",
       "Twin-lens reflex camera"
-    ]
+    ],
+    "related": ["nakano-broadway"]
   },
   {
     "id": "yodobashi-camera",
@@ -3268,6 +3269,75 @@
     "coordPrecision": "area",
     "imageQueries": [
       "Harajuku"
+    ]
+  },
+  {
+    "id": "nakano-broadway",
+    "name": "Nakano Broadway",
+    "theme": "core",
+    "type": "shop",
+    "area": "Nakano",
+    "what": "Four floors of roughly 300 tiny specialist shops stacked above a 1966 apartment block, named after Manhattan's Broadway and sold at the time as the most advanced building in Asia, with singers and actors living in the flats upstairs. Most shops run 12:00-20:00 and a few close Wednesdays.",
+    "why": "You are already going for Fujiya Camera, which is inside it, but the building is the real stop: the third floor is wall-to-wall vintage watch dealers, Mandarake runs more than a dozen specialist shops through the complex, and the whole warren is the kind of place a thirteen-year-old can happily get lost in for two hours. Five minutes on foot from Nakano station.",
+    "link": null,
+    "mapQuery": "Nakano Broadway Nakano Tokyo",
+    "coords": [
+      35.7089,
+      139.6656
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Nakano Broadway"
+    ],
+    "related": [
+      "fujiya-camera",
+      "jackroad-nakano",
+      "mandarake-nakano"
+    ]
+  },
+  {
+    "id": "jackroad-nakano",
+    "name": "Jackroad",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Nakano",
+    "what": "Pre-owned and vintage watch dealer on the 3F of Nakano Broadway, trading since 1987 and holding over 6,000 watches at any time; 11:00-20:30, with sister shop Bettyroad alongside it.",
+    "why": "The other thing you wear home. Everything from Rolex and vintage Seiko to cheap mechanical oddities, in one shop holding more stock than most cities manage between them, and the 3F corridor around it is lined with rival dealers so you can compare without leaving the floor.",
+    "link": null,
+    "mapQuery": "Jackroad Nakano Broadway Tokyo",
+    "coords": [
+      35.7089,
+      139.6656
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Wristwatch",
+      "Seiko"
+    ],
+    "related": [
+      "nakano-broadway"
+    ]
+  },
+  {
+    "id": "mandarake-nakano",
+    "name": "Mandarake Nakano Broadway",
+    "theme": "core",
+    "type": "shop",
+    "area": "Nakano",
+    "what": "Mandarake's home ground: more than a dozen shops scattered through the building, each given over to one thing - vintage manga, animation cels, sofubi figures, retro toys, idol photos, secondhand game cartridges.",
+    "why": "The reason Nakano Broadway became famous, and the easiest hour of the trip to hand over to Ever. Split up, agree a time, meet back at the escalator.",
+    "link": "https://www.mandarake.co.jp/",
+    "mapQuery": "Mandarake Nakano Broadway Tokyo",
+    "coords": [
+      35.7089,
+      139.6656
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Mandarake"
+    ],
+    "related": [
+      "nakano-broadway"
     ]
   }
 ]
