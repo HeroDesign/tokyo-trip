@@ -1945,7 +1945,7 @@
     "theme": "menswear",
     "type": "shop",
     "area": "Ebisu",
-    "what": "Multi-floor flagship for Kapital's patchwork denim, boro-inspired pieces, and Americana-meets-Japan aesthetic.",
+    "what": "Multi-floor flagship for Kapital's patchwork denim, boro-inspired pieces, and Americana-meets-Japan aesthetic. The 2-20-2 Ebisu-minami address (Gaia Ebisu Building) now also appears as the KAPITAL Tokyo Naked Store, 11:00–20:00.",
     "why": "Not just jeans — Kapital is a whole world of sashiko stitching, century denim, and pieces that look like they survived a hundred years of wear. The Ebisu store is the full experience.",
     "link": "https://www.kapital.jp/",
     "mapQuery": "Kapital Ebisu Tokyo",
@@ -2503,6 +2503,445 @@
       "Kamakura Daibutsu",
       "Enoshima Electric Railway",
       "Kamakura"
+    ]
+  },
+  {
+    "id": "kapital-legs-ebisu",
+    "name": "Kapital Legs Ebisu",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Ebisu",
+    "what": "The bottoms-only Kapital shop a few minutes from the flagship, in the Ebisu Sunny Building at 2-23-12 Ebisu-minami; said to stock more than a hundred jeans styles.",
+    "why": "If the goal is to try on every Kapital cut in one afternoon, this is the room to do it in. Walkable with the flagship and Duffle, so the three Ebisu stores are one stop.",
+    "link": "https://www.kapital.jp/",
+    "mapQuery": "Kapital Legs Ebisu Tokyo",
+    "coords": [
+      35.6455,
+      139.7128
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Jeans",
+      "Denim"
+    ]
+  },
+  {
+    "id": "kapital-duffle-ebisu",
+    "name": "Kapital Duffle",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Ebisu",
+    "what": "Denim-led lifestyle store at 2-24-2 Ebisu-minami with homewares and original goods, plus exhibitions, workshops and pop-ups.",
+    "why": "The third Ebisu store and the most different from the other two; check what is on while you are there. Together the three Ebisu shops are the densest Kapital cluster outside Kojima.",
+    "link": "https://www.kapital.jp/",
+    "mapQuery": "Kapital Duffle Ebisu Tokyo",
+    "coords": [
+      35.6453,
+      139.7125
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Sashiko",
+      "Boro (textile)"
+    ]
+  },
+  {
+    "id": "kapital-soho-roppongi",
+    "name": "Kapital SOHO Roppongi",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Roppongi",
+    "what": "Kapital's Roppongi Hills shop, Hill Side 1F at 6-10-1 Roppongi, open 11:00–20:00.",
+    "why": "Roppongi Hills is ten minutes from Azabudai Hills Sky Lobby and Tokyo Tower, so both Roppongi stores fold into the Tower afternoon instead of needing their own trip.",
+    "link": "https://www.kapital.jp/",
+    "mapQuery": "Kapital Roppongi Hills Tokyo",
+    "coords": [
+      35.6598,
+      139.7287
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Roppongi Hills Mori Tower"
+    ]
+  },
+  {
+    "id": "kapital-legs-roppongi",
+    "name": "Kapital Legs Roppongi",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Roppongi",
+    "what": "Second Kapital shop inside Roppongi Hills Hill Side, bottoms-focused like its Ebisu namesake.",
+    "why": "Same building as SOHO Roppongi: two doors in one stop.",
+    "link": "https://www.kapital.jp/",
+    "mapQuery": "Kapital Legs Roppongi Hills Tokyo",
+    "coords": [
+      35.6599,
+      139.7285
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Roppongi Hills"
+    ]
+  },
+  {
+    "id": "kapital-ginza",
+    "name": "Kapital Ginza",
+    "theme": "menswear",
+    "type": "shop",
+    "area": "Ginza",
+    "what": "Kapital's Ginza store on the 1st and 3rd floors of the Shimaharu Building, 1-21-12 Ginza, at the Kyobashi end of the district.",
+    "why": "Ten minutes from Lemon-sha and the yakiimo shop, so it slots into the Ginza half-day; add the two Roppongi doors and that afternoon covers three of the six Tokyo stores.",
+    "link": "https://www.kapital.jp/",
+    "mapQuery": "Kapital Ginza Tokyo",
+    "coords": [
+      35.6738,
+      139.7702
+    ],
+    "coordPrecision": "area",
+    "imageQueries": [
+      "Kyōbashi, Tokyo"
+    ]
+  },
+  {
+    "id": "zojo-ji",
+    "name": "Zojo-ji",
+    "theme": "core",
+    "type": "see",
+    "area": "Tokyo Tower",
+    "what": "Head temple of Jodo Buddhism in Tokyo, its main hall framed by Tokyo Tower, with the Tokugawa shogun graves behind; grounds free, about 9:00–17:00.",
+    "why": "The temple that belongs in the Tower afternoon: it sits between Atago Shrine and Red° Tokyo Tower, and the tower-over-temple frame is the classic shot.",
+    "link": "https://www.zojoji.or.jp/",
+    "mapQuery": "Zojoji Temple Shiba Tokyo Japan",
+    "coords": [
+      35.6574,
+      139.7484
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Zōjō-ji"
+    ]
+  },
+  {
+    "id": "sengaku-ji",
+    "name": "Sengaku-ji",
+    "theme": "core",
+    "type": "see",
+    "area": "Takanawa",
+    "what": "Soto Zen temple with the graves of the 47 ronin, a small museum and an incense-smoke courtyard; free, roughly 7:00–17:00 in October.",
+    "why": "Direct on the Asakusa line from the hotel (Sengakuji station), so it is an easy zen-temple hour on any half-empty morning, and pairs with Happo-en garden ten minutes away.",
+    "link": "https://www.sengakuji.or.jp/",
+    "mapQuery": "Sengakuji Temple Takanawa Tokyo Japan",
+    "coords": [
+      35.6378,
+      139.7375
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Sengaku-ji"
+    ]
+  },
+  {
+    "id": "gotoku-ji",
+    "name": "Gotoku-ji",
+    "theme": "core",
+    "type": "see",
+    "area": "Setagaya",
+    "what": "Soto Zen temple said to be the origin of the maneki-neko, with thousands of white beckoning cats stacked beside the pagoda; grounds free, about 6:00–18:00.",
+    "why": "The cat temple, three Odakyu stops from Shimokitazawa, so it drops into Tuesday before the SHELTER show; the cat rhyme to Yanaka Ginza.",
+    "link": "https://gotokuji.jp/",
+    "mapQuery": "Gotokuji Temple Setagaya Tokyo Japan",
+    "coords": [
+      35.649,
+      139.647
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Gōtoku-ji"
+    ]
+  },
+  {
+    "id": "tsukiji-hongan-ji",
+    "name": "Tsukiji Hongan-ji",
+    "theme": "core",
+    "type": "see",
+    "area": "Tsukiji",
+    "what": "Jodo Shinshu temple rebuilt in 1934 as an Indian-style stone hall, with a pipe organ inside; free, opens 6:00.",
+    "why": "Ten minutes from Hamarikyu, so it stacks with the garden on the way to the Yurikamome on Thursday, or with Ginza on Saturday. Unlike any other temple in the city.",
+    "link": "https://tsukijihongwanji.jp/",
+    "mapQuery": "Tsukiji Honganji Temple Tokyo Japan",
+    "coords": [
+      35.6668,
+      139.772
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Tsukiji Hongan-ji"
+    ]
+  },
+  {
+    "id": "yushima-seido",
+    "name": "Yushima Seido",
+    "theme": "core",
+    "type": "see",
+    "area": "Ochanomizu",
+    "what": "Confucian temple of black-lacquered halls in a cedar grove beside Ochanomizu station, with the largest Confucius statue in the world; free, about 9:30–16:00 in October.",
+    "why": "Two minutes from Kanda Myojin and the music street, so it is a free ten-minute detour on the Monday drum walk.",
+    "link": null,
+    "mapQuery": "Yushima Seido Ochanomizu Tokyo Japan",
+    "coords": [
+      35.7003,
+      139.7667
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Yushima Seidō"
+    ]
+  },
+  {
+    "id": "toyokawa-inari-tokyo",
+    "name": "Toyokawa Inari Tokyo Betsuin",
+    "theme": "core",
+    "type": "see",
+    "area": "Akasaka",
+    "what": "Soto Zen temple (a temple, despite the torii) crowded with hundreds of stone foxes in red bibs; free, early morning to evening.",
+    "why": "Ten minutes from Aoyama by the Ginza line at Akasaka-mitsuke; the photogenic zen stop if the Friday Harajuku day wants one non-shopping hour.",
+    "link": null,
+    "mapQuery": "Toyokawa Inari Tokyo Betsuin Akasaka Japan",
+    "coords": [
+      35.6785,
+      139.7343
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Toyokawa Inari Tokyo Betsuin"
+    ]
+  },
+  {
+    "id": "hamarikyu-gardens",
+    "name": "Hamarikyu Gardens",
+    "theme": "nature",
+    "type": "see",
+    "area": "Shiodome",
+    "what": "Edo-period shogunal garden on the bay with a seawater tidal pond, a teahouse on an island and skyscrapers behind; ¥300, 9:00–17:00.",
+    "why": "It is beside Shiodome, where you change to the Yurikamome, so it is the natural first stop on the Thursday waterfront arc, or the quiet hour before Ginza on Saturday.",
+    "link": "https://www.tokyo-park.or.jp/",
+    "mapQuery": "Hamarikyu Gardens Tokyo Japan",
+    "coords": [
+      35.6597,
+      139.7634
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Hamarikyu Gardens"
+    ]
+  },
+  {
+    "id": "rikugien",
+    "name": "Rikugien",
+    "theme": "nature",
+    "type": "see",
+    "area": "Komagome",
+    "what": "Edo stroll garden of 1702 built around 88 scenes from classical poetry, with hills, a pond and a teahouse; ¥300, 9:00–17:00.",
+    "why": "Two Yamanote stops from Nippori, so it is the garden that pairs with the Yanaka and Nezu morning. Autumn illumination usually starts late November, so October is daytime only.",
+    "link": "https://www.tokyo-park.or.jp/",
+    "mapQuery": "Rikugien Gardens Komagome Tokyo Japan",
+    "coords": [
+      35.733,
+      139.7462
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Rikugi-en"
+    ]
+  },
+  {
+    "id": "koishikawa-korakuen",
+    "name": "Koishikawa Korakuen",
+    "theme": "nature",
+    "type": "see",
+    "area": "Iidabashi",
+    "what": "Tokyo's oldest surviving Edo garden (1629), Chinese-influenced, with a full-moon bridge and a miniature Arashiyama; ¥300, 9:00–17:00.",
+    "why": "Iidabashi is on the Tozai line, so it is a forty-minute detour on the Tuesday west-side run before Nakano; the deepest garden in the city for the least travel.",
+    "link": "https://www.tokyo-park.or.jp/",
+    "mapQuery": "Koishikawa Korakuen Garden Tokyo Japan",
+    "coords": [
+      35.7057,
+      139.7503
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Koishikawa Kōrakuen"
+    ]
+  },
+  {
+    "id": "shinjuku-gyoen",
+    "name": "Shinjuku Gyoen",
+    "theme": "nature",
+    "type": "see",
+    "area": "Shinjuku",
+    "what": "Former imperial garden with Japanese, English and French sections and a greenhouse; ¥500, closed Mondays, last entry 16:00 in October.",
+    "why": "Ten minutes from Sekaido, so Sunday's camera and stamp-book run can end in a garden instead of a crowd; the Japanese garden's teahouse pond is the calm shot of the day.",
+    "link": "https://www.env.go.jp/garden/shinjukugyoen/",
+    "mapQuery": "Shinjuku Gyoen National Garden Tokyo Japan",
+    "coords": [
+      35.6852,
+      139.71
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Shinjuku Gyoen"
+    ]
+  },
+  {
+    "id": "nezu-museum-garden",
+    "name": "Nezu Museum Garden",
+    "theme": "nature",
+    "type": "see",
+    "area": "Aoyama",
+    "what": "Kengo Kuma's museum of East Asian art with a steep, mossy garden of stone lanterns, teahouses and a pond; museum ticket required, closed Mondays, 10:00–17:00.",
+    "why": "Five minutes from Momotaro Aoyama and TAIKO-LAB, so the Friday shopping stretch gets a garden in the middle of it; the bamboo entrance corridor alone is worth the ticket.",
+    "link": "https://www.nezu-muse.or.jp/",
+    "mapQuery": "Nezu Museum Minami-Aoyama Tokyo Japan",
+    "coords": [
+      35.6622,
+      139.7176
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Nezu Museum"
+    ]
+  },
+  {
+    "id": "imperial-palace-east-gardens",
+    "name": "Imperial Palace East Gardens",
+    "theme": "nature",
+    "type": "see",
+    "area": "Marunouchi",
+    "what": "The old Edo Castle inner grounds: massive stone walls, the keep base and the Ninomaru stroll garden; free, closed Mondays and Fridays, gates close 16:30 in October.",
+    "why": "Ten minutes' walk from Kapital Ginza and Tokyo Station, so it fits the Ginza half-day; the biggest quiet space in central Tokyo, and free.",
+    "link": "https://sankan.kunaicho.go.jp/",
+    "mapQuery": "Imperial Palace East Gardens Tokyo Japan",
+    "coords": [
+      35.6864,
+      139.7565
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Tokyo Imperial Palace"
+    ]
+  },
+  {
+    "id": "kyu-shiba-rikyu",
+    "name": "Kyu-Shiba-rikyu Garden",
+    "theme": "nature",
+    "type": "see",
+    "area": "Hamamatsucho",
+    "what": "Compact Edo daimyo garden around a pond, ringed by office towers; ¥150, 9:00–17:00.",
+    "why": "Beside Hamamatsucho station, between Zojo-ji and Hamarikyu, so it is a fifteen-minute add-on to either rather than a destination.",
+    "link": "https://www.tokyo-park.or.jp/",
+    "mapQuery": "Kyu Shiba Rikyu Garden Hamamatsucho Tokyo Japan",
+    "coords": [
+      35.6551,
+      139.7583
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Kyu Shiba Rikyu Garden"
+    ]
+  },
+  {
+    "id": "happo-en",
+    "name": "Happo-en Garden",
+    "theme": "nature",
+    "type": "see",
+    "area": "Shirokanedai",
+    "what": "Free stroll garden at a wedding venue, with a centuries-old bonsai collection, a pond and a teahouse serving matcha.",
+    "why": "Ten minutes from Sengaku-ji, so the two make a quiet Asakusa-line half-morning.",
+    "link": "https://www.happo-en.com/",
+    "mapQuery": "Happo-en Garden Shirokanedai Tokyo Japan",
+    "coords": [
+      35.6392,
+      139.7248
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Happo-en"
+    ]
+  },
+  {
+    "id": "kencho-ji",
+    "name": "Kencho-ji",
+    "theme": "core",
+    "type": "see",
+    "area": "Kamakura",
+    "what": "Japan's oldest Zen training monastery (1253) and first of Kamakura's Five Great Zen Temples: vast gate, bell, and a pond garden by Muso Soseki behind the abbot's hall; ¥500, 8:30–16:30.",
+    "why": "If the zen-garden itch is real, Kamakura has what Tokyo mostly lacks, and this is the head of the list; it turns the Kamakura option into a zen day rather than a beach day.",
+    "link": "https://www.kenchoji.com/",
+    "mapQuery": "Kenchoji Temple Kamakura Japan",
+    "coords": [
+      35.3309,
+      139.5546
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Kenchō-ji"
+    ]
+  },
+  {
+    "id": "engaku-ji",
+    "name": "Engaku-ji",
+    "theme": "core",
+    "type": "see",
+    "area": "Kamakura",
+    "what": "Rinzai Zen temple climbing a wooded hillside right at Kita-Kamakura station, with a Muso Soseki garden and a famous bell; ¥500, 8:00–16:30.",
+    "why": "First stop off the train from Tokyo; do it and Kencho-ji before the crowds reach the Daibutsu.",
+    "link": "https://www.engakuji.or.jp/",
+    "mapQuery": "Engakuji Temple Kita-Kamakura Japan",
+    "coords": [
+      35.3377,
+      139.5478
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Engaku-ji"
+    ]
+  },
+  {
+    "id": "hokoku-ji",
+    "name": "Hokoku-ji",
+    "theme": "nature",
+    "type": "see",
+    "area": "Kamakura",
+    "what": "Small Rinzai Zen temple known for its bamboo grove, a dry rock garden and a teahouse where you drink matcha inside the bamboo; ¥400 plus tea, 9:00–16:00.",
+    "why": "The Kamakura zen garden that photographs best on film; a short bus ride from Kamakura station.",
+    "link": "https://houkokuji.or.jp/",
+    "mapQuery": "Hokokuji Temple Kamakura Japan",
+    "coords": [
+      35.3211,
+      139.5697
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Hōkoku-ji"
+    ]
+  },
+  {
+    "id": "zuisen-ji",
+    "name": "Zuisen-ji",
+    "theme": "nature",
+    "type": "see",
+    "area": "Kamakura",
+    "what": "Muso Soseki's 1327 rock garden cut into the cliff behind the hall, plus a flower garden; ¥200, 9:00–17:00.",
+    "why": "The most literal zen rock garden in the Kamakura set, and the quietest; walkable from Hokoku-ji.",
+    "link": null,
+    "mapQuery": "Zuisenji Temple Kamakura Japan",
+    "coords": [
+      35.3236,
+      139.5748
+    ],
+    "coordPrecision": "exact",
+    "imageQueries": [
+      "Zuisen-ji"
     ]
   }
 ]
