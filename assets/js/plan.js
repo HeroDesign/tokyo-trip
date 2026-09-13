@@ -1,6 +1,11 @@
 /**
  * Plan view: a proper trip planner showing all days with favorites slotted in.
  * Always displays the full itinerary structure so you can see the whole trip.
+ *
+ * Each entry's name and meta line is a link through to its Browse card, which
+ * is where the photo, the full description and the outbound link live.
+ * Entries can be ordered as starred or grouped by neighborhood, which is how
+ * you check a day actually walks in one direction.
  */
 import { TRIP_DAYS, themeLabel, typeLabel, HOME_PLACE_ID, placeHash, relatedLabel } from './data.js';
 import { favorites, dayFor, assignDay, toggleFavorite, subscribe, currentSettings, importSettings, hiddenPlaces } from './store.js';
@@ -32,10 +37,17 @@ function slot(place, byId, rerender) {
   row.append(el('span', 'slot__swatch'));
 
   const text = el('div', 'slot__text');
-  text.append(
+  // Name and meta are one link to the card. The related links below stay
+  // outside it so links are never nested inside one another.
+  const open = el('a', 'slot__link');
+  open.href = placeHash(place.id);
+  open.title = `Open the ${place.name} card`;
+  open.append(
     el('div', 'slot__name', place.name),
     el('div', 'slot__meta', `${themeLabel(place.theme)} · ${typeLabel(place.type)} · ${place.area}`),
   );
+  text.append(open);
+
   const relatedPlaces = (place.related ?? []).map((id) => byId.get(id)).filter(Boolean);
   if (relatedPlaces.length) {
     const related = el('div', 'slot__related');
@@ -113,6 +125,34 @@ export function initPlan(places) {
   // so its open state has to survive the re-render that every star or slot triggers.
   let unassignedOpen = false;
 
+  const sortSelect = root.querySelector('[data-plan-sort]');
+  let planSort = sortSelect?.value ?? 'added';
+
+  /**
+   * Some areas in the data are compound - "Hanakawado / Asakusa", "Nezu/Yanaka",
+   * "Shinjuku (Waseda)". Sorting the raw string files those away from the plain
+   * "Asakusa" and "Yanaka" entries they belong beside, so group on the last
+   * segment with any parenthetical dropped.
+   */
+  const areaKey = (place) => place.area.split('/').pop().replace(/\(.*\)/, '').trim();
+
+  /**
+   * "As starred" keeps the order you added things, which is the order the seed
+   * file lists them in. "By neighborhood" groups a day's stops by area so you
+   * can see whether it walks in one direction or zig-zags across the city.
+   */
+  const ordered = (list) =>
+    planSort === 'area'
+      ? [...list].sort(
+          (a, b) => areaKey(a).localeCompare(areaKey(b)) || a.name.localeCompare(b.name),
+        )
+      : list;
+
+  sortSelect?.addEventListener('change', () => {
+    planSort = sortSelect.value;
+    render();
+  });
+
   function render() {
     const starred = favorites()
       .map((id) => byId.get(id))
@@ -134,7 +174,7 @@ export function initPlan(places) {
 
     // Build the days grid - always show all days
     const daysHtml = TRIP_DAYS.map((day, index) => {
-      const inDay = activities.filter((place) => dayFor(place.id) === day.id);
+      const inDay = ordered(activities.filter((place) => dayFor(place.id) === day.id));
       const isTravel = day.note && (day.note.includes('Fly') || day.note.includes('Land'));
       const overnight = index > 0 && index < TRIP_DAYS.length - 1;
       
@@ -179,7 +219,7 @@ export function initPlan(places) {
       details.append(head);
 
       const content = el('div', 'day__content');
-      unassigned.forEach((place) => content.append(slot(place, byId, render)));
+      ordered(unassigned).forEach((place) => content.append(slot(place, byId, render)));
       details.append(content);
       unassignedSection = details;
     }
