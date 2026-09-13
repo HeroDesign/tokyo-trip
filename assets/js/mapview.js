@@ -9,20 +9,28 @@
  * The booked hotel is always on the map as a larger home pin, even when the
  * current filters would otherwise hide lodging.
  *
+ * A day filter sits above the map: picking a day shows only the places slotted
+ * into it in Plan and zooms to them, which is how you check whether a day's
+ * stops actually sit near each other. It intersects with the Browse filters.
+ *
  * Basemap is Esri World Street Map so labels include English (Asakusa, Senso-ji)
  * instead of OSM's Japanese-only names. CARTO Voyager watermarks without an API key.
  */
-import { THEME_COLORS, HOME_PLACE_ID, englishAreaMapUrl } from './data.js';
+import { THEME_COLORS, HOME_PLACE_ID, englishAreaMapUrl, TRIP_DAYS } from './data.js';
 import { popupHtml } from './card.js';
+import { dayFor, subscribe as subscribeStore } from './store.js';
 
 const TOKYO = [35.6812, 139.7671];
 
 export function initMap(places, subscribeToFilters) {
   const container = document.getElementById('map');
+  const dayChips = document.querySelector('[data-day-chips]');
+  const dayStatus = document.querySelector('[data-day-status]');
   const home = places.find((place) => place.id === HOME_PLACE_ID);
   const byId = new Map(places.map((place) => [place.id, place]));
   let map = null;
   let layer = null;
+  let dayFilter = '';
 
   const pinFor = (place) => {
     const isHome = place.id === HOME_PLACE_ID;
@@ -44,11 +52,17 @@ export function initMap(places, subscribeToFilters) {
     return [...visible, home];
   }
 
+  /** Places left after the Browse filters and the day filter are both applied. */
+  const forDay = (visible) =>
+    dayFilter ? visible.filter((place) => dayFor(place.id) === dayFilter) : visible;
+
   function draw(visible) {
+    const onDay = forDay(visible);
+    renderStatus(onDay.length);
     if (!map) return;
     layer?.remove();
     layer = L.layerGroup(
-      withHome(visible).map((place) =>
+      withHome(onDay).map((place) =>
         L.marker(place.coords, { icon: pinFor(place), title: place.name, zIndexOffset: place.id === HOME_PLACE_ID ? 1000 : 0 }).bindPopup(
           popupHtml(place, { byId }),
         ),
@@ -56,10 +70,99 @@ export function initMap(places, subscribeToFilters) {
     ).addTo(map);
   }
 
+  function renderStatus(count) {
+    if (!dayStatus) return;
+    if (!dayFilter) {
+      dayStatus.textContent = '';
+      return;
+    }
+    const day = TRIP_DAYS.find((entry) => entry.id === dayFilter);
+    dayStatus.textContent = `${count} ${count === 1 ? 'stop' : 'stops'} on ${day?.label ?? dayFilter}, plus your hotel. `;
+  }
+
+  /**
+   * Frame the chosen day. Fitting to the day's own stops rather than including
+   * the hotel keeps a tight cluster like Harajuku readable; a day trip simply
+   * zooms out far enough to show it.
+   */
+  function frame(visible) {
+    if (!map) return;
+    const onDay = forDay(visible).filter((place) => place.id !== HOME_PLACE_ID);
+    if (!dayFilter || !onDay.length) {
+      map.setView(home?.coords ?? TOKYO, home ? 13 : 11);
+      return;
+    }
+    map.fitBounds(L.latLngBounds(onDay.map((place) => place.coords)), {
+      padding: [40, 40],
+      maxZoom: 15,
+    });
+  }
+
   let latest = places;
   subscribeToFilters((visible) => {
     latest = visible;
     draw(visible);
+  });
+
+  /**
+   * Only offer days that actually hold something. Assignments change in Plan,
+   * so the row is rebuilt whenever the store does.
+   */
+  function buildDayChips() {
+    if (!dayChips) return;
+    const counts = new Map();
+    for (const place of places) {
+      const day = dayFor(place.id);
+      if (day && place.id !== HOME_PLACE_ID) counts.set(day, (counts.get(day) ?? 0) + 1);
+    }
+    if (dayFilter && !counts.has(dayFilter)) dayFilter = '';
+
+    const options = [
+      { value: '', label: 'All days' },
+      ...TRIP_DAYS.filter((day) => counts.has(day.id)).map((day) => ({
+        value: day.id,
+        // "Sat 17 Oct" is too wide for a chip row on a phone and the month repeats.
+        // Some engines format the label as "Sat, 17 Oct", so drop the comma too.
+        label: day.label.split(' ').slice(0, 2).join(' ').replace(',', ''),
+        count: counts.get(day.id),
+      })),
+    ];
+
+    dayChips.replaceChildren(
+      ...options.map(({ value, label, count }) => {
+        const chip = document.createElement('button');
+        chip.type = 'button';
+        chip.className = 'chip';
+        chip.dataset.value = value;
+        chip.setAttribute('aria-pressed', String(value === dayFilter));
+        chip.append(label);
+        if (count) {
+          const badge = document.createElement('span');
+          badge.className = 'chip__count';
+          badge.textContent = String(count);
+          chip.append(badge);
+        }
+        return chip;
+      }),
+    );
+  }
+
+  dayChips?.addEventListener('click', (event) => {
+    const chip = event.target.closest('.chip');
+    if (!chip) return;
+    dayFilter = chip.dataset.value;
+    for (const other of dayChips.querySelectorAll('.chip')) {
+      other.setAttribute('aria-pressed', String(other.dataset.value === dayFilter));
+    }
+    draw(latest);
+    frame(latest);
+  });
+
+  buildDayChips();
+  subscribeStore(() => {
+    const before = dayFilter;
+    buildDayChips();
+    if (before !== dayFilter) draw(latest);
   });
 
   /**

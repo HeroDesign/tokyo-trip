@@ -335,6 +335,60 @@ main {
   background: rgba(255, 255, 255, 0.85);
 }
 
+/* Day filter above the map: one swipeable row, no colour dots, count badges. */
+.map__days {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.map__days-label {
+  flex: none;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-faint);
+}
+
+.chips--days {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  padding-bottom: 0.15rem;
+}
+
+.chips--days .chip {
+  flex: none;
+  scroll-snap-align: start;
+}
+
+.chips--days .chip::before {
+  display: none;
+}
+
+.chips--days .chip[aria-pressed='true'] {
+  background: var(--ink);
+  border-color: var(--ink);
+}
+
+.chip__count {
+  margin-left: 0.4rem;
+  padding: 0 0.32rem;
+  border-radius: 999px;
+  background: var(--rule);
+  font-variant-numeric: tabular-nums;
+  font-size: 0.68rem;
+  color: var(--ink-muted);
+}
+
+.chip[aria-pressed='true'] .chip__count {
+  background: rgba(255, 255, 255, 0.22);
+  color: #fff;
+}
+
 .filters__status {
   display: flex;
   align-items: center;

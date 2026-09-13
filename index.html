@@ -85,10 +85,15 @@
 
       <!-- ============================= MAP ============================== -->
       <section class="view view--map" data-view="map" hidden>
+        <div class="map__days">
+          <span class="map__days-label" id="day-filter-label">Day</span>
+          <div class="chips chips--days" data-day-chips role="group" aria-labelledby="day-filter-label"></div>
+        </div>
         <div class="map__frame">
           <div id="map" role="application" aria-label="Map of all places"></div>
         </div>
         <p class="map__note">
+          <span data-day-status></span>
           Pins follow the Browse filters. Labels include English.
           The larger home pin is OMO3 Asakusa. Hollow pins are area-level
           positions, not exact addresses &mdash; use the Map button for
