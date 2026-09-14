@@ -1,5 +1,0 @@
-{
-  "name": "tokyo-field-guide",
-  "start": "npm run dev",
-  "ports": [{ "name": "web", "port": 5173 }]
-}
