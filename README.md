@@ -1,7 +1,7 @@
 # Tokyo Field Guide
 
 A filterable, photo-forward field guide to Tokyo for **Alan and Ever**, built for the phone you'll
-actually be holding on the Ginza line. 172 places, each with a theme tag, a
+actually be holding on the Ginza line. 175 places, each with a theme tag, a
 neighborhood, a one-line description, the reason it got flagged, and one tap to Google Maps.
 
 Three views: **Browse** (filterable cards), **Map** (every place as a pin, filterable by trip day), **Plan** (favorites

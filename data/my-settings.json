@@ -51,6 +51,7 @@
     "nezu-shrine",
     "yanaka-ginza",
     "hinoya",
+    "mot-tokyo",
     "mizutani-camera-ueno",
     "quark-ueno",
     "pigment-tokyo",
@@ -68,6 +69,7 @@
     "united-arrows-harajuku",
     "momotaro-jeans-aoyama",
     "nezu-museum-garden",
+    "taro-okamoto-memorial-museum",
     "shibuya-hachiko-stamp",
     "miyashita-park",
     "echigoya-music",
@@ -83,6 +85,7 @@
     "ginza-tsuboyaki-imo",
     "imperial-palace-east-gardens",
     "azabudai-hills-sky-lobby",
+    "national-art-center-tokyo",
     "zojo-ji",
     "kapital-soho-roppongi",
     "kapital-legs-roppongi",
@@ -196,8 +199,11 @@
     "quark-nakano": "2026-10-20",
     "kamekichi-nakano": "2026-10-20",
     "mizutani-camera-ueno": "2026-10-22",
-    "quark-ueno": "2026-10-22"
+    "quark-ueno": "2026-10-22",
+    "taro-okamoto-memorial-museum": "2026-10-23",
+    "national-art-center-tokyo": "2026-10-24",
+    "mot-tokyo": "2026-10-22"
   },
   "hidden": [],
-  "seedVersion": 8
+  "seedVersion": 9
 }
