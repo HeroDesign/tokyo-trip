@@ -33,6 +33,7 @@
           <button class="tab" type="button" data-view="browse" aria-current="page">Browse</button>
           <button class="tab" type="button" data-view="map">Map</button>
           <button class="tab" type="button" data-view="plan">Plan</button>
+          <button class="tab" type="button" data-view="book">Book</button>
         </nav>
       </div>
     </header>
@@ -192,6 +193,20 @@
           </div>
           <p class="plan__flash" data-transfer-status hidden></p>
         </div>
+      </section>
+
+      <!-- ============================= BOOK ============================= -->
+      <section class="view view--book" data-view="book" hidden>
+        <div class="plan__intro">
+          <h2 class="section-title">Before you go</h2>
+          <p class="section-note">
+            Everything that has to be arranged in advance, ordered by when it has to happen.
+            Tick things off as you book them; it saves on this device. Tap a row for the detail.
+          </p>
+          <div class="plan__stats" data-book-stats></div>
+        </div>
+
+        <div class="checklist" data-checklist></div>
       </section>
     </main>
 

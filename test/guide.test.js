@@ -249,6 +249,53 @@ test('settings: a newer repo seed merges into existing local favorites', () => {
   assert.deepEqual(unchanged.favorites, ['senso-ji']);
 });
 
+test('checklist: items are well-formed, grouped, and point at real places', async () => {
+  const checklist = await read('data/checklist.json');
+  const known = new Set(places.map((p) => p.id));
+  const groups = new Set(checklist.groups.map((g) => g.id));
+
+  assert.ok(checklist.groups.length > 0);
+  assert.equal(
+    new Set(checklist.items.map((i) => i.id)).size,
+    checklist.items.length,
+    'duplicate checklist ids',
+  );
+
+  for (const item of checklist.items) {
+    for (const field of ['id', 'group', 'title', 'for', 'summary', 'detail']) {
+      assert.ok(item[field]?.trim(), `${item.id}: empty ${field}`);
+    }
+    assert.ok(groups.has(item.group), `${item.id}: unknown group ${item.group}`);
+    if (item.place) assert.ok(known.has(item.place), `${item.id}: unknown place ${item.place}`);
+  }
+
+  for (const group of checklist.groups) {
+    assert.ok(checklist.items.some((i) => i.group === group.id), `empty group ${group.id}`);
+  }
+
+  // Only the two booked anchors are pre-ticked; everything else is still to do.
+  assert.deepEqual(
+    checklist.items.filter((i) => i.done === true).map((i) => i.id).sort(),
+    ['flights', 'hotel'],
+  );
+
+  // The things that can sell out have to be flagged as such.
+  const urgent = checklist.items.filter((i) => i.urgent).map((i) => i.id);
+  for (const id of ['kusama', 'teamlab', 'shibuya-sky']) {
+    assert.ok(urgent.includes(id), `${id} should be flagged urgent`);
+  }
+});
+
+test('store: booking ticks survive a newer repo seed', () => {
+  const local = { favorites: ['senso-ji'], days: {}, hidden: [], booked: ['kusama'], seedVersion: 2 };
+  const repo = { favorites: ['omo3-asakusa'], days: {}, hidden: [], booked: [], seedVersion: 3 };
+  const merged = mergeSeed(repo, local);
+  assert.deepEqual(merged.booked, ['kusama'], 'a newer seed must not wipe checklist progress');
+
+  const applied = importSettings({ favorites: [], days: {}, hidden: [], booked: ['teamlab'] });
+  assert.deepEqual(applied.booked, ['teamlab']);
+});
+
 test('related: ids exist in the dataset and Planets pairs with Ibaraki', () => {
   const byId = new Map(places.map((place) => [place.id, place]));
   for (const place of places) {

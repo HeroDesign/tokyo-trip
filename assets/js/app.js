@@ -1,5 +1,5 @@
 /**
- * Entry point: load the data once, wire the three views, route on the hash so
+ * Entry point: load the data once, wire the four views, route on the hash so
  * a view survives a refresh or a shared link. Related places use
  * #browse/<place-id> to jump to that card.
  */
@@ -8,8 +8,9 @@ import { initStore } from './store.js';
 import { initBrowse, subscribeToFilters } from './browse.js';
 import { initMap } from './mapview.js';
 import { initPlan } from './plan.js';
+import { initBook } from './book.js';
 
-const VIEWS = ['browse', 'map', 'plan'];
+const VIEWS = ['browse', 'map', 'plan', 'book'];
 
 await initStore();
 const places = await loadPlaces();
@@ -17,6 +18,7 @@ const places = await loadPlaces();
 const browse = initBrowse(places);
 const showMap = initMap(places, subscribeToFilters);
 initPlan(places);
+initBook(places);
 
 const sections = new Map(
   VIEWS.map((view) => [view, document.querySelector(`section[data-view="${view}"]`)]),

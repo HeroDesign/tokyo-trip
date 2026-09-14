@@ -4,7 +4,7 @@ A filterable, photo-forward field guide to Tokyo for **Alan and Ever**, built fo
 actually be holding on the Ginza line. 175 places, each with a theme tag, a
 neighborhood, a one-line description, the reason it got flagged, and one tap to Google Maps.
 
-Three views: **Browse** (filterable cards), **Map** (every place as a pin, filterable by trip day), **Plan** (favorites
+Four views: **Browse** (filterable cards), **Map** (every place as a pin, filterable by trip day), **Book** (the pre-trip checklist), **Plan** (favorites
 slotted into trip days, plus Google My Maps export).
 
 ---

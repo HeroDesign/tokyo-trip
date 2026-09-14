@@ -1316,3 +1316,174 @@ main {
     animation: none !important;
   }
 }
+
+/* ==========================================================================
+   Book view — the pre-trip checklist
+   ========================================================================== */
+
+.checklist {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1.25rem;
+}
+
+.check-group__head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--rule-strong);
+}
+
+.check-group__name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: -0.02em;
+  margin: 0;
+  flex: 1;
+}
+
+.check-group__count {
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-faint);
+}
+
+.check-group__note {
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  margin: 0.5rem 0 0.25rem;
+  max-width: 46rem;
+}
+
+.check {
+  border-bottom: 1px dashed var(--rule);
+}
+
+.check:last-child {
+  border-bottom: 0;
+}
+
+.check__summary {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  padding: 0.6rem 0;
+  cursor: pointer;
+  list-style: none;
+}
+
+.check__summary::-webkit-details-marker {
+  display: none;
+}
+
+.check__box {
+  flex: none;
+  width: 1.15rem;
+  height: 1.15rem;
+  margin-top: 0.1rem;
+  border: 1.5px solid var(--rule-strong);
+  border-radius: 5px;
+  background: var(--paper-raised);
+  cursor: pointer;
+  position: relative;
+}
+
+.check__box[aria-checked='true'] {
+  background: var(--ink);
+  border-color: var(--ink);
+}
+
+.check__box[aria-checked='true']::after {
+  content: '';
+  position: absolute;
+  left: 0.33rem;
+  top: 0.11rem;
+  width: 0.28rem;
+  height: 0.58rem;
+  border-right: 2px solid var(--paper);
+  border-bottom: 2px solid var(--paper);
+  transform: rotate(42deg);
+}
+
+.check__box--fixed {
+  cursor: default;
+  opacity: 0.75;
+}
+
+.check__text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.check__title {
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.check__meta {
+  font-size: 0.78rem;
+  color: var(--ink-muted);
+}
+
+.check--done .check__title,
+.check--done .check__meta {
+  color: var(--ink-faint);
+}
+
+.check--done .check__title {
+  text-decoration: line-through;
+  text-decoration-color: var(--rule-strong);
+}
+
+.check__tag {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0.02rem 0.34rem;
+  border-radius: 999px;
+  border: 1px solid var(--rule-strong);
+  font-size: 0.62rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink-faint);
+  vertical-align: 0.08rem;
+}
+
+.check__tag--urgent {
+  border-color: var(--theme-drums);
+  background: var(--theme-drums);
+  color: #fff;
+}
+
+.check__body {
+  padding: 0 0 0.75rem 1.75rem;
+  max-width: 46rem;
+}
+
+.check__detail {
+  margin: 0;
+  font-size: 0.84rem;
+  line-height: 1.55;
+  color: var(--ink-muted);
+}
+
+.check__link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.78rem;
+  font-weight: 650;
+  color: var(--ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .check__box {
+    transition: none;
+  }
+}

@@ -1,5 +1,6 @@
 /**
- * Favorites, day assignments, and hidden places — persisted to localStorage.
+ * Favorites, day assignments, hidden places and booking ticks — persisted to
+ * localStorage.
  *
  * On first load, seeds from data/my-settings.json (committed to the repo) so
  * you can sync between devices by updating that file. After that, localStorage
@@ -14,7 +15,7 @@ const SETTINGS_URL = 'data/my-settings.json';
 const listeners = new Set();
 
 function emptyState() {
-  return { favorites: [], days: {}, hidden: [], seedVersion: 0 };
+  return { favorites: [], days: {}, hidden: [], booked: [], seedVersion: 0 };
 }
 
 export function normalizeSettings(parsed) {
@@ -23,6 +24,7 @@ export function normalizeSettings(parsed) {
     favorites: Array.isArray(parsed.favorites) ? parsed.favorites : [],
     days: parsed.days && typeof parsed.days === 'object' ? parsed.days : {},
     hidden: Array.isArray(parsed.hidden) ? parsed.hidden : [],
+    booked: Array.isArray(parsed.booked) ? parsed.booked : [],
     seedVersion: Number.isInteger(parsed.seedVersion) ? parsed.seedVersion : 0,
   };
 }
@@ -36,6 +38,8 @@ export function mergeSeed(repo, local) {
     favorites: [...new Set([...local.favorites, ...repo.favorites])],
     days: { ...repo.days, ...local.days },
     hidden: [...new Set([...local.hidden, ...repo.hidden])],
+    // Ticking something off is the traveller's own progress, never the repo's.
+    booked: [...new Set([...(local.booked ?? []), ...(repo.booked ?? [])])],
     seedVersion: repo.seedVersion ?? 0,
   };
 }
@@ -108,6 +112,17 @@ export function assignDay(id, dayId) {
   commit();
 }
 
+export const isBooked = (id) => state.booked.includes(id);
+
+/** Checklist progress, kept next to the stars so one export carries both. */
+export function toggleBooked(id) {
+  state = state.booked.includes(id)
+    ? { ...state, booked: state.booked.filter((b) => b !== id) }
+    : { ...state, booked: [...state.booked, id] };
+  commit();
+  return isBooked(id);
+}
+
 export const isHidden = (id) => state.hidden.includes(id);
 
 export const hiddenPlaces = () => [...state.hidden];
@@ -128,6 +143,7 @@ export const currentSettings = () => ({
   favorites: [...state.favorites],
   days: { ...state.days },
   hidden: [...state.hidden],
+  booked: [...state.booked],
   seedVersion: state.seedVersion ?? 0,
 });
 
@@ -138,6 +154,7 @@ export function importSettings(incoming) {
     favorites: next.favorites,
     days: next.days,
     hidden: next.hidden,
+    booked: next.booked,
     seedVersion: Math.max(state.seedVersion ?? 0, next.seedVersion ?? 0),
   };
   commit();
