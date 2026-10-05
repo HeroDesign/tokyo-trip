@@ -1,0 +1,259 @@
+{
+  "groups": [
+    {
+      "id": "locked",
+      "label": "Locked",
+      "note": "Booked and paid. Nothing to do but turn up."
+    },
+    {
+      "id": "now",
+      "label": "This week",
+      "note": "Already on sale. Waiting only makes these harder."
+    },
+    {
+      "id": "watch",
+      "label": "Watch / on-sale soon",
+      "note": "Not bookable yet. Set a reminder for the on-sale date."
+    },
+    {
+      "id": "october",
+      "label": "Early October",
+      "note": "Short booking horizons. Too early and they will not take the reservation."
+    },
+    {
+      "id": "checks",
+      "label": "Checks before you fly",
+      "note": "Five minutes each, and each one prevents a wasted walk."
+    },
+    {
+      "id": "walkin",
+      "label": "Needs nothing",
+      "note": "Walk-ins and pay-at-the-gate, so they can absorb a day that runs late. Watch closing times, not booking windows."
+    }
+  ],
+  "items": [
+    {
+      "id": "flights",
+      "group": "locked",
+      "title": "Flights",
+      "for": "Sat 17 and Sun 25 Oct",
+      "summary": "JL001 out, JL002 home. Seats assigned.",
+      "detail": "JL001 SFO to Haneda, Fri 16 Oct 11:55, landing Sat 17 Oct 15:05, seats 49D and 49E. JL002 Haneda to SFO, Sun 25 Oct 17:55, arriving 11:25 the same day, seats 24D and 24E. Economy Special Saver. Driving to SFO and parking. Alan in 49D and 24D, Ever in 49E and 24E.",
+      "done": true
+    },
+    {
+      "id": "hotel",
+      "group": "locked",
+      "title": "OMO3 Asakusa by Hoshino Resorts",
+      "for": "8 nights, Sat 17–Sun 25 Oct",
+      "summary": "Booked. Booking #316063329. 1-15-5 Hanakawado.",
+      "detail": "Eight nights, Sat 17 to Sun 25 Oct 2026. City View YOSE twin, non-smoking, 2 guests. Reservation name on file: \"Rorei Alan\" (web form misspelling of Alan Rorie). Thirteenth-floor lounge and a rooftop terrace facing Senso-ji and Tokyo Skytree. Everything on the Asakusa days is within a ten-minute walk of the door, and the Tobu and Tsukuba Express stations are both close.",
+      "place": "omo3-asakusa",
+      "done": true
+    },
+    {
+      "id": "hibikus",
+      "group": "locked",
+      "title": "HIBIKUS taiko lesson",
+      "for": "Mon 19 Oct, 11:15–12:15",
+      "summary": "Confirmed. ¥11,000/person, pay at reception, cards OK.",
+      "detail": "HIBIKUS Asakusa Basement, Miyamoto Unosuke HQ, 6-1-15 Asakusa. ¥22,000 total for two. Comfortable clothes; socks or indoor shoes (no bare feet); sticks provided. Simple English or Japanese OK. Confirmation received from Aki Ikehata (ikehata@miyamoto-unosuke.co.jp) ~25 Sep.",
+      "place": "hibikus-asakusa-basement",
+      "done": true
+    },
+    {
+      "id": "kumihimo",
+      "group": "locked",
+      "title": "Kumihimo at DOMYO",
+      "for": "Tue 20 Oct, 14:00–16:00",
+      "summary": "Paid. Shopify order #9983.",
+      "detail": "Silk-cord braiding at a house founded in 1652, with English workshop plans. Kagurazaka station on the Tozai line. Afternoon slot (14:00–16:00), feeds into the Koishikawa garden and then west to Nakano. ¥13,200 paid.",
+      "place": "kumihimo-experience-by-domyo",
+      "done": true
+    },
+    {
+      "id": "alvark",
+      "group": "locked",
+      "title": "Alvark Tokyo vs Ibaraki Robots",
+      "for": "Thu 22 Oct, 19:05",
+      "summary": "Purchased via AXS. 2 tickets.",
+      "detail": "TOYOTA ARENA TOKYO (Ariake/Aomi). Bought via AXS overseas path Alvark provided (B.LEAGUE Ticket blocked without Japanese phone). Pickup: game-day TICKET BOX with full name + purchase confirmation email. Alan + Ever (13). Halftime is a brass and dance quartet.",
+      "place": "alvark-vs-ibaraki-2026-10-22",
+      "done": true
+    },
+    {
+      "id": "chopsticks-studio",
+      "group": "locked",
+      "title": "Chopsticks Studio",
+      "for": "Sun 18 Oct, 13:00",
+      "summary": "Booked via Klook. Confirmation KCJ539325.",
+      "detail": "Make-your-own chopsticks workshop in Asakusa. Klook booking KCJ539325.",
+      "done": true
+    },
+    {
+      "id": "teamlab",
+      "group": "now",
+      "title": "teamLab Planets",
+      "for": "Thu 22 Oct, ~13:00–13:30 entry",
+      "urgent": true,
+      "summary": "NOT bought. As of 5 Oct: 22 Oct open, 15:00–15:30 sold out.",
+      "detail": "Recommend ~13:00 or 13:30 entry to leave buffer before 19:05 Alvark tip-off (Yurikamome Shin-Toyosu↔Ariake ~15–25 min). As of 5 Oct afternoon PT on official store: 12:30–14:30 and 15:30–16:30 available. Adult ~¥5,400; Ever (13) junior-high rate ¥2,800 flat. Barefoot, shin-deep water; wear shorts.",
+      "place": "teamlab-planets"
+    },
+    {
+      "id": "kusama",
+      "group": "now",
+      "title": "Yayoi Kusama Museum",
+      "for": "Fri 23 Oct",
+      "urgent": true,
+      "summary": "Urgent — two weeks out, afternoon slots may remain.",
+      "detail": "October tickets went on sale 1 August, so they have been available for over two months. The museum opens Thursday to Sunday only and sells 90-minute timed slots. Friday 23 is the single day of this trip that works. As of mid/late Sep mornings were sold out; Alan still must pick a timed afternoon slot. If it is sold out the museum comes off the plan and Friday starts at Meiji Jingu instead.",
+      "place": "yayoi-kusama-museum"
+    },
+    {
+      "id": "zakuro",
+      "group": "now",
+      "title": "ZAKURO SHOW",
+      "for": "Fri 23 Oct, ~19:00 Harajuku",
+      "summary": "Age check email sent 15 Sep; no reply as of 5 Oct. Not bought.",
+      "detail": "Sixty minutes of taiko with koto, shamisen and shakuhachi, played a few feet away with English explanation. One minute from Meiji-jingumae exit 7. Age check for 13yo Ever emailed 15 Sep to info@zakuroshow.com from alan@hero-design.com; still awaiting reply. The start time decides Friday's running order. Contact for trip enquiries: alan@almostscientific.com.",
+      "place": "zakuro-show-2026-10-23"
+    },
+    {
+      "id": "nact",
+      "group": "now",
+      "title": "National Art Center, Louvre exhibition",
+      "for": "Sat 24 Oct",
+      "summary": "Timed exhibition ticket. The building is free, the show is not.",
+      "detail": "Masterpieces of the Renaissance from the Musee du Louvre runs 9 September to 13 December 2026, with Leonardo's La Belle Ferronniere in Japan for the first time. The centre stays open until 20:00 on Saturdays for its own exhibitions, which is why it sits at the end of the Kapital day rather than the middle. Closed Tuesdays.",
+      "place": "national-art-center-tokyo"
+    },
+    {
+      "id": "mokuhankan",
+      "group": "now",
+      "title": "Mokuhankan Print Party",
+      "for": "Thu 22 Oct, morning",
+      "optional": true,
+      "summary": "Optional, but it fills far ahead, so decide now or not at all.",
+      "detail": "Hands-on woodblock printing in English at David Bull's studio, five minutes from the hotel. It is the print counterpart to the film cameras and the sketchbooks, and it pairs with the original ukiyo-e at Ohya Shobo in Jimbocho on Monday. If you take it, it replaces Thursday's Yanaka walk rather than joining it.",
+      "place": "mokuhankan-print-party"
+    },
+    {
+      "id": "shibuya-sky",
+      "group": "watch",
+      "title": "Shibuya Sky, sunset slot",
+      "for": "Fri 23 Oct, 16:00 or 16:20 entry",
+      "summary": "NOT on sale yet. Fri 23 Oct opens ~9 Oct 00:00 JST (~8 Oct 8am PT).",
+      "detail": "Rolling ~14-day window: as of 5 Oct furthest bookable day is about 19 Oct. Fri 23 Oct tickets go on sale ~9 Oct 00:00 JST. Sunset is about 16:55 in late October, so the 16:00 or 16:20 entries are the ones worth having and they go first. Friday already ends in Shibuya, so it costs no detour. If the sunset slots are gone, take a slot after dark, or fall back on the Hikarie Sky Lobby next door which is free and needs no booking.",
+      "place": "shibuya-sky"
+    },
+    {
+      "id": "capyneko",
+      "group": "october",
+      "title": "Capyneko Cafe Kichijoji",
+      "for": "Tue 20 Oct",
+      "summary": "Reserve from about 6 October.",
+      "detail": "The original Capyneko: free-roaming cats and a capybara in the same room. It sits between Nakano Broadway and the Gotoku-ji cat temple on the Tuesday run. If it will not take a booking, pignic cafe beside Inokashira Park is the alternative on the same street, with private rooms and a seasonal pig walk. At most ~two animal cafés total for the trip.",
+      "place": "capyneko-cafe-kichijoji"
+    },
+    {
+      "id": "otter",
+      "group": "october",
+      "title": "Otter cafe (Harry), Harajuku",
+      "for": "Fri 23 Oct",
+      "summary": "Reserve from about 9 October. This is the one you flagged.",
+      "detail": "Otters, hedgehogs and chinchillas on Takeshita Street. Do one animal cafe on Friday, not three: there are eight within about 200 metres of each other and each one costs an hour of a day that already holds the denim strip, Five G, The Real McCoy's, two museums and the sunset. At most ~two animal cafés total for the trip.",
+      "place": "otter-cafe-harry"
+    },
+    {
+      "id": "nezu-museum",
+      "group": "october",
+      "title": "Nezu Museum",
+      "for": "Fri 23 Oct",
+      "summary": "Check whether your date needs a timed ticket, and book if so.",
+      "detail": "Kengo Kuma's building with a steep mossy garden of stone lanterns and teahouses, five minutes from Momotaro Aoyama and a few blocks from the Taro Okamoto studio. Closed Mondays, last entry 16:30. The garden needs the museum ticket. Note: the Bugaku costumes show 舞楽装束 (24 Oct–23 Nov 2026) is still preview-only with no on-sale date yet on e-tix as of 5 Oct.",
+      "place": "nezu-museum-garden"
+    },
+    {
+      "id": "orinami",
+      "group": "october",
+      "title": "Orinami lucky-charm weaving",
+      "for": "Sun 25 morning (preferred) or Wed 21",
+      "optional": true,
+      "summary": "Soft option for a morning closer in Asakusa. Not booked.",
+      "detail": "Lucky-charm weaving workshop. Preferred soft Sun 25 morning Asakusa closer; Wed 21 backup. Not booked yet."
+    },
+    {
+      "id": "check-mizutani",
+      "group": "checks",
+      "title": "Mizutani Camera, Ueno",
+      "for": "Thu 22 Oct",
+      "summary": "Confirm it exists and is open before building the morning around it.",
+      "detail": "Reported as a secondhand camera and vintage watch dealer under a blue awning opposite Ueno station's south exit, English-speaking and tax-free registered. I could only confirm it through English travel writing, never a Japanese source or its own site, so treat every detail as unverified. If it does not hold up, Thursday's Okachimachi route still works on Quark Ueno and Hinoya.",
+      "place": "mizutani-camera-ueno"
+    },
+    {
+      "id": "check-ua",
+      "group": "checks",
+      "title": "United Arrows Harajuku",
+      "for": "Fri 23 Oct",
+      "summary": "Published addresses disagree and one listing reports a renovation closure.",
+      "detail": "Both 3-28-1 and 2-31-12 Jingumae appear as the main store. Confirm the address and that it is trading before making the detour. The Roppongi Hills store on Saturday is the reliable one and sits two floors above the Kapital doors you are already visiting.",
+      "place": "united-arrows-harajuku"
+    },
+    {
+      "id": "check-goodwatch",
+      "group": "checks",
+      "title": "GoodWatch78, Nakano Broadway",
+      "for": "Tue 20 Oct",
+      "summary": "Short hours, roughly 13:00 to 18:00.",
+      "detail": "Antique Rolex only, trading in parts and consignment, which is what makes it the likeliest place to find an Explorer as a bare head. Its hours are much shorter than the rest of the third floor, so confirm them and make it the first stop of the watch hunt rather than the last. Its site is served over plain http, so there is no link recorded in the guide.",
+      "place": "goodwatch78-nakano"
+    },
+    {
+      "id": "check-hours",
+      "group": "checks",
+      "title": "The free places with awkward calendars",
+      "for": "Sun 18, Sat 24, Sun 25",
+      "summary": "No booking, but the closed days shape three different mornings.",
+      "detail": "The Drum Museum is closed Mondays and Tuesdays and runs 11:00 to 16:00, which is why it sits on Sunday 18. The Edo Taito Traditional Crafts Center is free with weekend artisan demonstrations, which is why it anchors the departure morning. The Imperial Palace East Gardens close at 16:30 and are shut on Fridays, so Saturday is their only slot. Shinjuku Gyoen's last entry is 16:00 and it closes Mondays. Confirm all four against the October calendar.",
+      "place": "taikokan-drum-museum"
+    },
+    {
+      "id": "passports",
+      "group": "checks",
+      "title": "Passports for tax-free",
+      "for": "Every shopping day",
+      "summary": "Carry both. Used goods count.",
+      "detail": "Tax-free applies to general goods over 5,000 yen for foreign visitors, and used goods are eligible, which matters for the vintage watches at Nakano and Ueno and for the denim. Bring both passports, not photocopies. Map Camera and the larger shops are registered; the small dealers vary, so ask before you commit.",
+      "place": "map-camera"
+    },
+    {
+      "id": "kamakura",
+      "group": "walkin",
+      "title": "Kamakura, the whole day",
+      "for": "Wed 21 Oct (possible / alternate)",
+      "summary": "JR on a Suica. No reservation, nothing books ahead.",
+      "detail": "Leave the hotel by 7:30, Asakusa line to Shimbashi, Yokosuka line straight through to Kita-Kamakura by about 9:00. None of the eight temples and gardens takes a booking, and the Enoden is a tap-in. That flexibility is a large part of why Kamakura beat Nikko, which would have wanted reserved express seats. Note: Alan currently leans toward Kapital/Ebisu menswear over Kamakura for Wed — treat Kamakura as a possible alternate.",
+      "place": "kamakura-day-trip"
+    },
+    {
+      "id": "asakusa-walkins",
+      "group": "walkin",
+      "title": "The Asakusa doorstep",
+      "for": "Every morning and evening",
+      "summary": "All within a ten-minute walk, none of it bookable.",
+      "detail": "Senso-ji, Nakamise, Kaminarimon, the free 8F deck at the Culture Center, Hoppy Street and the OMO3 rooftop. Onigiri Yadoroku opens late morning and sells out, so go early rather than book. Wanariya indigo dyeing takes walk-ins and runs about 45 minutes if a morning feels light.",
+      "place": "senso-ji"
+    },
+    {
+      "id": "shops-walkin",
+      "group": "walkin",
+      "title": "Every shop on the list",
+      "for": "Sun, Mon, Tue, Fri, Sat",
+      "summary": "Just opening hours. Nakano Broadway does not wake up until noon.",
+      "detail": "Kapital's six Tokyo doors, United Arrows, The Real McCoy's, the Harajuku denim strip, Five G and Echigoya, the Nakano and Ueno watch dealers, Itoya, Map Camera and Yodobashi, Sekaido, the Jimbocho book town. Two timing notes worth holding: most Nakano Broadway shops open at 12:00 and a few close Wednesdays, and the Jimbocho dealers mostly shut around 18:00 with many closed Sundays, so get there before 17:00 on Monday.",
+      "place": "nakano-broadway"
+    }
+  ]
+}
