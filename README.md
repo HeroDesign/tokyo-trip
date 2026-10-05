@@ -13,7 +13,7 @@ slotted into trip days, plus Google My Maps export).
 
 | | |
 |---|---|
-| **Dates** | 8 nights, Fri 16 Oct → Sun 25 Oct 2026 |
+| **Dates** | 8 nights, Sat 17 Oct → Sun 25 Oct 2026 |
 | **Out** | JL001 SFO → HND, 11:55 → 15:05 (+1), nonstop, seats 49D/E |
 | **Back** | JL002 HND → SFO, 17:55 → 11:25, nonstop, seats 24D/E |
 | **Ground** | Drive to SFO + park |
@@ -27,7 +27,7 @@ shopping tracks for synths/electronic gear and menswear/raw denim.
 livehouse. The taiko lesson is the anchor; `Taiko no Tatsujin` in Akihabara is the hi/lo rhyme;
 a Shimokitazawa livehouse gig closes the loop.
 
-Days in the Plan view run 16–25 Oct, with the two travel days marked.
+Days in the Plan view run 17–25 Oct, with the two travel days marked.
 
 ---
 
@@ -225,11 +225,11 @@ Built: the dataset, the card browser with filters, the map view, favorites and a
 the My Maps export. The last three were scoped as "scaffold next" — they're implemented rather
 than stubbed, but they're the newest code and the ones most worth kicking the tyres on.
 
-Worth doing before October:
+Worth doing now (early October):
 - Swap representative photos for your own shots as you research each spot.
 - Pin down addresses for the `area`-precision places and promote them to `exact`.
-- Book the time-sensitive things: teamLab Planets (tickets ~late July), Shibuya Sky sunset
-  (~1 month out), the otter cafe (~2 weeks out), and check Tokyo Gig Guide in September.
+- Book the time-sensitive things: teamLab Planets (on sale now for 22 Oct), Shibuya Sky sunset
+  (Fri 23 Oct goes on sale ~9 Oct), otter cafe (~2 weeks out), Kusama Museum (urgent, afternoon slots may remain).
 
 ---
 
