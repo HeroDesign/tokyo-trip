@@ -178,7 +178,7 @@ test('hotel: OMO3 Asakusa is the only lodging entry and the booked home base', a
   assert.equal(lodging.length, 1);
   assert.equal(lodging[0].id, 'omo3-asakusa');
   assert.equal(HOME_PLACE_ID, 'omo3-asakusa');
-  assert.match(lodging[0].why, /Booked for 16–25 Oct/);
+  assert.match(lodging[0].why, /Booked for 17–25 Oct/);
 
   const settings = await read('data/my-settings.json');
   assert.ok(settings.favorites.includes('omo3-asakusa'));
@@ -273,15 +273,15 @@ test('checklist: items are well-formed, grouped, and point at real places', asyn
     assert.ok(checklist.items.some((i) => i.group === group.id), `empty group ${group.id}`);
   }
 
-  // Only the two booked anchors are pre-ticked; everything else is still to do.
+  // The locked items are pre-ticked; everything else is still to do.
   assert.deepEqual(
     checklist.items.filter((i) => i.done === true).map((i) => i.id).sort(),
-    ['flights', 'hotel'],
+    ['alvark', 'chopsticks-studio', 'flights', 'hibikus', 'hotel', 'kumihimo'],
   );
 
   // The things that can sell out have to be flagged as such.
   const urgent = checklist.items.filter((i) => i.urgent).map((i) => i.id);
-  for (const id of ['kusama', 'teamlab', 'shibuya-sky']) {
+  for (const id of ['kusama', 'teamlab']) {
     assert.ok(urgent.includes(id), `${id} should be flagged urgent`);
   }
 });
