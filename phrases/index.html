@@ -252,44 +252,58 @@ else if(IOS_OTHER){ $("mic-note").textContent = OPEN_SAFARI; $("mic-note").hidde
 let active = null;
 function listen(p, btn, fb){
   if(active){ try{ active.abort(); }catch(e){} }
-  if("speechSynthesis" in window){ speechSynthesis.cancel(); clearTimeout(speakTimer); }
+  clearTimeout(speakTimer);
+  // Cancelling idle speech can hold the iPhone audio session in playback mode, so only cancel real speech.
+  if("speechSynthesis" in window && (speechSynthesis.speaking || speechSynthesis.pending)) speechSynthesis.cancel();
   const r = new SR(); active = r;
-  r.lang = "ja-JP"; r.interimResults = false; r.maxAlternatives = 5;
-  let done = false, heard = false;
+  // Safari on iPhone often delivers words only as interim results, so take those and judge them as they arrive.
+  r.lang = "ja-JP"; r.continuous = false; r.interimResults = true; r.maxAlternatives = 5;
+  const targets = p.ok.map(norm);
+  let done = false, opened = false, last = "", timer = 0;
   const started = Date.now();
-  r.onaudiostart = () => { heard = true; };
-  const reset = () => { btn.classList.remove("listening"); btn.textContent = "Say it"; if(active === r) active = null; };
+  r.onaudiostart = r.onsoundstart = r.onspeechstart = () => { opened = true; };
+  const reset = () => { clearTimeout(timer); btn.classList.remove("listening"); btn.textContent = "Say it"; if(active === r) active = null; };
+  const bad = html => { fb.className = "fb bad"; fb.innerHTML = html; };
   btn.classList.add("listening"); btn.textContent = "Listening…";
   fb.className = "fb"; fb.textContent = "";
   r.onresult = e => {
-    done = true;
-    const alts = [...e.results[0]].map(a => a.transcript);
-    const targets = p.ok.map(norm);
-    const hit = alts.some(a => targets.includes(norm(a)));
-    if(hit){ fb.className = "fb ok"; fb.textContent = "Understood. That would land."; }
-    else{
-      fb.className = "fb bad";
-      fb.innerHTML = "Heard “" + alts[0].replace(/[<>&]/g,"") + "” instead. <span>Play it slow and try again.</span>";
+    opened = true;
+    const heard = [];
+    for(let i = 0; i < e.results.length; i++) for(let j = 0; j < e.results[i].length; j++) heard.push(e.results[i][j].transcript);
+    heard.push([...e.results].map(res => res[0].transcript).join(""));
+    const joined = heard[heard.length - 1];
+    if(joined.trim()) last = joined;
+    if(heard.some(h => targets.includes(norm(h)))){
+      done = true; fb.className = "fb ok"; fb.textContent = "Understood. That would land.";
+      try{ r.stop(); }catch(err){}
     }
   };
   r.onerror = e => {
-    done = true; fb.className = "fb bad";
-    fb.textContent = (e.error === "not-allowed" || e.error === "service-not-allowed")
-      ? (IOS && !IOS_OTHER ? "The microphone or speech recognition is off. Allow the mic for this site, and turn on Dictation under Settings, General, Keyboard."
-        : IOS ? OPEN_SAFARI : "The microphone is blocked here. Allow the mic for this site and try again.")
-      : e.error === "no-speech" ? "Didn't catch anything. Tap, then speak right away."
-      : "The speaking check didn't run (" + e.error + "). Try again.";
+    if(done) return;
+    if(e.error === "no-speech" || e.error === "aborted") return; // onend reports these
+    done = true;
+    bad(e.error === "not-allowed" || e.error === "service-not-allowed"
+      ? (IOS_OTHER ? OPEN_SAFARI
+        : IOS ? "Speech recognition is switched off. Allow the microphone for this site, and turn on Dictation under Settings, General, Keyboard."
+        : "The microphone is blocked here. Allow the mic for this site and try again.")
+      : e.error === "language-not-supported" ? "This device can't recognise Japanese speech yet. On iPhone, adding a Japanese keyboard under Settings, General, Keyboard, Keyboards turns it on."
+      : e.error === "audio-capture" ? "No microphone was found. Check another app isn't using it and try again."
+      : e.error === "network" ? "Speech recognition needs a connection. Try again once you're online."
+      : "The speaking check didn't run (" + e.error + "). Try again.");
   };
   r.onend = () => {
     reset();
     if(done) return;
-    fb.className = "fb bad";
-    // Ending at once without ever opening the mic means recognition isn't really available here.
-    fb.textContent = !heard && Date.now() - started < 1500
-      ? (IOS ? OPEN_SAFARI : "The speaking check didn't start in this browser. Try Safari or Chrome.")
-      : "Didn't catch anything. Tap, then speak right away.";
+    if(last){ bad("Heard “" + last.replace(/[<>&]/g,"") + "” instead. <span>Play it slow and try again.</span>"); return; }
+    bad(!opened && Date.now() - started < 1500
+      ? (IOS_OTHER ? OPEN_SAFARI
+        : IOS ? "Speech recognition didn't start. Turn on Dictation under Settings, General, Keyboard, then reload this page."
+        : "The speaking check didn't start in this browser. Try Safari or Chrome.")
+      : "Didn't catch anything. Tap, then speak right away.");
   };
-  try{ r.start(); }catch(e){ reset(); fb.className = "fb bad"; fb.textContent = "The speaking check couldn't start in this browser."; }
+  // Stop listening after a while even if the browser never decides you've finished.
+  timer = setTimeout(() => { try{ r.stop(); }catch(err){} }, 7000);
+  try{ r.start(); }catch(e){ reset(); bad("The speaking check couldn't start in this browser."); }
 }
 
 /* ---------- learn list ---------- */
