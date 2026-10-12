@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Phrases for Tokyo</title>
+<meta name="description" content="Thirteen Japanese phrases for a trip to Tokyo. Hear each one, slow it down, say it back, and test your ear.">
+<meta property="og:title" content="Phrases for Tokyo">
+<meta property="og:description" content="Thirteen Japanese phrases for a trip to Tokyo. Hear each one, slow it down, say it back, and test your ear.">
+<meta name="theme-color" content="#E6ECEF">
+<style>
+:root{
+  --ground:#E6ECEF; --plate:#FFFFFF; --ink:#14213D; --muted:#55617A;
+  --line:#F39700; --on-line:#14213D; --edge:#C9D3DA; --ok:#1F8A4C; --bad:#C2362B;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#0F1A2E; --plate:#1B2942; --ink:#F2F5F8; --muted:#A9B4C6;
+    --edge:#2C3C5C; --ok:#5FD08C; --bad:#FF8A7E;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0F1A2E; --plate:#1B2942; --ink:#F2F5F8; --muted:#A9B4C6;
+  --edge:#2C3C5C; --ok:#5FD08C; --bad:#FF8A7E;
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{
+  margin:0; background:var(--ground); color:var(--ink);
+  font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","Noto Sans JP",system-ui,sans-serif;
+  font-weight:500; line-height:1.5; -webkit-text-size-adjust:100%;
+}
+main{max-width:34rem; margin:0 auto; padding:1.5rem 1rem 3rem}
+h1{font-size:1.9rem; font-weight:900; line-height:1.15; margin:0 0 .4rem; letter-spacing:-.01em}
+.lede{margin:0 0 1.1rem; color:var(--muted); max-width:30rem}
+button{font:inherit; color:inherit; cursor:pointer; -webkit-tap-highlight-color:transparent}
+button:focus-visible{outline:3px solid var(--line); outline-offset:2px}
+
+/* mode switch */
+.modes{display:flex; gap:0; border:2px solid var(--ink); border-radius:999px; padding:3px; margin-bottom:.6rem; background:var(--plate)}
+.modes button{flex:1; min-height:44px; border:0; background:none; border-radius:999px; font-weight:700}
+.modes button[aria-pressed="true"]{background:var(--ink); color:var(--plate)}
+.count{margin:0 0 1.1rem; color:var(--muted); font-size:.92rem}
+.notice{background:var(--plate); border-left:6px solid var(--line); padding:.7rem .9rem; margin:0 0 1.1rem; font-size:.92rem; border-radius:4px}
+
+/* station-sign phrase */
+.phrase{margin:0 0 1.6rem}
+.sign{background:var(--plate); border:2px solid var(--ink); border-radius:8px; overflow:hidden; text-align:center}
+.sign .jp{font-size:clamp(1.55rem,7.2vw,2.2rem); font-weight:900; line-height:1.25; padding:1rem .75rem .15rem; word-break:keep-all; overflow-wrap:anywhere}
+.sign .ro{font-size:1.05rem; font-weight:700; padding:0 .75rem .85rem; letter-spacing:.01em}
+.sign .band{background:var(--line); color:var(--on-line); font-weight:700; padding:.5rem .75rem; font-size:1.02rem}
+.phrase.got .sign .band{background:var(--ok); color:#fff}
+:root[data-theme="dark"] .phrase.got .sign .band{color:#0F1A2E}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .phrase.got .sign .band{color:#0F1A2E}}
+.like{margin:.7rem 0 .15rem; font-size:.98rem}
+.like b{font-weight:700}
+.when{margin:0 0 .7rem; color:var(--muted); font-size:.95rem}
+.acts{display:flex; flex-wrap:wrap; gap:.5rem}
+.acts button{min-height:46px; padding:0 1rem; border-radius:8px; border:2px solid var(--ink); background:var(--plate); font-weight:700}
+.acts .hear{background:var(--ink); color:var(--plate); flex:1 1 7rem}
+.acts .got-btn{margin-left:auto; border-color:var(--edge)}
+.acts .got-btn[aria-pressed="true"]{border-color:var(--ok); color:var(--ok)}
+.acts .say.listening{border-color:var(--line); box-shadow:0 0 0 3px var(--line)}
+.fb{min-height:1.4rem; margin:.55rem 0 0; font-size:.95rem; font-weight:700}
+.fb.ok{color:var(--ok)} .fb.bad{color:var(--bad)}
+.fb span{font-weight:500; color:var(--muted)}
+
+/* ear test */
+.quiz{background:var(--plate); border:2px solid var(--ink); border-radius:8px; padding:1.1rem}
+.quiz .play{width:100%; min-height:64px; border-radius:8px; border:0; background:var(--line); color:var(--on-line); font-weight:900; font-size:1.15rem}
+.quiz .again{display:flex; gap:.5rem; margin-top:.5rem}
+.quiz .again button{flex:1; min-height:44px; border-radius:8px; border:2px solid var(--edge); background:none; font-weight:700}
+.opts{display:grid; gap:.5rem; margin-top:1rem}
+.opts button{min-height:52px; text-align:left; padding:.5rem .9rem; border-radius:8px; border:2px solid var(--ink); background:none; font-weight:700}
+.opts button.right{border-color:var(--ok); background:var(--ok); color:#fff}
+.opts button.wrong{border-color:var(--bad); color:var(--bad)}
+.opts button:disabled{cursor:default}
+.reveal{margin:1rem 0 0; text-align:center}
+.reveal .jp{font-size:1.5rem; font-weight:900}
+.reveal .ro{font-weight:700}
+.score{margin:.9rem 0 0; color:var(--muted); font-size:.92rem; text-align:center}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<main>
+  <h1>Phrases for Tokyo</h1>
+  <p class="lede">Tap a phrase to hear it, slow it down, then say it back and see whether a Japanese listener would catch it.</p>
+
+  <div class="modes" role="group" aria-label="Mode">
+    <button id="m-learn" aria-pressed="true">Learn</button>
+    <button id="m-ear" aria-pressed="false">Test my ear</button>
+  </div>
+
+  <p class="notice" id="voice-note" hidden>This device has no Japanese voice installed, so playback may sound wrong. On iPhone, add one under Settings, Accessibility, Spoken Content, Voices, Japanese.</p>
+  <p class="notice" id="mic-note" hidden>The speaking check isn't available in this browser. Open this page in Safari or Chrome to use it. Listening and the ear test work here.</p>
+
+  <section id="learn">
+    <p class="count" id="count"></p>
+    <div id="list"></div>
+  </section>
+
+  <section id="ear" hidden>
+    <div class="quiz">
+      <button class="play" id="q-play">Play a phrase</button>
+      <div class="again" id="q-again" hidden>
+        <button id="q-rep">Hear it again</button>
+        <button id="q-slow">Slow</button>
+      </div>
+      <div class="opts" id="q-opts"></div>
+      <div class="reveal" id="q-reveal" hidden></div>
+      <p class="score" id="q-score"></p>
+    </div>
+  </section>
+</main>
+
+<script>
+const P = [
+  {id:"hello", jp:"こんにちは", ro:"kon-ni-chi-wa", like:"kohn-nee-chee-wah", en:"Hello",
+   when:"The daytime greeting, good for walking into a small shop or a workshop.",
+   ok:["こんにちは","今日は","こんにちわ"]},
+  {id:"excuse-me", jp:"すみません", ro:"su-mi-ma-sen", like:"soo-mee-mah-sen", en:"Excuse me / sorry",
+   when:"Getting someone's attention, squeezing past on a train, a light apology. The one you'll use most.",
+   ok:["すみません","すいません","済みません"]},
+  {id:"thank-you", jp:"ありがとうございます", ro:"a-ri-ga-tō go-za-i-mas", like:"ah-ree-gah-toh go-zah-ee-mahss", en:"Thank you",
+   when:"Anywhere, to anyone. The final “u” is almost silent.",
+   ok:["ありがとうございます","有難うございます","有り難うございます","ありがとう御座います"]},
+  {id:"please", jp:"お願いします", ro:"o-ne-gai-shi-mas", like:"oh-neh-guy-shee-mahss", en:"Please",
+   when:"After naming or pointing at what you want, or when handing something over.",
+   ok:["お願いします","おねがいします","お願い致します"]},
+  {id:"this-one", jp:"これをください", ro:"ko-re o ku-da-sai", like:"koh-reh oh koo-dah-sigh", en:"This one, please",
+   when:"While pointing at a menu photo or something in a shop.",
+   ok:["これをください","これを下さい","これください","これ下さい"]},
+  {id:"english-ok", jp:"英語は大丈夫ですか", ro:"ei-go wa dai-jō-bu des ka", like:"ay-go wah dye-joh-boo dess kah", en:"Is English OK?",
+   when:"A polite opener before switching to English.",
+   ok:["英語は大丈夫ですか","えいごはだいじょうぶですか","英語大丈夫ですか"]},
+  {id:"restroom", jp:"トイレはどこですか", ro:"to-i-re wa do-ko des ka", like:"toh-ee-reh wah doh-koh dess kah", en:"Where is the restroom?",
+   when:"Swap the first word for any place: “eki” for station, “deguchi” for exit.",
+   ok:["トイレはどこですか","トイレは何処ですか","トイレどこですか","といれはどこですか"]},
+  {id:"photo-ok", jp:"写真、いいですか", ro:"sha-shin, ii des ka", like:"shah-sheen, ee dess kah", en:"Is a photo OK?",
+   when:"Before photographing a person, a shopfront or a stall. Hold up the camera as you ask.",
+   ok:["写真いいですか","写真良いですか","しゃしんいいですか","写真はいいですか"]},
+  {id:"im-fine", jp:"大丈夫です", ro:"dai-jō-bu des", like:"dye-joh-boo dess", en:"I'm fine / no thank you",
+   when:"Turning down a bag, a receipt, a refill or an offer of help.",
+   ok:["大丈夫です","だいじょうぶです"]},
+  {id:"two-people", jp:"二人です", say:"ふたりです", ro:"fu-ta-ri des", like:"f'tah-ree dess", en:"Two people",
+   when:"At a restaurant door when staff ask how many. Hold up two fingers too.",
+   ok:["二人です","2人です","ふたりです","２人です"]},
+  {id:"itadakimasu", jp:"いただきます", ro:"i-ta-da-ki-mas", like:"ee-tah-dah-kee-mahss", en:"Thanks for the meal (before eating)",
+   when:"Said just before the first bite, often with hands together.",
+   ok:["いただきます","頂きます","戴きます"]},
+  {id:"gochisosama", jp:"ごちそうさまでした", ro:"go-chi-sō-sa-ma desh-ta", like:"go-chee-soh-sah-mah desh-tah", en:"Thanks for the meal (after eating)",
+   when:"To the staff or the cook as you leave a restaurant.",
+   ok:["ごちそうさまでした","ご馳走様でした","ご馳走さまでした","御馳走様でした"]},
+  {id:"check-please", jp:"お会計お願いします", ro:"o-kai-kei o-ne-gai-shi-mas", like:"oh-kye-kay oh-neh-guy-shee-mahss", en:"The check, please",
+   when:"When you're ready to pay. Many places have you pay at the register by the door.",
+   ok:["お会計お願いします","おかいけいおねがいします","お会計をお願いします","会計お願いします"]}
+];
+
+const $ = id => document.getElementById(id);
+const norm = s => (s||"").replace(/[\s　、。，．,.?？!！「」]/g,"");
+
+/* ---------- speech out ---------- */
+let jaVoice = null;
+function pickVoice(){
+  if(!("speechSynthesis" in window)) return;
+  const vs = speechSynthesis.getVoices();
+  if(!vs.length) return;
+  jaVoice = vs.find(v => /^ja/i.test(v.lang) && /enhanced|premium|siri/i.test(v.name)) || vs.find(v => /^ja/i.test(v.lang)) || null;
+  $("voice-note").hidden = !!jaVoice;
+}
+if("speechSynthesis" in window){
+  pickVoice();
+  speechSynthesis.addEventListener && speechSynthesis.addEventListener("voiceschanged", pickVoice);
+}else{
+  $("voice-note").textContent = "This browser can't speak the phrases aloud. Open this page in Safari or Chrome to hear them.";
+  $("voice-note").hidden = false;
+}
+let speakTimer = 0;
+function speak(p, rate){
+  if(!("speechSynthesis" in window)) return;
+  speechSynthesis.cancel();
+  clearTimeout(speakTimer);
+  // Safari can drop an utterance queued in the same tick as cancel().
+  speakTimer = setTimeout(() => {
+    const u = new SpeechSynthesisUtterance(p.say || p.jp);
+    u.lang = "ja-JP"; if(jaVoice) u.voice = jaVoice;
+    u.rate = rate;
+    speechSynthesis.speak(u);
+  }, 60);
+}
+
+/* ---------- saved progress ---------- */
+const GOT_KEY = "phrases-got-v2";
+let got = new Set();
+try{ got = new Set(JSON.parse(localStorage.getItem(GOT_KEY) || "[]").filter(id => P.some(p => p.id === id))); }catch(e){}
+function saveGot(){ try{ localStorage.setItem(GOT_KEY, JSON.stringify([...got])); }catch(e){} }
+function showCount(){
+  $("count").textContent = got.size === 0 ? "Mark a phrase “Got it” once it feels easy."
+    : got.size === P.length ? "All of them down. Try the ear test."
+    : got.size + " of " + P.length + " down.";
+}
+
+/* ---------- speech in ---------- */
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+if(!SR) $("mic-note").hidden = false;
+let active = null;
+function listen(p, btn, fb){
+  if(active){ try{ active.abort(); }catch(e){} }
+  if("speechSynthesis" in window){ speechSynthesis.cancel(); clearTimeout(speakTimer); }
+  const r = new SR(); active = r;
+  r.lang = "ja-JP"; r.interimResults = false; r.maxAlternatives = 5;
+  let done = false;
+  const reset = () => { btn.classList.remove("listening"); btn.textContent = "Say it"; if(active === r) active = null; };
+  btn.classList.add("listening"); btn.textContent = "Listening…";
+  fb.className = "fb"; fb.textContent = "";
+  r.onresult = e => {
+    done = true;
+    const alts = [...e.results[0]].map(a => a.transcript);
+    const targets = p.ok.map(norm);
+    const hit = alts.some(a => targets.includes(norm(a)));
+    if(hit){ fb.className = "fb ok"; fb.textContent = "Understood. That would land."; }
+    else{
+      fb.className = "fb bad";
+      fb.innerHTML = "Heard “" + alts[0].replace(/[<>&]/g,"") + "” instead. <span>Play it slow and try again.</span>";
+    }
+  };
+  r.onerror = e => {
+    done = true; fb.className = "fb bad";
+    fb.textContent = (e.error === "not-allowed" || e.error === "service-not-allowed")
+      ? "The microphone is blocked here. Open this page in Safari or Chrome and allow the mic."
+      : e.error === "no-speech" ? "Didn't catch anything. Tap, then speak right away."
+      : "The speaking check didn't run (" + e.error + "). Try again.";
+  };
+  r.onend = () => { reset(); if(!done){ fb.className = "fb bad"; fb.textContent = "Didn't catch anything. Tap, then speak right away."; } };
+  try{ r.start(); }catch(e){ reset(); fb.className = "fb bad"; fb.textContent = "The speaking check couldn't start in this browser."; }
+}
+
+/* ---------- learn list ---------- */
+function build(){
+  const list = $("list");
+  P.forEach(p => {
+    const el = document.createElement("article");
+    el.className = "phrase" + (got.has(p.id) ? " got" : "");
+    el.innerHTML =
+      '<div class="sign"><div class="jp" lang="ja">' + p.jp + '</div><div class="ro">' + p.ro + '</div><div class="band">' + p.en + '</div></div>' +
+      '<p class="like">Say it like <b>' + p.like + '</b></p>' +
+      '<p class="when">' + p.when + '</p>' +
+      '<div class="acts"><button class="hear">Hear it</button><button class="slow">Slow</button>' +
+      (SR ? '<button class="say">Say it</button>' : '') +
+      '<button class="got-btn" aria-pressed="' + got.has(p.id) + '">Got it</button></div>' +
+      '<p class="fb" aria-live="polite"></p>';
+    el.querySelector(".hear").onclick = () => speak(p, 0.95);
+    el.querySelector(".slow").onclick = () => speak(p, 0.55);
+    el.querySelector(".sign").onclick = () => speak(p, 0.95);
+    const fb = el.querySelector(".fb");
+    const say = el.querySelector(".say");
+    if(say) say.onclick = () => listen(p, say, fb);
+    const g = el.querySelector(".got-btn");
+    g.onclick = () => {
+      got.has(p.id) ? got.delete(p.id) : got.add(p.id);
+      g.setAttribute("aria-pressed", got.has(p.id));
+      el.classList.toggle("got", got.has(p.id));
+      saveGot(); showCount();
+    };
+    list.appendChild(el);
+  });
+  showCount();
+}
+build();
+
+/* ---------- ear test ---------- */
+let cur = -1, right = 0, asked = 0, answered = true;
+const shuffle = a => { for(let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+function nextQ(){
+  let n; do{ n = Math.floor(Math.random() * P.length); }while(n === cur);
+  cur = n; answered = false;
+  const others = shuffle(P.map((_, i) => i).filter(i => i !== cur)).slice(0, 3);
+  const opts = shuffle([cur, ...others]);
+  const box = $("q-opts"); box.innerHTML = "";
+  opts.forEach(i => {
+    const b = document.createElement("button");
+    b.textContent = P[i].en;
+    b.onclick = () => answer(i, b);
+    box.appendChild(b);
+  });
+  $("q-reveal").hidden = true;
+  $("q-again").hidden = false;
+  $("q-play").hidden = true;
+  speak(P[cur], 0.95);
+}
+function answer(i, b){
+  if(answered) return; answered = true; asked++;
+  const btns = [...$("q-opts").children];
+  btns.forEach(x => x.disabled = true);
+  if(i === cur){ right++; b.classList.add("right"); }
+  else{ b.classList.add("wrong"); btns.find(x => x.textContent === P[cur].en).classList.add("right"); }
+  const rv = $("q-reveal");
+  rv.innerHTML = '<div class="jp" lang="ja">' + P[cur].jp + '</div><div class="ro">' + P[cur].ro + '</div>';
+  rv.hidden = false;
+  $("q-score").textContent = right + " of " + asked + " right";
+  $("q-play").textContent = "Next phrase"; $("q-play").hidden = false;
+}
+$("q-play").onclick = nextQ;
+$("q-rep").onclick = () => cur >= 0 && speak(P[cur], 0.95);
+$("q-slow").onclick = () => cur >= 0 && speak(P[cur], 0.55);
+
+/* ---------- modes ---------- */
+function mode(m){
+  $("learn").hidden = m !== "learn"; $("ear").hidden = m !== "ear";
+  $("m-learn").setAttribute("aria-pressed", m === "learn");
+  $("m-ear").setAttribute("aria-pressed", m === "ear");
+  if("speechSynthesis" in window){ speechSynthesis.cancel(); clearTimeout(speakTimer); }
+}
+$("m-learn").onclick = () => mode("learn");
+$("m-ear").onclick = () => mode("ear");
+</script>
+</body>
+</html>
