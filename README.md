@@ -8,7 +8,7 @@ Four views: **Browse** (filterable cards), **Map** (every place as a pin, filter
 slotted into trip days, plus Google My Maps export).
 
 Separately, **[Phrases for Tokyo](https://herodesign.github.io/tokyo-trip/phrases/)** (`phrases/index.html`) is a
-standalone, shareable page: 13 Japanese phrases to hear, slow down, say back, and an ear test. It
+standalone, shareable page: 25 Japanese phrases to hear, slow down, say back, and an ear test. It
 has no dependencies on the rest of the site.
 
 ---

@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Phrases for Tokyo</title>
-<meta name="description" content="Thirteen Japanese phrases for a trip to Tokyo. Hear each one, slow it down, say it back, and test your ear.">
+<meta name="description" content="Twenty-five Japanese phrases for a trip to Tokyo. Hear each one, slow it down, say it back, and test your ear.">
 <meta property="og:title" content="Phrases for Tokyo">
-<meta property="og:description" content="Thirteen Japanese phrases for a trip to Tokyo. Hear each one, slow it down, say it back, and test your ear.">
+<meta property="og:description" content="Twenty-five Japanese phrases for a trip to Tokyo. Hear each one, slow it down, say it back, and test your ear.">
 <meta name="theme-color" content="#E6ECEF">
 <style>
 :root{
@@ -33,9 +33,9 @@ body{
   font-family:"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","Noto Sans JP",system-ui,sans-serif;
   font-weight:500; line-height:1.5; -webkit-text-size-adjust:100%;
 }
-main{max-width:34rem; margin:0 auto; padding:1.5rem 1rem 3rem}
-h1{font-size:1.9rem; font-weight:900; line-height:1.15; margin:0 0 .4rem; letter-spacing:-.01em}
-.lede{margin:0 0 1.1rem; color:var(--muted); max-width:30rem}
+main{max-width:34rem; margin:0 auto; padding:1.1rem 1rem 2.5rem}
+h1{font-size:1.7rem; font-weight:900; line-height:1.15; margin:0 0 .3rem; letter-spacing:-.01em}
+.lede{margin:0 0 .9rem; font-size:.95rem; color:var(--muted); max-width:30rem}
 button{font:inherit; color:inherit; cursor:pointer; -webkit-tap-highlight-color:transparent}
 button:focus-visible{outline:3px solid var(--line); outline-offset:2px}
 
@@ -43,28 +43,29 @@ button:focus-visible{outline:3px solid var(--line); outline-offset:2px}
 .modes{display:flex; gap:0; border:2px solid var(--ink); border-radius:999px; padding:3px; margin-bottom:.6rem; background:var(--plate)}
 .modes button{flex:1; min-height:44px; border:0; background:none; border-radius:999px; font-weight:700}
 .modes button[aria-pressed="true"]{background:var(--ink); color:var(--plate)}
-.count{margin:0 0 1.1rem; color:var(--muted); font-size:.92rem}
+.count{margin:0 0 .8rem; color:var(--muted); font-size:.92rem}
 .notice{background:var(--plate); border-left:6px solid var(--line); padding:.7rem .9rem; margin:0 0 1.1rem; font-size:.92rem; border-radius:4px}
 
 /* station-sign phrase */
-.phrase{margin:0 0 1.6rem}
+.phrase{margin:0 0 1.15rem}
 .sign{background:var(--plate); border:2px solid var(--ink); border-radius:8px; overflow:hidden; text-align:center}
-.sign .jp{font-size:clamp(1.55rem,7.2vw,2.2rem); font-weight:900; line-height:1.25; padding:1rem .75rem .15rem; word-break:keep-all; overflow-wrap:anywhere}
-.sign .ro{font-size:1.05rem; font-weight:700; padding:0 .75rem .85rem; letter-spacing:.01em}
-.sign .band{background:var(--line); color:var(--on-line); font-weight:700; padding:.5rem .75rem; font-size:1.02rem}
+.sign .jp{font-size:clamp(1.35rem,6vw,1.85rem); font-weight:900; line-height:1.25; padding:.6rem .75rem .05rem; word-break:keep-all; overflow-wrap:anywhere}
+.sign .ro{font-size:.98rem; font-weight:700; padding:0 .75rem .5rem; letter-spacing:.01em}
+.sign .band{background:var(--line); color:var(--on-line); font-weight:700; padding:.3rem .75rem; font-size:.97rem}
 .phrase.got .sign .band{background:var(--ok); color:#fff}
 :root[data-theme="dark"] .phrase.got .sign .band{color:#0F1A2E}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .phrase.got .sign .band{color:#0F1A2E}}
-.like{margin:.7rem 0 .15rem; font-size:.98rem}
+.like{margin:.5rem 0 .05rem; font-size:.94rem}
 .like b{font-weight:700}
-.when{margin:0 0 .7rem; color:var(--muted); font-size:.95rem}
-.acts{display:flex; flex-wrap:wrap; gap:.5rem}
-.acts button{min-height:46px; padding:0 1rem; border-radius:8px; border:2px solid var(--ink); background:var(--plate); font-weight:700}
-.acts .hear{background:var(--ink); color:var(--plate); flex:1 1 7rem}
+.when{margin:0 0 .5rem; color:var(--muted); font-size:.88rem; line-height:1.4}
+.acts{display:flex; flex-wrap:wrap; gap:.4rem}
+.acts button{min-height:44px; padding:0 .75rem; border-radius:8px; border:2px solid var(--ink); background:var(--plate); font-weight:700}
+.acts .hear{background:var(--ink); color:var(--plate); flex:1 1 4.5rem}
 .acts .got-btn{margin-left:auto; border-color:var(--edge)}
 .acts .got-btn[aria-pressed="true"]{border-color:var(--ok); color:var(--ok)}
 .acts .say.listening{border-color:var(--line); box-shadow:0 0 0 3px var(--line)}
-.fb{min-height:1.4rem; margin:.55rem 0 0; font-size:.95rem; font-weight:700}
+.fb{margin:.4rem 0 0; font-size:.95rem; font-weight:700}
+.fb:empty{display:none}
 .fb.ok{color:var(--ok)} .fb.bad{color:var(--bad)}
 .fb span{font-weight:500; color:var(--muted)}
 
@@ -122,6 +123,9 @@ const P = [
   {id:"hello", jp:"こんにちは", ro:"kon-ni-chi-wa", like:"kohn-nee-chee-wah", en:"Hello",
    when:"The daytime greeting, good for walking into a small shop or a workshop.",
    ok:["こんにちは","今日は","こんにちわ"]},
+  {id:"good-morning", jp:"おはようございます", ro:"o-ha-yō go-za-i-mas", like:"oh-hah-yoh go-zye-mahss", en:"Good morning",
+   when:"Use it instead of “konnichiwa” until about 10am.",
+   ok:["おはようございます","お早うございます","おはよう御座います"]},
   {id:"excuse-me", jp:"すみません", ro:"su-mi-ma-sen", like:"soo-mee-mah-sen", en:"Excuse me / sorry",
    when:"Getting someone's attention, squeezing past on a train, a light apology. The one you'll use most.",
    ok:["すみません","すいません","済みません"]},
@@ -134,24 +138,57 @@ const P = [
   {id:"this-one", jp:"これをください", ro:"ko-re o ku-da-sai", like:"koh-reh oh koo-dah-sigh", en:"This one, please",
    when:"While pointing at a menu photo or something in a shop.",
    ok:["これをください","これを下さい","これください","これ下さい"]},
+  {id:"dont-understand", jp:"わかりません", ro:"wa-ka-ri-ma-sen", like:"wah-kah-ree-mah-sen", en:"I don't understand",
+   when:"Tells someone to slow down, or to point instead.",
+   ok:["わかりません","分かりません","解りません","判りません"]},
+  {id:"once-more", jp:"もう一度お願いします", ro:"mō i-chi-do o-ne-gai-shi-mas", like:"moh ee-chee-doh oh-neh-guy-shee-mahss", en:"Once more, please",
+   when:"When you didn't catch it. Pairs well with the one above.",
+   ok:["もう一度お願いします","もういちどおねがいします","もう1度お願いします","もう一度おねがいします"]},
   {id:"english-ok", jp:"英語は大丈夫ですか", ro:"ei-go wa dai-jō-bu des ka", like:"ay-go wah dye-joh-boo dess kah", en:"Is English OK?",
    when:"A polite opener before switching to English.",
    ok:["英語は大丈夫ですか","えいごはだいじょうぶですか","英語大丈夫ですか"]},
+  {id:"how-much", jp:"いくらですか", ro:"i-ku-ra des ka", like:"ee-koo-rah dess kah", en:"How much is it?",
+   when:"Markets, stalls, anything without a price tag. Point at the item as you ask.",
+   ok:["いくらですか","幾らですか","これいくらですか","これはいくらですか"]},
+  {id:"card-ok", jp:"カードは使えますか", ro:"kā-do wa tsu-ka-e-mas ka", like:"kah-doh wah tsoo-kah-eh-mahss kah", en:"Can I pay by card?",
+   when:"Ask before you order. Plenty of small ramen shops and cafes are still cash only.",
+   ok:["カードは使えますか","カード使えますか","カードはつかえますか","カードで払えますか"]},
+  {id:"just-looking", jp:"見ているだけです", ro:"mi-te i-ru da-ke des", like:"mee-teh ee-roo dah-keh dess", en:"I'm just looking",
+   when:"When staff come over in a shop and you're only browsing.",
+   ok:["見ているだけです","見てるだけです","みているだけです","見ているだけ","見てるだけ"]},
+  {id:"try-on", jp:"試着してもいいですか", ro:"shi-cha-ku shi-te mo ii des ka", like:"shee-chah-koo shteh moh ee dess kah", en:"Can I try this on?",
+   when:"Hold up the item as you ask. Some shops want shoes off in the fitting room.",
+   ok:["試着してもいいですか","試着しても良いですか","試着してもよいですか","しちゃくしてもいいですか","試着いいですか"]},
+  {id:"tax-free", jp:"免税できますか", ro:"men-zei de-ki-mas ka", like:"men-zay deh-kee-mahss kah", en:"Can I buy this tax-free?",
+   when:"On bigger purchases. It saves 10%, and they'll need your passport.",
+   ok:["免税できますか","免税出来ますか","めんぜいできますか"]},
   {id:"restroom", jp:"トイレはどこですか", ro:"to-i-re wa do-ko des ka", like:"toh-ee-reh wah doh-koh dess kah", en:"Where is the restroom?",
    when:"Swap the first word for any place: “eki” for station, “deguchi” for exit.",
    ok:["トイレはどこですか","トイレは何処ですか","トイレどこですか","といれはどこですか"]},
+  {id:"train-asakusa", jp:"この電車は浅草に行きますか", ro:"ko-no den-sha wa a-sa-ku-sa ni i-ki-mas ka", like:"koh-noh den-shah wah ah-sah-koo-sah nee ee-kee-mahss kah", en:"Does this train go to Asakusa?",
+   when:"On the platform or to station staff. Swap “Asakusa” for any station name.",
+   ok:["この電車は浅草に行きますか","この電車は浅草にいきますか","この電車は浅草へ行きますか","この電車浅草に行きますか","このでんしゃはあさくさにいきますか"]},
   {id:"photo-ok", jp:"写真、いいですか", ro:"sha-shin, ii des ka", like:"shah-sheen, ee dess kah", en:"Is a photo OK?",
    when:"Before photographing a person, a shopfront or a stall. Hold up the camera as you ask.",
    ok:["写真いいですか","写真良いですか","しゃしんいいですか","写真はいいですか"]},
   {id:"im-fine", jp:"大丈夫です", ro:"dai-jō-bu des", like:"dye-joh-boo dess", en:"I'm fine / no thank you",
    when:"Turning down a bag, a receipt, a refill or an offer of help.",
    ok:["大丈夫です","だいじょうぶです"]},
+  {id:"reservation", jp:"予約しています", ro:"yo-ya-ku shi-te i-mas", like:"yoh-yah-koo shteh ee-mahss", en:"I have a reservation",
+   when:"At a restaurant, a ticketed exhibit or a class. Follow it with your name.",
+   ok:["予約しています","予約してます","よやくしています"]},
   {id:"two-people", jp:"二人です", say:"ふたりです", ro:"fu-ta-ri des", like:"f'tah-ree dess", en:"Two people",
    when:"At a restaurant door when staff ask how many. Hold up two fingers too.",
    ok:["二人です","2人です","ふたりです","２人です"]},
+  {id:"recommend", jp:"おすすめは何ですか", ro:"o-su-su-me wa nan des ka", like:"oh-soo-soo-meh wah nahn dess kah", en:"What do you recommend?",
+   when:"At a ramen counter or an izakaya. It usually gets the staff talking.",
+   ok:["おすすめは何ですか","おすすめはなんですか","お勧めは何ですか","お薦めは何ですか","オススメは何ですか","おすすめ何ですか"]},
   {id:"itadakimasu", jp:"いただきます", ro:"i-ta-da-ki-mas", like:"ee-tah-dah-kee-mahss", en:"Thanks for the meal (before eating)",
    when:"Said just before the first bite, often with hands together.",
    ok:["いただきます","頂きます","戴きます"]},
+  {id:"delicious", jp:"おいしい！", ro:"o-i-shii", like:"oy-shee", en:"Delicious!",
+   when:"Say it with your first mouthful. The cook will like hearing it.",
+   ok:["おいしい","美味しい","おいしいです","美味しいです"]},
   {id:"gochisosama", jp:"ごちそうさまでした", ro:"go-chi-sō-sa-ma desh-ta", like:"go-chee-soh-sah-mah desh-tah", en:"Thanks for the meal (after eating)",
    when:"To the staff or the cook as you leave a restaurant.",
    ok:["ごちそうさまでした","ご馳走様でした","ご馳走さまでした","御馳走様でした"]},
