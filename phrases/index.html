@@ -43,14 +43,18 @@ button:focus-visible{outline:3px solid var(--line); outline-offset:2px}
 .modes{display:flex; gap:0; border:2px solid var(--ink); border-radius:999px; padding:3px; margin-bottom:.6rem; background:var(--plate)}
 .modes button{flex:1; min-height:44px; border:0; background:none; border-radius:999px; font-weight:700}
 .modes button[aria-pressed="true"]{background:var(--ink); color:var(--plate)}
-.count{margin:0 0 .8rem; color:var(--muted); font-size:.92rem}
+/* jump-to-phrase bar, pinned while scrolling */
+.jump{position:sticky; top:env(safe-area-inset-top,0px); z-index:5; background:var(--ground); padding:.5rem 0 .6rem; margin:0 0 .3rem}
+.jump .pick{position:relative}
+.jump .pick::after{content:""; position:absolute; right:1rem; top:50%; width:.55rem; height:.55rem; border:solid var(--ink); border-width:0 2.5px 2.5px 0; transform:translateY(-70%) rotate(45deg); pointer-events:none}
+.jump select{-webkit-appearance:none; appearance:none; width:100%; min-height:46px; padding:0 2.6rem 0 .9rem; border:2px solid var(--ink); border-radius:8px; background:var(--plate); color:var(--ink); font:inherit; font-weight:700; font-size:1rem}
+.jump select:focus-visible{outline:3px solid var(--line); outline-offset:2px}
 .notice{background:var(--plate); border-left:6px solid var(--line); padding:.7rem .9rem; margin:0 0 1.1rem; font-size:.92rem; border-radius:4px}
 
 /* station-sign phrase */
-.phrase{margin:0 0 1.15rem}
+.phrase{margin:0 0 1.15rem; scroll-margin-top:calc(env(safe-area-inset-top,0px) + 4.6rem)}
 .sign{background:var(--plate); border:2px solid var(--ink); border-radius:8px; overflow:hidden; text-align:center}
-.sign .jp{font-size:clamp(1.35rem,6vw,1.85rem); font-weight:900; line-height:1.25; padding:.6rem .75rem .05rem; word-break:keep-all; overflow-wrap:anywhere}
-.sign .ro{font-size:.98rem; font-weight:700; padding:0 .75rem .5rem; letter-spacing:.01em}
+.sign .ro{font-size:clamp(1.3rem,5.6vw,1.7rem); font-weight:900; line-height:1.25; padding:.65rem .75rem .6rem; letter-spacing:.01em; overflow-wrap:anywhere}
 .sign .band{background:var(--line); color:var(--on-line); font-weight:700; padding:.3rem .75rem; font-size:.97rem}
 .phrase.got .sign .band{background:var(--ok); color:#fff}
 :root[data-theme="dark"] .phrase.got .sign .band{color:#0F1A2E}
@@ -80,8 +84,7 @@ button:focus-visible{outline:3px solid var(--line); outline-offset:2px}
 .opts button.wrong{border-color:var(--bad); color:var(--bad)}
 .opts button:disabled{cursor:default}
 .reveal{margin:1rem 0 0; text-align:center}
-.reveal .jp{font-size:1.5rem; font-weight:900}
-.reveal .ro{font-weight:700}
+.reveal .ro{font-size:1.5rem; font-weight:900}
 .score{margin:.9rem 0 0; color:var(--muted); font-size:.92rem; text-align:center}
 [hidden]{display:none!important}
 </style>
@@ -100,7 +103,9 @@ button:focus-visible{outline:3px solid var(--line); outline-offset:2px}
   <p class="notice" id="mic-note" hidden>The speaking check isn't available in this browser. Open this page in Safari or Chrome to use it. Listening and the ear test work here.</p>
 
   <section id="learn">
-    <p class="count" id="count"></p>
+    <div class="jump">
+      <label class="pick"><span hidden>Jump to a phrase</span><select id="jump" aria-label="Jump to a phrase"></select></label>
+    </div>
     <div id="list"></div>
   </section>
 
@@ -236,9 +241,12 @@ let got = new Set();
 try{ got = new Set(JSON.parse(localStorage.getItem(GOT_KEY) || "[]").filter(id => P.some(p => p.id === id))); }catch(e){}
 function saveGot(){ try{ localStorage.setItem(GOT_KEY, JSON.stringify([...got])); }catch(e){} }
 function showCount(){
-  $("count").textContent = got.size === 0 ? "Mark a phrase “Got it” once it feels easy."
-    : got.size === P.length ? "All of them down. Try the ear test."
-    : got.size + " of " + P.length + " down.";
+  const sel = $("jump");
+  sel.innerHTML = "";
+  const head = new Option("Jump to a phrase" + (got.size === 0 ? "" : got.size === P.length ? " · all " + P.length + " down" : " · " + got.size + " of " + P.length + " down"), "");
+  sel.add(head);
+  P.forEach((p, i) => sel.add(new Option((got.has(p.id) ? "✓ " : "") + (i + 1) + ". " + p.en + " · " + p.ro, p.id)));
+  sel.value = "";
 }
 
 /* ---------- speech in ---------- */
@@ -312,8 +320,9 @@ function build(){
   P.forEach(p => {
     const el = document.createElement("article");
     el.className = "phrase" + (got.has(p.id) ? " got" : "");
+    el.id = "phrase-" + p.id;
     el.innerHTML =
-      '<div class="sign"><div class="jp" lang="ja">' + p.jp + '</div><div class="ro">' + p.ro + '</div><div class="band">' + p.en + '</div></div>' +
+      '<div class="sign"><div class="ro">' + p.ro + '</div><div class="band">' + p.en + '</div></div>' +
       '<p class="like">Say it like <b>' + p.like + '</b></p>' +
       '<p class="when">' + p.when + '</p>' +
       '<div class="acts"><button class="hear">Hear it</button><button class="slow">Slow</button>' +
@@ -338,6 +347,11 @@ function build(){
   showCount();
 }
 build();
+$("jump").onchange = e => {
+  const el = $("phrase-" + e.target.value);
+  e.target.value = "";
+  if(el) el.scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block:"start"});
+};
 
 /* ---------- ear test ---------- */
 let cur = -1, right = 0, asked = 0, answered = true;
@@ -366,7 +380,7 @@ function answer(i, b){
   if(i === cur){ right++; b.classList.add("right"); }
   else{ b.classList.add("wrong"); btns.find(x => x.textContent === P[cur].en).classList.add("right"); }
   const rv = $("q-reveal");
-  rv.innerHTML = '<div class="jp" lang="ja">' + P[cur].jp + '</div><div class="ro">' + P[cur].ro + '</div>';
+  rv.innerHTML = '<div class="ro">' + P[cur].ro + '</div>';
   rv.hidden = false;
   $("q-score").textContent = right + " of " + asked + " right";
   $("q-play").textContent = "Next phrase"; $("q-play").hidden = false;
