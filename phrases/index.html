@@ -243,14 +243,21 @@ function showCount(){
 
 /* ---------- speech in ---------- */
 const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+// Every iPhone browser exposes the API, but outside Safari it usually never gets the mic.
+const IOS = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+const IOS_OTHER = IOS && (/CriOS|FxiOS|EdgiOS|OPiOS|GSA\/|DuckDuckGo|FBAN|FBAV|Instagram|Line\//.test(navigator.userAgent) || !!navigator.brave);
+const OPEN_SAFARI = "On iPhone the speaking check only works in Safari. Open this page in Safari to use it. Listening and the ear test work here.";
 if(!SR) $("mic-note").hidden = false;
+else if(IOS_OTHER){ $("mic-note").textContent = OPEN_SAFARI; $("mic-note").hidden = false; }
 let active = null;
 function listen(p, btn, fb){
   if(active){ try{ active.abort(); }catch(e){} }
   if("speechSynthesis" in window){ speechSynthesis.cancel(); clearTimeout(speakTimer); }
   const r = new SR(); active = r;
   r.lang = "ja-JP"; r.interimResults = false; r.maxAlternatives = 5;
-  let done = false;
+  let done = false, heard = false;
+  const started = Date.now();
+  r.onaudiostart = () => { heard = true; };
   const reset = () => { btn.classList.remove("listening"); btn.textContent = "Say it"; if(active === r) active = null; };
   btn.classList.add("listening"); btn.textContent = "Listening…";
   fb.className = "fb"; fb.textContent = "";
@@ -268,11 +275,20 @@ function listen(p, btn, fb){
   r.onerror = e => {
     done = true; fb.className = "fb bad";
     fb.textContent = (e.error === "not-allowed" || e.error === "service-not-allowed")
-      ? "The microphone is blocked here. Open this page in Safari or Chrome and allow the mic."
+      ? (IOS && !IOS_OTHER ? "The microphone or speech recognition is off. Allow the mic for this site, and turn on Dictation under Settings, General, Keyboard."
+        : IOS ? OPEN_SAFARI : "The microphone is blocked here. Allow the mic for this site and try again.")
       : e.error === "no-speech" ? "Didn't catch anything. Tap, then speak right away."
       : "The speaking check didn't run (" + e.error + "). Try again.";
   };
-  r.onend = () => { reset(); if(!done){ fb.className = "fb bad"; fb.textContent = "Didn't catch anything. Tap, then speak right away."; } };
+  r.onend = () => {
+    reset();
+    if(done) return;
+    fb.className = "fb bad";
+    // Ending at once without ever opening the mic means recognition isn't really available here.
+    fb.textContent = !heard && Date.now() - started < 1500
+      ? (IOS ? OPEN_SAFARI : "The speaking check didn't start in this browser. Try Safari or Chrome.")
+      : "Didn't catch anything. Tap, then speak right away.";
+  };
   try{ r.start(); }catch(e){ reset(); fb.className = "fb bad"; fb.textContent = "The speaking check couldn't start in this browser."; }
 }
 
