@@ -1,0 +1,807 @@
+/* ==========================================================================
+   Tokyo Photo Map
+   Builds on the Field Guide's design system (../assets/styles.css): same paper
+   ground, display face, chips and buttons. This file is only the layout of the
+   show itself: map, rail, pins, gallery, lightbox.
+   ========================================================================== */
+
+/* Masthead links on this page are plain anchors styled as tabs. */
+.tab--link {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.show {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 0 1rem 3rem;
+}
+
+/* ------------------------------------------------------------- controls */
+
+.show__controls {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 0;
+  background: var(--paper);
+  border-bottom: 1px solid var(--rule);
+}
+
+.show__controls .chips--days {
+  flex: 1;
+  min-width: 0;
+}
+
+.show__tour {
+  flex: none;
+  min-height: 2rem;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.78rem;
+  gap: 0.35rem;
+}
+
+.show__tour svg {
+  width: 0.7rem;
+  height: 0.7rem;
+  fill: currentColor;
+}
+
+.notice {
+  margin: 0.9rem 0 0;
+  padding: 0.6rem 0.8rem;
+  border: 1px dashed var(--rule-strong);
+  border-radius: var(--radius);
+  background: #fff8e6;
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+}
+
+.notice strong {
+  color: var(--ink);
+}
+
+/* --------------------------------------------------------------- layout */
+
+.show__layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.show__map {
+  position: relative;
+}
+
+#map {
+  height: min(50vh, 520px);
+  background: #e8e4da;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.map__hint {
+  position: absolute;
+  left: 0.6rem;
+  bottom: 0.6rem;
+  z-index: 500;
+  margin: 0;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(247, 244, 237, 0.92);
+  border: 1px solid var(--rule);
+  font-size: 0.7rem;
+  color: var(--ink-muted);
+  pointer-events: none;
+}
+
+@media (min-width: 60rem) {
+  .show__layout {
+    grid-template-columns: minmax(0, 1.3fr) minmax(21rem, 1fr);
+    align-items: start;
+    gap: 1.25rem;
+  }
+
+  .show__map {
+    position: sticky;
+    top: 3.6rem;
+  }
+
+  #map {
+    height: calc(100vh - 6rem);
+    min-height: 28rem;
+  }
+}
+
+/* ----------------------------------------------------------------- pins */
+
+/* Leaflet wraps the icon html in a sized div; the pin fills it. */
+.photopin {
+  --ring: #fff;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 3px solid var(--ring);
+  background: #d9d3c7;
+  box-shadow: 0 0 0 1.5px rgba(26, 24, 21, 0.35), 0 6px 12px -6px rgba(26, 24, 21, 0.6);
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.photopin img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.photopin:hover {
+  transform: scale(1.08);
+}
+
+.photopin__count {
+  position: absolute;
+  top: -0.45rem;
+  right: -0.55rem;
+  min-width: 1.3rem;
+  height: 1.3rem;
+  padding: 0 0.3rem;
+  border-radius: 999px;
+  border: 2px solid var(--paper);
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-body);
+  font-size: 0.66rem;
+  font-weight: 700;
+  line-height: 1.1rem;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+/* A cluster reads as a small stack of prints. */
+.photopin--cluster::before,
+.photopin--cluster::after {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  background: #c9c2b4;
+  z-index: -1;
+  box-shadow: 0 0 0 1px rgba(26, 24, 21, 0.25);
+}
+
+.photopin--cluster::before {
+  transform: translate(5px, -4px);
+}
+
+.photopin--cluster::after {
+  transform: translate(9px, -8px);
+  opacity: 0.7;
+}
+
+.photopin--active {
+  --ring: var(--ink);
+  transform: scale(1.22);
+  box-shadow: 0 0 0 3px var(--paper), 0 0 0 5px var(--ink), 0 10px 18px -8px rgba(26, 24, 21, 0.7);
+}
+
+.photopin--active:hover {
+  transform: scale(1.22);
+}
+
+/* A stop we planned but have no photos from. */
+.dotpin {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px solid var(--ink-muted);
+  background: var(--paper);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+
+.dotpin--active {
+  border-color: var(--ink);
+  background: var(--ink);
+}
+
+.leaflet-marker-icon.pin--active {
+  z-index: 1000 !important;
+}
+
+/* ------------------------------------------------------------------ rail */
+
+.rail {
+  min-width: 0;
+}
+
+.rail__head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.6rem;
+}
+
+.rail__kicker {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-faint);
+  width: 100%;
+}
+
+.rail__title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.45rem;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  margin: 0;
+  flex: 1;
+}
+
+.rail__count {
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.rail__back {
+  appearance: none;
+  border: 0;
+  background: none;
+  padding: 0;
+  margin: 0 0 0.6rem;
+  font-size: 0.8rem;
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+/* Day overview: one card per day. */
+.daycards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
+  gap: 0.7rem;
+}
+
+.daycard {
+  appearance: none;
+  position: relative;
+  aspect-ratio: 4 / 3;
+  border: 0;
+  padding: 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--ink);
+  color: #fff;
+  text-align: left;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+
+.daycard img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+  transition: transform 0.3s ease;
+}
+
+.daycard:hover img {
+  transform: scale(1.04);
+}
+
+.daycard__text {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 1.6rem 0.7rem 0.6rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0));
+}
+
+.daycard__date {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  opacity: 0.85;
+}
+
+.daycard__title {
+  display: block;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.98rem;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin-top: 0.1rem;
+}
+
+.daycard__count {
+  display: block;
+  font-size: 0.7rem;
+  opacity: 0.8;
+  margin-top: 0.15rem;
+}
+
+.daycard--empty {
+  background: var(--paper-raised);
+  color: var(--ink);
+  border: 1px dashed var(--rule-strong);
+  box-shadow: none;
+}
+
+.daycard--empty .daycard__text {
+  background: none;
+}
+
+/* Timeline of a day: time, a dot on a rule, the stop and its strip. */
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.stoprow {
+  display: grid;
+  grid-template-columns: 2.9rem 0.9rem minmax(0, 1fr);
+  column-gap: 0.55rem;
+  position: relative;
+}
+
+.stoprow__time {
+  padding-top: 0.55rem;
+  font-size: 0.76rem;
+  color: var(--ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.stoprow__dot {
+  position: relative;
+  padding-top: 0.75rem;
+}
+
+.stoprow__dot::before {
+  content: '';
+  position: absolute;
+  left: calc(50% - 1px);
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--rule);
+}
+
+.stoprow:first-child .stoprow__dot::before {
+  top: 0.75rem;
+}
+
+.stoprow:last-child .stoprow__dot::before {
+  bottom: auto;
+  height: 0.75rem;
+}
+
+.stoprow__dot i {
+  --accent: var(--theme-core);
+  position: relative;
+  display: block;
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2px solid var(--paper);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+
+.stoprow--empty .stoprow__dot i {
+  background: var(--paper);
+}
+
+.stoprow__body {
+  padding: 0.5rem 0 0.8rem;
+  min-width: 0;
+}
+
+.stoprow__name {
+  appearance: none;
+  border: 0;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  font-weight: 650;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+  line-height: 1.3;
+}
+
+.stoprow__name:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.stoprow__meta {
+  font-size: 0.76rem;
+  color: var(--ink-muted);
+}
+
+.stoprow--empty .stoprow__name {
+  color: var(--ink-muted);
+  font-weight: 500;
+}
+
+.strip {
+  display: flex;
+  gap: 0.3rem;
+  margin-top: 0.45rem;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  padding-bottom: 0.1rem;
+}
+
+.strip::-webkit-scrollbar {
+  display: none;
+}
+
+.strip a {
+  flex: none;
+  display: block;
+  height: 4.5rem;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #d9d3c7;
+}
+
+.strip img {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
+.strip__more {
+  flex: none;
+  display: grid;
+  place-items: center;
+  height: 4.5rem;
+  min-width: 3.4rem;
+  padding: 0 0.5rem;
+  border-radius: 6px;
+  border: 1px solid var(--rule-strong);
+  background: none;
+  font-size: 0.78rem;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+/* One stop: its card, then every photo from it. */
+.stopcard {
+  --accent: var(--theme-core);
+  background: var(--paper-raised);
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 0.85rem 0.9rem;
+  box-shadow: var(--shadow);
+  margin-bottom: 0.8rem;
+}
+
+.stopcard__tags {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.3rem;
+}
+
+.stopcard__time {
+  font-size: 0.74rem;
+  color: var(--ink-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.stopcard__name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.stopcard__note {
+  margin: 0.35rem 0 0;
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+}
+
+.stopcard__actions {
+  display: flex;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+  margin-top: 0.7rem;
+}
+
+.stopcard__actions .button {
+  min-height: 2rem;
+  padding: 0.3rem 0.65rem;
+  font-size: 0.78rem;
+}
+
+/* Justified rows: each tile grows by its aspect ratio, so rows fill edge to
+   edge and nothing is cropped into a square. */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.gallery::after {
+  content: '';
+  flex-grow: 999;
+}
+
+.gallery a {
+  position: relative;
+  flex-grow: calc(var(--w) / var(--h) * 100);
+  flex-basis: calc(var(--w) / var(--h) * 140px);
+  border-radius: 4px;
+  overflow: hidden;
+  background: #d9d3c7;
+}
+
+.gallery a::before {
+  content: '';
+  display: block;
+  padding-bottom: calc(var(--h) / var(--w) * 100%);
+}
+
+.gallery img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery a:focus-visible {
+  outline-offset: -3px;
+}
+
+.rail__empty {
+  margin: 0;
+  padding: 1.5rem 0;
+  font-size: 0.85rem;
+  color: var(--ink-faint);
+  font-style: italic;
+}
+
+/* -------------------------------------------------------------- lightbox */
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100dvh;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: #0f0e0c;
+  color: #fff;
+  overflow: hidden;
+}
+
+.lightbox::backdrop {
+  background: #000;
+}
+
+.lightbox__stage {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 3.2rem 0 4.6rem;
+  touch-action: pan-y;
+}
+
+.lightbox__stage img {
+  max-width: 100vw;
+  max-height: calc(100dvh - 7.8rem);
+  object-fit: contain;
+  display: block;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.lightbox__bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 0.8rem;
+  padding-top: calc(0.7rem + env(safe-area-inset-top, 0px));
+}
+
+.lightbox__bar--top {
+  top: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0));
+}
+
+.lightbox__counter {
+  font-size: 0.78rem;
+  opacity: 0.8;
+  font-variant-numeric: tabular-nums;
+  margin-right: auto;
+}
+
+.lightbox__btn {
+  appearance: none;
+  display: inline-grid;
+  place-items: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(0, 0, 0, 0.35);
+  color: #fff;
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+}
+
+.lightbox__btn svg {
+  width: 1rem;
+  height: 1rem;
+  fill: currentColor;
+}
+
+.lightbox__btn[aria-pressed='true'] {
+  background: #fff;
+  color: #0f0e0c;
+}
+
+.lightbox__nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.lightbox__nav--prev {
+  left: 0.6rem;
+}
+
+.lightbox__nav--next {
+  right: 0.6rem;
+}
+
+.lightbox__caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1.6rem 1rem 1rem;
+  padding-bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+  pointer-events: none;
+}
+
+.lightbox__place {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.lightbox__when {
+  margin: 0.15rem 0 0;
+  font-size: 0.78rem;
+  opacity: 0.8;
+}
+
+.lightbox__text {
+  margin: 0.4rem 0 0;
+  font-size: 0.88rem;
+  max-width: 60ch;
+}
+
+@media (hover: none) {
+  .lightbox__nav {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .photopin,
+  .daycard img {
+    transition: none;
+  }
+}
+
+/* Popup listing the stops that share one address. */
+.cluster-popup .leaflet-popup-content {
+  width: 15rem !important;
+  margin: 0.6rem 0.7rem;
+}
+
+.cluster-list__head {
+  margin: 0 0 0.3rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-faint);
+}
+
+.cluster-list__row {
+  appearance: none;
+  display: grid;
+  grid-template-columns: 0.6rem 1fr auto;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.4rem 0;
+  border: 0;
+  border-bottom: 1px dashed var(--rule);
+  background: none;
+  font: inherit;
+  font-size: 0.84rem;
+  font-weight: 600;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+}
+
+.cluster-list__row:last-child {
+  border-bottom: 0;
+}
+
+.cluster-list__row i {
+  display: block;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+}
+
+.cluster-list__row small {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--ink-muted);
+}
+
+.dotpin {
+  position: relative;
+}
+
+/* Phone: the map stays pinned under the day row while the rail scrolls. */
+@media (max-width: 59.99rem) {
+  .show__map {
+    position: sticky;
+    top: 3.3rem;
+    z-index: 25;
+  }
+
+  #map {
+    height: min(44vh, 460px);
+  }
+}

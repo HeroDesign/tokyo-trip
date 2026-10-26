@@ -5,3 +5,5 @@ Thumbs.db
 *.log
 scripts/.cache/
 dist/
+# Raw iPhone exports go here before scripts/ingest-photos.mjs; never committed.
+photos/import/

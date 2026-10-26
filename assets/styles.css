@@ -142,7 +142,8 @@ select {
   align-self: flex-end;
 }
 
-.tab {
+.tab,
+.tab-link {
   appearance: none;
   background: none;
   border: 0;
@@ -158,6 +159,16 @@ select {
   color: var(--ink);
   border-bottom-color: var(--ink);
   font-weight: 600;
+}
+
+/* A link out to a standalone page (Photos), dressed like a tab. */
+.tab-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.tab-link:hover {
+  color: var(--ink);
 }
 
 /* ----------------------------------------------------------------- layout */
