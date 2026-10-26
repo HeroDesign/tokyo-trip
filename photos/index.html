@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Tokyo Photo Map</title>
+    <meta
+      name="description"
+      content="Every photo from Alan and Ever's Tokyo trip, 17–25 October 2026, on the map where it was taken. Pick a day, tap a stop, flip through."
+    />
+    <meta property="og:title" content="Tokyo Photo Map" />
+    <meta property="og:description" content="Every photo from the Tokyo trip, on the map where it was taken." />
+    <meta name="theme-color" content="#f7f4ed" />
+
+    <link rel="preload" as="font" type="font/woff2" href="../assets/fonts/bricolage-grotesque-latin.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="../assets/fonts/inter-latin.woff2" crossorigin />
+    <link rel="stylesheet" href="../assets/fonts/fonts.css" />
+    <link rel="stylesheet" href="../vendor/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="../assets/styles.css" />
+    <link rel="stylesheet" href="photos.css" />
+    <link rel="icon" href="../assets/icon.svg" type="image/svg+xml" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#rail">Skip to the photos</a>
+
+    <header class="masthead">
+      <div class="masthead__inner">
+        <div class="masthead__titles">
+          <h1 class="masthead__title">Tokyo Photo Map</h1>
+          <p class="masthead__meta" data-meta>Alan &amp; Ever &middot; 17&ndash;25 Oct 2026</p>
+        </div>
+        <nav class="tabs" aria-label="Other pages">
+          <a class="tab tab--link" href="../">Field Guide</a>
+          <a class="tab tab--link" href="../phrases/">Phrases</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="show">
+      <div class="show__controls">
+        <span class="map__days-label" id="day-label">Day</span>
+        <div class="chips chips--days" data-day-chips role="group" aria-labelledby="day-label"></div>
+        <button class="button show__tour" type="button" data-tour title="Play the photos as a slideshow">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l12-7.5z"/></svg>
+          Tour
+        </button>
+      </div>
+
+      <p class="notice" data-notice>
+        <strong>First pass, stand-in photos.</strong> Stops are your plan's day assignments; pictures are
+        the guide's photos of those places, cropped a few ways. Your iPhone photos drop in next.
+      </p>
+
+      <div class="show__layout">
+        <div class="show__map">
+          <div id="map" role="application" aria-label="Map of the trip's stops and photos"></div>
+          <p class="map__hint" data-hint>Tap a pin &middot; stacks split as you zoom</p>
+        </div>
+
+        <aside class="rail" id="rail" aria-live="polite" data-rail></aside>
+      </div>
+    </main>
+
+    <dialog class="lightbox" data-lightbox aria-label="Photo viewer">
+      <div class="lightbox__bar lightbox__bar--top">
+        <span class="lightbox__counter" data-lb-counter></span>
+        <button class="lightbox__btn" type="button" data-lb-play aria-pressed="false" aria-label="Play slideshow" title="Play / pause (space)">
+          <svg viewBox="0 0 24 24" aria-hidden="true" data-icon-play><path d="M7 4.5v15l12-7.5z"/></svg>
+          <svg viewBox="0 0 24 24" aria-hidden="true" data-icon-pause hidden><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg>
+        </button>
+        <button class="lightbox__btn" type="button" data-lb-close aria-label="Close" title="Close (esc)">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.3 5.7 12 12l6.3 6.3-1.4 1.4L10.6 13.4 4.3 19.7 2.9 18.3 9.2 12 2.9 5.7l1.4-1.4 6.3 6.3 6.3-6.3z"/></svg>
+        </button>
+      </div>
+
+      <div class="lightbox__stage" data-lb-stage>
+        <img alt="" data-lb-img />
+      </div>
+
+      <button class="lightbox__btn lightbox__nav lightbox__nav--prev" type="button" data-lb-prev aria-label="Previous photo">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.4 4.6 8 12l7.4 7.4 1.4-1.4-6-6 6-6z"/></svg>
+      </button>
+      <button class="lightbox__btn lightbox__nav lightbox__nav--next" type="button" data-lb-next aria-label="Next photo">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8.6 4.6 7.4 7.4-7.4 7.4-1.4-1.4 6-6-6-6z"/></svg>
+      </button>
+
+      <div class="lightbox__caption">
+        <p class="lightbox__place" data-lb-place></p>
+        <p class="lightbox__when" data-lb-when></p>
+        <p class="lightbox__text" data-lb-text hidden></p>
+      </div>
+    </dialog>
+
+    <footer class="colophon">
+      <p data-colophon>
+        Stand-in photos are the guide's Wikimedia Commons and Wikipedia photos, or crops of them, credited per
+        place in <code>data/image-credits.json</code>. Map tiles &copy; Esri. Built on the
+        <a href="../">Tokyo Field Guide</a>.
+      </p>
+    </footer>
+
+    <script src="../vendor/leaflet/leaflet.js"></script>
+    <script type="module" src="photos.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1154 @@
+{
+  "title": "Tokyo",
+  "travellers": "Alan & Ever",
+  "timezone": "Asia/Tokyo",
+  "source": "DEMO: stops are the day assignments from data/my-settings.json, in plan order, with made-up times. Replace with the itinerary export.",
+  "days": [
+    {
+      "id": "2026-10-17",
+      "title": "Land, then Asakusa",
+      "stops": [
+        {
+          "id": "2026-10-17-kaminarimon",
+          "placeId": "kaminarimon",
+          "name": "Kaminarimon",
+          "area": "Asakusa",
+          "coords": [
+            35.7111,
+            139.7964
+          ],
+          "time": "17:30",
+          "note": "The iconic Thunder Gate marking the entrance to Senso-ji and Nakamise-dori."
+        },
+        {
+          "id": "2026-10-17-nakamise-dori",
+          "placeId": "nakamise-dori",
+          "name": "Nakamise-dori",
+          "area": "Asakusa",
+          "coords": [
+            35.7126,
+            139.7965
+          ],
+          "time": "18:30",
+          "note": "Historic shopping street running from Kaminarimon toward Senso-ji, lined with traditional snacks, souvenirs and small shops."
+        },
+        {
+          "id": "2026-10-17-hoppy-street",
+          "placeId": "hoppy-street",
+          "name": "Hoppy Street",
+          "area": "Asakusa",
+          "coords": [
+            35.7145,
+            139.794
+          ],
+          "time": "19:30",
+          "note": "Open-front izakaya row"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-18",
+      "title": "Asakusa morning, Shinjuku cameras",
+      "stops": [
+        {
+          "id": "2026-10-18-senso-ji",
+          "placeId": "senso-ji",
+          "name": "Senso-ji",
+          "area": "Asakusa",
+          "coords": [
+            35.7148,
+            139.7967
+          ],
+          "time": "09:30",
+          "note": "Tokyo's oldest temple + Nakamise street"
+        },
+        {
+          "id": "2026-10-18-asakusa-free-deck",
+          "placeId": "asakusa-free-deck",
+          "name": "Asakusa free deck",
+          "area": "Asakusa",
+          "coords": [
+            35.711,
+            139.7966
+          ],
+          "time": "10:36",
+          "note": "8F terrace at the Culture Center"
+        },
+        {
+          "id": "2026-10-18-taikokan-drum-museum",
+          "placeId": "taikokan-drum-museum",
+          "name": "Taikokan Drum Museum",
+          "area": "Nishi-Asakusa",
+          "coords": [
+            35.711,
+            139.79
+          ],
+          "time": "11:42",
+          "note": "Small specialist museum created by Miyamoto Unosuke Shoten with hundreds of Japanese and international drums, including instruments visitors can actually play."
+        },
+        {
+          "id": "2026-10-18-onigiri-asakusa-yadoroku",
+          "placeId": "onigiri-asakusa-yadoroku",
+          "name": "Onigiri Asakusa Yadoroku",
+          "area": "Asakusa",
+          "coords": [
+            35.7169,
+            139.7948
+          ],
+          "time": "12:48",
+          "note": "Tokyo's oldest onigiri shop, est. 1954, small counter behind Senso-ji"
+        },
+        {
+          "id": "2026-10-18-wanariya-indigo",
+          "placeId": "wanariya-indigo",
+          "name": "Wanariya indigo dyeing",
+          "area": "Senzoku",
+          "coords": [
+            35.72,
+            139.7915
+          ],
+          "time": "13:54",
+          "note": "Casual aizome studio at 1-8-10 Senzoku where you indigo-dye a tenugui (about ¥2,500) or a T-shirt (about ¥3,600) with stencils and wax in roughly 45 minutes; walk-ins taken."
+        },
+        {
+          "id": "2026-10-18-map-camera",
+          "placeId": "map-camera",
+          "name": "Map Camera",
+          "area": "Shinjuku",
+          "coords": [
+            35.6905,
+            139.6985
+          ],
+          "time": "15:00",
+          "note": "6 floors of graded used cameras"
+        },
+        {
+          "id": "2026-10-18-yodobashi-camera",
+          "placeId": "yodobashi-camera",
+          "name": "Yodobashi Camera",
+          "area": "Shinjuku",
+          "coords": [
+            35.6899,
+            139.6976
+          ],
+          "time": "16:06",
+          "note": "Mega electronics + film stock"
+        },
+        {
+          "id": "2026-10-18-kitamura-camera-shinjuku",
+          "placeId": "kitamura-camera-shinjuku",
+          "name": "Camera no Kitamura - Shinjuku",
+          "area": "Shinjuku",
+          "coords": [
+            35.6918,
+            139.7024
+          ],
+          "time": "17:12",
+          "note": "Multi-floor camera shop with junk section and dedicated Leica floor"
+        },
+        {
+          "id": "2026-10-18-sekaido",
+          "placeId": "sekaido",
+          "name": "Sekaido",
+          "area": "Shinjuku",
+          "coords": [
+            35.6925,
+            139.7051
+          ],
+          "time": "18:18",
+          "note": "5-floor discount art-supply store"
+        },
+        {
+          "id": "2026-10-18-shinjuku-gyoen",
+          "placeId": "shinjuku-gyoen",
+          "name": "Shinjuku Gyoen",
+          "area": "Shinjuku",
+          "coords": [
+            35.6852,
+            139.71
+          ],
+          "time": "19:24",
+          "note": "Former imperial garden with Japanese, English and French sections and a greenhouse; ¥500, closed Mondays, last entry 16:00 in October."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-19",
+      "title": "Taiko, Akihabara, Kanda",
+      "stops": [
+        {
+          "id": "2026-10-19-hibikus-asakusa-basement",
+          "placeId": "hibikus-asakusa-basement",
+          "name": "HIBIKUS Asakusa Basement",
+          "area": "Asakusa",
+          "coords": [
+            35.717,
+            139.8
+          ],
+          "time": "09:30",
+          "note": "Taiko school and workshop studio beneath the headquarters of historic Japanese drum maker Miyamoto Unosuke Shoten."
+        },
+        {
+          "id": "2026-10-19-taiko-no-tatsujin",
+          "placeId": "taiko-no-tatsujin",
+          "name": "Taiko no Tatsujin arcade",
+          "area": "Akihabara",
+          "coords": [
+            35.699,
+            139.7715
+          ],
+          "time": "10:30",
+          "note": "Arcade game with a real drum"
+        },
+        {
+          "id": "2026-10-19-wurlys-miyaji",
+          "placeId": "wurlys-miyaji",
+          "name": "Wurly's by Miyaji Music",
+          "area": "Akihabara",
+          "coords": [
+            35.699,
+            139.771
+          ],
+          "time": "11:30",
+          "note": "Newer modular/electronic shop"
+        },
+        {
+          "id": "2026-10-19-kanda-myojin",
+          "placeId": "kanda-myojin",
+          "name": "Kanda Myojin",
+          "area": "Sotokanda",
+          "coords": [
+            35.7019,
+            139.7679
+          ],
+          "time": "12:30",
+          "note": "Ornate shrine near Akihabara"
+        },
+        {
+          "id": "2026-10-19-yushima-seido",
+          "placeId": "yushima-seido",
+          "name": "Yushima Seido",
+          "area": "Ochanomizu",
+          "coords": [
+            35.7003,
+            139.7667
+          ],
+          "time": "13:30",
+          "note": "Confucian temple of black-lacquered halls in a cedar grove beside Ochanomizu station, with the largest Confucius statue in the world; free, about 9:30–16:00 in October."
+        },
+        {
+          "id": "2026-10-19-ochanomizu-music-street",
+          "placeId": "ochanomizu-music-street",
+          "name": "Ochanomizu music street",
+          "area": "Ochanomizu",
+          "coords": [
+            35.6995,
+            139.765
+          ],
+          "time": "14:30",
+          "note": "Blocks of instrument shops"
+        },
+        {
+          "id": "2026-10-19-shinohara-maruyoshi-furin",
+          "placeId": "shinohara-maruyoshi-furin",
+          "name": "Shinohara Maruyoshi Furin",
+          "area": "Okachimachi",
+          "coords": [
+            35.7068,
+            139.7797
+          ],
+          "time": "15:30",
+          "note": "One of the last two Edo furin makers, in the Satake shopping arcade near Shin-Okachimachi, with two workshops: blow your own glass bell and paint it, or paint a pre-blown one."
+        },
+        {
+          "id": "2026-10-19-jimbocho",
+          "placeId": "jimbocho",
+          "name": "Jimbocho",
+          "area": "Jimbocho",
+          "coords": [
+            35.6957,
+            139.7578
+          ],
+          "time": "16:30",
+          "note": "Kanda-Jimbocho, the world's largest concentration of secondhand bookshops: more than 130 of them along Yasukuni-dori and the lanes off it, most with their stock spilling onto outdoor racks, plus the old-school curry and coffee houses that grew up to feed the students and editors."
+        },
+        {
+          "id": "2026-10-19-ameyoko-market",
+          "placeId": "ameyoko-market",
+          "name": "Ameyoko Market",
+          "area": "Ueno",
+          "coords": [
+            35.7095,
+            139.7745
+          ],
+          "time": "17:30",
+          "note": "Open-air market food strip"
+        },
+        {
+          "id": "2026-10-19-ohya-shobo",
+          "placeId": "ohya-shobo",
+          "name": "Ohya Shobo",
+          "area": "Jimbocho",
+          "coords": [
+            35.6957,
+            139.757
+          ],
+          "time": "18:30",
+          "note": "Antiquarian dealer on Yasukuni-dori since 1882, selling original Edo-period woodblock books, ukiyo-e prints and old hand-coloured maps; 10:00-18:00, closed Sundays and public holidays."
+        },
+        {
+          "id": "2026-10-19-komiyama-shoten",
+          "placeId": "komiyama-shoten",
+          "name": "Komiyama Shoten",
+          "area": "Jimbocho",
+          "coords": [
+            35.6959,
+            139.7566
+          ],
+          "time": "19:30",
+          "note": "Four floors of art dealing on the Jimbocho main street: photobooks on the second floor, fashion magazines, art and design books, posters and prints above and below."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-20",
+      "title": "Kumihimo, Nakano, Shinjuku night",
+      "stops": [
+        {
+          "id": "2026-10-20-kumihimo-experience-by-domyo",
+          "placeId": "kumihimo-experience-by-domyo",
+          "name": "Kumihimo Experience by DOMYO",
+          "area": "Kagurazaka",
+          "coords": [
+            35.7041,
+            139.7355
+          ],
+          "time": "09:30",
+          "note": "Traditional silk-cord braiding workshop using authentic kumihimo equipment at a braiding house founded in 1652."
+        },
+        {
+          "id": "2026-10-20-koishikawa-korakuen",
+          "placeId": "koishikawa-korakuen",
+          "name": "Koishikawa Korakuen",
+          "area": "Iidabashi",
+          "coords": [
+            35.7057,
+            139.7503
+          ],
+          "time": "10:17",
+          "note": "Tokyo's oldest surviving Edo garden (1629), Chinese-influenced, with a full-moon bridge and a miniature Arashiyama; ¥300, 9:00–17:00."
+        },
+        {
+          "id": "2026-10-20-game-center-mikado",
+          "placeId": "game-center-mikado",
+          "name": "Game Center Mikado",
+          "area": "Takadanobaba",
+          "coords": [
+            35.713,
+            139.704
+          ],
+          "time": "11:04",
+          "note": "Floors of vintage arcade cabinets"
+        },
+        {
+          "id": "2026-10-20-fujiya-camera",
+          "placeId": "fujiya-camera",
+          "name": "Fujiya Camera",
+          "area": "Nakano",
+          "coords": [
+            35.708,
+            139.665
+          ],
+          "time": "11:51",
+          "note": "80-year dealer at Nakano Broadway"
+        },
+        {
+          "id": "2026-10-20-capyneko-cafe-kichijoji",
+          "placeId": "capyneko-cafe-kichijoji",
+          "name": "Capyneko Cafe Kichijoji",
+          "area": "Kichijoji",
+          "coords": [
+            35.7029,
+            139.5796
+          ],
+          "time": "12:38",
+          "note": "The original Capyneko location, combining free-roaming cats with a capybara in the same space."
+        },
+        {
+          "id": "2026-10-20-gotoku-ji",
+          "placeId": "gotoku-ji",
+          "name": "Gotoku-ji",
+          "area": "Setagaya",
+          "coords": [
+            35.649,
+            139.647
+          ],
+          "time": "13:25",
+          "note": "Soto Zen temple said to be the origin of the maneki-neko, with thousands of white beckoning cats stacked beside the pagoda; grounds free, about 6:00–18:00."
+        },
+        {
+          "id": "2026-10-20-tokyo-metropolitan-government-building",
+          "placeId": "tokyo-metropolitan-government-building",
+          "name": "Tokyo Metropolitan Government Building",
+          "area": "Shinjuku",
+          "coords": [
+            35.6896,
+            139.6917
+          ],
+          "time": "14:12",
+          "note": "Free observation decks at 202m in Tange's iconic twin towers, with panoramic views of Tokyo and Mt. Fuji on clear days."
+        },
+        {
+          "id": "2026-10-20-omoide-yokocho",
+          "placeId": "omoide-yokocho",
+          "name": "Omoide Yokocho",
+          "area": "Shinjuku",
+          "coords": [
+            35.6935,
+            139.6995
+          ],
+          "time": "14:59",
+          "note": "Smoky lantern alley of tiny counters"
+        },
+        {
+          "id": "2026-10-20-nakano-broadway",
+          "placeId": "nakano-broadway",
+          "name": "Nakano Broadway",
+          "area": "Nakano",
+          "coords": [
+            35.7089,
+            139.6656
+          ],
+          "time": "15:46",
+          "note": "Four floors of roughly 300 tiny specialist shops stacked above a 1966 apartment block, named after Manhattan's Broadway and sold at the time as the most advanced building in Asia, with singers and actors living in the flats upstairs. Most shops run 12:00-20:00 and a few close Wednesdays."
+        },
+        {
+          "id": "2026-10-20-jackroad-nakano",
+          "placeId": "jackroad-nakano",
+          "name": "Jackroad",
+          "area": "Nakano",
+          "coords": [
+            35.7089,
+            139.6656
+          ],
+          "time": "16:33",
+          "note": "Pre-owned and vintage watch dealer on the 3F of Nakano Broadway, trading since 1987 and holding over 6,000 watches at any time; 11:00-20:30, with sister shop Bettyroad alongside it."
+        },
+        {
+          "id": "2026-10-20-mandarake-nakano",
+          "placeId": "mandarake-nakano",
+          "name": "Mandarake Nakano Broadway",
+          "area": "Nakano",
+          "coords": [
+            35.7089,
+            139.6656
+          ],
+          "time": "17:20",
+          "note": "Mandarake's home ground: more than a dozen shops scattered through the building, each given over to one thing - vintage manga, animation cels, sofubi figures, retro toys, idol photos, secondhand game cartridges."
+        },
+        {
+          "id": "2026-10-20-goodwatch78-nakano",
+          "placeId": "goodwatch78-nakano",
+          "name": "GoodWatch78",
+          "area": "Nakano",
+          "coords": [
+            35.7089,
+            139.6656
+          ],
+          "time": "18:07",
+          "note": "Antique Rolex specialist on the 3F of Nakano Broadway dealing in vintage references, loose parts and consignment sales; short hours, roughly 13:00-18:00. Their site is goodwatch78.com, served over plain http."
+        },
+        {
+          "id": "2026-10-20-quark-nakano",
+          "placeId": "quark-nakano",
+          "name": "Quark Nakano Broadway",
+          "area": "Nakano",
+          "coords": [
+            35.7089,
+            139.6656
+          ],
+          "time": "18:54",
+          "note": "Branch of the Rolex specialist chain Quark on the 3F of Nakano Broadway; the chain keeps a published antique and vintage Rolex stock list online."
+        },
+        {
+          "id": "2026-10-20-kamekichi-nakano",
+          "placeId": "kamekichi-nakano",
+          "name": "Kamekichi",
+          "area": "Nakano",
+          "coords": [
+            35.7089,
+            139.6656
+          ],
+          "time": "19:41",
+          "note": "Long-running multi-brand dealer at Nakano Broadway with a large Rolex and antique section and multilingual staff; also carries Tudor, Patek and Audemars Piguet."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-21",
+      "title": "Kamakura",
+      "stops": [
+        {
+          "id": "2026-10-21-kamakura-day-trip",
+          "placeId": "kamakura-day-trip",
+          "name": "Kamakura",
+          "area": "Kanagawa",
+          "coords": [
+            35.3168,
+            139.5357
+          ],
+          "time": "09:30",
+          "note": "Coastal temple town with Daibutsu, Hase-dera, and the Enoden line"
+        },
+        {
+          "id": "2026-10-21-engaku-ji",
+          "placeId": "engaku-ji",
+          "name": "Engaku-ji",
+          "area": "Kamakura",
+          "coords": [
+            35.3377,
+            139.5478
+          ],
+          "time": "10:43",
+          "note": "Rinzai Zen temple climbing a wooded hillside right at Kita-Kamakura station, with a Muso Soseki garden and a famous bell; ¥500, 8:00–16:30."
+        },
+        {
+          "id": "2026-10-21-meigetsu-in",
+          "placeId": "meigetsu-in",
+          "name": "Meigetsu-in",
+          "area": "Kamakura",
+          "coords": [
+            35.3349,
+            139.5512
+          ],
+          "time": "11:56",
+          "note": "Rinzai Zen temple in Kita-Kamakura with a dry rock garden in front of the main hall and the famous round \"window of enlightenment\" looking onto the inner garden; ¥500, 9:00–16:00."
+        },
+        {
+          "id": "2026-10-21-kencho-ji",
+          "placeId": "kencho-ji",
+          "name": "Kencho-ji",
+          "area": "Kamakura",
+          "coords": [
+            35.3309,
+            139.5546
+          ],
+          "time": "13:09",
+          "note": "Japan's oldest Zen training monastery (1253) and first of Kamakura's Five Great Zen Temples: vast gate, bell, and a pond garden by Muso Soseki behind the abbot's hall; ¥500, 8:30–16:30."
+        },
+        {
+          "id": "2026-10-21-hokoku-ji",
+          "placeId": "hokoku-ji",
+          "name": "Hokoku-ji",
+          "area": "Kamakura",
+          "coords": [
+            35.3211,
+            139.5697
+          ],
+          "time": "14:22",
+          "note": "Small Rinzai Zen temple known for its bamboo grove, a dry rock garden and a teahouse where you drink matcha inside the bamboo; ¥400 plus tea, 9:00–16:00."
+        },
+        {
+          "id": "2026-10-21-jomyo-ji",
+          "placeId": "jomyo-ji",
+          "name": "Jomyo-ji",
+          "area": "Kamakura",
+          "coords": [
+            35.3216,
+            139.568
+          ],
+          "time": "15:35",
+          "note": "Fifth of the Kamakura Five Great Zen Temples, with a raked dry-landscape garden viewed from the Kisen-an teahouse over a bowl of matcha; ¥100 plus tea, 9:00–16:30."
+        },
+        {
+          "id": "2026-10-21-zuisen-ji",
+          "placeId": "zuisen-ji",
+          "name": "Zuisen-ji",
+          "area": "Kamakura",
+          "coords": [
+            35.3236,
+            139.5748
+          ],
+          "time": "16:48",
+          "note": "Muso Soseki's 1327 rock garden cut into the cliff behind the hall, plus a flower garden; ¥200, 9:00–17:00."
+        },
+        {
+          "id": "2026-10-21-kotoku-in",
+          "placeId": "kotoku-in",
+          "name": "Kotoku-in (Great Buddha)",
+          "area": "Kamakura",
+          "coords": [
+            35.3167,
+            139.5359
+          ],
+          "time": "18:01",
+          "note": "The 13-metre bronze Great Buddha of 1252, sitting in the open since its hall was washed away in 1498; ¥300, 8:00–17:00 in October, ¥50 more to step inside it."
+        },
+        {
+          "id": "2026-10-21-hase-dera",
+          "placeId": "hase-dera",
+          "name": "Hase-dera",
+          "area": "Kamakura",
+          "coords": [
+            35.3125,
+            139.5333
+          ],
+          "time": "19:14",
+          "note": "Hillside temple of the eleven-headed Kannon with a pond garden below and a terrace looking over Yuigahama beach and the bay; ¥400, 8:00–16:30 in October."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-22",
+      "title": "Yanaka, Tennozu, teamLab, Alvark",
+      "stops": [
+        {
+          "id": "2026-10-22-nezu-shrine",
+          "placeId": "nezu-shrine",
+          "name": "Nezu Shrine",
+          "area": "Nezu/Yanaka",
+          "coords": [
+            35.7202,
+            139.7605
+          ],
+          "time": "09:30",
+          "note": "Quiet shrine with a red torii tunnel"
+        },
+        {
+          "id": "2026-10-22-yanaka-ginza",
+          "placeId": "yanaka-ginza",
+          "name": "Yanaka Ginza",
+          "area": "Yanaka",
+          "coords": [
+            35.7267,
+            139.7628
+          ],
+          "time": "10:43",
+          "note": "Traditional shopping street famous for its resident cats, cat-themed shops, and old-Tokyo atmosphere."
+        },
+        {
+          "id": "2026-10-22-hinoya",
+          "placeId": "hinoya",
+          "name": "Hinoya",
+          "area": "Ueno/Okachimachi",
+          "coords": [
+            35.707,
+            139.774
+          ],
+          "time": "11:56",
+          "note": "Multi-brand denim strip"
+        },
+        {
+          "id": "2026-10-22-pigment-tokyo",
+          "placeId": "pigment-tokyo",
+          "name": "Pigment Tokyo",
+          "area": "Tennozu",
+          "coords": [
+            35.618,
+            139.7495
+          ],
+          "time": "13:09",
+          "note": "Gallery-store of ~4,500 pigments"
+        },
+        {
+          "id": "2026-10-22-teamlab-planets",
+          "placeId": "teamlab-planets",
+          "name": "teamLab Planets",
+          "area": "Toyosu",
+          "coords": [
+            35.6497,
+            139.79
+          ],
+          "time": "14:22",
+          "note": "Barefoot immersive digital-art museum"
+        },
+        {
+          "id": "2026-10-22-alvark-vs-ibaraki-2026-10-22",
+          "placeId": "alvark-vs-ibaraki-2026-10-22",
+          "name": "Alvark Tokyo vs Ibaraki — Thu 22 Oct",
+          "area": "Aomi / Odaiba",
+          "coords": [
+            35.6263,
+            139.7831
+          ],
+          "time": "15:35",
+          "note": "B.League Premier home game at Toyota Arena Tokyo, tip-off 19:05. Second night of Alvark Entertainment Special 3DAYS."
+        },
+        {
+          "id": "2026-10-22-mizutani-camera-ueno",
+          "placeId": "mizutani-camera-ueno",
+          "name": "Mizutani Camera",
+          "area": "Ueno",
+          "coords": [
+            35.7075,
+            139.7745
+          ],
+          "time": "16:48",
+          "note": "Secondhand camera and watch dealer under a blue awning across from Ueno station's south exit, trading vintage Seiko and Citizen alongside Rolex and Omega. Reported to be English-speaking and tax-free registered."
+        },
+        {
+          "id": "2026-10-22-quark-ueno",
+          "placeId": "quark-ueno",
+          "name": "Quark Ueno",
+          "area": "Ueno",
+          "coords": [
+            35.708,
+            139.7748
+          ],
+          "time": "18:01",
+          "note": "Quark's main Rolex store in Ueno, stocking new, used and vintage references with buying and selling under one roof."
+        },
+        {
+          "id": "2026-10-22-mot-tokyo",
+          "placeId": "mot-tokyo",
+          "name": "Museum of Contemporary Art Tokyo",
+          "area": "Kiyosumi-Shirakawa",
+          "coords": [
+            35.6803,
+            139.8045
+          ],
+          "time": "19:14",
+          "note": "Tokyo's main contemporary collection, at 4-1-1 Miyoshi in Kiba Park: about 5,600 works charting art from 1945 on, plus six to eight changing shows a year spanning architecture, fashion and design. Open 10:00-18:00, last entry 17:30, closed Mondays; around ¥1,300. Ten minutes on foot from Kiyosumi-Shirakawa station."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23",
+      "title": "Harajuku to Shibuya Sky",
+      "stops": [
+        {
+          "id": "2026-10-23-yayoi-kusama-museum",
+          "placeId": "yayoi-kusama-museum",
+          "name": "Yayoi Kusama Museum",
+          "area": "Shinjuku (Waseda)",
+          "coords": [
+            35.7032,
+            139.7265
+          ],
+          "time": "09:30",
+          "note": "Small dedicated museum for Kusama's polka-dot infinity installations"
+        },
+        {
+          "id": "2026-10-23-meiji-jingu",
+          "placeId": "meiji-jingu",
+          "name": "Meiji Jingu",
+          "area": "Harajuku",
+          "coords": [
+            35.6764,
+            139.6993
+          ],
+          "time": "10:06",
+          "note": "Forest shrine inside the city"
+        },
+        {
+          "id": "2026-10-23-otter-cafe-harry",
+          "placeId": "otter-cafe-harry",
+          "name": "Otter cafe (Harry)",
+          "area": "Harajuku",
+          "coords": [
+            35.6705,
+            139.704
+          ],
+          "time": "10:42",
+          "note": "Otters, hedgehogs, chinchillas"
+        },
+        {
+          "id": "2026-10-23-fullcount-tokyo",
+          "placeId": "fullcount-tokyo",
+          "name": "Fullcount Tokyo",
+          "area": "Harajuku",
+          "coords": [
+            35.669,
+            139.707
+          ],
+          "time": "11:18",
+          "note": "Osaka Five heritage raw-denim brand"
+        },
+        {
+          "id": "2026-10-23-studio-dartisan",
+          "placeId": "studio-dartisan",
+          "name": "Studio D'Artisan",
+          "area": "Harajuku",
+          "coords": [
+            35.67,
+            139.706
+          ],
+          "time": "11:54",
+          "note": "Original \"Osaka Five\" label"
+        },
+        {
+          "id": "2026-10-23-samurai-jeans",
+          "placeId": "samurai-jeans",
+          "name": "Samurai Jeans",
+          "area": "Harajuku",
+          "coords": [
+            35.6695,
+            139.7065
+          ],
+          "time": "12:30",
+          "note": "Heavyweight raw denim, est. 1997"
+        },
+        {
+          "id": "2026-10-23-pure-blue-japan-harajuku",
+          "placeId": "pure-blue-japan-harajuku",
+          "name": "Pure Blue Japan Harajuku",
+          "area": "Harajuku",
+          "coords": [
+            35.6702,
+            139.7054
+          ],
+          "time": "13:06",
+          "note": "Cult Japanese denim brand specializing in slubby, textured selvedge with dramatic fading potential."
+        },
+        {
+          "id": "2026-10-23-five-g",
+          "placeId": "five-g",
+          "name": "Five G Music Technology",
+          "area": "Harajuku",
+          "coords": [
+            35.6706,
+            139.7069
+          ],
+          "time": "13:42",
+          "note": "Legendary vintage synth + eurorack shop"
+        },
+        {
+          "id": "2026-10-23-momotaro-jeans-aoyama",
+          "placeId": "momotaro-jeans-aoyama",
+          "name": "Momotaro Jeans Aoyama",
+          "area": "Aoyama",
+          "coords": [
+            35.6647,
+            139.7128
+          ],
+          "time": "14:18",
+          "note": "Flagship store for Momotaro's premium Japanese selvedge denim, known for the peach logo and Zimbabwe cotton."
+        },
+        {
+          "id": "2026-10-23-nezu-museum-garden",
+          "placeId": "nezu-museum-garden",
+          "name": "Nezu Museum Garden",
+          "area": "Aoyama",
+          "coords": [
+            35.6622,
+            139.7176
+          ],
+          "time": "14:54",
+          "note": "Kengo Kuma's museum of East Asian art with a steep, mossy garden of stone lanterns, teahouses and a pond; museum ticket required, closed Mondays, 10:00–17:00."
+        },
+        {
+          "id": "2026-10-23-shibuya-hachiko-stamp",
+          "placeId": "shibuya-hachiko-stamp",
+          "name": "Hachiko Commemorative Stamp",
+          "area": "Shibuya",
+          "coords": [
+            35.6595,
+            139.7005
+          ],
+          "time": "15:30",
+          "note": "Eki-stamp at SHIBU HACHI BOX tourist info center near Hachiko statue"
+        },
+        {
+          "id": "2026-10-23-miyashita-park",
+          "placeId": "miyashita-park",
+          "name": "Miyashita Park",
+          "area": "Shibuya",
+          "coords": [
+            35.6614,
+            139.7014
+          ],
+          "time": "16:06",
+          "note": "Rooftop park over the shopping deck"
+        },
+        {
+          "id": "2026-10-23-echigoya-music",
+          "placeId": "echigoya-music",
+          "name": "Echigoya Music",
+          "area": "Shibuya",
+          "coords": [
+            35.662,
+            139.699
+          ],
+          "time": "16:42",
+          "note": "Vintage synths + eurorack, near Tower Records"
+        },
+        {
+          "id": "2026-10-23-shibuya-sky",
+          "placeId": "shibuya-sky",
+          "name": "Shibuya Sky",
+          "area": "Shibuya",
+          "coords": [
+            35.658,
+            139.7016
+          ],
+          "time": "17:18",
+          "note": "Open-air rooftop observation deck"
+        },
+        {
+          "id": "2026-10-23-zakuro-show-2026-10-23",
+          "placeId": "zakuro-show-2026-10-23",
+          "name": "ZAKURO SHOW — October 23, 2026",
+          "area": "Harajuku",
+          "coords": [
+            35.669,
+            139.703
+          ],
+          "time": "17:54",
+          "note": "October 23, 2026 bilingual one-hour live concert featuring taiko alongside koto, shamisen, shakuhachi and other traditional Japanese instruments."
+        },
+        {
+          "id": "2026-10-23-the-real-mccoys-tokyo",
+          "placeId": "the-real-mccoys-tokyo",
+          "name": "The Real McCoy's Tokyo",
+          "area": "Shibuya",
+          "coords": [
+            35.6668,
+            139.7048
+          ],
+          "time": "18:30",
+          "note": "Tokyo flagship at 6-25-8 Jingumae, on the Meiji-dori side of Cat Street between Harajuku and Shibuya; open daily 12:00-20:00. Reproduction A-2 and N-1 flight jackets, Buco motorcycle gear, Joe McCoy workwear and Lot 001 denim, all made in Japan."
+        },
+        {
+          "id": "2026-10-23-united-arrows-harajuku",
+          "placeId": "united-arrows-harajuku",
+          "name": "United Arrows Harajuku Main Store",
+          "area": "Harajuku",
+          "coords": [
+            35.6702,
+            139.706
+          ],
+          "time": "19:06",
+          "note": "The original main store in Jingumae, ground floor and basement, the shop the company grew out of after leaving Beams in 1989. Sources disagree on the current address (3-28-1 and 2-31-12 Jingumae both appear) and one listing reports a renovation closure."
+        },
+        {
+          "id": "2026-10-23-taro-okamoto-memorial-museum",
+          "placeId": "taro-okamoto-memorial-museum",
+          "name": "Taro Okamoto Memorial Museum",
+          "area": "Aoyama",
+          "coords": [
+            35.6627,
+            139.7158
+          ],
+          "time": "19:42",
+          "note": "The artist's own house and studio at 6-1-19 Minami-Aoyama, left as it was: the working studio with brushes and half-finished canvases, and a small garden crowded with his sculptures. Open 10:00-18:00, last entry 17:30, closed Tuesdays; ¥650 adults, ¥300 for children."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-24",
+      "title": "Kapital day: Ebisu, Ginza, Roppongi",
+      "stops": [
+        {
+          "id": "2026-10-24-kapital-ebisu",
+          "placeId": "kapital-ebisu",
+          "name": "Kapital Ebisu",
+          "area": "Ebisu",
+          "coords": [
+            35.6465,
+            139.7139
+          ],
+          "time": "09:30",
+          "note": "Multi-floor flagship for Kapital's patchwork denim, boro-inspired pieces, and Americana-meets-Japan aesthetic. The 2-20-2 Ebisu-minami address (Gaia Ebisu Building) now also appears as the KAPITAL Tokyo Naked Store, 11:00–20:00."
+        },
+        {
+          "id": "2026-10-24-kapital-legs-ebisu",
+          "placeId": "kapital-legs-ebisu",
+          "name": "Kapital Legs Ebisu",
+          "area": "Ebisu",
+          "coords": [
+            35.6455,
+            139.7128
+          ],
+          "time": "10:14",
+          "note": "The bottoms-only Kapital shop a few minutes from the flagship, in the Ebisu Sunny Building at 2-23-12 Ebisu-minami; said to stock more than a hundred jeans styles."
+        },
+        {
+          "id": "2026-10-24-kapital-duffle-ebisu",
+          "placeId": "kapital-duffle-ebisu",
+          "name": "Kapital Duffle",
+          "area": "Ebisu",
+          "coords": [
+            35.6453,
+            139.7125
+          ],
+          "time": "10:58",
+          "note": "Denim-led lifestyle store at 2-24-2 Ebisu-minami with homewares and original goods, plus exhibitions, workshops and pop-ups."
+        },
+        {
+          "id": "2026-10-24-iron-heart",
+          "placeId": "iron-heart",
+          "name": "Iron Heart",
+          "area": "Ebisu",
+          "coords": [
+            35.6467,
+            139.71
+          ],
+          "time": "11:42",
+          "note": "Heavyweight workwear denim"
+        },
+        {
+          "id": "2026-10-24-kapital-ginza",
+          "placeId": "kapital-ginza",
+          "name": "Kapital Ginza",
+          "area": "Ginza",
+          "coords": [
+            35.6738,
+            139.7702
+          ],
+          "time": "12:26",
+          "note": "Kapital's Ginza store on the 1st and 3rd floors of the Shimaharu Building, 1-21-12 Ginza, at the Kyobashi end of the district."
+        },
+        {
+          "id": "2026-10-24-lemonsha-ginza",
+          "placeId": "lemonsha-ginza",
+          "name": "Lemon-sha Ginza",
+          "area": "Ginza",
+          "coords": [
+            35.6712,
+            139.7665
+          ],
+          "time": "13:10",
+          "note": "40-year Ginza camera institution with film cameras, fountain pens, and watches"
+        },
+        {
+          "id": "2026-10-24-itoya-ginza",
+          "placeId": "itoya-ginza",
+          "name": "Itoya Ginza",
+          "area": "Ginza",
+          "coords": [
+            35.6725,
+            139.7673
+          ],
+          "time": "13:54",
+          "note": "Twelve floors of stationery at 2-7-15 Ginza since 1904: paper by the sheet, fountain pens, inks, notebooks, letterpress and a floor you can have cards printed on; 10:00-20:00."
+        },
+        {
+          "id": "2026-10-24-ginza-tsuboyaki-imo",
+          "placeId": "ginza-tsuboyaki-imo",
+          "name": "Ginza Tsuboyaki-imo",
+          "area": "Ginza",
+          "coords": [
+            35.6697,
+            139.7607
+          ],
+          "time": "14:38",
+          "note": "Pot-roasted sweet potato specialist using traditional clay-jar method"
+        },
+        {
+          "id": "2026-10-24-imperial-palace-east-gardens",
+          "placeId": "imperial-palace-east-gardens",
+          "name": "Imperial Palace East Gardens",
+          "area": "Marunouchi",
+          "coords": [
+            35.6864,
+            139.7565
+          ],
+          "time": "15:22",
+          "note": "The old Edo Castle inner grounds: massive stone walls, the keep base and the Ninomaru stroll garden; free, closed Mondays and Fridays, gates close 16:30 in October."
+        },
+        {
+          "id": "2026-10-24-azabudai-hills-sky-lobby",
+          "placeId": "azabudai-hills-sky-lobby",
+          "name": "Azabudai Hills Sky Lobby",
+          "area": "Azabudai",
+          "coords": [
+            35.6594,
+            139.7387
+          ],
+          "time": "16:06",
+          "note": "Free 34th-floor Sky Lobby in Tokyo's newest skyscraper (2023), with floor-to-ceiling windows and Tokyo Tower views."
+        },
+        {
+          "id": "2026-10-24-zojo-ji",
+          "placeId": "zojo-ji",
+          "name": "Zojo-ji",
+          "area": "Tokyo Tower",
+          "coords": [
+            35.6574,
+            139.7484
+          ],
+          "time": "16:50",
+          "note": "Head temple of Jodo Buddhism in Tokyo, its main hall framed by Tokyo Tower, with the Tokugawa shogun graves behind; grounds free, about 9:00–17:00."
+        },
+        {
+          "id": "2026-10-24-kapital-soho-roppongi",
+          "placeId": "kapital-soho-roppongi",
+          "name": "Kapital SOHO Roppongi",
+          "area": "Roppongi",
+          "coords": [
+            35.6598,
+            139.7287
+          ],
+          "time": "17:34",
+          "note": "Kapital's Roppongi Hills shop, Hill Side 1F at 6-10-1 Roppongi, open 11:00–20:00."
+        },
+        {
+          "id": "2026-10-24-kapital-legs-roppongi",
+          "placeId": "kapital-legs-roppongi",
+          "name": "Kapital Legs Roppongi",
+          "area": "Roppongi",
+          "coords": [
+            35.6599,
+            139.7285
+          ],
+          "time": "18:18",
+          "note": "Second Kapital shop inside Roppongi Hills Hill Side, bottoms-focused like its Ebisu namesake."
+        },
+        {
+          "id": "2026-10-24-united-arrows-roppongi-hills",
+          "placeId": "united-arrows-roppongi-hills",
+          "name": "United Arrows Roppongi Hills",
+          "area": "Roppongi",
+          "coords": [
+            35.6597,
+            139.7285
+          ],
+          "time": "19:02",
+          "note": "United Arrows' largest store, West Walk 2-3F at 6-10-3 Roppongi: womenswear on the lower floor, the full men's range on the upper. Open 11:00-20:00, until 21:00 on Fridays and Saturdays."
+        },
+        {
+          "id": "2026-10-24-national-art-center-tokyo",
+          "placeId": "national-art-center-tokyo",
+          "name": "The National Art Center, Tokyo",
+          "area": "Roppongi",
+          "coords": [
+            35.6654,
+            139.7263
+          ],
+          "time": "19:46",
+          "note": "Kisho Kurokawa's 2007 building at 7-22-2 Roppongi, a rippling glass wall with inverted concrete cones inside and no permanent collection, only touring shows. Open 10:00-18:00 and until 20:00 on Fridays and Saturdays for its own exhibitions, closed Tuesdays. The building itself is free to walk into."
+        }
+      ]
+    },
+    {
+      "id": "2026-10-25",
+      "title": "Last morning, fly home",
+      "stops": [
+        {
+          "id": "2026-10-25-edo-taito-traditional-crafts-center",
+          "placeId": "edo-taito-traditional-crafts-center",
+          "name": "Edo Taito Traditional Crafts Center",
+          "area": "Asakusa",
+          "coords": [
+            35.7172,
+            139.7945
+          ],
+          "time": "09:00",
+          "note": "Free traditional-crafts center displaying hundreds of examples of Tokyo handicrafts, with regular artisan demonstrations and occasional hands-on programs."
+        },
+        {
+          "id": "2026-10-25-cafe-capyba-asakusa",
+          "placeId": "cafe-capyba-asakusa",
+          "name": "cafe capyba ASAKUSA",
+          "area": "Asakusa",
+          "coords": [
+            35.7187,
+            139.7918
+          ],
+          "time": "10:15",
+          "note": "Dedicated capybara cafe where you can sit with, pet, photograph, and feed capybaras."
+        }
+      ]
+    }
+  ]
+}

@@ -11,7 +11,7 @@ import path from 'node:path';
 const root = path.dirname(fileURLToPath(new URL('../package.json', import.meta.url)));
 const dist = path.join(root, 'dist');
 
-const ENTRIES = ['index.html', 'phrases', 'assets', 'data', 'images', 'vendor'];
+const ENTRIES = ['index.html', 'phrases', 'photos', 'assets', 'data', 'images', 'vendor'];
 
 await rm(dist, { recursive: true, force: true });
 await mkdir(dist, { recursive: true });

@@ -1,0 +1,1447 @@
+{
+  "source": "DEMO: stand-in photos. Each is the guide's Wikimedia photo for that place (credited in data/image-credits.json) or a crop of it. Timestamps are made up. Replace with the iPhone export via scripts/ingest-photos.mjs.",
+  "photos": [
+    {
+      "id": "1017-kaminarimon-1",
+      "src": "images/kaminarimon.jpg",
+      "thumb": "photos/demo/thumbs/1017-kaminarimon-1.jpg",
+      "w": 960,
+      "h": 720,
+      "taken": "2026-10-17T17:30:13+09:00",
+      "coords": [
+        35.7111,
+        139.7964
+      ],
+      "stop": "2026-10-17-kaminarimon",
+      "caption": ""
+    },
+    {
+      "id": "1017-kaminarimon-2",
+      "src": "photos/demo/1017-kaminarimon-2.jpg",
+      "thumb": "photos/demo/thumbs/1017-kaminarimon-2.jpg",
+      "w": 595,
+      "h": 634,
+      "taken": "2026-10-17T17:37:30+09:00",
+      "coords": [
+        35.7111,
+        139.7964
+      ],
+      "stop": "2026-10-17-kaminarimon",
+      "caption": ""
+    },
+    {
+      "id": "1017-kaminarimon-3",
+      "src": "photos/demo/1017-kaminarimon-3.jpg",
+      "thumb": "photos/demo/thumbs/1017-kaminarimon-3.jpg",
+      "w": 538,
+      "h": 432,
+      "taken": "2026-10-17T17:45:47+09:00",
+      "coords": [
+        35.7111,
+        139.7964
+      ],
+      "stop": "2026-10-17-kaminarimon",
+      "caption": ""
+    },
+    {
+      "id": "1017-nakamise-dori-1",
+      "src": "images/nakamise-dori.jpg",
+      "thumb": "photos/demo/thumbs/1017-nakamise-dori-1.jpg",
+      "w": 960,
+      "h": 583,
+      "taken": "2026-10-17T18:30:13+09:00",
+      "coords": [
+        35.7126,
+        139.7965
+      ],
+      "stop": "2026-10-17-nakamise-dori",
+      "caption": ""
+    },
+    {
+      "id": "1017-hoppy-street-1",
+      "src": "images/hoppy-street.jpg",
+      "thumb": "photos/demo/thumbs/1017-hoppy-street-1.jpg",
+      "w": 960,
+      "h": 640,
+      "taken": "2026-10-17T19:30:13+09:00",
+      "coords": [
+        35.7145,
+        139.794
+      ],
+      "stop": "2026-10-17-hoppy-street",
+      "caption": ""
+    },
+    {
+      "id": "1017-hoppy-street-2",
+      "src": "photos/demo/1017-hoppy-street-2.jpg",
+      "thumb": "photos/demo/thumbs/1017-hoppy-street-2.jpg",
+      "w": 595,
+      "h": 563,
+      "taken": "2026-10-17T19:37:30+09:00",
+      "coords": [
+        35.7145,
+        139.794
+      ],
+      "stop": "2026-10-17-hoppy-street",
+      "caption": ""
+    },
+    {
+      "id": "1017-hoppy-street-3",
+      "src": "photos/demo/1017-hoppy-street-3.jpg",
+      "thumb": "photos/demo/thumbs/1017-hoppy-street-3.jpg",
+      "w": 538,
+      "h": 384,
+      "taken": "2026-10-17T19:45:47+09:00",
+      "coords": [
+        35.7145,
+        139.794
+      ],
+      "stop": "2026-10-17-hoppy-street",
+      "caption": ""
+    },
+    {
+      "id": "1018-senso-ji-1",
+      "src": "images/senso-ji.jpg",
+      "thumb": "photos/demo/thumbs/1018-senso-ji-1.jpg",
+      "w": 960,
+      "h": 686,
+      "taken": "2026-10-18T09:30:13+09:00",
+      "coords": [
+        35.7148,
+        139.7967
+      ],
+      "stop": "2026-10-18-senso-ji",
+      "caption": ""
+    },
+    {
+      "id": "1018-senso-ji-2",
+      "src": "photos/demo/1018-senso-ji-2.jpg",
+      "thumb": "photos/demo/thumbs/1018-senso-ji-2.jpg",
+      "w": 595,
+      "h": 604,
+      "taken": "2026-10-18T09:37:30+09:00",
+      "coords": [
+        35.7148,
+        139.7967
+      ],
+      "stop": "2026-10-18-senso-ji",
+      "caption": ""
+    },
+    {
+      "id": "1018-senso-ji-3",
+      "src": "photos/demo/1018-senso-ji-3.jpg",
+      "thumb": "photos/demo/thumbs/1018-senso-ji-3.jpg",
+      "w": 538,
+      "h": 412,
+      "taken": "2026-10-18T09:45:47+09:00",
+      "coords": [
+        35.7148,
+        139.7967
+      ],
+      "stop": "2026-10-18-senso-ji",
+      "caption": ""
+    },
+    {
+      "id": "1018-senso-ji-4",
+      "src": "photos/demo/1018-senso-ji-4.jpg",
+      "thumb": "photos/demo/thumbs/1018-senso-ji-4.jpg",
+      "w": 615,
+      "h": 466,
+      "taken": "2026-10-18T09:56:04+09:00",
+      "coords": [
+        35.7148,
+        139.7967
+      ],
+      "stop": "2026-10-18-senso-ji",
+      "caption": ""
+    },
+    {
+      "id": "1018-asakusa-free-deck-1",
+      "src": "images/asakusa-free-deck.jpg",
+      "thumb": "photos/demo/thumbs/1018-asakusa-free-deck-1.jpg",
+      "w": 960,
+      "h": 1419,
+      "taken": "2026-10-18T10:36:13+09:00",
+      "coords": [
+        35.711,
+        139.7966
+      ],
+      "stop": "2026-10-18-asakusa-free-deck",
+      "caption": ""
+    },
+    {
+      "id": "1018-taikokan-drum-museum-1",
+      "src": "images/taikokan-drum-museum.jpg",
+      "thumb": "photos/demo/thumbs/1018-taikokan-drum-museum-1.jpg",
+      "w": 960,
+      "h": 593,
+      "taken": "2026-10-18T11:42:13+09:00",
+      "coords": [
+        35.711,
+        139.79
+      ],
+      "stop": "2026-10-18-taikokan-drum-museum",
+      "caption": ""
+    },
+    {
+      "id": "1018-taikokan-drum-museum-2",
+      "src": "photos/demo/1018-taikokan-drum-museum-2.jpg",
+      "thumb": "photos/demo/thumbs/1018-taikokan-drum-museum-2.jpg",
+      "w": 595,
+      "h": 522,
+      "taken": "2026-10-18T11:49:30+09:00",
+      "coords": [
+        35.711,
+        139.79
+      ],
+      "stop": "2026-10-18-taikokan-drum-museum",
+      "caption": ""
+    },
+    {
+      "id": "1018-taikokan-drum-museum-3",
+      "src": "photos/demo/1018-taikokan-drum-museum-3.jpg",
+      "thumb": "photos/demo/thumbs/1018-taikokan-drum-museum-3.jpg",
+      "w": 538,
+      "h": 356,
+      "taken": "2026-10-18T11:57:47+09:00",
+      "coords": [
+        35.711,
+        139.79
+      ],
+      "stop": "2026-10-18-taikokan-drum-museum",
+      "caption": ""
+    },
+    {
+      "id": "1018-onigiri-asakusa-yadoroku-1",
+      "src": "images/onigiri-asakusa-yadoroku.jpg",
+      "thumb": "photos/demo/thumbs/1018-onigiri-asakusa-yadoroku-1.jpg",
+      "w": 960,
+      "h": 1445,
+      "taken": "2026-10-18T12:48:13+09:00",
+      "coords": [
+        35.7169,
+        139.7948
+      ],
+      "stop": "2026-10-18-onigiri-asakusa-yadoroku",
+      "caption": ""
+    },
+    {
+      "id": "1018-map-camera-1",
+      "src": "images/map-camera.jpg",
+      "thumb": "photos/demo/thumbs/1018-map-camera-1.jpg",
+      "w": 960,
+      "h": 960,
+      "taken": "2026-10-18T15:00:13+09:00",
+      "coords": [
+        35.6905,
+        139.6985
+      ],
+      "stop": "2026-10-18-map-camera",
+      "caption": ""
+    },
+    {
+      "id": "1018-map-camera-2",
+      "src": "photos/demo/1018-map-camera-2.jpg",
+      "thumb": "photos/demo/thumbs/1018-map-camera-2.jpg",
+      "w": 595,
+      "h": 845,
+      "taken": "2026-10-18T15:07:30+09:00",
+      "coords": [
+        35.6905,
+        139.6985
+      ],
+      "stop": "2026-10-18-map-camera",
+      "caption": ""
+    },
+    {
+      "id": "1018-map-camera-3",
+      "src": "photos/demo/1018-map-camera-3.jpg",
+      "thumb": "photos/demo/thumbs/1018-map-camera-3.jpg",
+      "w": 538,
+      "h": 576,
+      "taken": "2026-10-18T15:15:47+09:00",
+      "coords": [
+        35.6905,
+        139.6985
+      ],
+      "stop": "2026-10-18-map-camera",
+      "caption": ""
+    },
+    {
+      "id": "1018-yodobashi-camera-1",
+      "src": "images/yodobashi-camera.jpg",
+      "thumb": "photos/demo/thumbs/1018-yodobashi-camera-1.jpg",
+      "w": 960,
+      "h": 720,
+      "taken": "2026-10-18T16:06:13+09:00",
+      "coords": [
+        35.6899,
+        139.6976
+      ],
+      "stop": "2026-10-18-yodobashi-camera",
+      "caption": ""
+    },
+    {
+      "id": "1018-kitamura-camera-shinjuku-1",
+      "src": "images/kitamura-camera-shinjuku.jpg",
+      "thumb": "photos/demo/thumbs/1018-kitamura-camera-shinjuku-1.jpg",
+      "w": 960,
+      "h": 960,
+      "taken": "2026-10-18T17:12:13+09:00",
+      "coords": [
+        35.6918,
+        139.7024
+      ],
+      "stop": "2026-10-18-kitamura-camera-shinjuku",
+      "caption": ""
+    },
+    {
+      "id": "1018-sekaido-1",
+      "src": "images/sekaido.jpg",
+      "thumb": "photos/demo/thumbs/1018-sekaido-1.jpg",
+      "w": 960,
+      "h": 697,
+      "taken": "2026-10-18T18:18:13+09:00",
+      "coords": [
+        35.6925,
+        139.7051
+      ],
+      "stop": "2026-10-18-sekaido",
+      "caption": ""
+    },
+    {
+      "id": "1019-hibikus-asakusa-basement-1",
+      "src": "images/hibikus-asakusa-basement.jpg",
+      "thumb": "photos/demo/thumbs/1019-hibikus-asakusa-basement-1.jpg",
+      "w": 960,
+      "h": 640,
+      "taken": "2026-10-19T09:30:13+09:00",
+      "coords": [
+        35.717,
+        139.8
+      ],
+      "stop": "2026-10-19-hibikus-asakusa-basement",
+      "caption": ""
+    },
+    {
+      "id": "1019-hibikus-asakusa-basement-2",
+      "src": "photos/demo/1019-hibikus-asakusa-basement-2.jpg",
+      "thumb": "photos/demo/thumbs/1019-hibikus-asakusa-basement-2.jpg",
+      "w": 595,
+      "h": 563,
+      "taken": "2026-10-19T09:37:30+09:00",
+      "coords": [
+        35.717,
+        139.8
+      ],
+      "stop": "2026-10-19-hibikus-asakusa-basement",
+      "caption": ""
+    },
+    {
+      "id": "1019-hibikus-asakusa-basement-3",
+      "src": "photos/demo/1019-hibikus-asakusa-basement-3.jpg",
+      "thumb": "photos/demo/thumbs/1019-hibikus-asakusa-basement-3.jpg",
+      "w": 538,
+      "h": 384,
+      "taken": "2026-10-19T09:45:47+09:00",
+      "coords": [
+        35.717,
+        139.8
+      ],
+      "stop": "2026-10-19-hibikus-asakusa-basement",
+      "caption": ""
+    },
+    {
+      "id": "1019-taiko-no-tatsujin-1",
+      "src": "images/taiko-no-tatsujin.jpg",
+      "thumb": "photos/demo/thumbs/1019-taiko-no-tatsujin-1.jpg",
+      "w": 960,
+      "h": 720,
+      "taken": "2026-10-19T10:30:13+09:00",
+      "coords": [
+        35.699,
+        139.7715
+      ],
+      "stop": "2026-10-19-taiko-no-tatsujin",
+      "caption": ""
+    },
+    {
+      "id": "1019-taiko-no-tatsujin-2",
+      "src": "photos/demo/1019-taiko-no-tatsujin-2.jpg",
+      "thumb": "photos/demo/thumbs/1019-taiko-no-tatsujin-2.jpg",
+      "w": 595,
+      "h": 634,
+      "taken": "2026-10-19T10:37:30+09:00",
+      "coords": [
+        35.699,
+        139.7715
+      ],
+      "stop": "2026-10-19-taiko-no-tatsujin",
+      "caption": ""
+    },
+    {
+      "id": "1019-taiko-no-tatsujin-3",
+      "src": "photos/demo/1019-taiko-no-tatsujin-3.jpg",
+      "thumb": "photos/demo/thumbs/1019-taiko-no-tatsujin-3.jpg",
+      "w": 538,
+      "h": 432,
+      "taken": "2026-10-19T10:45:47+09:00",
+      "coords": [
+        35.699,
+        139.7715
+      ],
+      "stop": "2026-10-19-taiko-no-tatsujin",
+      "caption": ""
+    },
+    {
+      "id": "1019-wurlys-miyaji-1",
+      "src": "images/wurlys-miyaji.jpg",
+      "thumb": "photos/demo/thumbs/1019-wurlys-miyaji-1.jpg",
+      "w": 960,
+      "h": 720,
+      "taken": "2026-10-19T11:30:13+09:00",
+      "coords": [
+        35.699,
+        139.771
+      ],
+      "stop": "2026-10-19-wurlys-miyaji",
+      "caption": ""
+    },
+    {
+      "id": "1019-kanda-myojin-1",
+      "src": "images/kanda-myojin.jpg",
+      "thumb": "photos/demo/thumbs/1019-kanda-myojin-1.jpg",
+      "w": 960,
+      "h": 640,
+      "taken": "2026-10-19T12:30:13+09:00",
+      "coords": [
+        35.7019,
+        139.7679
+      ],
+      "stop": "2026-10-19-kanda-myojin",
+      "caption": ""
+    },
+    {
+      "id": "1019-kanda-myojin-2",
+      "src": "photos/demo/1019-kanda-myojin-2.jpg",
+      "thumb": "photos/demo/thumbs/1019-kanda-myojin-2.jpg",
+      "w": 595,
+      "h": 563,
+      "taken": "2026-10-19T12:37:30+09:00",
+      "coords": [
+        35.7019,
+        139.7679
+      ],
+      "stop": "2026-10-19-kanda-myojin",
+      "caption": ""
+    },
+    {
+      "id": "1019-kanda-myojin-3",
+      "src": "photos/demo/1019-kanda-myojin-3.jpg",
+      "thumb": "photos/demo/thumbs/1019-kanda-myojin-3.jpg",
+      "w": 538,
+      "h": 384,
+      "taken": "2026-10-19T12:45:47+09:00",
+      "coords": [
+        35.7019,
+        139.7679
+      ],
+      "stop": "2026-10-19-kanda-myojin",
+      "caption": ""
+    },
+    {
+      "id": "1019-ochanomizu-music-street-1",
+      "src": "images/ochanomizu-music-street.jpg",
+      "thumb": "photos/demo/thumbs/1019-ochanomizu-music-street-1.jpg",
+      "w": 960,
+      "h": 720,
+      "taken": "2026-10-19T14:30:13+09:00",
+      "coords": [
+        35.6995,
+        139.765
+      ],
+      "stop": "2026-10-19-ochanomizu-music-street",
+      "caption": ""
+    },
+    {
+      "id": "1019-jimbocho-1",
+      "src": "images/jimbocho.jpg",
+      "thumb": "photos/demo/thumbs/1019-jimbocho-1.jpg",
+      "w": 960,
+      "h": 720,
+      "taken": "2026-10-19T16:30:13+09:00",
+      "coords": [
+        35.6957,
+        139.7578
+      ],
+      "stop": "2026-10-19-jimbocho",
+      "caption": ""
+    },
+    {
+      "id": "1019-jimbocho-2",
+      "src": "photos/demo/1019-jimbocho-2.jpg",
+      "thumb": "photos/demo/thumbs/1019-jimbocho-2.jpg",
+      "w": 595,
+      "h": 634,
+      "taken": "2026-10-19T16:37:30+09:00",
+      "coords": [
+        35.6957,
+        139.7578
+      ],
+      "stop": "2026-10-19-jimbocho",
+      "caption": ""
+    },
+    {
+      "id": "1019-jimbocho-3",
+      "src": "photos/demo/1019-jimbocho-3.jpg",
+      "thumb": "photos/demo/thumbs/1019-jimbocho-3.jpg",
+      "w": 538,
+      "h": 432,
+      "taken": "2026-10-19T16:45:47+09:00",
+      "coords": [
+        35.6957,
+        139.7578
+      ],
+      "stop": "2026-10-19-jimbocho",
+      "caption": ""
+    },
+    {
+      "id": "1019-ameyoko-market-1",
+      "src": "images/ameyoko-market.jpg",
+      "thumb": "photos/demo/thumbs/1019-ameyoko-market-1.jpg",
+      "w": 960,
+      "h": 540,
+      "taken": "2026-10-19T17:30:13+09:00",
+      "coords": [
+        35.7095,
+        139.7745
+      ],
+      "stop": "2026-10-19-ameyoko-market",
+      "caption": ""
+    },
+    {
+      "id": "1019-ameyoko-market-2",
+      "src": "photos/demo/1019-ameyoko-market-2.jpg",
+      "thumb": "photos/demo/thumbs/1019-ameyoko-market-2.jpg",
+      "w": 595,
+      "h": 475,
+      "taken": "2026-10-19T17:37:30+09:00",
+      "coords": [
+        35.7095,
+        139.7745
+      ],
+      "stop": "2026-10-19-ameyoko-market",
+      "caption": ""
+    },
+    {
+      "id": "1019-ameyoko-market-3",
+      "src": "photos/demo/1019-ameyoko-market-3.jpg",
+      "thumb": "photos/demo/thumbs/1019-ameyoko-market-3.jpg",
+      "w": 538,
+      "h": 324,
+      "taken": "2026-10-19T17:45:47+09:00",
+      "coords": [
+        35.7095,
+        139.7745
+      ],
+      "stop": "2026-10-19-ameyoko-market",
+      "caption": ""
+    },
+    {
+      "id": "1020-kumihimo-experience-by-domyo-1",
+      "src": "images/kumihimo-experience-by-domyo.jpg",
+      "thumb": "photos/demo/thumbs/1020-kumihimo-experience-by-domyo-1.jpg",
+      "w": 747,
+      "h": 400,
+      "taken": "2026-10-20T09:30:13+09:00",
+      "coords": [
+        35.7041,
+        139.7355
+      ],
+      "stop": "2026-10-20-kumihimo-experience-by-domyo",
+      "caption": ""
+    },
+    {
+      "id": "1020-kumihimo-experience-by-domyo-2",
+      "src": "photos/demo/1020-kumihimo-experience-by-domyo-2.jpg",
+      "thumb": "photos/demo/thumbs/1020-kumihimo-experience-by-domyo-2.jpg",
+      "w": 463,
+      "h": 352,
+      "taken": "2026-10-20T09:37:30+09:00",
+      "coords": [
+        35.7041,
+        139.7355
+      ],
+      "stop": "2026-10-20-kumihimo-experience-by-domyo",
+      "caption": ""
+    },
+    {
+      "id": "1020-kumihimo-experience-by-domyo-3",
+      "src": "photos/demo/1020-kumihimo-experience-by-domyo-3.jpg",
+      "thumb": "photos/demo/thumbs/1020-kumihimo-experience-by-domyo-3.jpg",
+      "w": 418,
+      "h": 240,
+      "taken": "2026-10-20T09:45:47+09:00",
+      "coords": [
+        35.7041,
+        139.7355
+      ],
+      "stop": "2026-10-20-kumihimo-experience-by-domyo",
+      "caption": ""
+    },
+    {
+      "id": "1020-game-center-mikado-1",
+      "src": "images/game-center-mikado.jpg",
+      "thumb": "photos/demo/thumbs/1020-game-center-mikado-1.jpg",
+      "w": 480,
+      "h": 640,
+      "taken": "2026-10-20T11:04:13+09:00",
+      "coords": [
+        35.713,
+        139.704
+      ],
+      "stop": "2026-10-20-game-center-mikado",
+      "caption": ""
+    },
+    {
+      "id": "1020-fujiya-camera-1",
+      "src": "images/fujiya-camera.jpg",
+      "thumb": "photos/demo/thumbs/1020-fujiya-camera-1.jpg",
+      "w": 960,
+      "h": 720,
+      "taken": "2026-10-20T11:51:13+09:00",
+      "coords": [
+        35.708,
+        139.665
+      ],
+      "stop": "2026-10-20-fujiya-camera",
+      "caption": ""
+    },
+    {
+      "id": "1020-fujiya-camera-2",
+      "src": "photos/demo/1020-fujiya-camera-2.jpg",
+      "thumb": "photos/demo/thumbs/1020-fujiya-camera-2.jpg",
+      "w": 595,
+      "h": 634,
+      "taken": "2026-10-20T11:58:30+09:00",
+      "coords": [
+        35.708,
+        139.665
+      ],
+      "stop": "2026-10-20-fujiya-camera",
+      "caption": ""
+    },
+    {
+      "id": "1020-fujiya-camera-3",
+      "src": "photos/demo/1020-fujiya-camera-3.jpg",
+      "thumb": "photos/demo/thumbs/1020-fujiya-camera-3.jpg",
+      "w": 538,
+      "h": 432,
+      "taken": "2026-10-20T12:06:47+09:00",
+      "coords": [
+        35.708,
+        139.665
+      ],
+      "stop": "2026-10-20-fujiya-camera",
+      "caption": ""
+    },
+    {
+      "id": "1020-tokyo-metropolitan-government-building-1",
+      "src": "images/tokyo-metropolitan-government-building.jpg",
+      "thumb": "photos/demo/thumbs/1020-tokyo-metropolitan-government-building-1.jpg",
+      "w": 960,
+      "h": 833,
+      "taken": "2026-10-20T14:12:13+09:00",
+      "coords": [
+        35.6896,
+        139.6917
+      ],
+      "stop": "2026-10-20-tokyo-metropolitan-government-building",
+      "caption": ""
+    },
+    {
+      "id": "1020-tokyo-metropolitan-government-building-2",
+      "src": "photos/demo/1020-tokyo-metropolitan-government-building-2.jpg",
+      "thumb": "photos/demo/thumbs/1020-tokyo-metropolitan-government-building-2.jpg",
+      "w": 595,
+      "h": 733,
+      "taken": "2026-10-20T14:19:30+09:00",
+      "coords": [
+        35.6896,
+        139.6917
+      ],
+      "stop": "2026-10-20-tokyo-metropolitan-government-building",
+      "caption": ""
+    },
+    {
+      "id": "1020-tokyo-metropolitan-government-building-3",
+      "src": "photos/demo/1020-tokyo-metropolitan-government-building-3.jpg",
+      "thumb": "photos/demo/thumbs/1020-tokyo-metropolitan-government-building-3.jpg",
+      "w": 538,
+      "h": 500,
+      "taken": "2026-10-20T14:27:47+09:00",
+      "coords": [
+        35.6896,
+        139.6917
+      ],
+      "stop": "2026-10-20-tokyo-metropolitan-government-building",
+      "caption": ""
+    },
+    {
+      "id": "1020-omoide-yokocho-1",
+      "src": "images/omoide-yokocho.jpg",
+      "thumb": "photos/demo/thumbs/1020-omoide-yokocho-1.jpg",
+      "w": 960,
+      "h": 1280,
+      "taken": "2026-10-20T14:59:13+09:00",
+      "coords": [
+        35.6935,
+        139.6995
+      ],
+      "stop": "2026-10-20-omoide-yokocho",
+      "caption": ""
+    },
+    {
+      "id": "1020-omoide-yokocho-2",
+      "src": "photos/demo/1020-omoide-yokocho-2.jpg",
+      "thumb": "photos/demo/thumbs/1020-omoide-yokocho-2.jpg",
+      "w": 528,
+      "h": 1000,
+      "taken": "2026-10-20T15:06:30+09:00",
+      "coords": [
+        35.6935,
+        139.6995
+      ],
+      "stop": "2026-10-20-omoide-yokocho",
+      "caption": ""
+    },
+    {
+      "id": "1020-omoide-yokocho-3",
+      "src": "photos/demo/1020-omoide-yokocho-3.jpg",
+      "thumb": "photos/demo/thumbs/1020-omoide-yokocho-3.jpg",
+      "w": 538,
+      "h": 768,
+      "taken": "2026-10-20T15:14:47+09:00",
+      "coords": [
+        35.6935,
+        139.6995
+      ],
+      "stop": "2026-10-20-omoide-yokocho",
+      "caption": ""
+    },
+    {
+      "id": "1021-kamakura-day-trip-1",
+      "src": "images/kamakura-day-trip.jpg",
+      "thumb": "photos/demo/thumbs/1021-kamakura-day-trip-1.jpg",
+      "w": 960,
+      "h": 640,
+      "taken": "2026-10-21T09:30:13+09:00",
+      "coords": [
+        35.3168,
+        139.5357
+      ],
+      "stop": "2026-10-21-kamakura-day-trip",
+      "caption": ""
+    },
+    {
+      "id": "1021-kamakura-day-trip-2",
+      "src": "photos/demo/1021-kamakura-day-trip-2.jpg",
+      "thumb": "photos/demo/thumbs/1021-kamakura-day-trip-2.jpg",
+      "w": 595,
+      "h": 563,
+      "taken": "2026-10-21T09:37:30+09:00",
+      "coords": [
+        35.3168,
+        139.5357
+      ],
+      "stop": "2026-10-21-kamakura-day-trip",
+      "caption": ""
+    },
+    {
+      "id": "1021-kamakura-day-trip-3",
+      "src": "photos/demo/1021-kamakura-day-trip-3.jpg",
+      "thumb": "photos/demo/thumbs/1021-kamakura-day-trip-3.jpg",
+      "w": 538,
+      "h": 384,
+      "taken": "2026-10-21T09:45:47+09:00",
+      "coords": [
+        35.3168,
+        139.5357
+      ],
+      "stop": "2026-10-21-kamakura-day-trip",
+      "caption": ""
+    },
+    {
+      "id": "1021-kamakura-day-trip-4",
+      "src": "photos/demo/1021-kamakura-day-trip-4.jpg",
+      "thumb": "photos/demo/thumbs/1021-kamakura-day-trip-4.jpg",
+      "w": 615,
+      "h": 435,
+      "taken": "2026-10-21T09:56:04+09:00",
+      "coords": [
+        35.3168,
+        139.5357
+      ],
+      "stop": "2026-10-21-kamakura-day-trip",
+      "caption": ""
+    },
+    {
+      "id": "1022-nezu-shrine-1",
+      "src": "images/nezu-shrine.jpg",
+      "thumb": "photos/demo/thumbs/1022-nezu-shrine-1.jpg",
+      "w": 960,
+      "h": 692,
+      "taken": "2026-10-22T09:30:13+09:00",
+      "coords": [
+        35.7202,
+        139.7605
+      ],
+      "stop": "2026-10-22-nezu-shrine",
+      "caption": ""
+    },
+    {
+      "id": "1022-nezu-shrine-2",
+      "src": "photos/demo/1022-nezu-shrine-2.jpg",
+      "thumb": "photos/demo/thumbs/1022-nezu-shrine-2.jpg",
+      "w": 595,
+      "h": 609,
+      "taken": "2026-10-22T09:37:30+09:00",
+      "coords": [
+        35.7202,
+        139.7605
+      ],
+      "stop": "2026-10-22-nezu-shrine",
+      "caption": ""
+    },
+    {
+      "id": "1022-nezu-shrine-3",
+      "src": "photos/demo/1022-nezu-shrine-3.jpg",
+      "thumb": "photos/demo/thumbs/1022-nezu-shrine-3.jpg",
+      "w": 538,
+      "h": 415,
+      "taken": "2026-10-22T09:45:47+09:00",
+      "coords": [
+        35.7202,
+        139.7605
+      ],
+      "stop": "2026-10-22-nezu-shrine",
+      "caption": ""
+    },
+    {
+      "id": "1022-yanaka-ginza-1",
+      "src": "images/yanaka-ginza.jpg",
+      "thumb": "photos/demo/thumbs/1022-yanaka-ginza-1.jpg",
+      "w": 960,
+      "h": 720,
+      "taken": "2026-10-22T10:43:13+09:00",
+      "coords": [
+        35.7267,
+        139.7628
+      ],
+      "stop": "2026-10-22-yanaka-ginza",
+      "caption": ""
+    },
+    {
+      "id": "1022-yanaka-ginza-2",
+      "src": "photos/demo/1022-yanaka-ginza-2.jpg",
+      "thumb": "photos/demo/thumbs/1022-yanaka-ginza-2.jpg",
+      "w": 595,
+      "h": 634,
+      "taken": "2026-10-22T10:50:30+09:00",
+      "coords": [
+        35.7267,
+        139.7628
+      ],
+      "stop": "2026-10-22-yanaka-ginza",
+      "caption": ""
+    },
+    {
+      "id": "1022-yanaka-ginza-3",
+      "src": "photos/demo/1022-yanaka-ginza-3.jpg",
+      "thumb": "photos/demo/thumbs/1022-yanaka-ginza-3.jpg",
+      "w": 538,
+      "h": 432,
+      "taken": "2026-10-22T10:58:47+09:00",
+      "coords": [
+        35.7267,
+        139.7628
+      ],
+      "stop": "2026-10-22-yanaka-ginza",
+      "caption": ""
+    },
+    {
+      "id": "1022-hinoya-1",
+      "src": "images/hinoya.jpg",
+      "thumb": "photos/demo/thumbs/1022-hinoya-1.jpg",
+      "w": 960,
+      "h": 1229,
+      "taken": "2026-10-22T11:56:13+09:00",
+      "coords": [
+        35.707,
+        139.774
+      ],
+      "stop": "2026-10-22-hinoya",
+      "caption": ""
+    },
+    {
+      "id": "1022-pigment-tokyo-1",
+      "src": "images/pigment-tokyo.jpg",
+      "thumb": "photos/demo/thumbs/1022-pigment-tokyo-1.jpg",
+      "w": 960,
+      "h": 720,
+      "taken": "2026-10-22T13:09:13+09:00",
+      "coords": [
+        35.618,
+        139.7495
+      ],
+      "stop": "2026-10-22-pigment-tokyo",
+      "caption": ""
+    },
+    {
+      "id": "1022-pigment-tokyo-2",
+      "src": "photos/demo/1022-pigment-tokyo-2.jpg",
+      "thumb": "photos/demo/thumbs/1022-pigment-tokyo-2.jpg",
+      "w": 595,
+      "h": 634,
+      "taken": "2026-10-22T13:16:30+09:00",
+      "coords": [
+        35.618,
+        139.7495
+      ],
+      "stop": "2026-10-22-pigment-tokyo",
+      "caption": ""
+    },
+    {
+      "id": "1022-pigment-tokyo-3",
+      "src": "photos/demo/1022-pigment-tokyo-3.jpg",
+      "thumb": "photos/demo/thumbs/1022-pigment-tokyo-3.jpg",
+      "w": 538,
+      "h": 432,
+      "taken": "2026-10-22T13:24:47+09:00",
+      "coords": [
+        35.618,
+        139.7495
+      ],
+      "stop": "2026-10-22-pigment-tokyo",
+      "caption": ""
+    },
+    {
+      "id": "1022-teamlab-planets-1",
+      "src": "images/teamlab-planets.png",
+      "thumb": "photos/demo/thumbs/1022-teamlab-planets-1.jpg",
+      "w": 960,
+      "h": 960,
+      "taken": "2026-10-22T14:22:13+09:00",
+      "coords": [
+        35.6497,
+        139.79
+      ],
+      "stop": "2026-10-22-teamlab-planets",
+      "caption": ""
+    },
+    {
+      "id": "1022-teamlab-planets-2",
+      "src": "photos/demo/1022-teamlab-planets-2.jpg",
+      "thumb": "photos/demo/thumbs/1022-teamlab-planets-2.jpg",
+      "w": 595,
+      "h": 845,
+      "taken": "2026-10-22T14:29:30+09:00",
+      "coords": [
+        35.6497,
+        139.79
+      ],
+      "stop": "2026-10-22-teamlab-planets",
+      "caption": ""
+    },
+    {
+      "id": "1022-teamlab-planets-3",
+      "src": "photos/demo/1022-teamlab-planets-3.jpg",
+      "thumb": "photos/demo/thumbs/1022-teamlab-planets-3.jpg",
+      "w": 538,
+      "h": 576,
+      "taken": "2026-10-22T14:37:47+09:00",
+      "coords": [
+        35.6497,
+        139.79
+      ],
+      "stop": "2026-10-22-teamlab-planets",
+      "caption": ""
+    },
+    {
+      "id": "1022-teamlab-planets-4",
+      "src": "photos/demo/1022-teamlab-planets-4.jpg",
+      "thumb": "photos/demo/thumbs/1022-teamlab-planets-4.jpg",
+      "w": 615,
+      "h": 652,
+      "taken": "2026-10-22T14:48:04+09:00",
+      "coords": [
+        35.6497,
+        139.79
+      ],
+      "stop": "2026-10-22-teamlab-planets",
+      "caption": ""
+    },
+    {
+      "id": "1022-alvark-vs-ibaraki-2026-10-22-1",
+      "src": "images/alvark-vs-ibaraki-2026-10-22.jpg",
+      "thumb": "photos/demo/thumbs/1022-alvark-vs-ibaraki-2026-10-22-1.jpg",
+      "w": 900,
+      "h": 1200,
+      "taken": "2026-10-22T15:35:13+09:00",
+      "coords": [
+        35.6263,
+        139.7831
+      ],
+      "stop": "2026-10-22-alvark-vs-ibaraki-2026-10-22",
+      "caption": ""
+    },
+    {
+      "id": "1022-alvark-vs-ibaraki-2026-10-22-2",
+      "src": "photos/demo/1022-alvark-vs-ibaraki-2026-10-22-2.jpg",
+      "thumb": "photos/demo/thumbs/1022-alvark-vs-ibaraki-2026-10-22-2.jpg",
+      "w": 528,
+      "h": 1000,
+      "taken": "2026-10-22T15:42:30+09:00",
+      "coords": [
+        35.6263,
+        139.7831
+      ],
+      "stop": "2026-10-22-alvark-vs-ibaraki-2026-10-22",
+      "caption": ""
+    },
+    {
+      "id": "1022-alvark-vs-ibaraki-2026-10-22-3",
+      "src": "photos/demo/1022-alvark-vs-ibaraki-2026-10-22-3.jpg",
+      "thumb": "photos/demo/thumbs/1022-alvark-vs-ibaraki-2026-10-22-3.jpg",
+      "w": 504,
+      "h": 719,
+      "taken": "2026-10-22T15:50:47+09:00",
+      "coords": [
+        35.6263,
+        139.7831
+      ],
+      "stop": "2026-10-22-alvark-vs-ibaraki-2026-10-22",
+      "caption": ""
+    },
+    {
+      "id": "1023-yayoi-kusama-museum-1",
+      "src": "images/yayoi-kusama-museum.jpg",
+      "thumb": "photos/demo/thumbs/1023-yayoi-kusama-museum-1.jpg",
+      "w": 960,
+      "h": 1280,
+      "taken": "2026-10-23T09:30:13+09:00",
+      "coords": [
+        35.7032,
+        139.7265
+      ],
+      "stop": "2026-10-23-yayoi-kusama-museum",
+      "caption": ""
+    },
+    {
+      "id": "1023-meiji-jingu-1",
+      "src": "images/meiji-jingu.jpg",
+      "thumb": "photos/demo/thumbs/1023-meiji-jingu-1.jpg",
+      "w": 960,
+      "h": 540,
+      "taken": "2026-10-23T10:06:13+09:00",
+      "coords": [
+        35.6764,
+        139.6993
+      ],
+      "stop": "2026-10-23-meiji-jingu",
+      "caption": ""
+    },
+    {
+      "id": "1023-meiji-jingu-2",
+      "src": "photos/demo/1023-meiji-jingu-2.jpg",
+      "thumb": "photos/demo/thumbs/1023-meiji-jingu-2.jpg",
+      "w": 595,
+      "h": 475,
+      "taken": "2026-10-23T10:13:30+09:00",
+      "coords": [
+        35.6764,
+        139.6993
+      ],
+      "stop": "2026-10-23-meiji-jingu",
+      "caption": ""
+    },
+    {
+      "id": "1023-meiji-jingu-3",
+      "src": "photos/demo/1023-meiji-jingu-3.jpg",
+      "thumb": "photos/demo/thumbs/1023-meiji-jingu-3.jpg",
+      "w": 538,
+      "h": 324,
+      "taken": "2026-10-23T10:21:47+09:00",
+      "coords": [
+        35.6764,
+        139.6993
+      ],
+      "stop": "2026-10-23-meiji-jingu",
+      "caption": ""
+    },
+    {
+      "id": "1023-meiji-jingu-4",
+      "src": "photos/demo/1023-meiji-jingu-4.jpg",
+      "thumb": "photos/demo/thumbs/1023-meiji-jingu-4.jpg",
+      "w": 615,
+      "h": 367,
+      "taken": "2026-10-23T10:32:04+09:00",
+      "coords": [
+        35.6764,
+        139.6993
+      ],
+      "stop": "2026-10-23-meiji-jingu",
+      "caption": ""
+    },
+    {
+      "id": "1023-otter-cafe-harry-1",
+      "src": "images/otter-cafe-harry.jpg",
+      "thumb": "photos/demo/thumbs/1023-otter-cafe-harry-1.jpg",
+      "w": 960,
+      "h": 640,
+      "taken": "2026-10-23T10:42:13+09:00",
+      "coords": [
+        35.6705,
+        139.704
+      ],
+      "stop": "2026-10-23-otter-cafe-harry",
+      "caption": ""
+    },
+    {
+      "id": "1023-fullcount-tokyo-1",
+      "src": "images/fullcount-tokyo.jpg",
+      "thumb": "photos/demo/thumbs/1023-fullcount-tokyo-1.jpg",
+      "w": 960,
+      "h": 959,
+      "taken": "2026-10-23T11:18:13+09:00",
+      "coords": [
+        35.669,
+        139.707
+      ],
+      "stop": "2026-10-23-fullcount-tokyo",
+      "caption": ""
+    },
+    {
+      "id": "1023-studio-dartisan-1",
+      "src": "images/studio-dartisan.jpg",
+      "thumb": "photos/demo/thumbs/1023-studio-dartisan-1.jpg",
+      "w": 960,
+      "h": 1280,
+      "taken": "2026-10-23T11:54:13+09:00",
+      "coords": [
+        35.67,
+        139.706
+      ],
+      "stop": "2026-10-23-studio-dartisan",
+      "caption": ""
+    },
+    {
+      "id": "1023-samurai-jeans-1",
+      "src": "images/samurai-jeans.jpg",
+      "thumb": "photos/demo/thumbs/1023-samurai-jeans-1.jpg",
+      "w": 435,
+      "h": 650,
+      "taken": "2026-10-23T12:30:13+09:00",
+      "coords": [
+        35.6695,
+        139.7065
+      ],
+      "stop": "2026-10-23-samurai-jeans",
+      "caption": ""
+    },
+    {
+      "id": "1023-five-g-1",
+      "src": "images/five-g.jpg",
+      "thumb": "photos/demo/thumbs/1023-five-g-1.jpg",
+      "w": 960,
+      "h": 336,
+      "taken": "2026-10-23T13:42:13+09:00",
+      "coords": [
+        35.6706,
+        139.7069
+      ],
+      "stop": "2026-10-23-five-g",
+      "caption": ""
+    },
+    {
+      "id": "1023-momotaro-jeans-aoyama-1",
+      "src": "images/momotaro-jeans-aoyama.png",
+      "thumb": "photos/demo/thumbs/1023-momotaro-jeans-aoyama-1.jpg",
+      "w": 960,
+      "h": 920,
+      "taken": "2026-10-23T14:18:13+09:00",
+      "coords": [
+        35.6647,
+        139.7128
+      ],
+      "stop": "2026-10-23-momotaro-jeans-aoyama",
+      "caption": ""
+    },
+    {
+      "id": "1023-shibuya-hachiko-stamp-1",
+      "src": "images/shibuya-hachiko-stamp.jpg",
+      "thumb": "photos/demo/thumbs/1023-shibuya-hachiko-stamp-1.jpg",
+      "w": 960,
+      "h": 720,
+      "taken": "2026-10-23T15:30:13+09:00",
+      "coords": [
+        35.6595,
+        139.7005
+      ],
+      "stop": "2026-10-23-shibuya-hachiko-stamp",
+      "caption": ""
+    },
+    {
+      "id": "1023-miyashita-park-1",
+      "src": "images/miyashita-park.jpg",
+      "thumb": "photos/demo/thumbs/1023-miyashita-park-1.jpg",
+      "w": 960,
+      "h": 641,
+      "taken": "2026-10-23T16:06:13+09:00",
+      "coords": [
+        35.6614,
+        139.7014
+      ],
+      "stop": "2026-10-23-miyashita-park",
+      "caption": ""
+    },
+    {
+      "id": "1023-echigoya-music-1",
+      "src": "images/echigoya-music.jpg",
+      "thumb": "photos/demo/thumbs/1023-echigoya-music-1.jpg",
+      "w": 960,
+      "h": 960,
+      "taken": "2026-10-23T16:42:13+09:00",
+      "coords": [
+        35.662,
+        139.699
+      ],
+      "stop": "2026-10-23-echigoya-music",
+      "caption": ""
+    },
+    {
+      "id": "1023-shibuya-sky-1",
+      "src": "images/shibuya-sky.jpg",
+      "thumb": "photos/demo/thumbs/1023-shibuya-sky-1.jpg",
+      "w": 960,
+      "h": 1440,
+      "taken": "2026-10-23T17:18:13+09:00",
+      "coords": [
+        35.658,
+        139.7016
+      ],
+      "stop": "2026-10-23-shibuya-sky",
+      "caption": ""
+    },
+    {
+      "id": "1023-shibuya-sky-2",
+      "src": "photos/demo/1023-shibuya-sky-2.jpg",
+      "thumb": "photos/demo/thumbs/1023-shibuya-sky-2.jpg",
+      "w": 470,
+      "h": 1000,
+      "taken": "2026-10-23T17:25:30+09:00",
+      "coords": [
+        35.658,
+        139.7016
+      ],
+      "stop": "2026-10-23-shibuya-sky",
+      "caption": ""
+    },
+    {
+      "id": "1023-shibuya-sky-3",
+      "src": "photos/demo/1023-shibuya-sky-3.jpg",
+      "thumb": "photos/demo/thumbs/1023-shibuya-sky-3.jpg",
+      "w": 538,
+      "h": 864,
+      "taken": "2026-10-23T17:33:47+09:00",
+      "coords": [
+        35.658,
+        139.7016
+      ],
+      "stop": "2026-10-23-shibuya-sky",
+      "caption": ""
+    },
+    {
+      "id": "1023-shibuya-sky-4",
+      "src": "photos/demo/1023-shibuya-sky-4.jpg",
+      "thumb": "photos/demo/thumbs/1023-shibuya-sky-4.jpg",
+      "w": 615,
+      "h": 979,
+      "taken": "2026-10-23T17:44:04+09:00",
+      "coords": [
+        35.658,
+        139.7016
+      ],
+      "stop": "2026-10-23-shibuya-sky",
+      "caption": ""
+    },
+    {
+      "id": "1024-kapital-ebisu-1",
+      "src": "images/kapital-ebisu.jpg",
+      "thumb": "photos/demo/thumbs/1024-kapital-ebisu-1.jpg",
+      "w": 960,
+      "h": 720,
+      "taken": "2026-10-24T09:30:13+09:00",
+      "coords": [
+        35.6465,
+        139.7139
+      ],
+      "stop": "2026-10-24-kapital-ebisu",
+      "caption": ""
+    },
+    {
+      "id": "1024-kapital-ebisu-2",
+      "src": "photos/demo/1024-kapital-ebisu-2.jpg",
+      "thumb": "photos/demo/thumbs/1024-kapital-ebisu-2.jpg",
+      "w": 595,
+      "h": 634,
+      "taken": "2026-10-24T09:37:30+09:00",
+      "coords": [
+        35.6465,
+        139.7139
+      ],
+      "stop": "2026-10-24-kapital-ebisu",
+      "caption": ""
+    },
+    {
+      "id": "1024-kapital-ebisu-3",
+      "src": "photos/demo/1024-kapital-ebisu-3.jpg",
+      "thumb": "photos/demo/thumbs/1024-kapital-ebisu-3.jpg",
+      "w": 538,
+      "h": 432,
+      "taken": "2026-10-24T09:45:47+09:00",
+      "coords": [
+        35.6465,
+        139.7139
+      ],
+      "stop": "2026-10-24-kapital-ebisu",
+      "caption": ""
+    },
+    {
+      "id": "1024-iron-heart-1",
+      "src": "images/iron-heart.jpg",
+      "thumb": "photos/demo/thumbs/1024-iron-heart-1.jpg",
+      "w": 366,
+      "h": 233,
+      "taken": "2026-10-24T11:42:13+09:00",
+      "coords": [
+        35.6467,
+        139.71
+      ],
+      "stop": "2026-10-24-iron-heart",
+      "caption": ""
+    },
+    {
+      "id": "1024-lemonsha-ginza-1",
+      "src": "images/lemonsha-ginza.jpg",
+      "thumb": "photos/demo/thumbs/1024-lemonsha-ginza-1.jpg",
+      "w": 960,
+      "h": 678,
+      "taken": "2026-10-24T13:10:13+09:00",
+      "coords": [
+        35.6712,
+        139.7665
+      ],
+      "stop": "2026-10-24-lemonsha-ginza",
+      "caption": ""
+    },
+    {
+      "id": "1024-lemonsha-ginza-2",
+      "src": "photos/demo/1024-lemonsha-ginza-2.jpg",
+      "thumb": "photos/demo/thumbs/1024-lemonsha-ginza-2.jpg",
+      "w": 595,
+      "h": 596,
+      "taken": "2026-10-24T13:17:30+09:00",
+      "coords": [
+        35.6712,
+        139.7665
+      ],
+      "stop": "2026-10-24-lemonsha-ginza",
+      "caption": ""
+    },
+    {
+      "id": "1024-lemonsha-ginza-3",
+      "src": "photos/demo/1024-lemonsha-ginza-3.jpg",
+      "thumb": "photos/demo/thumbs/1024-lemonsha-ginza-3.jpg",
+      "w": 538,
+      "h": 406,
+      "taken": "2026-10-24T13:25:47+09:00",
+      "coords": [
+        35.6712,
+        139.7665
+      ],
+      "stop": "2026-10-24-lemonsha-ginza",
+      "caption": ""
+    },
+    {
+      "id": "1024-ginza-tsuboyaki-imo-1",
+      "src": "images/ginza-tsuboyaki-imo.jpg",
+      "thumb": "photos/demo/thumbs/1024-ginza-tsuboyaki-imo-1.jpg",
+      "w": 960,
+      "h": 772,
+      "taken": "2026-10-24T14:38:13+09:00",
+      "coords": [
+        35.6697,
+        139.7607
+      ],
+      "stop": "2026-10-24-ginza-tsuboyaki-imo",
+      "caption": ""
+    },
+    {
+      "id": "1024-azabudai-hills-sky-lobby-1",
+      "src": "images/azabudai-hills-sky-lobby.jpg",
+      "thumb": "photos/demo/thumbs/1024-azabudai-hills-sky-lobby-1.jpg",
+      "w": 960,
+      "h": 1463,
+      "taken": "2026-10-24T16:06:13+09:00",
+      "coords": [
+        35.6594,
+        139.7387
+      ],
+      "stop": "2026-10-24-azabudai-hills-sky-lobby",
+      "caption": ""
+    },
+    {
+      "id": "1024-azabudai-hills-sky-lobby-2",
+      "src": "photos/demo/1024-azabudai-hills-sky-lobby-2.jpg",
+      "thumb": "photos/demo/thumbs/1024-azabudai-hills-sky-lobby-2.jpg",
+      "w": 462,
+      "h": 1000,
+      "taken": "2026-10-24T16:13:30+09:00",
+      "coords": [
+        35.6594,
+        139.7387
+      ],
+      "stop": "2026-10-24-azabudai-hills-sky-lobby",
+      "caption": ""
+    },
+    {
+      "id": "1024-azabudai-hills-sky-lobby-3",
+      "src": "photos/demo/1024-azabudai-hills-sky-lobby-3.jpg",
+      "thumb": "photos/demo/thumbs/1024-azabudai-hills-sky-lobby-3.jpg",
+      "w": 538,
+      "h": 878,
+      "taken": "2026-10-24T16:21:47+09:00",
+      "coords": [
+        35.6594,
+        139.7387
+      ],
+      "stop": "2026-10-24-azabudai-hills-sky-lobby",
+      "caption": ""
+    },
+    {
+      "id": "1025-edo-taito-traditional-crafts-center-1",
+      "src": "images/edo-taito-traditional-crafts-center.jpg",
+      "thumb": "photos/demo/thumbs/1025-edo-taito-traditional-crafts-center-1.jpg",
+      "w": 960,
+      "h": 720,
+      "taken": "2026-10-25T09:00:13+09:00",
+      "coords": [
+        35.7172,
+        139.7945
+      ],
+      "stop": "2026-10-25-edo-taito-traditional-crafts-center",
+      "caption": ""
+    }
+  ]
+}

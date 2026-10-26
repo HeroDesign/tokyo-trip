@@ -11,7 +11,7 @@ const root = path.dirname(fileURLToPath(new URL('../package.json', import.meta.u
 const port = Number(process.env.PORT || 5173);
 const host = process.env.HOST || '0.0.0.0';
 
-const ROOT_SEGMENTS = ['/assets/', '/data/', '/images/', '/vendor/', '/index.html'];
+const ROOT_SEGMENTS = ['/assets/', '/data/', '/images/', '/vendor/', '/photos/', '/phrases/', '/index.html'];
 
 /** Cloud port previews may prefix paths; find the real file path inside the URL. */
 function pathnameForRequest(pathname) {

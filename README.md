@@ -11,6 +11,11 @@ Separately, **[Phrases for Tokyo](https://herodesign.github.io/tokyo-trip/phrase
 standalone, shareable page: 27 Japanese phrases to hear, slow down, say back, and an ear test. It
 has no dependencies on the rest of the site.
 
+**[Tokyo Photo Map](https://herodesign.github.io/tokyo-trip/photos/)** (`photos/`) is the after-trip
+page: every photo on the map where it was taken, by day and stop, with a lightbox and a tour mode.
+It shares the design system and Leaflet. The first pass runs on stand-in data; the plan and the
+photo pipeline are in [`docs/photo-map-plan.md`](docs/photo-map-plan.md).
+
 ---
 
 ## The trip
@@ -53,6 +58,7 @@ Then open <http://localhost:5173>. Edit any file and refresh — that's the whol
 | `npm run images` | Fetches any missing place photos into `images/` |
 | `npm run images:force` | Re-fetches every photo |
 | `npm run export` | Writes `data/export/tokyo-field-guide.{kml,csv}` |
+| `npm run photos` | Ingests iPhone photos from `photos/import/` into the photo map (`--dry-run` via `npm run photos:dry`) |
 | `npm run vendor` | Re-downloads the self-hosted fonts and Leaflet |
 
 ---
@@ -211,10 +217,19 @@ assets/
 data/
   places.json           the places
   image-credits.json    per-photo author, license, source
+  trip.json             the itinerary as days -> stops (photo map)
+  photos.json           every photo: file, size, time, stop (photo map)
   export/               generated KML + CSV
 images/                 cached photos, one per place
-scripts/                dev server, build, image fetch, vendoring, export
+photos/
+  index.html            Tokyo Photo Map, standalone page
+  photos.js             map, pins, timeline, lightbox
+  lib.js                pure helpers: routing, clustering, photo-to-stop matching (tested)
+  photos.css            layout on top of the shared design system
+  demo/                 stand-in photos and thumbnails until the real ones land
+scripts/                dev server, build, image fetch, vendoring, export, photo ingest (+ exif.mjs)
 test/                   node:test suite
+docs/photo-map-plan.md  the photo map plan and what it needs
 vendor/leaflet/         self-hosted Leaflet
 ```
 
